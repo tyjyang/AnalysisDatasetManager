@@ -1,0 +1,28 @@
+{
+    "wz-signal" : {
+        "Name" : "WZ #rightarrow 3#ell#nu",
+        "Style" : "fill-purple",
+        "Members" : [
+            "wz-powheg"
+        ]
+    },
+    "zz" : {
+        "Name" "ZZ",
+        "Style" : "fill-blue",
+        "Members" : [
+            "zz4l"
+        ]
+    }
+    "data" : {
+        "Name" : "Data",
+        "Style" : "data",
+        "Members" : [
+            "data_2015C_EE",
+            "data_2015C_EM",
+            "data_2015C_MM",
+            "data_2015D_EE",
+            "data_2015D_EM",
+            "data_2015D_MM"
+        ]
+    }
+}

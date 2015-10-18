@@ -1,0 +1,10 @@
+{
+    "wz3lnu-powheg" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-09-28-13TeV-WZ/WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8/*",
+        "plot_group" : "wz_signal"
+    },
+    "zz4l" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-09-28-13TeV-WZ/ZZTo4L_13TeV_powheg_pythia8/*",
+        "plot_group" : "zz"
+    }
+}

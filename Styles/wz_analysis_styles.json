@@ -1,0 +1,10 @@
+{
+    "fill-blue" : {
+        "Attributes": {  
+            "SetLineColor": "ROOT.kViolet - 6",
+            "SetLineStyle": 1,
+            "SetLineWidth": 2,
+            "SetMarkerSize" : 0
+        }
+    }
+}
