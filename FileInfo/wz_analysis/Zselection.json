@@ -1,0 +1,38 @@
+{
+    "wz3lnu-powheg" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-19-wz3lnu-powheg-Zselection-skim/*",
+        "plot_group" : "wz_signal"
+    },
+    "zz4l" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-19-zz4l-Zselection-skim/*",
+        "plot_group" : "zz"
+    },
+    "tt" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-19-tt-Zselection-skim/*",
+        "plot_group" : "ttbar"
+    },
+    "data_DoubleEG_2015C" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-19-data_DoubleEG_2015C-Zselection-skim/*",
+        "plot_group" : "data"
+    },
+    "data_DoubleEG_2015D" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-19-data_DoubleEG_2015D-Zselection-skim/*",
+        "plot_group" : "data"
+    },
+    "data_DoubleMuon_2015C" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-19-data_DoubleMuon_2015C-Zselection-skim/*",
+        "plot_group" : "data"
+    },
+    "data_DoubleMuon_2015D" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-19-data_DoubleMuon_2015D-Zselection-skim/*",
+        "plot_group" : "data"
+    },
+    "data_MuonEG_2015C" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-19-data_MuonEG_2015C-Zselection-skim/*",
+        "plot_group" : "data"
+    },
+    "data_MuonEG_2015D" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-19-data_MuonEG_2015D-Zselection-skim/*",
+        "plot_group" : "data"
+    }
+}
