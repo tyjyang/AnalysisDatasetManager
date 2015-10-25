@@ -35,9 +35,7 @@ def readJson(json_file_name):
             print(err)
     return json_info
 def getFilePath(name, selection):
-    datafile = "FileInfo"
-    if "wz_" in selection:
-        datafile += "/wz_analysis/%s.json" % selection.strip("wz_")
+    datafile = "FileInfo/%s.json" % selection
     dataset_info = readJson(datafile)
     if name not in dataset_info.keys():
         print "Failed to find %s in %s" % (name, dataset_info)
@@ -61,11 +59,10 @@ for name in args.names:
         print "%s is not a valid file! Skipping." % name
         print "File names must be defined in data.json or montecarlo.json"
         continue
-    proof_name = '-'.join([name, args.selection])
+    proof_name = '-'.join([name] + args.selection.split("/"))
     if proof.GetDataSet(proof_name) == None or reRegister :
         filelist = ROOT.TFileCollection(proof_name, proof_name)
         num_files = filelist.Add(getFilePath(name, args.selection))
-        print "num_files is %i file path is %s" % (num_files, getFilePath(name, args.selection))
-        #proof.RegisterDataSet(proof_name, filelist, 'OVnostagedcheck:')
+        proof.RegisterDataSet(proof_name, filelist, 'OVnostagedcheck:')
 os.chdir(current_path)
 

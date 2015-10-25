@@ -11,6 +11,18 @@
             "GetYaxis().SetTitle": "Events"  
         }
     },
+   "l1Pt": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 100,
+            "xmin": 0,
+            "xmax": 200
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton 2 p_{T}",  
+            "GetYaxis().SetTitle": "Events"  
+        }
+    },
    "l1Eta": {  
         "Initialize": {  
             "type": "TH1F",
@@ -31,9 +43,6 @@
             "xmax": 200
         },
         "Attributes": {  
-            "SetLineColor": "ROOT.kRed - 6",
-            "SetLineWidth": 2,
-            "SetMarkerSize" : 0,
             "GetXaxis().SetTitle": "Lepton 2 p_{T}",  
             "GetYaxis().SetTitle": "Events"  
         }
@@ -46,9 +55,6 @@
             "xmax": 7
         },
         "Attributes": {  
-            "SetLineColor": "ROOT.kRed - 6",
-            "SetLineWidth": 2,
-            "SetMarkerSize" : 0,
             "GetXaxis().SetTitle": "Lepton 2 #eta",  
             "GetYaxis().SetTitle": "Events"  
         }
@@ -77,7 +83,19 @@
             "GetYaxis().SetTitle": "Events"  
         }
     },
-   "Canvas": {  
+   "Mass": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 60,
+            "xmin": 0,
+            "xmax": 600
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{3#ell} [GeV]",  
+            "GetYaxis().SetTitle": "Events"  
+        }
+    },
+  "Canvas": {  
         "Initialize": {  
             "type": "TCanvas",
             "ww": 800,

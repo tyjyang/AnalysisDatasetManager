@@ -7,12 +7,12 @@
         ]
     },
     "zz" : {
-        "Name" "ZZ",
+        "Name" : "ZZ",
         "Style" : "fill-blue",
         "Members" : [
             "zz4l"
         ]
-    }
+    },
     "data" : {
         "Name" : "Data",
         "Style" : "data",

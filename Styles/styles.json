@@ -1,0 +1,16 @@
+{
+    "fill-purple" : {
+        "SetLineColor": "ROOT.kViolet - 6",
+        "SetFillColor": "ROOT.kViolet - 6",
+        "SetLineStyle": 1,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
+    "fill-blue" : {
+        "SetLineColor": "ROOT.kBlue - 6",
+        "SetFillColor": "ROOT.kBlue - 6",
+        "SetLineStyle": 1,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    }
+}
