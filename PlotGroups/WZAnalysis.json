@@ -1,6 +1,6 @@
 {
     "wz-signal" : {
-        "Name" : "WZ #rightarrow 3#ell#nu",
+        "Name" : "WZ #rightarrow 3l#nu",
         "Style" : "fill-purple",
         "Members" : [
             "wz-powheg"

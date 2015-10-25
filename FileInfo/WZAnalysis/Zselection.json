@@ -1,7 +1,7 @@
 {
     "wz3lnu-powheg" : {
         "file_path" : "/hdfs/store/user/kelong/2015-10-19-wz3lnu-powheg-Zselection-skim/*",
-        "plot_group" : "wz_signal"
+        "plot_group" : "wz-signal"
     },
     "zz4l" : {
         "file_path" : "/hdfs/store/user/kelong/2015-10-19-zz4l-Zselection-skim/*",

@@ -1,24 +1,48 @@
 {
     "State" : {
         "emm" : {
+            "l1Pt" : "(ePt > m1Pt ? ePt : m1Pt ) > m2Pt ? ( ePt > m1Pt ? ePt : m1Pt ) : m2Pt",
+            "l1Eta" : "(ePt > m1Pt ? ePt : m1Pt ) > m2Pt ? ( ePt > m1Pt ? eEta : m1Eta ) : m2Eta",
+            "l2Pt" : "(ePt > m1Pt && ePt > m2Pt) ? ((m1Pt > m2Pt) ? m1Pt : m2Pt) : ((m1Pt > m2Pt) ? ((ePt > m2Pt) ? ePt : m2Pt) : ((ePt > m1Pt) ? ePt : m1Pt))",
+            "l2Eta" : "(ePt > m1Pt && ePt > m2Pt) ? ((m1Pt > m2Pt) ? m1Eta : m2Eta) : ((m1Pt > m2Pt) ? ((ePt > m2Pt) ? eEta : m2Eta) : ((ePt > m1Pt) ? eEta : m1Eta))",
+            "l3Pt" : "(ePt < m1Pt ? ePt : m1Pt ) < m2Pt ? ( ePt < m1Pt ? ePt : m1Pt ) : m2Pt",
+            "l1Eta" : "(ePt < m1Pt ? ePt : m1Pt ) < m2Pt ? ( ePt < m1Pt ? eEta : m1Eta ) : m2Eta",
             "bestZCand_Mass" : "m1_m2_Mass",
             "Zlep1_Pt" : "m1Pt",
             "Zlep2_Pt" : "m2Pt",
             "Wlep_Pt" : "ePt"
         },
         "eem" : {
+            "l1Pt" : "(e1Pt > e2Pt ? e1Pt : e2Pt ) > mPt ? ( e1Pt > e2Pt ? e1Pt : e2Pt ) : mPt",
+            "l1Eta" : "(e1Pt > e2Pt ? e1Pt : e2Pt ) > mPt ? ( e1Pt > e2Pt ? e1Eta : e2Eta ) : mEta",
+            "l2Pt" : "(e1Pt > e2Pt && e1Pt > mPt) ? ((e2Pt > mPt) ? e2Pt : mPt) : ((e2Pt > mPt) ? ((e1Pt > mPt) ? e1Pt : mPt) : ((e1Pt > e2Pt) ? e1Pt : e2Pt))",
+            "l2Eta" : "(e1Pt > e2Pt && e1Pt > mPt) ? ((e2Pt > mPt) ? e2Eta : mEta) : ((e2Pt > mPt) ? ((e1Pt > mPt) ? e1Eta : mEta) : ((e1Pt > e2Pt) ? e1Eta : e2Eta))",
+            "l3Pt" : "(e1Pt < e2Pt ? e1Pt : e2Pt ) < mPt ? ( e1Pt < e2Pt ? e1Pt : e2Pt ) : mPt",
+            "l3Eta" : "(e1Pt < e2Pt ? e1Pt : e2Pt ) < mPt ? ( e1Pt < e2Pt ? e1Eta : e2Eta ) : mEta",
             "bestZCand_Mass" : "e1_e2_Mass",
             "Zlep1_Pt" : "e1Pt",
             "Zlep2_Pt" : "e2Pt",
             "Wlep_Pt" : "mPt"
         },
         "eee" : {
+            "l1Pt" : "(e1Pt > e2Pt ? e1Pt : e2Pt ) > e3Pt ? ( e1Pt > e2Pt ? e1Pt : e2Pt ) : e3Pt",
+            "l1Eta" : "(e1Pt > e2Pt ? e1Pt : e2Pt ) > e3Pt ? ( e1Pt > e2Pt ? e1Eta : e2Eta ) : e3Eta",
+            "l2Pt" : "(e1Pt > e2Pt && e1Pt > e3Pt) ? ((e2Pt > e3Pt) ? e2Pt : e3Pt) : ((e2Pt > e3Pt) ? ((e1Pt > e3Pt) ? e1Pt : e3Pt) : ((e1Pt > e2Pt) ? e1Pt : e2Pt))",
+            "l2Eta" : "(e1Pt > e2Pt && e1Pt > e3Pt) ? ((e2Pt > e3Pt) ? e2Eta : e3Eta) : ((e2Pt > e3Pt) ? ((e1Pt > e3Pt) ? e1Eta : e3Eta) : ((e1Pt > e2Pt) ? e1Eta : e2Eta))",
+            "l3Pt" : "(e1Pt < e2Pt ? e1Pt : e2Pt ) < e3Pt ? ( e1Pt < e2Pt ? e1Pt : e2Pt ) : e3Pt",
+            "l3Eta" : "(e1Pt < e2Pt ? e1Pt : e2Pt ) < e3Pt ? ( e1Pt < e2Pt ? e1Eta : e2Eta ) : e3Eta",
             "bestZCand_Mass" : "e1_e2_Mass",
             "Zlep1_Pt" : "e1Pt",
             "Zlep2_Pt" : "e2Pt",
             "Wlep_Pt" : "e3Pt"
         },
         "mmm" : {
+            "l1Pt" : "(m1Pt > m2Pt ? m1Pt : m2Pt ) > m3Pt ? ( m1Pt > m2Pt ? m1Pt : m2Pt ) : m3Pt",
+            "l1Eta" : "(m1Pt > m2Pt ? m1Pt : m2Pt ) > m3Pt ? ( m1Pt > m2Pt ? m1Eta : m2Eta ) : m3Eta",
+            "l2Pt" : "(m1Pt > m2Pt && m1Pt > m3Pt) ? ((m2Pt > m3Pt) ? m2Pt : m3Pt) : ((m2Pt > m3Pt) ? ((m1Pt > m3Pt) ? m1Pt : m3Pt) : ((m1Pt > m2Pt) ? m1Pt : m2Pt))",
+            "l2Eta" : "(m1Pt > m2Pt && m1Pt > m3Pt) ? ((m2Pt > m3Pt) ? m2Eta : m3Eta) : ((m2Pt > m3Pt) ? ((m1Pt > m3Pt) ? m1Eta : m3Eta) : ((m1Pt > m2Pt) ? m1Eta : m2Eta))",
+            "l3Pt" : "(m1Pt < m2Pt ? m1Pt : m2Pt ) < m3Pt ? ( m1Pt < m2Pt ? m1Pt : m2Pt ) : m3Pt",
+            "l3Eta" : "(m1Pt < m2Pt ? m1Pt : m2Pt ) < m3Pt ? ( m1Pt < m2Pt ? m1Eta : m2Eta ) : m3Eta",
             "bestZCand_Mass" : "m1_m2_Mass",
             "Zlep1_Pt" : "m1Pt",
             "Zlep2_Pt" : "m2Pt",
