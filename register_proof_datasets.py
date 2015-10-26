@@ -12,6 +12,7 @@ import argparse
 import os
 import json
 import sys
+import fnmatch
 
 def getComLineArgs():
     parser = argparse.ArgumentParser()
@@ -54,7 +55,10 @@ os.chdir(sys.path[0])
 dataset_file = "/".join(["FileInfo", "data.json" if args.is_data else "montecarlo.json"])
 datasets = readJson(dataset_file)
 
+names = []
 for name in args.names:
+    names += fnmatch.filter(datasets.keys(), name) if "*" in name else [name]
+for name in names:
     if name not in datasets.keys():
         print "%s is not a valid file! Skipping." % name
         print "File names must be defined in data.json or montecarlo.json"

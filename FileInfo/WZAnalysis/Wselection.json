@@ -1,38 +1,42 @@
 {
     "wz3lnu-powheg" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-20-wz3lnu-powheg-Wselection-skim/*",
-        "plot_group" : "wz_signal"
+        "file_path" : "/hdfs/store/user/kelong/2015-10-26-wz3lnu-powheg-Wselection-skim/*",
+        "plot_group" : "wz-signal"
     },
     "zz4l" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-20-zz4l-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-26-zz4l-Wselection-skim/*",
         "plot_group" : "zz"
     },
+    "DYm50" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-26-DYm50-Wselection-skim/*",
+        "plot_group" : "DY"
+    },
     "tt" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-20-tt-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-26-tt-Wselection-skim/*",
         "plot_group" : "ttbar"
     },
     "data_DoubleEG_2015C" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-20-data_DoubleEG_2015C-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-26-data_DoubleEG_2015C-Wselection-skim/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_2015D" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-20-data_DoubleEG_2015D-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-26-data_DoubleEG_2015D-Wselection-skim/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_2015C" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-20-data_DoubleMuon_2015C-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-26-data_DoubleMuon_2015C-Wselection-skim/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_2015D" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-20-data_DoubleMuon_2015D-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-26-data_DoubleMuon_2015D-Wselection-skim/*",
         "plot_group" : "data"
     },
     "data_MuonEG_2015C" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-20-data_MuonEG_2015C-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-26-data_MuonEG_2015C-Wselection-skim/*",
         "plot_group" : "data"
     },
     "data_MuonEG_2015D" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-20-data_MuonEG_2015D-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-26-data_MuonEG_2015D-Wselection-skim/*",
         "plot_group" : "data"
     }
 }
