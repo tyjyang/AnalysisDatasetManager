@@ -122,12 +122,12 @@
    "Mass": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 60,
-            "xmin": 0,
-            "xmax": 600
+            "nbins": 16,
+            "xmin": 80,
+            "xmax": 400
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "M_{3#ell} [GeV]",  
+            "GetXaxis().SetTitle": "M_{3\\ell} [GeV]",  
             "GetYaxis().SetTitle": "Events"  
         }
     },

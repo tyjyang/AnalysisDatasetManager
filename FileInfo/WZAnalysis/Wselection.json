@@ -1,42 +1,54 @@
 {
     "wz3lnu-powheg" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-26-wz3lnu-powheg-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-wz3lnu-powheg-Wselection-skim/*",
         "plot_group" : "wz-signal"
     },
     "zz4l" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-26-zz4l-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-zz4l-Wselection-skim/*",
         "plot_group" : "zz"
     },
     "DYm50" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-26-DYm50-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-DYm50-Wselection-skim/*",
         "plot_group" : "DY"
     },
     "tt" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-26-tt-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-tt-Wselection-skim/*",
         "plot_group" : "ttbar"
     },
-    "data_DoubleEG_2015C" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-26-data_DoubleEG_2015C-Wselection-skim/*",
+    "data_MuonEG_Run2015C_05Oct2015_25ns" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_MuonEG_Run2015C_05Oct2015_25ns-Wselection-skim/*",
         "plot_group" : "data"
     },
-    "data_DoubleEG_2015D" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-26-data_DoubleEG_2015D-Wselection-skim/*",
+    "data_MuonEG_Run2015D_05Oct2015_25ns" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_MuonEG_Run2015D_05Oct2015_25ns-Wselection-skim/*",
         "plot_group" : "data"
     },
-    "data_DoubleMuon_2015C" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-26-data_DoubleMuon_2015C-Wselection-skim/*",
+    "data_MuonEG_Run2015D_PromptReco-v4_25ns" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_MuonEG_Run2015D_PromptReco-v4_25ns/*",
         "plot_group" : "data"
     },
-    "data_DoubleMuon_2015D" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-26-data_DoubleMuon_2015D-Wselection-skim/*",
+    "data_DoubleMuon_Run2015C_05Oct2015_25ns" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_DoubleMuon_Run2015C_05Oct2015_25ns-Wselection-skim/*",
         "plot_group" : "data"
     },
-    "data_MuonEG_2015C" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-26-data_MuonEG_2015C-Wselection-skim/*",
+    "data_DoubleMuon_Run2015D_05Oct2015_25ns" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_DoubleMuon_Run2015D_05Oct2015_25ns-Wselection-skim/*",
         "plot_group" : "data"
     },
-    "data_MuonEG_2015D" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-26-data_MuonEG_2015D-Wselection-skim/*",
+    "data_DoubleMuon_Run2015D_PromptReco-v4_25ns" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_DoubleMuon_Run2015D_PromptReco-v4_25ns/*",
+        "plot_group" : "data"
+    },
+    "data_DoubleEG_Run2015C_05Oct2015_25ns" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_DoubleEG_Run2015C_05Oct2015_25ns-Wselection-skim/*",
+        "plot_group" : "data"
+    },
+    "data_DoubleEG_Run2015D_05Oct2015_25ns" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_DoubleEG_Run2015D_05Oct2015_25ns-Wselection-skim/*",
+        "plot_group" : "data"
+    },
+    "data_DoubleEG_Run2015D_PromptReco-v4_25ns" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_DoubleEG_Run2015D_PromptReco-v4_25ns/*",
         "plot_group" : "data"
     }
 }

@@ -1,6 +1,6 @@
 {
     "wz-signal" : {
-        "Name" : "WZ #rightarrow 3l#nu",
+        "Name" : "WZ\\rightarrow 3\\ell\\nu",
         "Style" : "fill-purple",
         "Members" : [
             "wz-powheg"
@@ -11,6 +11,21 @@
         "Style" : "fill-blue",
         "Members" : [
             "zz4l"
+        ]
+    },
+    "DY" : {
+        "Name" : "Drell-Yan",
+        "Style" : "fill-yellow",
+        "Members" : [
+            "DYm50",
+            "DYm10-50"
+        ]
+    },
+    "ttbar" : {
+        "Name" : "t#bar{t}",
+        "Style" : "fill-darkgreen",
+        "Members" : [
+            "tt"
         ]
     },
     "data" : {

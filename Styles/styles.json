@@ -6,7 +6,28 @@
         "SetLineWidth": 2,
         "SetMarkerSize" : 0
     },
+    "fill-darkgreen" : {
+        "SetLineColor": "ROOT.kGreen + 3",
+        "SetFillColor": "ROOT.kGreen + 3",
+        "SetLineStyle": 1,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
+    "fill-yellow" : {
+        "SetLineColor": "ROOT.kYellow",
+        "SetFillColor": "ROOT.kYellow",
+        "SetLineStyle": 1,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
     "fill-blue" : {
+        "SetLineColor": "ROOT.kBlue - 6",
+        "SetFillColor": "ROOT.kBlue - 6",
+        "SetLineStyle": 1,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
+    "data" : {
         "SetLineColor": "ROOT.kBlue - 6",
         "SetFillColor": "ROOT.kBlue - 6",
         "SetLineStyle": 1,
