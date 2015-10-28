@@ -19,9 +19,7 @@ def getComLineArgs():
     parser.add_argument("-s", "--selection", type=str,
                         required=True, help="Specify the selection level "
                         "of the dataset. Used to form a unique name")
-    parser.add_argument("-d", "--is_data", action='store_true',
-                        help="Is CMS data, not Monte Carlo (default = false)")
-    parser.add_argument("-n", "--names", 
+    parser.add_argument("-f", "--filelist", 
                         type=lambda x: [i.strip() for i in x.split(",")],
                         required=False, help="List of datasets to register "
                         "(separated by commas).")
@@ -52,21 +50,26 @@ ROOT.TProof.Open('workers=8')
 proof = ROOT.gProof
 current_path = os.getcwd()
 os.chdir(sys.path[0])
-dataset_file = "/".join(["FileInfo", "data.json" if args.is_data else "montecarlo.json"])
-datasets = readJson(dataset_file)
+data_info = readJson("FileInfo/data.json")
+mc_info = readJson("FileInfo/montecarlo.json")
+valid_names = mc_info.keys() + data_info.keys()
 
 names = []
-for name in args.names:
-    names += fnmatch.filter(datasets.keys(), name) if "*" in name else [name]
+log = ""
+for name in args.filelist:
+    names += fnmatch.filter(valid_names, name) if "*" in name else [name]
 for name in names:
-    if name not in datasets.keys():
-        print "%s is not a valid file! Skipping." % name
-        print "File names must be defined in data.json or montecarlo.json"
+    if name not in valid_names:
+        log += "%s is not a valid file! Skipping." % name
+        log += "\nFile names must be defined in data.json or montecarlo.json\n"
         continue
     proof_name = '-'.join([name] + args.selection.split("/"))
     if proof.GetDataSet(proof_name) == None or reRegister :
         filelist = ROOT.TFileCollection(proof_name, proof_name)
         num_files = filelist.Add(getFilePath(name, args.selection))
+        if filelist.GetNFiles() == 0:
+            log += "\n%s does not point to a valid file! Skipping" % name
+            continue
         proof.RegisterDataSet(proof_name, filelist, 'OVnostagedcheck:')
 os.chdir(current_path)
-
+print log

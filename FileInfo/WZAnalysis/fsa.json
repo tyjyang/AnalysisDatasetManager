@@ -47,7 +47,7 @@
         "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/data_MuonEG_Run2015D_05Oct2015_25ns/*",
         "plot_group" : "data"
     },
-    "data_DoubleEG_Run2015D_PromptReco-v4_25ns" : {
+    "data_MuonEG_Run2015D_PromptReco-v4_25ns" : {
         "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/data_MuonEG_Run2015D_PromptReco-v4_25ns/*",
         "plot_group" : "data"
     }

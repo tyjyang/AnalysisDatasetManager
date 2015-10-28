@@ -1,3 +1,4 @@
+
 {
     "wz3lnu-powheg" : {
         "file_path" : "/hdfs/store/user/kelong/2015-10-28-wz3lnu-powheg-Wselection-skim/*",
@@ -24,7 +25,7 @@
         "plot_group" : "data"
     },
     "data_MuonEG_Run2015D_PromptReco-v4_25ns" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_MuonEG_Run2015D_PromptReco-v4_25ns/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_MuonEG_Run2015D_PromptReco-v4_25ns-Wselection-skim/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2015C_05Oct2015_25ns" : {
@@ -36,7 +37,7 @@
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2015D_PromptReco-v4_25ns" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_DoubleMuon_Run2015D_PromptReco-v4_25ns/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_DoubleMuon_Run2015D_PromptReco-v4_25ns-Wselection-skim/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2015C_05Oct2015_25ns" : {
@@ -48,7 +49,7 @@
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2015D_PromptReco-v4_25ns" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_DoubleEG_Run2015D_PromptReco-v4_25ns/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_DoubleEG_Run2015D_PromptReco-v4_25ns-Wselection-skim/*",
         "plot_group" : "data"
     }
 }
