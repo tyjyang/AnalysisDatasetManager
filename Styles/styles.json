@@ -28,10 +28,8 @@
         "SetMarkerSize" : 0
     },
     "data" : {
-        "SetLineColor": "ROOT.kBlue - 6",
-        "SetFillColor": "ROOT.kBlue - 6",
-        "SetLineStyle": 1,
-        "SetLineWidth": 2,
-        "SetMarkerSize" : 0
+        "SetLineColor": "ROOT.kBlack",
+        "SetMarkerStyle" : 20,
+        "SetMarkerSize" : 1
     }
 }

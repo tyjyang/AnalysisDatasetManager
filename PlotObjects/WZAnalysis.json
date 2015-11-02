@@ -110,7 +110,7 @@
   "bestZCand_Mass": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 12,
+            "nbins": 24,
             "xmin": 60,
             "xmax": 120
         },
@@ -127,7 +127,7 @@
             "xmax": 400
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "M_{3\\ell} [GeV]",  
+            "GetXaxis().SetTitle": "M_{3l} [GeV]",  
             "GetYaxis().SetTitle": "Events"  
         }
     },

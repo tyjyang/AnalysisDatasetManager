@@ -1,19 +1,19 @@
 
 {
     "wz3lnu-powheg" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-28-wz3lnu-powheg-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-11-01-wz3lnu-powheg-Wselection-skim/*",
         "plot_group" : "wz-signal"
     },
     "zz4l" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-28-zz4l-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-11-01-zz4l-Wselection-skim/*",
         "plot_group" : "zz"
     },
     "DYm50" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-28-DYm50-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-11-01-DYm50-Wselection-skim/*",
         "plot_group" : "DY"
     },
     "tt" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-10-28-tt-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-11-01-tt-Wselection-skim/*",
         "plot_group" : "ttbar"
     },
     "data_MuonEG_Run2015C_05Oct2015_25ns" : {

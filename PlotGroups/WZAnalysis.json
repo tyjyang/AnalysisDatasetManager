@@ -1,6 +1,6 @@
 {
     "wz-signal" : {
-        "Name" : "WZ\\rightarrow 3\\ell\\nu",
+        "Name" : "WZ#rightarrow 3l#nu",
         "Style" : "fill-purple",
         "Members" : [
             "wz-powheg"
@@ -32,12 +32,15 @@
         "Name" : "Data",
         "Style" : "data",
         "Members" : [
-            "data_2015C_EE",
-            "data_2015C_EM",
-            "data_2015C_MM",
-            "data_2015D_EE",
-            "data_2015D_EM",
-            "data_2015D_MM"
+            "data_MuonEG_Run2015C_05Oct2015_25ns",
+            "data_MuonEG_Run2015D_05Oct2015_25ns",
+            "data_MuonEG_Run2015D_PromptReco-v4_25ns",
+            "data_DoubleMuon_Run2015C_05Oct2015_25ns",
+            "data_DoubleMuon_Run2015D_05Oct2015_25ns",
+            "data_DoubleMuon_Run2015D_PromptReco-v4_25ns",
+            "data_DoubleEG_Run2015C_05Oct2015_25ns",
+            "data_DoubleEG_Run2015D_05Oct2015_25ns",
+            "data_DoubleEG_Run2015D_PromptReco-v4_25ns"
         ]
     }
 }
