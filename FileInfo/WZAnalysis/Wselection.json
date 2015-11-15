@@ -1,4 +1,3 @@
-
 {
     "wz3lnu-powheg" : {
         "file_path" : "/hdfs/store/user/kelong/2015-11-01-wz3lnu-powheg-Wselection-skim/*",
@@ -13,8 +12,16 @@
         "plot_group" : "DY"
     },
     "tt" : {
-        "file_path" : "/hdfs/store/user/kelong/2015-11-01-tt-Wselection-skim/*",
+        "file_path" : "/hdfs/store/user/kelong/2015-11-11-tt-Wselection-skim/*",
         "plot_group" : "ttbar"
+    },
+    "ttz" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-11-11-ttz-Wselection-skim/*",
+        "plot_group" : "ttv"
+    },
+    "ttw" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-11-11-ttw-Wselection-skim/*",
+        "plot_group" : "ttv"
     },
     "data_MuonEG_Run2015C_05Oct2015_25ns" : {
         "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_MuonEG_Run2015C_05Oct2015_25ns-Wselection-skim/*",

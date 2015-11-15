@@ -28,6 +28,14 @@
             "tt"
         ]
     },
+    "ttv" : {
+        "Name" : "t#bar{t}V",
+        "Style" : "fill-teal",
+        "Members" : [
+            "ttz",
+            "ttw"
+        ]
+    },
     "data" : {
         "Name" : "Data",
         "Style" : "data",

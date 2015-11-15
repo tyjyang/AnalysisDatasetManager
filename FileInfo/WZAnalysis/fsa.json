@@ -8,8 +8,16 @@
         "plot_group" : "zz"
     },
     "tt" : {
-        "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/ZZTo4L_13TeV_powheg_pythia8/*",
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
         "plot_group" : "ttbar"
+    },
+    "ttz" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8/*",
+        "plot_group" : "ttv"
+    },
+    "ttw" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8/*",
+        "plot_group" : "ttv"
     },
     "DYm50" : {
         "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",

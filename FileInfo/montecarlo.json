@@ -63,5 +63,15 @@
         "cross_section" : 831.76,
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO (top mass 172.5)",
         "DAS Name" : "TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+    },
+    "ttz" : {
+        "cross_section" : 0.2529,
+        "Source of cross section" : "MCM",
+        "DAS Name" : "TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
+    },
+    "ttw" : {
+        "cross_section" : 0.2043,
+        "Source of cross section" : "MCM",
+        "DAS Name" : "TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8"
     }
 }

@@ -2,7 +2,7 @@
    "Zlep1_Pt": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 40,
+            "nbins": 20,
             "xmin": 0,
             "xmax": 200
         },
@@ -14,7 +14,7 @@
    "e1Pt": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 100,
+            "nbins": 20,
             "xmin": 0,
             "xmax": 200
         },
@@ -26,7 +26,7 @@
    "l1Pt": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 100,
+            "nbins": 20,
             "xmin": 0,
             "xmax": 200
         },
