@@ -54,6 +54,23 @@
         "Source of cross section" : "MCM",
         "DAS Name" : "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
     },
+    "DYm50-filt" : {
+        "cross_section" : 6025,
+        "Source of cross section" : "GenXSecAnalyzer",
+        "DAS Name" : "ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8",
+        "Notes" : "Filtered to remove overlap with Zgamma sample. Events with photons from q or l with pt > 10 GeV are rejected."
+    },
+    "zg-filt" : {
+        "cross_section" : 124.5,
+        "Source of cross section" : "GenXSecAnalyzer",
+        "DAS Name" : "ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8",
+        "Notes" : "Filtered to remove overlap with drell-yan sample. Events with photons from q or l with pt < 10 GeV are rejected."
+    },
+    "zg" : {
+        "cross_section" : 124.5,
+        "Source of cross section" : "GenXSecAnalyzer",
+        "DAS Name" : "ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+    },
     "DYm10-50" : {
         "cross_section" : 18610,
         "Source of cross section" : "MCM",

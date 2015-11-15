@@ -20,6 +20,13 @@
         "SetLineWidth": 1,
         "SetMarkerSize" : 0
     },
+    "fill-red" : {
+        "SetFillColor": "ROOT.TColor.GetColor(#e41a1c)",
+        "SetLineColor": "ROOT.TColor.GetColor(#980000)",
+        "SetLineStyle": 1,
+        "SetLineWidth": 1,
+        "SetMarkerSize" : 0
+    },
     "fill-blue" : {
         "SetFillColor": "ROOT.TColor.GetColor(#377eb8)",
         "SetLineColor": "ROOT.TColor.GetColor(#00326C)",

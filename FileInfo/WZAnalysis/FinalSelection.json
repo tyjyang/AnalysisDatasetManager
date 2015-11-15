@@ -9,7 +9,19 @@
     },
     "DYm50" : {
         "file_path" : "/data/kelong/WZAnalysisData/FinalSelection/2015-11-01-DYm50-Wselection-skim/*",
-        "plot_group" : "DY"
+        "plot_group" : "dy"
+    },
+    "DYm50-filt" : {
+        "file_path" : "/data/kelong/WZAnalysisData/FinalSelection/2015-11-15-DYm50-filt-Wselection-skim/*",
+        "plot_group" : "dy"
+    },
+    "zg" : {
+        "file_path" : "/data/kelong/WZAnalysisData/FinalSelection/2015-11-15-zg-Wselection-skim/*",
+        "plot_group" : "zg"
+    },
+    "zg-filt" : {
+        "file_path" : "/data/kelong/WZAnalysisData/FinalSelection/2015-11-15-zg-filt-Wselection-skim/*",
+        "plot_group" : "zg"
     },
     "tt" : {
         "file_path" : "/data/kelong/WZAnalysisData/FinalSelection/2015-11-11-tt-Wselection-skim/*",

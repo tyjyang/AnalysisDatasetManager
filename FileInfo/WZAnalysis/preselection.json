@@ -9,7 +9,19 @@
     },
     "DYm50" : {
         "file_path" : "/hdfs/store/user/kelong/2015-11-01-DYm50-preselection-skim/*",
-        "plot_group" : "DY"
+        "plot_group" : "dy"
+    },
+    "DYm50-filt" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-11-15-DYm50-filt-preselection-skim/*",
+        "plot_group" : "dy"
+    },
+    "zg" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-11-15-zg-preselection-skim/*",
+        "plot_group" : "zg"
+    },
+    "zg-filt" : {
+        "file_path" : "/hdfs/store/user/kelong/2015-11-15-zg-filt-preselection-skim/*",
+        "plot_group" : "zg"
     },
     "tt" : {
         "file_path" : "/hdfs/store/user/kelong/2015-11-11-tt-preselection-skim/*",

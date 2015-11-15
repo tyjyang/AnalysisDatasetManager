@@ -21,7 +21,19 @@
     },
     "DYm50" : {
         "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
-        "plot_group" : "DY"
+        "plot_group" : "dy"
+    },
+    "DYm50-filt" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-12-13TeV-WZ/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_filtered/*",
+        "plot_group" : "dy"
+    },
+    "zg" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-12-13TeV-WZ/ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
+        "plot_group" : "zg"
+    },
+    "zg-filt" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-12-13TeV-WZ/ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_filtered/*",
+        "plot_group" : "zg"
     },
     "data_DoubleEG_Run2015C_05Oct2015_25ns" : {
         "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/data_DoubleEG_Run2015C_05Oct2015_25ns/*",

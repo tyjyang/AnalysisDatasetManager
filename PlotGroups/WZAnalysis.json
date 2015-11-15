@@ -13,7 +13,7 @@
             "zz4l"
         ]
     },
-    "DY" : {
+    "dy" : {
         "Name" : "Drell-Yan",
         "Style" : "fill-yellow",
         "Members" : [
@@ -34,6 +34,13 @@
         "Members" : [
             "ttz",
             "ttw"
+        ]
+    },
+    "zg" : {
+        "Name" : "Z#gamma",
+        "Style" : "fill-red",
+        "Members" : [
+            "tt"
         ]
     },
     "data" : {
