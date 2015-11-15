@@ -115,8 +115,9 @@
             "xmax": 120
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "M_{Z} [GeV]",  
-            "GetYaxis().SetTitle": "Events"  
+            "GetXaxis().SetTitle": "M_{l^{+}l^{-}} [GeV]",  
+            "GetYaxis().SetTitle": "Events", 
+            "GetYaxis().SetTitleOffset": 1.2  
         }
     },
    "Mass": {  
@@ -128,7 +129,8 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{3l} [GeV]",  
-            "GetYaxis().SetTitle": "Events"  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2  
         }
     },
   "Canvas": {  

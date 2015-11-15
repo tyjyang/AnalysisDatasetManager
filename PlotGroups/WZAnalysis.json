@@ -23,7 +23,7 @@
     },
     "ttbar" : {
         "Name" : "t#bar{t}",
-        "Style" : "fill-darkgreen",
+        "Style" : "fill-green",
         "Members" : [
             "tt"
         ]

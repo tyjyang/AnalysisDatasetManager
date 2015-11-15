@@ -1,41 +1,41 @@
 {
     "fill-purple" : {
-        "SetLineColor": "ROOT.kViolet - 6",
-        "SetFillColor": "ROOT.kViolet - 6",
+        "SetFillColor": "ROOT.TColor.GetColor(#984ea3)",
+        "SetLineColor": "ROOT.TColor.GetColor(#4C0257)",
         "SetLineStyle": 1,
-        "SetLineWidth": 2,
+        "SetLineWidth": 1,
         "SetMarkerSize" : 0
     },
-    "fill-darkgreen" : {
-        "SetLineColor": "ROOT.kGreen + 3",
-        "SetFillColor": "ROOT.kGreen + 3",
+    "fill-green" : {
+        "SetFillColor": "ROOT.TColor.GetColor(#4daf4a)",
+        "SetLineColor": "ROOT.TColor.GetColor(#016300)",
         "SetLineStyle": 1,
-        "SetLineWidth": 2,
+        "SetLineWidth": 1,
         "SetMarkerSize" : 0
     },
     "fill-yellow" : {
-        "SetLineColor": "ROOT.kYellow",
-        "SetFillColor": "ROOT.kYellow",
+        "SetFillColor": "ROOT.TColor.GetColor(#ffff33)",
+        "SetLineColor": "ROOT.TColor.GetColor(#B3B300)",
         "SetLineStyle": 1,
-        "SetLineWidth": 2,
+        "SetLineWidth": 1,
         "SetMarkerSize" : 0
     },
     "fill-blue" : {
-        "SetLineColor": "ROOT.kBlue - 6",
-        "SetFillColor": "ROOT.kBlue - 6",
+        "SetFillColor": "ROOT.TColor.GetColor(#377eb8)",
+        "SetLineColor": "ROOT.TColor.GetColor(#00326C)",
         "SetLineStyle": 1,
-        "SetLineWidth": 2,
+        "SetLineWidth": 1,
         "SetMarkerSize" : 0
     },
     "fill-teal" : {
-        "SetLineColor": "ROOT.kAzure - 6",
-        "SetFillColor": "ROOT.kAzure - 6",
+        "SetFillColor": "ROOT.TColor.GetColor(#f781bf)",
+        "SetLineColor": "ROOT.TColor.GetColor(#AB3573)",
         "SetLineStyle": 1,
-        "SetLineWidth": 2,
+        "SetLineWidth": 1,
         "SetMarkerSize" : 0
     },
     "data" : {
-        "SetLineColor": "ROOT.kBlack",
+        "SetFillColor": "ROOT.kBlack",
         "SetMarkerStyle" : 20,
         "SetMarkerSize" : 1
     }
