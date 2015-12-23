@@ -6,11 +6,16 @@
             "l2Pt" : "(ePt > m1Pt && ePt > m2Pt) ? ((m1Pt > m2Pt) ? m1Pt : m2Pt) : ((m1Pt > m2Pt) ? ((ePt > m2Pt) ? ePt : m2Pt) : ((ePt > m1Pt) ? ePt : m1Pt))",
             "l2Eta" : "(ePt > m1Pt && ePt > m2Pt) ? ((m1Pt > m2Pt) ? m1Eta : m2Eta) : ((m1Pt > m2Pt) ? ((ePt > m2Pt) ? eEta : m2Eta) : ((ePt > m1Pt) ? eEta : m1Eta))",
             "l3Pt" : "(ePt < m1Pt ? ePt : m1Pt ) < m2Pt ? ( ePt < m1Pt ? ePt : m1Pt ) : m2Pt",
-            "l1Eta" : "(ePt < m1Pt ? ePt : m1Pt ) < m2Pt ? ( ePt < m1Pt ? eEta : m1Eta ) : m2Eta",
-            "bestZCand_Mass" : "m1_m2_Mass",
+            "l3Eta" : "(ePt < m1Pt ? ePt : m1Pt ) < m2Pt ? ( ePt < m1Pt ? eEta : m1Eta ) : m2Eta",
+            "ZMass" : "m1_m2_Mass",
+            "ZPt" : "m1_m2_Pt",
             "Zlep1_Pt" : "m1Pt",
+            "Zlep1_Eta" : "m1Eta",
             "Zlep2_Pt" : "m2Pt",
-            "Wlep_Pt" : "ePt"
+            "Zlep2_Eta" : "m2Eta",
+            "Wlep_Pt" : "ePt",
+            "Wlep_Eta" : "eEta",
+            "numJets" : "jetVeto30"
         },
         "eem" : {
             "l1Pt" : "(e1Pt > e2Pt ? e1Pt : e2Pt ) > mPt ? ( e1Pt > e2Pt ? e1Pt : e2Pt ) : mPt",
@@ -19,10 +24,15 @@
             "l2Eta" : "(e1Pt > e2Pt && e1Pt > mPt) ? ((e2Pt > mPt) ? e2Eta : mEta) : ((e2Pt > mPt) ? ((e1Pt > mPt) ? e1Eta : mEta) : ((e1Pt > e2Pt) ? e1Eta : e2Eta))",
             "l3Pt" : "(e1Pt < e2Pt ? e1Pt : e2Pt ) < mPt ? ( e1Pt < e2Pt ? e1Pt : e2Pt ) : mPt",
             "l3Eta" : "(e1Pt < e2Pt ? e1Pt : e2Pt ) < mPt ? ( e1Pt < e2Pt ? e1Eta : e2Eta ) : mEta",
-            "bestZCand_Mass" : "e1_e2_Mass",
+            "ZMass" : "e1_e2_Mass",
+            "ZPt" : "e1_e2_Pt",
             "Zlep1_Pt" : "e1Pt",
+            "Zlep1_Eta" : "e1Eta",
             "Zlep2_Pt" : "e2Pt",
-            "Wlep_Pt" : "mPt"
+            "Zlep2_Eta" : "e2Eta",
+            "Wlep_Pt" : "mPt",
+            "Wlep_Eta" : "mEta",
+            "numJets" : "jetVeto30"
         },
         "eee" : {
             "l1Pt" : "(e1Pt > e2Pt ? e1Pt : e2Pt ) > e3Pt ? ( e1Pt > e2Pt ? e1Pt : e2Pt ) : e3Pt",
@@ -31,10 +41,15 @@
             "l2Eta" : "(e1Pt > e2Pt && e1Pt > e3Pt) ? ((e2Pt > e3Pt) ? e2Eta : e3Eta) : ((e2Pt > e3Pt) ? ((e1Pt > e3Pt) ? e1Eta : e3Eta) : ((e1Pt > e2Pt) ? e1Eta : e2Eta))",
             "l3Pt" : "(e1Pt < e2Pt ? e1Pt : e2Pt ) < e3Pt ? ( e1Pt < e2Pt ? e1Pt : e2Pt ) : e3Pt",
             "l3Eta" : "(e1Pt < e2Pt ? e1Pt : e2Pt ) < e3Pt ? ( e1Pt < e2Pt ? e1Eta : e2Eta ) : e3Eta",
-            "bestZCand_Mass" : "e1_e2_Mass",
+            "ZMass" : "e1_e2_Mass",
+            "ZPt" : "e1_e2_Pt",
             "Zlep1_Pt" : "e1Pt",
+            "Zlep1_Eta" : "e1Eta",
             "Zlep2_Pt" : "e2Pt",
-            "Wlep_Pt" : "e3Pt"
+            "Zlep2_Eta" : "e2Eta",
+            "Wlep_Pt" : "e3Pt",
+            "Wlep_Eta" : "e3Eta",
+            "numJets" : "jetVeto30"
         },
         "mmm" : {
             "l1Pt" : "(m1Pt > m2Pt ? m1Pt : m2Pt ) > m3Pt ? ( m1Pt > m2Pt ? m1Pt : m2Pt ) : m3Pt",
@@ -43,10 +58,15 @@
             "l2Eta" : "(m1Pt > m2Pt && m1Pt > m3Pt) ? ((m2Pt > m3Pt) ? m2Eta : m3Eta) : ((m2Pt > m3Pt) ? ((m1Pt > m3Pt) ? m1Eta : m3Eta) : ((m1Pt > m2Pt) ? m1Eta : m2Eta))",
             "l3Pt" : "(m1Pt < m2Pt ? m1Pt : m2Pt ) < m3Pt ? ( m1Pt < m2Pt ? m1Pt : m2Pt ) : m3Pt",
             "l3Eta" : "(m1Pt < m2Pt ? m1Pt : m2Pt ) < m3Pt ? ( m1Pt < m2Pt ? m1Eta : m2Eta ) : m3Eta",
-            "bestZCand_Mass" : "m1_m2_Mass",
+            "ZMass" : "m1_m2_Mass",
+            "ZPt" : "m1_m2_Pt",
             "Zlep1_Pt" : "m1Pt",
+            "Zlep1_Eta" : "m1Eta",
             "Zlep2_Pt" : "m2Pt",
-            "Wlep_Pt" : "m3Pt"
+            "Zlep2_Eta" : "m2Eta",
+            "Wlep_Pt" : "m3Pt",
+            "Wlep_Eta" : "m3Eta",
+            "numJets" : "jetVeto30"
         }
     }
 }
