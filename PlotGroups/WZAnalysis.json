@@ -13,6 +13,33 @@
             "zz4l"
         ]
     },
+    "ww" : {
+        "Name" : "WW",
+        "Style" : "fill-grey",
+        "Members" : [
+            "ww"
+        ]
+    },
+    "vvv" : {
+        "Name" : "VVV",
+        "Style" : "fill-brown",
+        "Members" : [
+            "zzz",
+            "wzz",
+            "wwz"
+        ]
+    },
+    "ggzz" : {
+        "Name" : "ZZ",
+        "Style" : "fill-blue-noline",
+        "Members" : [
+            "ggZZ4e",
+            "ggZZ4m",
+            "ggZZ2mu2tau",
+            "ggZZ2e2tau",
+            "ggZZ2e2mu"
+        ]
+    },
     "dy" : {
         "Name" : "Drell-Yan",
         "Style" : "fill-yellow",
@@ -26,6 +53,17 @@
         "Style" : "fill-green",
         "Members" : [
             "tt"
+        ]
+    },
+    "st" : {
+        "Name" : "Single top",
+        "Style" : "fill-orange",
+        "Members" : [
+            "st-schan",
+            "st-tchan-t",
+            "st-tchan-tbar",
+            "st-tw",
+            "st-tbarw"
         ]
     },
     "ttv" : {

@@ -19,12 +19,56 @@
         "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8/*",
         "plot_group" : "ttv"
     },
+    "zzz" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/*",
+        "plot_group" : "vvv"
+    },
+    "wzz" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/WZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/*",
+        "plot_group" : "vvv"
+    },
+    "wwz" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/WWZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/*",
+        "plot_group" : "vvv"
+    },
+    "ww" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/WWTo2L2Nu_13TeV-powheg/*",
+        "plot_group" : "ww"
+    },
+    "st-schan" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1/*",
+        "plot_group" : "st"
+    },
+    "st-tchan-t" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/ST_t-channel_top_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1/*",
+        "plot_group" : "st"
+    },
+    "st-tchan-tbar" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/ST_t-channel_antitop_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1/*",
+        "plot_group" : "st"
+    },
+    "st-tw" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/ST_tW_top_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M1/*",
+        "plot_group" : "st"
+    },
+    "st-tbarw" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/ST_tW_antitop_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M1/*",
+        "plot_group" : "st"
+    },
     "DYm50" : {
         "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
         "plot_group" : "dy"
     },
     "DYm50-filt" : {
         "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-12-13TeV-WZ/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_filtered/*",
+        "plot_group" : "dy"
+    },
+    "DYm10-50" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
+        "plot_group" : "dy"
+    },
+    "DYm10-50-filt" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-12-13TeV-WZ/DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_filtered/*",
         "plot_group" : "dy"
     },
     "zg" : {
@@ -34,6 +78,26 @@
     "zg-filt" : {
         "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-12-13TeV-WZ/ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_filtered/*",
         "plot_group" : "zg"
+    },
+    "ggZZ4e" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/GluGluToZZTo4e_BackgroundOnly_13TeV_MCFM/*",
+        "plot_group" : "zz"
+    },
+    "ggZZ4m" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/GluGluToZZTo4e_BackgroundOnly_13TeV_MCFM/*",
+        "plot_group" : "zz"
+    },
+    "ggZZ2e2tau" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/GluGluToZZTo2e2tau_BackgroundOnly_13TeV_MCFM/*",
+        "plot_group" : "zz"
+    },
+    "ggZZ2e2mu" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/GluGluToZZTo2e2mu_BackgroundOnly_13TeV_MCFM/*",
+        "plot_group" : "zz"
+    },
+    "ggZZ2mu2tau" : {
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/GluGluToZZTo2e2tau_BackgroundOnly_13TeV_MCFM/*",
+        "plot_group" : "zz"
     },
     "data_DoubleEG_Run2015C_05Oct2015_25ns" : {
         "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/data_DoubleEG_Run2015C_05Oct2015_25ns/*",

@@ -66,9 +66,11 @@ for name in names:
     proof_name = '-'.join([name] + args.selection.split("/"))
     if proof.GetDataSet(proof_name) == None or reRegister :
         filelist = ROOT.TFileCollection(proof_name, proof_name)
-        num_files = filelist.Add(getFilePath(name, args.selection))
+        filename = getFilePath(name, args.selection)
+        num_files = filelist.Add(filename)
         if filelist.GetNFiles() == 0:
             log += "\n%s does not point to a valid file! Skipping" % name
+            log += "\nFile name was %s" % filename
             continue
         proof.RegisterDataSet(proof_name, filelist, 'OVnostagedcheck:')
 os.chdir(current_path)

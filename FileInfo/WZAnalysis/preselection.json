@@ -7,12 +7,40 @@
         "file_path" : "/hdfs/store/user/kelong/2015-11-01-zz4l-preselection-skim/*",
         "plot_group" : "zz"
     },
+    "ggZZ4e" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-29-ggZZ4e-preselection-skim/*",
+        "plot_group" : "ggzz"
+    },
+    "ggZZ4m" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-29-ggZZ4m-preselection-skim/*",
+        "plot_group" : "ggzz"
+    },
+    "ggZZ2e2tau" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-29-ggZZ2e2tau-preselection-skim/*",
+        "plot_group" : "ggzz"
+    },
+    "ggZZ2e2mu" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-29-ggZZ2e2mu-preselection-skim/*",
+        "plot_group" : "ggzz"
+    },
+    "ggZZ2mu2tau" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-29-ggZZ2mu2tau-preselection-skim/*",
+        "plot_group" : "ggzz"
+    },
     "DYm50" : {
         "file_path" : "/hdfs/store/user/kelong/2015-11-01-DYm50-preselection-skim/*",
         "plot_group" : "dy"
     },
     "DYm50-filt" : {
         "file_path" : "/hdfs/store/user/kelong/2015-11-15-DYm50-filt-preselection-skim/*",
+        "plot_group" : "dy"
+    },
+    "DYm10-50" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-30-DYm10-50-filt-preselection-skim/*",
+        "plot_group" : "dy"
+    },
+    "DYm10-50-filt" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-30-DYm10-50-filt-preselection-skim/*",
         "plot_group" : "dy"
     },
     "zg" : {
@@ -34,6 +62,42 @@
     "ttw" : {
         "file_path" : "/hdfs/store/user/kelong/2015-11-11-ttw-preselection-skim/*",
         "plot_group" : "ttv"
+    },
+    "st-schan" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-30-st-schan-preselection-skim/*",
+        "plot_group" : "st"
+    },
+    "st-tchan-t" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-30-st-tchan-t-preselection-skim/*",
+        "plot_group" : "st"
+    },
+    "st-tchan-tbar" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-30-st-tchan-tbar-preselection-skim/*",
+        "plot_group" : "st"
+    },
+    "st-tw" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-30-st-tw-preselection-skim/*",
+        "plot_group" : "st"
+    },
+    "st-tbarw" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-30-st-tbarw-preselection-skim/*",
+        "plot_group" : "st"
+    },
+    "zzz" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-30-zzz-preselection-skim/*",
+        "plot_group" : "vvv"
+    },
+    "wzz" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-30-wzz-preselection-skim/*",
+        "plot_group" : "vvv"
+    },
+    "wwz" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-30-wwz-preselection-skim/*",
+        "plot_group" : "vvv"
+    },
+    "ww" : {
+        "file_path" : "/hdfs/store/user/kdlong/2015-12-30-ww-preselection-skim/*",
+        "plot_group" : "ww"
     },
     "data_MuonEG_Run2015C_05Oct2015_25ns" : {
         "file_path" : "/hdfs/store/user/kelong/2015-10-28-data_MuonEG_Run2015C_05Oct2015_25ns-preselection-skim/*",

@@ -34,6 +34,34 @@
         "SetLineWidth": 1,
         "SetMarkerSize" : 0
     },
+    "fill-blue-noline" : {
+        "SetFillColor": "ROOT.TColor.GetColor(#377eb8)",
+        "SetLineColor": "ROOT.TColor.GetColor(#377eb8)",
+        "SetLineStyle": 1,
+        "SetLineWidth": 1,
+        "SetMarkerSize" : 0
+    },
+    "fill-brown" : {
+        "SetFillColor": "ROOT.TColor.GetColor(#a65628)",
+        "SetLineColor": "ROOT.TColor.GetColor(#5A0A00)",
+        "SetLineStyle": 1,
+        "SetLineWidth": 1,
+        "SetMarkerSize" : 0
+    },
+    "fill-orange" : {
+        "SetFillColor": "ROOT.TColor.GetColor(#ff7f00)",
+        "SetLineColor": "ROOT.TColor.GetColor(#B33300)",
+        "SetLineStyle": 1,
+        "SetLineWidth": 1,
+        "SetMarkerSize" : 0
+    },
+    "fill-grey" : {
+        "SetFillColor": "ROOT.TColor.GetColor(#999999)",
+        "SetLineColor": "ROOT.TColor.GetColor(#4D4D4D)",
+        "SetLineStyle": 1,
+        "SetLineWidth": 1,
+        "SetMarkerSize" : 0
+    },
     "fill-teal" : {
         "SetFillColor": "ROOT.TColor.GetColor(#f781bf)",
         "SetLineColor": "ROOT.TColor.GetColor(#AB3573)",
