@@ -2,8 +2,8 @@
    "Zlep1_Pt": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 20,
-            "xmin": 0,
+            "nbins": 18,
+            "xmin": 20,
             "xmax": 200
         },
         "Attributes": {  
@@ -28,8 +28,8 @@
    "Wlep_Pt": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 20,
-            "xmin": 0,
+            "nbins": 18,
+            "xmin": 20,
             "xmax": 200
         },
         "Attributes": {  
@@ -96,8 +96,8 @@
    "l1Pt": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 20,
-            "xmin": 0,
+            "nbins": 18,
+            "xmin": 20,
             "xmax": 200
         },
         "Attributes": {  
@@ -182,8 +182,10 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "p_{T} (Z) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 10 GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitle": "Events / 20 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 75
         }
     },
   "ZMass": {  
@@ -196,7 +198,24 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{l^{+}l^{-}} [GeV]",  
             "GetYaxis().SetTitle": "Events / 2.5 GeV", 
-            "GetYaxis().SetTitleOffset": 1.2
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 70
+        }
+    },
+   "Mt": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 18,
+            "xmin": 90,
+            "xmax": 450
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 20 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 50
         }
     },
    "Mass": {  
@@ -235,7 +254,9 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "Number of p_{T} > 30 GeV Jets",  
             "GetYaxis().SetTitle": "Events",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 125
         }
     }
 }

@@ -56,27 +56,27 @@
         "plot_group" : "st"
     },
     "DYm50" : {
-        "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
         "plot_group" : "dy"
     },
     "DYm50-filt" : {
-        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-12-13TeV-WZ/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_filtered/*",
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_filtered/*",
         "plot_group" : "dy"
     },
     "DYm10-50" : {
-        "file_path" : "/hdfs/store/user/dntaylor/data/2015-10-25-13TeV-WZ/DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
         "plot_group" : "dy"
     },
     "DYm10-50-filt" : {
-        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-12-13TeV-WZ/DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_filtered/*",
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_filtered/*",
         "plot_group" : "dy"
     },
     "zg" : {
-        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-12-13TeV-WZ/ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
         "plot_group" : "zg"
     },
     "zg-filt" : {
-        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-12-13TeV-WZ/ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_filtered/*",
+        "file_path" : "/hdfs/store/user/dntaylor/data/2015-11-27-13TeV-WZ/ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_filtered/*",
         "plot_group" : "zg"
     },
     "ggZZ4e" : {

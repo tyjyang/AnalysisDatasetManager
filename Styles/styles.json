@@ -70,7 +70,7 @@
         "SetMarkerSize" : 0
     },
     "data" : {
-        "SetFillColor": "ROOT.kBlack",
+        "SetMarkerColor": "ROOT.kBlack",
         "SetMarkerStyle" : 20,
         "SetMarkerSize" : 1
     }

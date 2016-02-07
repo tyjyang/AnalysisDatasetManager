@@ -1,9 +1,9 @@
 {
-    "wz-signal" : {
+    "wz" : {
         "Name" : "WZ#rightarrow 3l#nu",
         "Style" : "fill-purple",
         "Members" : [
-            "wz-powheg"
+            "wz3lnu-powheg"
         ]
     },
     "zz" : {
@@ -40,6 +40,14 @@
             "ggZZ2e2mu"
         ]
     },
+    "dy-filt" : {
+        "Name" : "Drell-Yan",
+        "Style" : "fill-yellow",
+        "Members" : [
+            "DYm50-filt",
+            "DYm10-50-filt"
+        ]
+    },
     "dy" : {
         "Name" : "Drell-Yan",
         "Style" : "fill-yellow",
@@ -74,11 +82,18 @@
             "ttw"
         ]
     },
+    "zg-filt" : {
+        "Name" : "Z#gamma",
+        "Style" : "fill-red",
+        "Members" : [
+            "zg-filt"
+        ]
+    },
     "zg" : {
         "Name" : "Z#gamma",
         "Style" : "fill-red",
         "Members" : [
-            "tt"
+            "zg"
         ]
     },
     "data" : {

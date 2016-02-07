@@ -7,6 +7,8 @@
             "l2Eta" : "(ePt > m1Pt && ePt > m2Pt) ? ((m1Pt > m2Pt) ? m1Eta : m2Eta) : ((m1Pt > m2Pt) ? ((ePt > m2Pt) ? eEta : m2Eta) : ((ePt > m1Pt) ? eEta : m1Eta))",
             "l3Pt" : "(ePt < m1Pt ? ePt : m1Pt ) < m2Pt ? ( ePt < m1Pt ? ePt : m1Pt ) : m2Pt",
             "l3Eta" : "(ePt < m1Pt ? ePt : m1Pt ) < m2Pt ? ( ePt < m1Pt ? eEta : m1Eta ) : m2Eta",
+            "e1Pt" : "ePt",
+            "e1Eta" : "eEta",
             "ZMass" : "m1_m2_Mass",
             "ZPt" : "m1_m2_Pt",
             "Zlep1_Pt" : "m1Pt",
@@ -15,7 +17,9 @@
             "Zlep2_Eta" : "m2Eta",
             "Wlep_Pt" : "ePt",
             "Wlep_Eta" : "eEta",
-            "numJets" : "jetVeto30"
+            "hasOSSFpair" : "!m1_m2_SS",
+            "dR_Wlep_Zlep1" : "e_m1_DR",
+            "dR_Wlep_Zlep2" : "e_m2_DR"
         },
         "eem" : {
             "l1Pt" : "(e1Pt > e2Pt ? e1Pt : e2Pt ) > mPt ? ( e1Pt > e2Pt ? e1Pt : e2Pt ) : mPt",
@@ -23,7 +27,8 @@
             "l2Pt" : "(e1Pt > e2Pt && e1Pt > mPt) ? ((e2Pt > mPt) ? e2Pt : mPt) : ((e2Pt > mPt) ? ((e1Pt > mPt) ? e1Pt : mPt) : ((e1Pt > e2Pt) ? e1Pt : e2Pt))",
             "l2Eta" : "(e1Pt > e2Pt && e1Pt > mPt) ? ((e2Pt > mPt) ? e2Eta : mEta) : ((e2Pt > mPt) ? ((e1Pt > mPt) ? e1Eta : mEta) : ((e1Pt > e2Pt) ? e1Eta : e2Eta))",
             "l3Pt" : "(e1Pt < e2Pt ? e1Pt : e2Pt ) < mPt ? ( e1Pt < e2Pt ? e1Pt : e2Pt ) : mPt",
-            "l3Eta" : "(e1Pt < e2Pt ? e1Pt : e2Pt ) < mPt ? ( e1Pt < e2Pt ? e1Eta : e2Eta ) : mEta",
+            "m1Pt" : "mPt",
+            "m1Eta" : "mEta",
             "ZMass" : "e1_e2_Mass",
             "ZPt" : "e1_e2_Pt",
             "Zlep1_Pt" : "e1Pt",
@@ -32,7 +37,9 @@
             "Zlep2_Eta" : "e2Eta",
             "Wlep_Pt" : "mPt",
             "Wlep_Eta" : "mEta",
-            "numJets" : "jetVeto30"
+            "hasOSSFpair" : "!e1_e2_SS",
+            "dR_Wlep_Zlep1" : "e1_m_DR",
+            "dR_Wlep_Zlep2" : "e2_m_DR"
         },
         "eee" : {
             "l1Pt" : "(e1Pt > e2Pt ? e1Pt : e2Pt ) > e3Pt ? ( e1Pt > e2Pt ? e1Pt : e2Pt ) : e3Pt",
@@ -49,7 +56,9 @@
             "Zlep2_Eta" : "e2Eta",
             "Wlep_Pt" : "e3Pt",
             "Wlep_Eta" : "e3Eta",
-            "numJets" : "jetVeto30"
+            "hasOSSFpair" : "!(e1_e2_SS && e2_e3_SS && e1_e3_SS)",
+            "dR_Wlep_Zlep1" : "e1_e3_DR",
+            "dR_Wlep_Zlep2" : "e2_e3_DR"
         },
         "mmm" : {
             "l1Pt" : "(m1Pt > m2Pt ? m1Pt : m2Pt ) > m3Pt ? ( m1Pt > m2Pt ? m1Pt : m2Pt ) : m3Pt",
@@ -66,7 +75,14 @@
             "Zlep2_Eta" : "m2Eta",
             "Wlep_Pt" : "m3Pt",
             "Wlep_Eta" : "m3Eta",
-            "numJets" : "jetVeto30"
+            "hasOSSFpair" : "!(m1_m2_SS && m2_m3_SS && m1_m3_SS)",
+            "dR_Wlep_Zlep1" : "m1_m3_DR",
+            "dR_Wlep_Zlep2" : "m2_m3_DR"
         }
+    },
+    "Event" : {
+        "lepVeto" : "(eVetoTight + muVetoTight) == 0",
+        "numJets" : "jetVeto30",
+        "MET" : "type1_pfMetEt"
     }
 }

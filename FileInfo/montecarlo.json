@@ -100,14 +100,14 @@
         "Notes" : "Filtered to remove overlap with Zgamma sample. Events with photons from q or l with pt > 10 GeV are rejected."
     },
     "zg-filt" : {
-        "cross_section" : 124.5,
-        "Source of cross section" : "GenXSecAnalyzer",
+        "cross_section" : 117.9,
+        "Source of cross section" : "MCM",
         "DAS Name" : "ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8",
         "Notes" : "Filtered to remove overlap with drell-yan sample. Events with photons from q or l with pt < 10 GeV are rejected."
     },
     "zg" : {
-        "cross_section" : 124.5,
-        "Source of cross section" : "GenXSecAnalyzer",
+        "cross_section" : 117.9,
+        "Source of cross section" : "MCM",
         "DAS Name" : "ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
     },
     "DYm10-50" : {
