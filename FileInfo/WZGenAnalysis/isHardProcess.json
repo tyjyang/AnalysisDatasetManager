@@ -1,0 +1,18 @@
+{
+    "wz3lnu-powheg" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/powhegOff_GenNtuples_isHardProcess_2016-02-14-wzGen_cfg/*",
+        "plot_group" : "wz-pwg"
+    },
+    "wz3lnu-mg5amcnlo-off" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/powhegOff_GenNtuples_isHardProcess_2016-02-14-wzGen_cfg/*",
+        "plot_group" : "wz-pwg-off"
+    },
+    "wz3lnu-mg5amcnlo-inc" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/MG5aMCatNLO_WZ0j/*",
+        "plot_group" : "wz-pwg-inc"
+    },
+    "wz8tev-eem-powheg" : {
+        "file_path" : "/data/kelong/DibosonGenAnalysisSamples/POWHEG_WZ_8TeV/Newest_PDFs/WZto2E1Mu1Nu_8TeV_newpdfs_powheg_pythia8_CUETP8M1_Ntuple.root",
+        "plot_group" : "wz"
+    }
+}

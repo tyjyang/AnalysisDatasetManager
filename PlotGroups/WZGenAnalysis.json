@@ -1,0 +1,23 @@
+{
+    "wz-pwg" : {
+        "Name" : "POWHEG (NLO inc)",
+        "Style" : "nofill-lightblue",
+        "Members" : [
+            "wz3lnu-powheg"
+        ]
+    },
+    "wz-mgnlo-off" : {
+        "Name" : "MG5_aMC@NLO (NLO+0,1j FxFx)",
+        "Style" : "nofill-lightred-dash",
+        "Members" : [
+            "wz3lnu-mg5amcnlo-off"
+        ]
+    },
+    "wz-mgnlo-inc" : {
+        "Name" : "MG5_aMC@NLO (NLO inc)",
+        "Style" : "nofill-darkgreen-finedash",
+        "Members" : [
+            "wz3lnu-mg5amcnlo-inc"
+        ]
+    }
+}

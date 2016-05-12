@@ -1,0 +1,16 @@
+{
+    "State" : {
+    },
+    "Event" : {
+        "trueZ1_mass" : "Z1isTrueDecay ? Z1mass : Z2mass",
+        "eemm_chan" : "((abs(l1pdgId) == 11 && abs(l2pdgId) == 11 && abs(l3pdgId) == 13 && abs(l4pdgId) == 13) || (abs(l1pdgId) == 13 && abs(l2pdgId) == 13 && abs(l3pdgId) == 11 && abs(l4pdgId) == 11) || (abs(l1pdgId) == 13 && abs(l2pdgId) == 11 && abs(l3pdgId) == 13 && abs(l4pdgId) == 11) || (abs(l1pdgId) == 13 && abs(l2pdgId) == 11 && abs(l3pdgId) == 11 && abs(l4pdgId) == 13) || (abs(l1pdgId) == 11 && abs(l2pdgId) == 13 && abs(l3pdgId) == 13 && abs(l4pdgId) == 11) || (abs(l1pdgId) == 11 && abs(l2pdgId) == 13 && abs(l3pdgId) == 11 && abs(l4pdgId) == 13))",
+        "eeee_chan" : "(abs(l1pdgId) == 11 && abs(l2pdgId) == 11 && abs(l3pdgId) == 11 && abs(l3pdgId) == 11)",
+        "mmmm_chan" : "(abs(l1pdgId) == 13 && abs(l2pdgId) == 13 && abs(l3pdgId) == 13 && abs(l3pdgId) == 13)",
+        "lep_pt" : "(l1Pt > 20 && l2Pt > 10 && l3Pt > 5 && l4Pt > 5)",
+        "lep_eta" : "(abs(l1Eta) < 2.5 && abs(l2Eta) < 2.5 && abs(l3Eta) < 2.5 && abs(l4Eta) < 2.5)",
+        "ZZmass" : "((Z1isTrueDecay && Z2isTrueDecay && Z1mass < 120 && Z2mass > 60 && Z2mass < 120 && Z2mass > 60) || (Z1isTrueDecay && Z3isTrueDecay && Z1mass < 120 && Z1mass > 60 && Z3mass < 120 && Z3mass > 60) || (Z1isTrueDecay && Z4isTrueDecay && Z1mass < 120 && Z1mass > 60 && Z4mass < 120 && Z4mass > 60) || (Z2isTrueDecay && Z3isTrueDecay && Z2mass < 120 && Z2mass > 60 && Z3mass < 120 && Z3mass > 60) || (Z2isTrueDecay && Z4isTrueDecay && Z2mass < 120 && Z2mass > 60 && Z4mass < 120 && Z4mass > 60) || (Z3isTrueDecay && Z4isTrueDecay && Z3mass < 120 && Z3mass > 60 && Z4mass < 120 && Z4mass > 60))",
+        "ZZmassATLAS" : "((Z1isTrueDecay && Z2isTrueDecay && Z1mass < 116 && Z2mass > 66 && Z2mass < 116 && Z2mass > 66) || (Z1isTrueDecay && Z3isTrueDecay && Z1mass < 116 && Z1mass > 66 && Z3mass < 116 && Z3mass > 66) || (Z1isTrueDecay && Z4isTrueDecay && Z1mass < 116 && Z1mass > 66 && Z4mass < 116 && Z4mass > 66) || (Z2isTrueDecay && Z3isTrueDecay && Z2mass < 116 && Z2mass > 66 && Z3mass < 116 && Z3mass > 66) || (Z2isTrueDecay && Z4isTrueDecay && Z2mass < 116 && Z2mass > 66 && Z4mass < 116 && Z4mass > 66) || (Z3isTrueDecay && Z4isTrueDecay && Z3mass < 116 && Z3mass > 66 && Z4mass < 116 && Z4mass > 66))",
+        "Z4lwindow" : "((Z1isTrueDecay && Z2isTrueDecay && Z1mass < 120 && Z2mass > 40 && Z2mass < 120 && Z2mass > 4) || (Z1isTrueDecay && Z3isTrueDecay && Z1mass < 120 && Z1mass > 40 && Z3mass < 120 && Z3mass > 4) || (Z1isTrueDecay && Z4isTrueDecay && Z1mass < 120 && Z1mass > 40 && Z4mass < 120 && Z4mass > 4) || (Z2isTrueDecay && Z3isTrueDecay && Z2mass < 120 && Z2mass > 40 && Z3mass < 120 && Z3mass > 4) || (Z2isTrueDecay && Z4isTrueDecay && Z2mass < 120 && Z2mass > 40 && Z4mass < 120 && Z4mass > 4) || (Z3isTrueDecay && Z4isTrueDecay && Z3mass < 120 && Z3mass > 40 && Z4mass < 120 && Z4mass > 4))",
+        "4lmassWindow" : "(4lmass > 80 && 4lmass < 100)"
+    }
+}

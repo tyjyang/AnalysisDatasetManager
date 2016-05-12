@@ -4,6 +4,31 @@
         "Source of cross section" : "POWHEG tarball",
         "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8"
     },
+    "wz3lnu-mg5amcnlo-inc" : {
+        "cross_section" : 4.415,
+        "Source of cross section" : "MG5_aMC@NLO gridpack",
+        "DAS Name" : "Private Production"
+    },
+    "wz2m1e1nu-fixed-powheg" : {
+        "cross_section" : 0.50392,
+        "Source of cross section" : "POWHEG tarball",
+        "DAS Name" : "Private Production"
+    },
+    "wz2m1e1nu-fixed-mg5amcnlo-inc" : {
+        "cross_section" : 0.5244,
+        "Source of cross section" : "MG5_aMC@NLO gridpack",
+        "DAS Name" : "Private Production"
+    },
+    "wz3lnu-mg5amcnlo-off" : {
+        "cross_section" : 4.715,
+        "Source of cross section" : "MG5_aMC@NLO gridpack",
+        "DAS Name" : "Private Production"
+    },
+    "wz8tev-eem-powheg" : {
+        "cross_section" : 0.076555,
+        "Source of cross section" : "POWHEG tarball",
+        "DAS Name" : "Private Production"
+    },
     "ww" : {
         "cross_section" : 12.178,
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#Diboson",
@@ -37,7 +62,6 @@
     "zz4l" : {
         "cross_section" : 1.256,
         "Source of cross section" : "POWHEG tarball",
-        "kfactor" : 1.1,
         "Source of k-factor" : "k factor from mll only calculation of Grazzini",
         "DAS Name" : "ZZTo4L_13TeV_powheg_pythia8"
     },
@@ -92,6 +116,12 @@
         "cross_section" : 6025,
         "Source of cross section" : "MCM",
         "DAS Name" : "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+    },
+    "DYm50-pwg-ee" : {
+        "cross_section" : 1997,
+        "kfactor" : 0.0001339,
+        "Source of cross section" : "NNLO from twiki",
+        "DAS Name" : "DYToEE_NNPDF30_13TeV-powheg-pythia8"
     },
     "DYm50-filt" : {
         "cross_section" : 6025,
@@ -149,5 +179,89 @@
         "cross_section" : 0.1651,
         "Source of cross section" : "MCM",
         "DAS Name" : "WWZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
+    },
+    "zz_eemm-pwg-doubleres" : {
+        "cross_section" : 0.1491,
+        "Source of cross section" : "POWHEG tarball",
+        "DAS Name" : "Private production",
+        "Generator" : "POWHEG",
+        "Cards" : "/data/kelong/POWHEG-CMS_SubmitCondor/jobs/2016_02_01_ZZ_doublyresonant/ZZ_e-mu_13000GeV_NNPDF30/results/powheg.input"
+    },
+    "zz_eeee-pwg-doubleres" : {
+        "cross_section" : 0.057643,
+        "Source of cross section" : "POWHEG tarball",
+        "DAS Name" : "Private production",
+        "Generator" : "POWHEG",
+        "Cards" : "/data/kelong/POWHEG-CMS_SubmitCondor/jobs/2016_02_01_ZZ_doublyresonant/ZZ_only-e_13000GeV_NNPDF30/results/powheg.input"
+    },
+    "zz-pwg-doubleres" : {
+        "cross_section" : 0.264386,
+        "Source of cross section" : "POWHEG tarball",
+        "DAS Name" : "Private production",
+        "Generator" : "POWHEG",
+        "Cards" : "/data/kelong/POWHEG-CMS_SubmitCondor/jobs/2016_02_01_ZZ_doublyresonant/ZZ_only-e_13000GeV_NNPDF30/results/powheg.input"
+    },
+    "eemm-mgnlo" : {
+        "cross_section" : 0.279,
+        "Source of cross section" : "MadGraph NLO",
+        "DAS Name" : "Private production",
+        "Generator" : "MadGraph5_aMC@NLO NLO",
+        "Cards" : ""
+    },
+    "zz-mgnlo-madspin" : {
+        "cross_section" : 0.03238,
+        "Source of cross section" : "MadGraph NLO",
+        "DAS Name" : "Private production",
+        "Generator" : "MadGraph5_aMC@NLO NLO",
+        "Cards" : ""
+    },
+    "eemm-mglo" : {
+        "cross_section" : 0.1922,
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private production",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "z-eemm-mglo" : {
+        "cross_section" : 0.1344,
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private production",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "zz-eemm-mglo" : {
+        "cross_section" : 0.02209,
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private production",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "z_a-eemm-mglo" : {
+        "cross_section" : 0.3059, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private production",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "zz-mglo-doubleres" : {
+        "cross_section" : 0.08707,
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private production",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "zz-mglo-singleres" : {
+        "cross_section" : 0.1007,
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private production",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "zz_aa-eemm-mglo" : {
+        "cross_section" : 0.4176, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private production",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
     }
 }

@@ -1,0 +1,9 @@
+{
+    "zz_eemm-pwg-doubleres" : {
+        "cross_section" : 1.256,
+        "Source of cross section" : "POWHEG tarball",
+        "DAS Name" : "Private production"
+        "Generator" : "POWHEG",
+        "Cards" : "/data/kelong/POWHEG-CMS_SubmitCondor/jobs/2016_02_01_ZZ_doublyresonant/ZZ_e-mu_13000GeV_NNPDF30/results/powheg.input"
+    }
+}
