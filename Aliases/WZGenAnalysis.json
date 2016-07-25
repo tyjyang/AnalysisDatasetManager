@@ -6,6 +6,9 @@
         "trueZPt" : "(Z1isTrueDecay == 1 ? Z1Pt : Z2Pt)",
         "trueWmass" : "(W1isTrueW == 1 ? W1mass : (W2isTrueW == 1 ? W2mass : W3mass))",
         "eem_chan" : "((abs(l1pdgId) == 11 && abs(l2pdgId) == 11 && abs(l3pdgId) == 13) || (abs(l1pdgId) == 11 && abs(l2pdgId) == 13 && abs(l3pdgId) == 11) || (abs(l1pdgId) == 13 && abs(l2pdgId) == 11 && abs(l3pdgId) == 11))",
+        "emm_chan" : "((abs(l1pdgId) == 11 && abs(l2pdgId) == 13 && abs(l3pdgId) == 13) || (abs(l1pdgId) == 13 && abs(l2pdgId) == 13 && abs(l3pdgId) == 11) || (abs(l1pdgId) == 13 && abs(l2pdgId) == 11 && abs(l3pdgId) == 13))",
+        "mmm_chan" : "((abs(l1pdgId) == 13 && abs(l2pdgId) == 13 && abs(l3pdgId) == 13))",
+        "eee_chan" : "((abs(l1pdgId) == 11 && abs(l2pdgId) == 11 && abs(l3pdgId) == 11))",
         "lep_pt" : "l1Pt > 20 && l2Pt > 20 && (abs(l3motherId) == 24 ? l3Pt > 20 : l3Pt > 10)",
         "lep_eta" : "(abs(l1Eta) < 2.5 && abs(l2Eta) < 2.5 && abs(l3Eta) < 2.5)",
         "Zwindow" : "((Z1isTrueDecay && Z1mass < 120 & Z1mass > 60) || (Z2isTrueDecay && Z2mass < 120 && Z2mass > 60))"

@@ -1,34 +1,34 @@
 {
     "wz-pwg" : {
-        "Name" : "POWHEG NLO inc.",
+        "Name" : "#splitline{POWHEG NLO inc.}{#scale[0.8]{#mu_{R}= #mu_{F}= m_{WZ} (dyn.)}}",
         "Style" : "nofill-lightblue",
         "Members" : [
             "wz3lnu-powheg"
         ]
     },
     "wz-fixed-pwg" : {
-        "Name" : "POWHEG NLO inc.",
+        "Name" : "#splitline{POWHEG NLO inc.}{#scale[0.8]{#mu_{R}= #mu_{F} = M_{Z} (fixed)}}",
         "Style" : "nofill-darkblue-finedash",
         "Members" : [
             "wz2m1e1nu-fixed-powheg"
         ]
     },
     "wz-mgnlo-off" : {
-        "Name" : "MG5_aMC NLO+0,1j FxFx",
+        "Name" : "#splitline{MG5_aMC NLO FxFx}{#scale[0.8]{#mu_{R}= #mu_{F}= 0.5 #sqrt{#Sigma_{i} (p_{Ti}^{2} + m_{i}^{2})}}}",
         "Style" : "nofill-lightred",
         "Members" : [
             "wz3lnu-mg5amcnlo-off"
         ]
     },
     "wz-mgnlo-inc" : {
-        "Name" : "MG5_aMC NLO inc.",
+        "Name" : "#splitline{MG5_aMC NLO inc.}{#scale[0.8]{#mu_{R}= #mu_{F}= 0.5 #sqrt{#Sigma_{i} (p_{Ti}^{2} + m_{i}^{2})}}}",
         "Style" : "nofill-darkgreen-finedash",
         "Members" : [
             "wz3lnu-mg5amcnlo-inc"
         ]
     },
     "wz-fixed-mgnlo-inc" : {
-        "Name" : "MG5_aMC NLO inc.",
+        "Name" : "#splitline{MG5_aMC NLO inc.}{#scale[0.8]{#mu_{R}= #mu_{F} = M_{Z} (fixed)}}",
         "Style" : "nofill-lightgreen",
         "Members" : [
             "wz2m1e1nu-fixed-mg5amcnlo-inc"
@@ -36,16 +36,9 @@
     },
     "wzjj-qcd" : {
         "Name" : "WZJJ QCD",
-        "Style" : "nofill-darkblue-finedash",
+        "Style" : "nofill-lightred-dash",
         "Members" : [
             "wzjj-qcd"
-        ]
-    },
-    "wz-2j-mgmlm" : {
-        "Name" : "WZ+2j MG MLM",
-        "Style" : "nofill-darkgreen",
-        "Members" : [
-            "wz-2j-mgmlm"
         ]
     },
     "wzjj-ewkqcd" : {

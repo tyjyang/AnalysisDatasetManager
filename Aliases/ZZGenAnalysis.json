@@ -2,7 +2,8 @@
     "State" : {
     },
     "Event" : {
-        "trueZ1_mass" : "Z1isTrueDecay ? Z1mass : Z2mass",
+        "trueZ1mass" : "(Z1isTrueDecay == 1 ? Z1mass : (Z2isTrueDecay == 1 ? Z2mass : Z3mass))",
+        "trueZ2mass" : "(Z1isTrueDecay == 1 ? (Z2isTrueDecay == 1 ? Z2mass : (Z3isTrueDecay == 1 ? Z3mass : Z4mass)) : (Z2isTrueDecay == 1 ? (Z3isTrueDecay == 1 ? Z3mass : Z4mass) : Z4mass))",
         "eemm_chan" : "((abs(l1pdgId) == 11 && abs(l2pdgId) == 11 && abs(l3pdgId) == 13 && abs(l4pdgId) == 13) || (abs(l1pdgId) == 13 && abs(l2pdgId) == 13 && abs(l3pdgId) == 11 && abs(l4pdgId) == 11) || (abs(l1pdgId) == 13 && abs(l2pdgId) == 11 && abs(l3pdgId) == 13 && abs(l4pdgId) == 11) || (abs(l1pdgId) == 13 && abs(l2pdgId) == 11 && abs(l3pdgId) == 11 && abs(l4pdgId) == 13) || (abs(l1pdgId) == 11 && abs(l2pdgId) == 13 && abs(l3pdgId) == 13 && abs(l4pdgId) == 11) || (abs(l1pdgId) == 11 && abs(l2pdgId) == 13 && abs(l3pdgId) == 11 && abs(l4pdgId) == 13))",
         "eeee_chan" : "(abs(l1pdgId) == 11 && abs(l2pdgId) == 11 && abs(l3pdgId) == 11 && abs(l3pdgId) == 11)",
         "mmmm_chan" : "(abs(l1pdgId) == 13 && abs(l2pdgId) == 13 && abs(l3pdgId) == 13 && abs(l3pdgId) == 13)",

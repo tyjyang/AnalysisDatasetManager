@@ -22,7 +22,7 @@
     "wz3lnu-mg5amcnlo-off" : {
         "cross_section" : 4.715,
         "Source of cross section" : "MG5_aMC@NLO gridpack",
-        "DAS Name" : "Private Production"
+        "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
     },
     "wz8tev-eem-powheg" : {
         "cross_section" : 0.076555,
@@ -59,7 +59,7 @@
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#Single_top",
         "DAS Name" : "ST_tW_antitop_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M1"
     },
-    "zz4l" : {
+    "zz4l-powheg" : {
         "cross_section" : 1.256,
         "Source of cross section" : "POWHEG tarball",
         "Source of k-factor" : "k factor from mll only calculation of Grazzini",
@@ -262,6 +262,48 @@
         "Source of cross section" : "MadGraph LO",
         "DAS Name" : "Private production",
         "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wlljj-m60-ewkqcd" : {
+        "cross_section" : 0.4983, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "WLLJJToLNu_M-60_EWK_QCD_TuneCUETP8M1_13TeV-madgraph-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wzjj-qcd" : {
+        "cross_section" : 0.4583, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "WZJJToLNu_QCD_TuneCUETP8M1_13TeV-madgraph-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wzjj-qcd" : {
+        "cross_section" : 0.4583, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "WZJJToLNu_QCD_TuneCUETP8M1_13TeV-madgraph-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wz-2j-mgmlm" : {
+        "cross_section" : 0.3483, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private Sample",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "zzjj-qcd" : {
+        "cross_section" : 0.009335, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "ZZJJTo4L_QCD_13TeV-madgraph-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "zz4l-mg5amcnlo-off" : {
+        "cross_section" : 1.191,
+        "Source of cross section" : "McM",
+        "DAS Name" : "ZZTo4L_13TeV-amcatnloFXFX-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO NLO FxFx 0,1j",
         "Cards" : ""
     }
 }

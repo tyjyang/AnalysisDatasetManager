@@ -142,6 +142,13 @@
         "SetLineWidth": 2,
         "SetMarkerSize" : 0
     },
+    "nofill-darkblue-finedash" : {
+        "SetFillColor": 0,
+        "SetLineColor": "ROOT.TColor.GetColor(#00326C)",
+        "SetLineStyle": 3,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
     "fill-blue-noline" : {
         "SetFillColor": "ROOT.TColor.GetColor(#377eb8)",
         "SetLineColor": "ROOT.TColor.GetColor(#377eb8)",
