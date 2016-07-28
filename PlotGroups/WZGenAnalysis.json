@@ -41,9 +41,32 @@
             "wzjj-qcd"
         ]
     },
+    "wz-mgmlm" : {
+        "Name" : "WZ+0,1,2j MG MLM",
+        "Style" : "nofill-darkgreen",
+        "Members" : [
+            "wz-0j-mgmlm",
+            "wz-1j-mgmlm",
+            "wz-2j-mgmlm"
+        ]
+    },
+    "wz-0j-mgmlm" : {
+        "Name" : "WZ+0j MG MLM",
+        "Style" : "nofill-darkgreen-dash",
+        "Members" : [
+            "wz-0j-mgmlm"
+        ]
+    },
+    "wz-1j-mgmlm" : {
+        "Name" : "WZ+1j MG MLM",
+        "Style" : "nofill-green-dash",
+        "Members" : [
+            "wz-1j-mgmlm"
+        ]
+    },
     "wz-2j-mgmlm" : {
         "Name" : "WZ+2j MG MLM",
-        "Style" : "nofill-darkgreen",
+        "Style" : "nofill-lightgreen-dash",
         "Members" : [
             "wz-2j-mgmlm"
         ]

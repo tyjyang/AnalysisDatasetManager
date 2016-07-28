@@ -55,6 +55,13 @@
         "SetLineWidth": 2,
         "SetMarkerSize" : 0
     },
+    "nofill-darkgreen-dotdash" : {
+        "SetFillColor": 0,
+        "SetLineColor": "ROOT.TColor.GetColor(#016300)",
+        "SetLineStyle": 8,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
     "nofill-darkgreen-finedash" : {
         "SetFillColor": 0,
         "SetLineColor": "ROOT.TColor.GetColor(#016300)",
@@ -62,11 +69,39 @@
         "SetLineWidth": 3,
         "SetMarkerSize" : 0
     },
-    "nofill-lightgreen-dotdash" : {
+    "nofill-green-dotdash" : {
         "SetFillColor": 0,
         "SetLineColor": "ROOT.TColor.GetColor(#4daf4a)",
         "SetLineStyle": 8,
         "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
+    "nofill-green-dash" : {
+        "SetFillColor": 0,
+        "SetLineColor": "ROOT.TColor.GetColor(#4daf4a)",
+        "SetLineStyle": 7,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
+    "nofill-lightgreen-dotdash" : {
+        "SetFillColor": 0,
+        "SetLineColor": "ROOT.TColor.GetColor(#AAE3A7)",
+        "SetLineStyle": 8,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
+    "nofill-lightgreen-dash" : {
+        "SetFillColor": 0,
+        "SetLineColor": "ROOT.TColor.GetColor(#AAE3A7)",
+        "SetLineStyle": 7,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
+    "nofill-lightgreen-finedash" : {
+        "SetFillColor": 0,
+        "SetLineColor": "ROOT.TColor.GetColor(#4daf4a)",
+        "SetLineStyle": 3,
+        "SetLineWidth": 3,
         "SetMarkerSize" : 0
     },
     "nofill-darkgreen-dash" : {

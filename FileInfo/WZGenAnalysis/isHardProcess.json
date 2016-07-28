@@ -22,5 +22,9 @@
     "wlljj-m60-ewkqcd" : {
         "file_path" : "/data/kelong/DibosonGenAnalysisSamples/WZ_VBS/WLLJJ_M-60_EWK_QCD-MGLO_Ntuple.root",
         "plot_group" : "wlljj-m60-ewkqcd"
+    },
+    "wzjj-aqgc-fm" : {
+        "file_path" : "/data/kelong/DibosonGenAnalysisSamples/WZ_VBS/WZT3MuNuJJ_aQGCfm.root",
+        "plot_group" : "wz-mgnlo-inc"
     }
 }

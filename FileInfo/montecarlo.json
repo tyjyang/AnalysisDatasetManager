@@ -285,8 +285,29 @@
         "Generator" : "MadGraph5_aMC@NLO LO",
         "Cards" : ""
     },
-    "wz-2j-mgmlm" : {
+    "wzjj-aqgc-fm" : {
+        "cross_section" : 1, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private sample",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wz-0j-mgmlm" : {
+        "cross_section" : 0.4675, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private Sample",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wz-1j-mgmlm" : {
         "cross_section" : 0.3483, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private Sample",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wz-2j-mgmlm" : {
+        "cross_section" : 0.1949,
         "Source of cross section" : "MadGraph LO",
         "DAS Name" : "Private Sample",
         "Generator" : "MadGraph5_aMC@NLO LO",
