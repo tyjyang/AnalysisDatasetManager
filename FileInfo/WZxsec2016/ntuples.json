@@ -1,0 +1,74 @@
+{
+    "wz3lnu-powheg" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_MonteCarlo_2016-08-02/WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8/*",
+        "plot_group" : "wz_signal"
+    },
+    "zz4l-powheg" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_MonteCarlo_2016-08-02/ZZTo4L_13TeV_powheg_pythia8/*",
+        "plot_group" : "zz"
+    },
+    "tt" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_MonteCarlo_2016-08-02/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
+        "plot_group" : "ttbar"
+    },
+    "ww" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_2016-07-29/WWTo2L2Nu_13TeV-powheg/*",
+        "plot_group" : "ww"
+    },
+    "DYm50" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_MonteCarlo_2016-08-02/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
+        "plot_group" : "dy"
+    },
+    "ggZZ4e" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_2016-07-29/GluGluToContinToZZTo4e_13TeV_MCFM701_pythia8/*",
+        "plot_group" : "zz"
+    },
+    "ggZZ4m" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_2016-07-29/GluGluToContinToZZTo4mu_13TeV_MCFM701_pythia8/*",
+        "plot_group" : "zz"
+    },
+    "ggZZ2e2mu" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_2016-07-29/GluGluToContinToZZTo2e2mu_13TeV_MCFM701_pythia8/*",
+        "plot_group" : "zz"
+    },
+    "ggZZ2mu2tau" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_2016-07-29/GluGluToContinToZZTo2mu2tau_13TeV_MCFM701_pythia8/*",
+        "plot_group" : "zz"
+    },
+    "data_DoubleEG_Run2016B-PromptReco-v2" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_Run2016B-PromptReco-v2_2016-08-02/DoubleEG/*",
+        "plot_group" : "data"
+    },
+    "data_DoubleEG_Run2016C-PromptReco-v2" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_Run2016C-PromptReco-v2_2016-08-02/DoubleEG/*",
+        "plot_group" : "data"
+    },
+    "data_DoubleEG_Run2016D-PromptReco-v2" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_Run2016D-PromptReco-v2_2016-08-02/DoubleEG/*",
+        "plot_group" : "data"
+    },
+    "data_DoubleMuon_Run2016B-PromptReco-v2" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_Run2016B-PromptReco-v2_2016-08-02/DoubleMuon/*",
+        "plot_group" : "data"
+    },
+    "data_DoubleMuon_Run2016C-PromptReco-v2" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_Run2016C-PromptReco-v2_2016-08-02/DoubleMuon/*",
+        "plot_group" : "data"
+    },
+    "data_DoubleMuon_Run2016D-PromptReco-v2" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_Run2016D-PromptReco-v2_2016-08-02/DoubleMuon/*",
+        "plot_group" : "data"
+    },
+    "data_MuonEG_Run2016B-PromptReco-v2" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_Run2016B-PromptReco-v2_2016-08-02/MuonEG/*",
+        "plot_group" : "data"
+    },
+    "data_MuonEG_Run2016C-PromptReco-v2" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_Run2016C-PromptReco-v2_2016-08-02/MuonEG/*",
+        "plot_group" : "data"
+    },
+    "data_MuonEG_Run2016D-PromptReco-v2" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_Run2016D-PromptReco-v2_2016-08-02/MuonEG/*",
+        "plot_group" : "data"
+    }
+}

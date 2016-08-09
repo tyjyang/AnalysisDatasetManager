@@ -293,7 +293,7 @@
             "type": "TH1F",
             "nbins": 45,
             "xmin": 40,
-            "xmax": 1000
+            "xmax": 5000
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{WZ} [GeV]",  

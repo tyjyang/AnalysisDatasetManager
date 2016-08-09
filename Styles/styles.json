@@ -6,6 +6,14 @@
         "SetLineWidth": 1,
         "SetMarkerSize" : 0
     },
+    "hatch-purple" : {
+        "SetFillColor": "ROOT.TColor.GetColor(#984ea3)",
+        "SetLineColor": "ROOT.TColor.GetColor(#4C0257)",
+        "SetLineStyle": 1,
+        "SetFillStyle": 3744,
+        "SetLineWidth": 1,
+        "SetMarkerSize" : 0
+    },
     "nofill-darkpurple" : {
         "SetFillColor": 0,
         "SetLineColor": "ROOT.TColor.GetColor(#4C0257)",
