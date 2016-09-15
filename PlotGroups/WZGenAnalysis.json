@@ -6,6 +6,27 @@
             "wz3lnu-powheg"
         ]
     },
+    "wz-sherpa" : {
+        "Name" : "WZ+#leq2j CKKW Sherpa",
+        "Style" : "nofill-lightblue",
+        "Members" : [
+            "wz2e1m1nu-sherpa"
+        ]
+    },
+    "wz-2j-sherpa" : {
+        "Name" : "#splitline{WZjj Sherpa}{#scale[0.8]{#mu_{R}= #mu_{F}= HT}}",
+        "Style" : "nofill-lightpink-dotdash",
+        "Members" : [
+            "wz2e1m1nu-2j-sherpa"
+        ]
+    },
+    "wz-scaleWZ-2j-sherpa" : {
+        "Name" : "#splitline{WZjj Sherpa}{#scale[0.8]{#mu_{R}= #mu_{F}= 0.5m_{WZ}}}",
+        "Style" : "nofill-red-dash",
+        "Members" : [
+            "wz2e1m1nu-scaleWZ-2j-sherpa"
+        ]
+    },
     "wz-fixed-pwg" : {
         "Name" : "POWHEG NLO inc.",
         "Style" : "nofill-darkblue-finedash",
@@ -14,7 +35,7 @@
         ]
     },
     "wz-mgnlo-off" : {
-        "Name" : "MG5_aMC NLO+0,1j FxFx",
+        "Name" : "MG5_aMC #leq1j FxFx NLO",
         "Style" : "nofill-lightred",
         "Members" : [
             "wz3lnu-mg5amcnlo-off"
@@ -35,14 +56,14 @@
         ]
     },
     "wzjj-qcd" : {
-        "Name" : "WZJJ QCD",
+        "Name" : "WZjj MG",
         "Style" : "nofill-darkblue-finedash",
         "Members" : [
             "wzjj-qcd"
         ]
     },
     "wz-mgmlm" : {
-        "Name" : "WZ+0,1,2j MG MLM",
+        "Name" : "#splitline{WZ+#leq2j MLM MG}{xqcut=10,qcut=19}",
         "Style" : "nofill-darkgreen",
         "Members" : [
             "wz-0j-mgmlm",
@@ -50,25 +71,39 @@
             "wz-2j-mgmlm"
         ]
     },
+    "wz-qcut27-mgmlm" : {
+        "Name" : "#splitline{WZ+#leq2j MLM MG}{xqcut=15,qcut=27}",
+        "Style" : "nofill-yellow",
+        "Members" : [
+            "wz-qcut27-mgmlm"
+        ]
+    },
     "wz-0j-mgmlm" : {
-        "Name" : "WZ+0j MG MLM",
-        "Style" : "nofill-darkgreen-dash",
+        "Name" : "WZ+0j MLM MG",
+        "Style" : "nofill-green-dash",
         "Members" : [
             "wz-0j-mgmlm"
         ]
     },
     "wz-1j-mgmlm" : {
-        "Name" : "WZ+1j MG MLM",
-        "Style" : "nofill-green-dash",
+        "Name" : "WZ+1j MLM MG",
+        "Style" : "nofill-lightgreen-finedash",
         "Members" : [
             "wz-1j-mgmlm"
         ]
     },
     "wz-2j-mgmlm" : {
-        "Name" : "WZ+2j MG MLM",
-        "Style" : "nofill-lightgreen-dash",
+        "Name" : "WZ+2j MLM MG",
+        "Style" : "nofill-darkgreen-dotdash",
         "Members" : [
             "wz-2j-mgmlm"
+        ]
+    },
+    "wz-1j-sherpa" : {
+        "Name" : "WZ+1j CKKW Sherpa",
+        "Style" : "nofill-lightblue-dash",
+        "Members" : [
+            "wz2e1m1nu-1j-sherpa"
         ]
     },
     "wzjj-ewkqcd" : {

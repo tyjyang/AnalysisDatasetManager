@@ -2,9 +2,11 @@
     "State" : {
     },
     "Event" : {
-        "trueZmass" : "(Z1isTrueDecay == 1 ? Z1mass : Z2mass)",
-        "trueZPt" : "(Z1isTrueDecay == 1 ? Z1Pt : Z2Pt)",
-        "trueWmass" : "(W1isTrueW == 1 ? W1mass : (W2isTrueW == 1 ? W2mass : W3mass))",
+        "trueZmass" : "(Z1isTrueDecay > 0.5 ? Z1mass : Z2mass)",
+        "trueZPt" : "(Z1isTrueDecay > 0.5 ? Z1Pt : Z2Pt)",
+        "trueWmass" : "(W1isTrueW > 0.5 ? W1mass : (W2isTrueW > 0.5 ? W2mass : W3mass))",
+        "trueWMTtrue" : "(W1isTrueW > 0.5 ? W1MTtrue : (W2isTrueW > 0.5 ? W2MTtrue : W3MTtrue))",
+        "trueWMTGenMET" : "(W1isTrueW > 0.5 ? W1MTGenMET : (W2isTrueW > 0.5 ? W2MTGenMET : W3MTGenMET))",
         "eem_chan" : "((abs(l1pdgId) == 11 && abs(l2pdgId) == 11 && abs(l3pdgId) == 13) || (abs(l1pdgId) == 11 && abs(l2pdgId) == 13 && abs(l3pdgId) == 11) || (abs(l1pdgId) == 13 && abs(l2pdgId) == 11 && abs(l3pdgId) == 11))",
         "emm_chan" : "((abs(l1pdgId) == 11 && abs(l2pdgId) == 13 && abs(l3pdgId) == 13) || (abs(l1pdgId) == 13 && abs(l2pdgId) == 13 && abs(l3pdgId) == 11) || (abs(l1pdgId) == 13 && abs(l2pdgId) == 11 && abs(l3pdgId) == 13))",
         "mmm_chan" : "((abs(l1pdgId) == 13 && abs(l2pdgId) == 13 && abs(l3pdgId) == 13))",

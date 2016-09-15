@@ -1,7 +1,7 @@
 {
     "wz" : {
         "Name" : "WZ#rightarrow 3l#nu",
-        "Style" : "hatch-purple",
+        "Style" : "fill-purple",
         "Members" : [
             "wz3lnu-powheg"
         ]

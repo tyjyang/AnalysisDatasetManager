@@ -16,7 +16,7 @@
         "plot_group" : "ww"
     },
     "DYm50" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_MonteCarlo_2016-08-02/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_MonteCarlo_2016-08-31/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
         "plot_group" : "dy"
     },
     "ggZZ4e" : {
