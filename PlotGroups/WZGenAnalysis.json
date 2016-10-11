@@ -106,6 +106,27 @@
             "wz2e1m1nu-1j-sherpa"
         ]
     },
+    "wzjj-ewk" : {
+        "Name" : "#splitline{WZJJ EWK}{#scale[0.8]{MG5_aMC LO}}",
+        "Style" : "nofill-darkgreen-finedash",
+        "Members" : [
+            "wlljj-ewk"
+        ]
+    },
+    "wzjj-ewk-vbfnlo-mcnlo" : {
+        "Name" : "#splitline{WZJJ EWK}{#scale[0.8]{VBFNLO (MC@NLO)}}",
+        "Style" : "nofill-darkpurple", 
+        "Members" : [
+            "wzjj-ewk-vbfnlo-mcnlo"
+        ]
+    },
+    "wzjj-ewk-vbfnlo-pow" : {
+        "Name" : "#splitline{WZJJ EWK}{#scale[0.8]{VBFNLO (POWHEG)}}",
+        "Style" : "nofill-lightblue-dash",
+        "Members" : [
+            "wzjj-ewk-vbfnlo-pow"
+        ]
+    },
     "wzjj-ewkqcd" : {
         "Name" : "WZJJ EWK+QCD",
         "Style" : "nofill-darkgreen-finedash",

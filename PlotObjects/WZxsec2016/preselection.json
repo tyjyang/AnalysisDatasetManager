@@ -353,7 +353,7 @@
             "GetYaxis().SetTitle": "Events / 4 GeV", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 310
+            "SetMaximum" : 400
         }
     },
    "Mass": {  
@@ -382,6 +382,20 @@
             "GetXaxis().SetTitle": "Number of p_{T} > 30 GeV Jets",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+    "nJetCSVv2T" : {
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 4,
+            "xmin": 0,
+            "xmax": 4
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Number of p_{T} > 30 GeV CSVv2 Tight b-tagged Jets",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 2000
         }
     }
 }

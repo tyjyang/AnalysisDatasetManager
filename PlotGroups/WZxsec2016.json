@@ -1,23 +1,49 @@
 {
-    "wz" : {
-        "Name" : "WZ#rightarrow 3l#nu",
+    "wz-powheg" : {
+        "Name" : "WZ",
         "Style" : "fill-purple",
         "Members" : [
             "wz3lnu-powheg"
         ]
     },
-    "zz" : {
-        "Name" : "ZZ",
-        "Style" : "fill-blue",
+    "wz" : {
+        "Name" : "WZ",
+        "Style" : "fill-purple",
         "Members" : [
-            "zz4l-powheg"
+            "wz3lnu-mg5amcnlo"
         ]
     },
-    "ww" : {
-        "Name" : "WW",
-        "Style" : "fill-grey",
+    "wzjj-ewk" : {
+        "Name" : "WZjj EWK",
+        "Style" : "fill-lightpurple",
         "Members" : [
-            "ww"
+            "wzjj-ewk"
+        ]
+    },
+    "vv-powheg" : {
+        "Name" : "VV",
+        "Style" : "fill-blue",
+        "Members" : [
+            "zz4l-powheg",
+            "ww",
+            "ggZZ4e",
+            "ggZZ4m",
+            "ggZZ2mu2tau",
+            "ggZZ2e2tau",
+            "ggZZ2e2mu"
+        ]
+    },
+    "vv" : {
+        "Name" : "VV",
+        "Style" : "fill-blue",
+        "Members" : [
+            "zz4l-mg5amcnlo",
+            "ww",
+            "ggZZ4e",
+            "ggZZ4m",
+            "ggZZ2mu2tau",
+            "ggZZ2e2tau",
+            "ggZZ2e2mu"
         ]
     },
     "vvv" : {
@@ -27,17 +53,6 @@
             "zzz",
             "wzz",
             "wwz"
-        ]
-    },
-    "ggzz" : {
-        "Name" : "ZZ",
-        "Style" : "fill-blue-noline",
-        "Members" : [
-            "ggZZ4e",
-            "ggZZ4m",
-            "ggZZ2mu2tau",
-            "ggZZ2e2tau",
-            "ggZZ2e2mu"
         ]
     },
     "dy-filt" : {
@@ -52,31 +67,20 @@
         "Name" : "Drell-Yan",
         "Style" : "fill-yellow",
         "Members" : [
+            "DYm10-50",
             "DYm50"
         ]
     },
-    "ttbar" : {
-        "Name" : "t#bar{t}",
+    "top" : {
+        "Name" : "Top",
         "Style" : "fill-green",
         "Members" : [
-            "tt"
-        ]
-    },
-    "st" : {
-        "Name" : "Single top",
-        "Style" : "fill-orange",
-        "Members" : [
+            "tt-lep",
             "st-schan",
             "st-tchan-t",
             "st-tchan-tbar",
             "st-tw",
-            "st-tbarw"
-        ]
-    },
-    "ttv" : {
-        "Name" : "t#bar{t}V",
-        "Style" : "fill-teal",
-        "Members" : [
+            "st-tbarw",
             "ttz",
             "ttw"
         ]

@@ -7,7 +7,7 @@
         "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/ZZJJ_QCD-MGNLO_Off_GenNtuples_leptonType-dressed_2016-09-08-zzGen_cfg/*",
         "plot_group" : "zzjj-qcd"
     },
-    "zz4l-mg5amcnlo-off" : {
+    "zz4l-mg5amcnlo" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/MGNLO_Off_GenNtuples_leptonType-dressed_2016-09-08-zzGen_cfg/*",
         "plot_group" : "zz4l-mgnlo-off"
     }

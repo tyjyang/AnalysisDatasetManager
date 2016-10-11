@@ -37,7 +37,7 @@ def getFilePath(name, selection):
     datafile = "FileInfo/%s.json" % selection
     dataset_info = readJson(datafile)
     if name not in dataset_info.keys():
-        print "Failed to find %s in %s" % (name, dataset_info)
+        print "Failed to find %s for %s" % (name, selection)
         return ""
     return dataset_info[name]["file_path"]
 args = getComLineArgs()
@@ -59,7 +59,7 @@ log = ""
 for name in args.filelist:
     names += fnmatch.filter(valid_names, name) if "*" in name else [name]
 for name in names:
-    if name not in valid_names:
+    if name.split("__")[0] not in valid_names:
         log += "%s is not a valid file! Skipping." % name
         log += "\nFile names must be defined in data.json or montecarlo.json\n"
         continue
