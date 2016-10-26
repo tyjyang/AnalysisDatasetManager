@@ -1,4 +1,19 @@
 {  
+   "LHEweights": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 20,
+            "xmin": -10,
+            "xmax": 10
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{Z1} [GeV]",  
+            "GetYaxis().SetTitle": "Events / 2 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum": 110,
+            "SetMinimum" : 0.001
+        }
+    },
    "Z1mass": {  
         "Initialize": {  
             "type": "TH1F",

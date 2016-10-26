@@ -48,8 +48,32 @@
         "plot_group" : "wzjj-ewk-vbfnlo"
     },
     "wlljj-ewk" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_EWK-MGLO_Off_GenNtuples_leptonType-finalstate_2016-10-07-wzGen_cfg/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_EWK-MGLO_Off_GenNtuples_leptonType-dressed_2016-10-10-wzGen_cfg/*",
         "plot_group" : "wzjj-ewk"
+    },
+    "wlljj-atgcft-ewk" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_WToLNu_NoTaus_aQGC-FT_MLL-60_EWKOnly_MGLO_GenNtuples_leptonType-dressed_2016-10-20-wzGen_cfg/*",
+        "plot_group" : "wzjj-atgcft-ewk"
+    },
+    "wlljj-atgcft-ewk__ft8" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_WToLNu_NoTaus_aQGC-FT_MLL-60_EWKOnly_MGLO_GenNtuples_leptonType-dressed_2016-10-20-wzGen_cfg/*",
+        "plot_group" : "wzjj-atgcft-ewk__ft8",
+        "weight" : "LHEweights[446]/LHEweights[0]"
+    },
+    "wlljj-atgcft-ewk__ft4" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_WToLNu_NoTaus_aQGC-FT_MLL-60_EWKOnly_MGLO_GenNtuples_leptonType-dressed_2016-10-20-wzGen_cfg/*",
+        "plot_group" : "wzjj-atgcft-ewk__ft4",
+        "weight" : "LHEweights[449]/LHEweights[0]"
+    },
+    "wlljj-atgcft-ewk__ft-4" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_WToLNu_NoTaus_aQGC-FT_MLL-60_EWKOnly_MGLO_GenNtuples_leptonType-dressed_2016-10-20-wzGen_cfg/*",
+        "plot_group" : "wzjj-atgcft-ewk__ft-4",
+        "weight" : "LHEweights[448]/LHEweights[0]"
+    },
+    "wlljj-atgcft-ewk__sm" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_WToLNu_NoTaus_aQGC-FT_MLL-60_EWKOnly_MGLO_GenNtuples_leptonType-dressed_2016-10-20-wzGen_cfg/*",
+        "plot_group" : "wzjj-atgcft-ewk__sm",
+        "weight" : "LHEweights[450]/LHEweights[0]"
     },
     "wzjj-qcd" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WZJJ_QCD-MGLO_Off_GenNtuples_leptonType-dressed_2016-09-06-wzGen_cfg/*",

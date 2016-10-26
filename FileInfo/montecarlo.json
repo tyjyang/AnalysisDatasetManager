@@ -302,9 +302,16 @@
         "Cards" : ""
     },
     "wlljj-ewk" : {
-        "cross_section" : 0.01944, 
-        "Source of cross section" : "MadGraph LO",
+        "cross_section" : 0.0468, 
+        "Source of cross section" : "MadGraph LO -- without taus xsec = 0.01944",
         "DAS Name" : "WLLJJToLNu_M-60_EWK_13TeV-madgraph-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wlljj-atgcft-ewk" : {
+        "cross_section" : 0.02855, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private Generation",
         "Generator" : "MadGraph5_aMC@NLO LO",
         "Cards" : ""
     },

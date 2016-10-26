@@ -107,10 +107,45 @@
         ]
     },
     "wzjj-ewk" : {
-        "Name" : "#splitline{WZJJ EWK}{#scale[0.8]{MG5_aMC LO}}",
+        "Name" : "Standard Model",
         "Style" : "nofill-darkgreen-finedash",
         "Members" : [
             "wlljj-ewk"
+        ]
+    },
+    "wzjj-atgcft-ewk__ft8" : {
+        "Name" : "f_{T1} = 8 TeV^{-4}",
+        "Style" : "nofill-lightred",
+        "Members" : [
+            "wlljj-atgcft-ewk__ft8"
+        ]
+    },
+    "wzjj-atgcft-ewk__ft-4" : {
+        "Name" : "f_{T1} = -4 TeV^{-4}",
+        "Style" : "nofill-lightblue-dash",
+        "Members" : [
+            "wlljj-atgcft-ewk__ft-4"
+        ]
+    },
+    "wzjj-atgcft-ewk__ft4" : {
+        "Name" : "f_{T1} = 4 TeV^{-4}",
+        "Style" : "nofill-lightpink-dotdash",
+        "Members" : [
+            "wlljj-atgcft-ewk__ft4"
+        ]
+    },
+    "wzjj-atgcft-ewk__sm" : {
+        "Name" : "SM Reweighted",
+        "Style" : "nofill-darkpurple", 
+        "Members" : [
+            "wlljj-atgcft-ewk__sm"
+        ]
+    },
+    "wzjj-atgcft-ewk" : {
+        "Name" : "#splitline{WZJJ EWK}{#scale[0.8]{FT1 = 8 TeV^{-4}}}",
+        "Style" : "nofill-lightred",
+        "Members" : [
+            "wlljj-atgcft-ewk"
         ]
     },
     "wzjj-ewk-vbfnlo-mcnlo" : {
