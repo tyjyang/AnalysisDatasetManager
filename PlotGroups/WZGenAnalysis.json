@@ -113,39 +113,46 @@
             "wlljj-ewk"
         ]
     },
-    "wzjj-atgcft-ewk__ft8" : {
-        "Name" : "f_{T1} = 8 TeV^{-4}",
+    "wzjj-aqgcft-ewk__ft0_8" : {
+        "Name" : "f_{T,0} = 8 TeV^{-4}",
         "Style" : "nofill-lightred",
         "Members" : [
-            "wlljj-atgcft-ewk__ft8"
+            "wlljj-aqgcft-ewk__ft0_8"
         ]
     },
-    "wzjj-atgcft-ewk__ft-4" : {
-        "Name" : "f_{T1} = -4 TeV^{-4}",
-        "Style" : "nofill-lightblue-dash",
-        "Members" : [
-            "wlljj-atgcft-ewk__ft-4"
-        ]
-    },
-    "wzjj-atgcft-ewk__ft4" : {
-        "Name" : "f_{T1} = 4 TeV^{-4}",
+    "wzjj-aqgcft-ewk__ft0_-8" : {
+        "Name" : "f_{T,0} = -8 TeV^{-4}",
         "Style" : "nofill-lightpink-dotdash",
         "Members" : [
-            "wlljj-atgcft-ewk__ft4"
+            "wlljj-aqgcft-ewk__ft0_-8"
         ]
     },
-    "wzjj-atgcft-ewk__sm" : {
+    "wzjj-aqgcft-ewk__ft0_-4" : {
+        "Name" : "f_{T,0} = -4 TeV^{-4}",
+        "Style" : "nofill-lightblue-dash",
+        "Members" : [
+            "wlljj-aqgcft-ewk__ft0_-4"
+        ]
+    },
+    "wzjj-aqgcft-ewk__ft0_4" : {
+        "Name" : "f_{T,0} = 4 TeV^{-4}",
+        "Style" : "nofill-darkblue",
+        "Members" : [
+            "wlljj-aqgcft-ewk__ft0_4"
+        ]
+    },
+    "wzjj-aqgcft-ewk__sm" : {
         "Name" : "SM Reweighted",
         "Style" : "nofill-darkpurple", 
         "Members" : [
-            "wlljj-atgcft-ewk__sm"
+            "wlljj-aqgcft-ewk__sm"
         ]
     },
-    "wzjj-atgcft-ewk" : {
-        "Name" : "#splitline{WZJJ EWK}{#scale[0.8]{FT1 = 8 TeV^{-4}}}",
+    "wzjj-aqgcft-ewk" : {
+        "Name" : "#splitline{WZJJ EWK}{#scale[0.8]{FT,0 = 8 TeV^{-4}}}",
         "Style" : "nofill-lightred",
         "Members" : [
-            "wlljj-atgcft-ewk"
+            "wlljj-aqgcft-ewk"
         ]
     },
     "wzjj-ewk-vbfnlo-mcnlo" : {

@@ -277,7 +277,7 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum": 500  
+            "SetMaximum": 1800
         }
     },
    "etajj": {  
