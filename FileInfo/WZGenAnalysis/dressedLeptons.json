@@ -57,8 +57,7 @@
     },
     "wlljj-aqgcft-ewk__ft0_8" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_WToLNu_NoTaus_aQGC-FT_MLL-60_EWKOnly_MGLO_GenNtuples_leptonType-dressed_2016-10-20-wzGen_cfg/*",
-        "plot_group" : "wzjj-aqgcft-ewk__ft0_8",
-        "weight" : "LHEweights[446]/LHEweights[0]"
+        "plot_group" : "wzjj-aqgcft-ewk__ft0_8"
     },
     "wlljj-aqgcft-ewk__ft0_4" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_WToLNu_NoTaus_aQGC-FT_MLL-60_EWKOnly_MGLO_GenNtuples_leptonType-dressed_2016-10-20-wzGen_cfg/*",
@@ -74,6 +73,16 @@
         "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_WToLNu_NoTaus_aQGC-FT_MLL-60_EWKOnly_MGLO_GenNtuples_leptonType-dressed_2016-10-20-wzGen_cfg/*",
         "plot_group" : "wzjj-aqgcft-ewk__ft0_-8",
         "weight" : "LHEweights[447]/LHEweights[0]"
+    },
+    "wlljj-aqgcft-ewk__ft0_-16" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_WToLNu_NoTaus_aQGC-FT_MLL-60_EWKOnly_MGLO_GenNtuples_leptonType-dressed_2016-10-20-wzGen_cfg/*",
+        "plot_group" : "wzjj-aqgcft-ewk__ft0_-16",
+        "weight" : "LHEweights[446]/LHEweights[0]"
+    },
+    "wlljj-aqgcft-ewk__ft0_16" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_WToLNu_NoTaus_aQGC-FT_MLL-60_EWKOnly_MGLO_GenNtuples_leptonType-dressed_2016-10-20-wzGen_cfg/*",
+        "plot_group" : "wzjj-aqgcft-ewk__ft0_16",
+        "weight" : "LHEweights[451]/LHEweights[0]"
     },
     "wlljj-aqgcft-ewk__sm" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_WToLNu_NoTaus_aQGC-FT_MLL-60_EWKOnly_MGLO_GenNtuples_leptonType-dressed_2016-10-20-wzGen_cfg/*",

@@ -1,130 +1,134 @@
 {
     "wz3lnu-powheg" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8/*",
         "plot_group" : "wz3lnu-pow"
     },
     "wz3lnu-mg5amcnlo" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
         "plot_group" : "wz3lnu-mg"
     },
     "zz4l-mg5amcnlo" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/ZZTo4L_13TeV-amcatnloFXFX-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/ZZTo4L_13TeV-amcatnloFXFX-pythia8/*",
         "plot_group" : "wz3lnu-mg"
     },
     "wlljj-ewk" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/WLLJJToLNu_M-60_EWK_13TeV-madgraph-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/WLLJJToLNu_M-60_EWK_13TeV-madgraph-pythia8/*",
         "plot_group" : "wzjj-ewk"
     },
     "zz4l-powheg" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/ZZTo4L_13TeV_powheg_pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/ZZTo4L_13TeV_powheg_pythia8/*",
         "plot_group" : "zz"
     },
     "tt-lep" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/TTJets_DiLept_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/TTJets_DiLept_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/*",
         "plot_group" : "ttbar"
     },
     "st-schan" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1/*",
         "plot_group" : "st"
     },
     "st-tchan-t" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/ST_t-channel_top_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/ST_t-channel_top_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1/*",
         "plot_group" : "st"
     },
     "st-tchan-tbar" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/ST_t-channel_antitop_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/ST_t-channel_antitop_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1/*",
         "plot_group" : "st"
     },
     "st-tw" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/ST_tW_top_5f_NoFullyHadronicDecays_13TeV-powheg_TuneCUETP8M1/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/ST_tW_top_5f_NoFullyHadronicDecays_13TeV-powheg_TuneCUETP8M1/*",
         "plot_group" : "st"
     },
     "st-tbarw" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV-powheg_TuneCUETP8M1/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV-powheg_TuneCUETP8M1/*",
+        "plot_group" : "st"
+    },
+    "tzq" : {
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/tZq_ll_4f_13TeV-amcatnlo-herwigpp/*",
         "plot_group" : "st"
     },
     "ttz" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/ttZJets_13TeV_madgraphMLM/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8/*",
         "plot_group" : "ttv"
     },
     "ttw" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/ttWJets_13TeV_madgraphMLM/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8/*",
         "plot_group" : "ttv"
     },
     "zzz" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/*",
         "plot_group" : "vvv"
     },
     "wwz" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/WWZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/WWZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/*",
         "plot_group" : "vvv"
     },
     "www" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/WWW_4F_TuneCUETP8M1_13TeV-amcatnlo-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/WWW_4F_TuneCUETP8M1_13TeV-amcatnlo-pythia8/*",
         "plot_group" : "vvv"
     },
     "ww" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/WWTo2L2Nu_13TeV-powheg/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/WWTo2L2Nu_13TeV-powheg/*",
         "plot_group" : "ww"
     },
     "DYm10-50" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
         "plot_group" : "dy"
     },
     "DYm50" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
         "plot_group" : "dy"
     },
     "ggZZ4e" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/GluGluToContinToZZTo4e_13TeV_MCFM701_pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/GluGluToContinToZZTo4e_13TeV_MCFM701_pythia8/*",
         "plot_group" : "zz"
     },
     "ggZZ4m" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/GluGluToContinToZZTo4mu_13TeV_MCFM701_pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/GluGluToContinToZZTo4mu_13TeV_MCFM701_pythia8/*",
         "plot_group" : "zz"
     },
     "ggZZ2e2mu" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/GluGluToContinToZZTo2e2mu_13TeV_MCFM701_pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/GluGluToContinToZZTo2e2mu_13TeV_MCFM701_pythia8/*",
         "plot_group" : "zz"
     },
     "zg" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-09-25/ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-22/ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/*",
         "plot_group" : "zg"
     },
     "data_DoubleEG_Run2016B-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016B-PromptReco-v2_2016-09-25/DoubleEG/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016B-PromptReco-v2_2016-11-22/DoubleEG/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016C-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016C-PromptReco-v2_2016-09-25/DoubleEG/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016C-PromptReco-v2_2016-11-22/DoubleEG/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016D-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016D-PromptReco-v2_2016-09-25/DoubleEG/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016D-PromptReco-v2_2016-11-22/DoubleEG/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016B-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016B-PromptReco-v2_2016-09-25/DoubleMuon/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016B-PromptReco-v2_2016-11-22/DoubleMuon/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016C-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016C-PromptReco-v2_2016-09-25/DoubleMuon/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016C-PromptReco-v2_2016-11-22/DoubleMuon/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016D-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016D-PromptReco-v2_2016-09-25/DoubleMuon/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016D-PromptReco-v2_2016-11-22/DoubleMuon/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016B-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016B-PromptReco-v2_2016-09-25/MuonEG/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016B-PromptReco-v2_2016-11-22/MuonEG/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016C-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016C-PromptReco-v2_2016-09-25/MuonEG/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016C-PromptReco-v2_2016-11-22/MuonEG/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016D-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016D-PromptReco-v2_2016-09-25/MuonEG/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016D-PromptReco-v2_2016-11-22/MuonEG/*",
         "plot_group" : "data"
     }
 }

@@ -107,63 +107,28 @@
         ]
     },
     "wzjj-ewk" : {
-        "Name" : "Standard Model",
-        "Style" : "nofill-darkgreen-finedash",
+        "Name" : "#splitline{MG5_aMC@NLO}{5 fl. scheme}",
+        "Style" : "nofill-lightgreen", 
         "Members" : [
             "wlljj-ewk"
         ]
     },
-    "wzjj-aqgcft-ewk__ft0_8" : {
-        "Name" : "f_{T,0} = 8 TeV^{-4}",
-        "Style" : "nofill-lightred",
+    "wzjj-ewk-4f" : {
+        "Name" : "#splitline{MG5_aMC@NLO}{4 fl. scheme}",
+        "Style" : "nofill-darkgreen-finedash",
         "Members" : [
-            "wlljj-aqgcft-ewk__ft0_8"
-        ]
-    },
-    "wzjj-aqgcft-ewk__ft0_-8" : {
-        "Name" : "f_{T,0} = -8 TeV^{-4}",
-        "Style" : "nofill-lightpink-dotdash",
-        "Members" : [
-            "wlljj-aqgcft-ewk__ft0_-8"
-        ]
-    },
-    "wzjj-aqgcft-ewk__ft0_-4" : {
-        "Name" : "f_{T,0} = -4 TeV^{-4}",
-        "Style" : "nofill-lightblue-dash",
-        "Members" : [
-            "wlljj-aqgcft-ewk__ft0_-4"
-        ]
-    },
-    "wzjj-aqgcft-ewk__ft0_4" : {
-        "Name" : "f_{T,0} = 4 TeV^{-4}",
-        "Style" : "nofill-darkblue",
-        "Members" : [
-            "wlljj-aqgcft-ewk__ft0_4"
-        ]
-    },
-    "wzjj-aqgcft-ewk__sm" : {
-        "Name" : "SM Reweighted",
-        "Style" : "nofill-darkpurple", 
-        "Members" : [
-            "wlljj-aqgcft-ewk__sm"
-        ]
-    },
-    "wzjj-aqgcft-ewk" : {
-        "Name" : "#splitline{WZJJ EWK}{#scale[0.8]{FT,0 = 8 TeV^{-4}}}",
-        "Style" : "nofill-lightred",
-        "Members" : [
-            "wlljj-aqgcft-ewk"
+            "wlljj-ewk-4f"
         ]
     },
     "wzjj-ewk-vbfnlo-mcnlo" : {
-        "Name" : "#splitline{WZJJ EWK}{#scale[0.8]{VBFNLO (MC@NLO)}}",
+        "Name" : "#splitline{VBFNLO}{#scale[0.8]{MC@NLO match.}}",
         "Style" : "nofill-darkpurple", 
         "Members" : [
             "wzjj-ewk-vbfnlo-mcnlo"
         ]
     },
     "wzjj-ewk-vbfnlo-pow" : {
-        "Name" : "#splitline{WZJJ EWK}{#scale[0.8]{VBFNLO (POWHEG)}}",
+        "Name" : "#splitline{VBFNLO}{#scale[0.8]{POWHEG match.}}",
         "Style" : "nofill-lightblue-dash",
         "Members" : [
             "wzjj-ewk-vbfnlo-pow"

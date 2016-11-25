@@ -138,8 +138,8 @@
         "DAS Name" : "GluGluToZZTo2mu2tau_BackgroundOnly_13TeV_MCFM"
     },
     "DYm50" : {
-        "cross_section" : 6025,
-        "Source of cross section" : "MCM",
+        "cross_section" : 5765.4,
+        "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#DY_Z",
         "DAS Name" : "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
     },
     "DYm50-pwg-ee" : {
@@ -184,6 +184,11 @@
         "cross_section" : 831.76,
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO (top mass 172.5)",
         "DAS Name" : "TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+    },
+    "tzq" : {
+        "cross_section" : 0.0758,
+        "Source of cross section" : "MCM",
+        "DAS Name" : "tZq_ll_4f_13TeV-amcatnlo-pythia8"
     },
     "ttz" : {
         "cross_section" : 0.2529,
@@ -302,9 +307,23 @@
         "Cards" : ""
     },
     "wlljj-ewk" : {
-        "cross_section" : 0.0468, 
-        "Source of cross section" : "MadGraph LO -- without taus xsec = 0.01944",
+        "cross_section" : 0.01944, 
+        "Source of cross section" : "MadGraph LO -- without taus xsec = 0.01944, with 0.0468",
         "DAS Name" : "WLLJJToLNu_M-60_EWK_13TeV-madgraph-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wlljj-ewk-4f" : {
+        "cross_section" : 0.01757, 
+        "Source of cross section" : "MadGraph LO -- with taus xsec = 0.01757, without 0.007445",
+        "DAS Name" : "Private Generation",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wlljj-ewk-4f-notaus" : {
+        "cross_section" : 0.007445, 
+        "Source of cross section" : "MadGraph LO -- with taus xsec = 0.01757, without 0.007445",
+        "DAS Name" : "Private Generation",
         "Generator" : "MadGraph5_aMC@NLO LO",
         "Cards" : ""
     },
@@ -316,21 +335,21 @@
         "Cards" : ""
     },
     "zzjj-ewk-vbfnlo" : {
-        "cross_section" : 0.000343929, 
+        "cross_section" : 0.000687858, 
         "Source of cross section" : "VBFNLO+Hwerig",
         "DAS Name" : "Private Production",
         "Generator" : "VBFNLO+Herwig (MC@NLO style matching)",
         "Cards" : ""
     },
     "wzjj-ewk-vbfnlo-pow" : {
-        "cross_section" : 0.00727, 
+        "cross_section" : 0.00145, 
         "Source of cross section" : "VBFNLO+Hwerig",
         "DAS Name" : "Private Production",
         "Generator" : "VBFNLO+Herwig (POWHEG style matching)",
         "Cards" : ""
     },
     "wzjj-ewk-vbfnlo-mcnlo" : {
-        "cross_section" : 0.00785,
+        "cross_section" : 0.001576,
         "Source of cross section" : "VBFNLO+Hwerig",
         "DAS Name" : "Private Production",
         "Generator" : "VBFNLO+Herwig (MC@NLO style matching)",
@@ -400,8 +419,8 @@
         "Cards" : ""
     },
     "zzjj-ewk" : {
-        "cross_section" : 0.00044, 
-        "Source of cross section" : "MadGraph LO",
+        "cross_section" : 0.0002933, 
+        "Source of cross section" : "MadGraph LO -- .44 fb with taus",
         "DAS Name" : "ZZJJTo4L_EWK_13TeV-madgraph-pythia8",
         "Generator" : "MadGraph5_aMC@NLO LO",
         "Cards" : ""

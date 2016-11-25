@@ -1,7 +1,7 @@
 {
     "wz3lnu-powheg" : {
-        "file_path" : "/hdfs/store/user/kelong/WZAnalysisJobs_2016-09-24/2016-09-24-wz3lnu-powheg-WZxsec2016-preselection-v1/*",
-        "plot_group" : "wz_signal"
+        "file_path" : "/data/kelong/DibosonAnalysisData/Preselection/2016-11-22-wz3lnu-powheg-WZxsec2016-preselection-v1/*",
+        "plot_group" : "wz-powheg"
     },
     "wz3lnu-mg5amcnlo" : {
         "file_path" : "/hdfs/store/user/kelong/WZAnalysisJobs_2016-09-24/2016-09-24-wz3lnu-mg5amcnlo-WZxsec2016-preselection-v1/*",

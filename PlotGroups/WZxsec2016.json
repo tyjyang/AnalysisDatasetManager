@@ -1,7 +1,7 @@
 {
     "wz-powheg" : {
         "Name" : "WZ",
-        "Style" : "fill-purple",
+        "Style" : "fill-lightpurple",
         "Members" : [
             "wz3lnu-powheg"
         ]
@@ -15,7 +15,7 @@
     },
     "wzjj-ewk" : {
         "Name" : "WZjj EWK",
-        "Style" : "fill-lightpurple",
+        "Style" : "hatch-purple",
         "Members" : [
             "wzjj-ewk"
         ]

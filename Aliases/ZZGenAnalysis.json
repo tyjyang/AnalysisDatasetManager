@@ -12,6 +12,11 @@
         "ZZmass" : "((Z1isTrueDecay && Z2isTrueDecay && Z1mass < 120 && Z2mass > 60 && Z2mass < 120 && Z2mass > 60) || (Z1isTrueDecay && Z3isTrueDecay && Z1mass < 120 && Z1mass > 60 && Z3mass < 120 && Z3mass > 60) || (Z1isTrueDecay && Z4isTrueDecay && Z1mass < 120 && Z1mass > 60 && Z4mass < 120 && Z4mass > 60) || (Z2isTrueDecay && Z3isTrueDecay && Z2mass < 120 && Z2mass > 60 && Z3mass < 120 && Z3mass > 60) || (Z2isTrueDecay && Z4isTrueDecay && Z2mass < 120 && Z2mass > 60 && Z4mass < 120 && Z4mass > 60) || (Z3isTrueDecay && Z4isTrueDecay && Z3mass < 120 && Z3mass > 60 && Z4mass < 120 && Z4mass > 60))",
         "ZZmassATLAS" : "((Z1isTrueDecay && Z2isTrueDecay && Z1mass < 116 && Z2mass > 66 && Z2mass < 116 && Z2mass > 66) || (Z1isTrueDecay && Z3isTrueDecay && Z1mass < 116 && Z1mass > 66 && Z3mass < 116 && Z3mass > 66) || (Z1isTrueDecay && Z4isTrueDecay && Z1mass < 116 && Z1mass > 66 && Z4mass < 116 && Z4mass > 66) || (Z2isTrueDecay && Z3isTrueDecay && Z2mass < 116 && Z2mass > 66 && Z3mass < 116 && Z3mass > 66) || (Z2isTrueDecay && Z4isTrueDecay && Z2mass < 116 && Z2mass > 66 && Z4mass < 116 && Z4mass > 66) || (Z3isTrueDecay && Z4isTrueDecay && Z3mass < 116 && Z3mass > 66 && Z4mass < 116 && Z4mass > 66))",
         "Z4lwindow" : "((Z1isTrueDecay && Z2isTrueDecay && Z1mass < 120 && Z2mass > 40 && Z2mass < 120 && Z2mass > 4) || (Z1isTrueDecay && Z3isTrueDecay && Z1mass < 120 && Z1mass > 40 && Z3mass < 120 && Z3mass > 4) || (Z1isTrueDecay && Z4isTrueDecay && Z1mass < 120 && Z1mass > 40 && Z4mass < 120 && Z4mass > 4) || (Z2isTrueDecay && Z3isTrueDecay && Z2mass < 120 && Z2mass > 40 && Z3mass < 120 && Z3mass > 4) || (Z2isTrueDecay && Z4isTrueDecay && Z2mass < 120 && Z2mass > 40 && Z4mass < 120 && Z4mass > 4) || (Z3isTrueDecay && Z4isTrueDecay && Z3mass < 120 && Z3mass > 40 && Z4mass < 120 && Z4mass > 4))",
+        "dEtajj" : "(j1Pt > 0 && j2Pt > 0) ? abs(j1Eta - j2Eta) : - 1",
+        "zep3l" : "Eta - 0.5*(j1Eta + j2Eta)",
+        "zepZ" : "(Z1isTrueDecay > 0.5 ? Z1Eta : Z2Eta)- 0.5*(j1Eta + j2Eta)",
+        "zepj3" : "j3Eta - 0.5*(j1Eta + j2Eta)",
+        "dPhi3ljj" : "abs(Phi - dijetPhi) < 3.14159 ? abs(Phi - dijetPhi) : abs(Phi - dijetPhi) - 3.14159",
         "4lmassWindow" : "(4lmass > 80 && 4lmass < 100)"
     }
 }
