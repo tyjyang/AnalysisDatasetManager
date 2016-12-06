@@ -1,0 +1,145 @@
+{
+    "wpz2e1m1nu-1j-sherpa" : {
+        "cross_section" : 0.1489,
+        "Source of cross section" : "Sherpa runtime",
+        "DAS Name" : "Private Production"
+    },
+    "wz2e1m1nu-scaleWZ-2j-sherpa" : {
+        "cross_section" : 0.089127,
+        "Source of cross section" : "Sherpa runtime",
+        "DAS Name" : "Private Production"
+    },
+    "wz2e1m1nu-2j-sherpa" : {
+        "cross_section" : 0.04392,
+        "Source of cross section" : "Sherpa runtime",
+        "DAS Name" : "Private Production"
+    },
+    "wz2e1m1nu-1j-sherpa" : {
+        "cross_section" : 0.100896,
+        "Source of cross section" : "Sherpa runtime",
+        "DAS Name" : "Private Production"
+    },
+    "wz2e1m1nu-sherpa" : {
+        "cross_section" : 0.15467,
+        "Source of cross section" : "Sherpa runtime",
+        "DAS Name" : "Private Production"
+    },
+    "wz3lnu-mg5amcnlo-inc" : {
+        "cross_section" : 4.415,
+        "Source of cross section" : "MG5_aMC@NLO gridpack",
+        "DAS Name" : "Private Production"
+    },
+    "wz2m1e1nu-fixed-powheg" : {
+        "cross_section" : 0.50392,
+        "Source of cross section" : "POWHEG tarball",
+        "DAS Name" : "Private Production"
+    },
+    "wz2m1e1nu-fixed-mg5amcnlo-inc" : {
+        "cross_section" : 0.5244,
+        "Source of cross section" : "MG5_aMC@NLO gridpack",
+        "DAS Name" : "Private Production"
+    },
+    "wz8tev-eem-powheg" : {
+        "cross_section" : 0.076555,
+        "Source of cross section" : "POWHEG tarball",
+        "DAS Name" : "Private Production"
+    },
+    "wlljj-ewk-4f" : {
+        "cross_section" : 0.01746,
+        "Source of cross section" : "MadGraph LO -- with taus xsec = 0.01757, without 0.007398",
+        "DAS Name" : "Private Generation",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wlljj-ewk-4f-notaus" : {
+        "cross_section" : 0.007398, 
+        "Source of cross section" : "MadGraph LO -- with taus xsec = 0.01757, without 0.007398",
+        "DAS Name" : "Private Generation",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wlljj-aqgcft-ewk" : {
+        "cross_section" : 0.02855, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private Generation",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "zzjj-ewk-vbfnlo" : {
+        "cross_section" : 0.000687858, 
+        "Source of cross section" : "VBFNLO+Hwerig",
+        "DAS Name" : "Private Production",
+        "Generator" : "VBFNLO+Herwig (MC@NLO style matching)",
+        "Cards" : ""
+    },
+    "wzjj-ewk-vbfnlo-pow" : {
+        "cross_section" : 0.00145, 
+        "Source of cross section" : "VBFNLO+Hwerig",
+        "DAS Name" : "Private Production",
+        "Generator" : "VBFNLO+Herwig (POWHEG style matching)",
+        "Cards" : ""
+    },
+    "wzjj-ewk-vbfnlo-mcnlo" : {
+        "cross_section" : 0.001576,
+        "Source of cross section" : "VBFNLO+Hwerig",
+        "DAS Name" : "Private Production",
+        "Generator" : "VBFNLO+Herwig (MC@NLO style matching)",
+        "Cards" : ""
+    },
+    "wzjj-qcd-scaleHT" : {
+        "cross_section" : 0.1896, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private Production",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wzjj-aqgc-fm" : {
+        "cross_section" : 1, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private sample",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wz-atgc" : {
+        "cross_section" : 0.9689,
+        "Source of cross section" : "MadGraph NLO",
+        "DAS Name" : "Private Sample",
+        "Generator" : "MadGraph5_aMC@NLO NLO",
+        "Cards" : ""
+    },
+    "wz-0j-mgmlm" : {
+        "cross_section" : 0.4658,
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private Sample",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wz-1j-mgmlm" : {
+        "cross_section" : 0.3483, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private Sample",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wz-2j-mgmlm" : {
+        "cross_section" : 0.1949,
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private Sample",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wz-qcut27-mgmlm" : {
+        "cross_section" : 0.1384,
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private Sample",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "zz4l-mg5amcnlo" : {
+        "cross_section" : 1.191,
+        "Source of cross section" : "McM",
+        "DAS Name" : "ZZTo4L_13TeV-amcatnloFXFX-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO NLO FxFx 0,1j",
+        "Cards" : ""
+    }
+}
