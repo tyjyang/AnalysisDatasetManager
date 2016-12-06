@@ -1,6 +1,6 @@
 {
     "wz3lnu-powheg" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZPOWHEGSignal_2016-11-28/WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-28/WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8/*",
         "plot_group" : "wz3lnu-pow"
     },
     "wz3lnu-mg5amcnlo" : {
@@ -28,15 +28,15 @@
         "plot_group" : "ttbar"
     },
     "st-schan" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-28/ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-29/ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1/*",
         "plot_group" : "st"
     },
     "st-tchan-t" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-28/ST_t-channel_top_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-29/ST_t-channel_top_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1/*",
         "plot_group" : "st"
     },
     "st-tchan-tbar" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-28/ST_t-channel_antitop_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-29/ST_t-channel_antitop_4f_leptonDecays_13TeV-powheg-pythia8_TuneCUETP8M1/*",
         "plot_group" : "st"
     },
     "st-tw" : {
@@ -104,39 +104,39 @@
         "plot_group" : "zg"
     },
     "data_DoubleEG_Run2016B-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016B-PromptReco-v2_2016-11-28/DoubleEG/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016B-PromptReco-v2_2016-12-05/DoubleEG/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016C-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016C-PromptReco-v2_2016-11-28/DoubleEG/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016C-PromptReco-v2_2016-12-05/DoubleEG/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016D-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016D-PromptReco-v2_2016-11-28/DoubleEG/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016D-PromptReco-v2_2016-12-05/DoubleEG/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016B-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016B-PromptReco-v2_2016-11-28/DoubleMuon/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016B-PromptReco-v2_2016-12-05/DoubleMuon/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016C-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016C-PromptReco-v2_2016-11-28/DoubleMuon/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016C-PromptReco-v2_2016-12-05/DoubleMuon/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016D-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016D-PromptReco-v2_2016-11-28/DoubleMuon/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016D-PromptReco-v2_2016-12-05/DoubleMuon/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016B-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016B-PromptReco-v2_2016-11-28/MuonEG/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016B-PromptReco-v2_2016-12-05/MuonEG/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016C-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016C-PromptReco-v2_2016-11-28/MuonEG/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016C-PromptReco-v2_2016-12-05/MuonEG/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016D-PromptReco-v2" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016D-PromptReco-v2_2016-11-28/MuonEG/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZData_Run2016D-PromptReco-v2_2016-12-05/MuonEG/*",
         "plot_group" : "data"
     }
 }

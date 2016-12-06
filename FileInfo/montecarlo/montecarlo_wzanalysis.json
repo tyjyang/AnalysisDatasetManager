@@ -4,6 +4,11 @@
         "Source of cross section" : "POWHEG tarball",
         "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8"
     },
+    "wz3lnu-mg5amcnlo" : {
+        "cross_section" : 4.715,
+        "Source of cross section" : "MG5_aMC@NLO gridpack",
+        "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+    },
     "ww" : {
         "cross_section" : 12.178,
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#Diboson",
