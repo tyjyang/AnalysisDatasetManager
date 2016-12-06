@@ -301,16 +301,16 @@
     "ZMass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 24,
-            "xmin": 60,
-            "xmax": 180
+            "nbins": 30,
+            "xmin": 76,
+            "xmax": 106
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{l^{+}l^{-}} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 2.5 GeV", 
+            "GetYaxis().SetTitle": "Events / GeV", 
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 7000
+            "SetMaximum" : 2500
         }
     },
    "MET" : {
@@ -325,7 +325,7 @@
             "GetYaxis().SetTitle": "Events / 10 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum": 7000
+            "SetMaximum": 4000
         }
    },
    "nvtx": {  
@@ -385,7 +385,7 @@
             "GetYaxis().SetTitle": "Events / 50 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 1700
+            "SetMaximum": 700
         }
     },
    "dEtajj": {  

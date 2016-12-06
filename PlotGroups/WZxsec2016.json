@@ -52,7 +52,8 @@
         "Members" : [
             "zzz",
             "wzz",
-            "wwz"
+            "wwz",
+            "www"
         ]
     },
     "dy-filt" : {
@@ -63,6 +64,13 @@
             "DYm10-50-filt"
         ]
     },
+    "dy-lo" : {
+        "Name" : "Drell-Yan",
+        "Style" : "fill-yellow",
+        "Members" : [
+            "DYm50__LO"
+        ]
+    },
     "dy" : {
         "Name" : "Drell-Yan",
         "Style" : "fill-yellow",
@@ -71,11 +79,19 @@
             "DYm50"
         ]
     },
+    "tzq" : {
+        "Name" : "tZq",
+        "Style" : "fill-pink",
+        "Members" : [
+            "tzq"
+        ]
+    },
     "top" : {
         "Name" : "Top",
         "Style" : "fill-green",
         "Members" : [
             "tt-lep",
+            "tzq",
             "st-schan",
             "st-tchan-t",
             "st-tchan-tbar",

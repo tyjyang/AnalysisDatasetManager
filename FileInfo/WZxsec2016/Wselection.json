@@ -1,14 +1,14 @@
 {
     "wz3lnu-powheg" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-wz3lnu-powheg-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-wz3lnu-powheg-WZxsec2016-Wselection-v1/*",
         "plot_group" : "wz-powheg"
     },
     "wz3lnu-mg5amcnlo" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-wz3lnu-mg5amcnlo-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-wz3lnu-mg5amcnlo-WZxsec2016-Wselection-v1/*",
         "plot_group" : "zz"
     },
     "wlljj-ewk" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-wlljj-ewk-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-wlljj-ewk-WZxsec2016-Wselection-v1/*",
         "plot_group" : "wzjj-ewk"
     },
     "zz4l-powheg" : {
@@ -16,12 +16,20 @@
         "plot_group" : "zz"
     },
     "zz4l-mg5amcnlo" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-zz4l-mg5amcnlo-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-zz4l-mg5amcnlo-WZxsec2016-Wselection-v1/*",
         "plot_group" : "zz"
     },
     "tt-lep" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-tt-lep-WZxsec2016-Wselection-v1/*",
-        "plot_group" : "ttbar"
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-tt-lep-WZxsec2016-Wselection-v1/*",
+        "plot_group" : "top"
+    },
+    "tt" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-tt-WZxsec2016-Wselection-v1/*",
+        "plot_group" : "top"
+    },
+    "tzq" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-tzq-WZxsec2016-Wselection-v1/*",
+        "plot_group" : "top"
     },
     "st-schan" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-st-schan-WZxsec2016-Wselection-v1/*",
@@ -36,11 +44,11 @@
         "plot_group" : "st"
     },
     "st-tw" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-st-tw-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-st-tw-WZxsec2016-Wselection-v1/*",
         "plot_group" : "st"
     },
     "st-tbarw" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-st-tbarw-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-st-tbarw-WZxsec2016-Wselection-v1/*",
         "plot_group" : "st"
     },
     "ttz" : {
@@ -48,31 +56,35 @@
         "plot_group" : "ttv"
     },
     "ttw" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-ttw-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-ttw-WZxsec2016-Wselection-v1/*",
         "plot_group" : "ttv"
     },
     "zzz" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-zzz-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-zzz-WZxsec2016-Wselection-v1/*",
         "plot_group" : "vvv"
     },
     "wwz" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-zzz-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-zzz-WZxsec2016-Wselection-v1/*",
         "plot_group" : "vvv"
     },
     "www" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-www-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-www-WZxsec2016-Wselection-v1/*",
         "plot_group" : "vvv"
     },
     "ww" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-ww-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-ww-WZxsec2016-Wselection-v1/*",
         "plot_group" : "ww"
     },
     "DYm50" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-DYm50-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-DYm50-WZxsec2016-Wselection-v1/*",
+        "plot_group" : "dy"
+    },
+    "DYm50__LO" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-DYm50__LO-WZxsec2016-Wselection-v1/*",
         "plot_group" : "dy"
     },
     "zg" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-zg-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-zg-WZxsec2016-Wselection-v1/*",
         "plot_group" : "zg"
     },
     "ggZZ4e" : {
@@ -88,39 +100,39 @@
         "plot_group" : "zz"
     },
     "data_DoubleEG_Run2016B-PromptReco-v2" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-data_DoubleEG_Run2016B-PromptReco-v2-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-data_DoubleEG_Run2016B-PromptReco-v2-WZxsec2016-Wselection-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016C-PromptReco-v2" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-data_DoubleEG_Run2016C-PromptReco-v2-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-data_DoubleEG_Run2016C-PromptReco-v2-WZxsec2016-Wselection-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016D-PromptReco-v2" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-data_DoubleEG_Run2016D-PromptReco-v2-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-data_DoubleEG_Run2016D-PromptReco-v2-WZxsec2016-Wselection-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016B-PromptReco-v2" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-data_DoubleMuon_Run2016B-PromptReco-v2-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-data_DoubleMuon_Run2016B-PromptReco-v2-WZxsec2016-Wselection-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016C-PromptReco-v2" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-data_DoubleMuon_Run2016C-PromptReco-v2-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-data_DoubleMuon_Run2016C-PromptReco-v2-WZxsec2016-Wselection-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016D-PromptReco-v2" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-data_DoubleMuon_Run2016D-PromptReco-v2-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-data_DoubleMuon_Run2016D-PromptReco-v2-WZxsec2016-Wselection-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016B-PromptReco-v2" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-data_MuonEG_Run2016B-PromptReco-v2-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-data_MuonEG_Run2016B-PromptReco-v2-WZxsec2016-Wselection-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016C-PromptReco-v2" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-data_MuonEG_Run2016C-PromptReco-v2-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-data_MuonEG_Run2016C-PromptReco-v2-WZxsec2016-Wselection-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016D-PromptReco-v2" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-23-data_MuonEG_Run2016D-PromptReco-v2-WZxsec2016-Wselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2016-11-29-data_MuonEG_Run2016D-PromptReco-v2-WZxsec2016-Wselection-v1/*",
         "plot_group" : "data"
     }
 }

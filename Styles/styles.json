@@ -98,6 +98,13 @@
         "SetLineWidth": 2,
         "SetMarkerSize" : 0
     },
+    "fill-lightgreen" : {
+        "SetFillColor": "ROOT.TColor.GetColor(#AAE3A7)",
+        "SetLineColor": "ROOT.TColor.GetColor(#AAE3A7)",
+        "SetLineStyle": 1,
+        "SetLineWidth": 1,
+        "SetMarkerSize" : 0
+    },
     "nofill-lightgreen-dotdash" : {
         "SetFillColor": 0,
         "SetLineColor": "ROOT.TColor.GetColor(#AAE3A7)",

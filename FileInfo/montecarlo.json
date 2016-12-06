@@ -215,6 +215,11 @@
         "Source of cross section" : "MCM",
         "DAS Name" : "WWZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
     },
+    "www" : {
+        "cross_section" : 0.2086,
+        "Source of cross section" : "MCM",
+        "DAS Name" : "WWW_4F_TuneCUETP8M1_13TeV-amcatnlo-pythia8"
+    },
     "zz_eemm-pwg-doubleres" : {
         "cross_section" : 0.1491,
         "Source of cross section" : "POWHEG tarball",
@@ -314,15 +319,15 @@
         "Cards" : ""
     },
     "wlljj-ewk-4f" : {
-        "cross_section" : 0.01757, 
-        "Source of cross section" : "MadGraph LO -- with taus xsec = 0.01757, without 0.007445",
+        "cross_section" : 0.01746,
+        "Source of cross section" : "MadGraph LO -- with taus xsec = 0.01757, without 0.007398",
         "DAS Name" : "Private Generation",
         "Generator" : "MadGraph5_aMC@NLO LO",
         "Cards" : ""
     },
     "wlljj-ewk-4f-notaus" : {
-        "cross_section" : 0.007445, 
-        "Source of cross section" : "MadGraph LO -- with taus xsec = 0.01757, without 0.007445",
+        "cross_section" : 0.007398, 
+        "Source of cross section" : "MadGraph LO -- with taus xsec = 0.01757, without 0.007398",
         "DAS Name" : "Private Generation",
         "Generator" : "MadGraph5_aMC@NLO LO",
         "Cards" : ""
@@ -381,6 +386,13 @@
         "Source of cross section" : "MadGraph LO",
         "DAS Name" : "Private sample",
         "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wz-atgc" : {
+        "cross_section" : 0.9689,
+        "Source of cross section" : "MadGraph NLO",
+        "DAS Name" : "Private Sample",
+        "Generator" : "MadGraph5_aMC@NLO NLO",
         "Cards" : ""
     },
     "wz-0j-mgmlm" : {
