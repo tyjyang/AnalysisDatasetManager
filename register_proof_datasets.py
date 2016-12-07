@@ -11,6 +11,7 @@ ROOT.gROOT.SetBatch(True)
 import argparse
 import os
 import json
+import glob
 import sys
 import fnmatch
 
@@ -24,6 +25,11 @@ def getComLineArgs():
                         required=False, help="List of datasets to register "
                         "(separated by commas).")
     return parser.parse_args()
+def readAllJson(json_file_path):
+    json_info = {}
+    for json_file in glob.glob(json_file_path):
+        json_info.update(readJson(json_file))
+    return json_info
 def readJson(json_file_name):
     json_info = {}
     with open(json_file_name) as json_file:
@@ -50,8 +56,8 @@ ROOT.TProof.Open('workers=8')
 proof = ROOT.gProof
 current_path = os.getcwd()
 os.chdir(sys.path[0])
-data_info = readJson("FileInfo/data.json")
-mc_info = readJson("FileInfo/montecarlo.json")
+data_info = readAllJson("FileInfo/data/*.json")
+mc_info = readAllJson("FileInfo/montecarlo/*.json")
 valid_names = mc_info.keys() + data_info.keys()
 
 names = []

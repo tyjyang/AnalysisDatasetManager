@@ -48,15 +48,15 @@
         "plot_group" : "st"
     },
     "tzq" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-28/tZq_ll_4f_13TeV-amcatnlo-pythia8_ext1/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-28/tZq_ll_4f_13TeV-amcatnlo-pythia8*/*",
         "plot_group" : "st"
     },
     "ttz" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-28/TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-12-06/TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8*/*",
         "plot_group" : "ttv"
     },
     "ttw" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-29/TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8/*",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-12-06/TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8/*",
         "plot_group" : "ttv"
     },
     "zzz" : {

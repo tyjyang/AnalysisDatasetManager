@@ -122,7 +122,7 @@
         "DAS Name" : "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-[amcatnloFXFX OR madgraphMLM]-pythia8"
     },
     "DYm50-filt" : {
-        "cross_section" : 6025,
+        "cross_section" : 5765,
         "Source of cross section" : "GenXSecAnalyzer",
         "DAS Name" : "ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8",
         "Notes" : "Filtered to remove overlap with Zgamma sample. Events with photons from q or l with pt > 10 GeV are rejected."

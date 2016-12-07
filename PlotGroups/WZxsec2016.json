@@ -64,6 +64,16 @@
             "DYm10-50-filt"
         ]
     },
+    "dyjets" : {
+        "Name" : "Drell-Yan",
+        "Style" : "fill-yellow",
+        "Members" : [
+            "DYm50-1j",
+            "DYm50-2j",
+            "DYm50-3j",
+            "DYm50-4j"
+        ]
+    },
     "dy-lo" : {
         "Name" : "Drell-Yan",
         "Style" : "fill-yellow",
