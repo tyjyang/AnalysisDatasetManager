@@ -92,10 +92,34 @@
         "Source of k-factor" : "http://arxiv.org/abs/1509.06734",
         "DAS Name" : "GluGluToZZTo2mu2tau_BackgroundOnly_13TeV_MCFM"
     },
+    "DYm50-1j" : {
+        "cross_section" : 1012.5,
+        "kfactor" : 1.21,
+        "Source of cross section" : "HTT group",
+        "DAS Name" : "DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
+    },
+    "DYm50-2j" : {
+        "cross_section" : 332.8,
+        "kfactor" : 1.21,
+        "Source of cross section" : "HTT group",
+        "DAS Name" : "DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
+    },
+    "DYm50-3j" : {
+        "cross_section" : 101.8,
+        "kfactor" : 1.21,
+        "Source of cross section" : "HTT group",
+        "DAS Name" : "DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
+    },
+    "DYm50-4j" : {
+        "cross_section" : 54.8,
+        "kfactor" : 1.21,
+        "Source of cross section" : "HTT group",
+        "DAS Name" : "DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
+    },
     "DYm50" : {
         "cross_section" : 5765.4,
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#DY_Z",
-        "DAS Name" : "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+        "DAS Name" : "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-[amcatnloFXFX OR madgraphMLM]-pythia8"
     },
     "DYm50-filt" : {
         "cross_section" : 6025,

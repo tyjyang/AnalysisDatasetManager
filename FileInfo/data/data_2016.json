@@ -58,5 +58,5 @@
     "data_SingleElectron_Run2016D-PromptReco-v2" : {
         "luminosity" : 1,
         "DAS Name" : "SingleElectron/Run2016D-PromptReco-v2/MINIAODSIM"
-    },
+    }
 }
