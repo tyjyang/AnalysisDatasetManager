@@ -118,5 +118,29 @@
     "data_MuonEG_Run2016D-PromptReco-v2" : {
         "file_path" : "/hdfs/store/user/kelong/WZAnalysisJobs_2016-09-24/2016-09-24-data_MuonEG_Run2016D-PromptReco-v2-WZxsec2016-preselection-v1/*",
         "plot_group" : "data"
+    },
+    "data_SingleMuon_Run2016B-PromptReco-v2" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/Preselection/2016-12-09-data_SingleMuon_Run2016B-PromptReco-v2-WZxsec2016-preselection-v1/*",
+        "plot_group" : "data"
+    },
+    "data_SingleMuon_Run2016C-PromptReco-v2" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/Preselection/2016-12-09-data_SingleMuon_Run2016C-PromptReco-v2-WZxsec2016-preselection-v1/*",
+        "plot_group" : "data"
+    },
+    "data_SingleMuon_Run2016D-PromptReco-v2" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/Preselection/2016-12-09-data_SingleMuon_Run2016D-PromptReco-v2-WZxsec2016-preselection-v1/*",
+        "plot_group" : "data"
+    },
+    "data_SingleElectron_Run2016B-PromptReco-v2" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/Preselection/2016-12-09-data_SingleElectron_Run2016B-PromptReco-v2-WZxsec2016-preselection-v1/*",
+        "plot_group" : "data"
+    },
+    "data_SingleElectron_Run2016C-PromptReco-v2" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/Preselection/2016-12-09-data_SingleElectron_Run2016C-PromptReco-v2-WZxsec2016-preselection-v1/*",
+        "plot_group" : "data"
+    },
+    "data_SingleElectron_Run2016D-PromptReco-v2" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/Preselection/2016-12-09-data_SingleElectron_Run2016D-PromptReco-v2-WZxsec2016-preselection-v1/*",
+        "plot_group" : "data"
     }
 }

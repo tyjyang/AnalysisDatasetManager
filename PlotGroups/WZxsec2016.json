@@ -2,6 +2,7 @@
     "wz-powheg" : {
         "Name" : "WZ",
         "Style" : "fill-lightpurple",
+        "add_perc_error" : 0.0,
         "Members" : [
             "wz3lnu-powheg"
         ]
@@ -9,6 +10,7 @@
     "wz" : {
         "Name" : "WZ",
         "Style" : "fill-purple",
+        "add_perc_error" : 0.0,
         "Members" : [
             "wz3lnu-mg5amcnlo"
         ]
@@ -16,6 +18,7 @@
     "wzjj-ewk" : {
         "Name" : "WZjj EWK",
         "Style" : "hatch-purple",
+        "add_perc_error" : 0.0,
         "Members" : [
             "wzjj-ewk"
         ]
@@ -23,6 +26,7 @@
     "vv-powheg" : {
         "Name" : "VV",
         "Style" : "fill-blue",
+        "add_perc_error" : 0.0,
         "Members" : [
             "zz4l-powheg",
             "ww",
@@ -36,6 +40,7 @@
     "vv" : {
         "Name" : "VV",
         "Style" : "fill-blue",
+        "add_perc_error" : 0.0,
         "Members" : [
             "zz4l-mg5amcnlo",
             "ww",
@@ -49,6 +54,7 @@
     "vvv" : {
         "Name" : "VVV",
         "Style" : "fill-brown",
+        "add_perc_error" : 0.0,
         "Members" : [
             "zzz",
             "wzz",
@@ -67,6 +73,7 @@
     "dyjets" : {
         "Name" : "Drell-Yan",
         "Style" : "fill-yellow",
+        "add_perc_error" : 0.25,
         "Members" : [
             "DYm50-1j",
             "DYm50-2j",
@@ -77,6 +84,7 @@
     "dy-lo" : {
         "Name" : "Drell-Yan",
         "Style" : "fill-yellow",
+        "add_perc_error" : 0.25,
         "Members" : [
             "DYm50__LO"
         ]
@@ -84,6 +92,7 @@
     "dy" : {
         "Name" : "Drell-Yan",
         "Style" : "fill-yellow",
+        "add_perc_error" : 0.25,
         "Members" : [
             "DYm10-50",
             "DYm50"
@@ -92,6 +101,7 @@
     "tzq" : {
         "Name" : "tZq",
         "Style" : "fill-pink",
+        "add_perc_error" : 0.0,
         "Members" : [
             "tzq"
         ]
@@ -99,8 +109,9 @@
     "top" : {
         "Name" : "Top",
         "Style" : "fill-green",
+        "add_perc_error" : 0.25,
         "Members" : [
-            "tt-lep",
+            "tt",
             "tzq",
             "st-schan",
             "st-tchan-t",
@@ -114,6 +125,7 @@
     "zg-filt" : {
         "Name" : "Z#gamma",
         "Style" : "fill-red",
+        "add_perc_error" : 0.0,
         "Members" : [
             "zg-filt"
         ]
@@ -121,6 +133,7 @@
     "zg" : {
         "Name" : "Z#gamma",
         "Style" : "fill-red",
+        "add_perc_error" : 0.0,
         "Members" : [
             "zg"
         ]
