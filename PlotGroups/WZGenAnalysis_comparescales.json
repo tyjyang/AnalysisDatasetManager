@@ -13,21 +13,7 @@
             "wz2m1e1nu-fixed-powheg"
         ]
     },
-    "wz-mgnlo-off" : {
-        "Name" : "#splitline{MG5_aMC NLO FxFx}{#scale[0.8]{#mu_{R}= #mu_{F}= 0.5 #sqrt{#Sigma_{i} (p_{Ti}^{2} + m_{i}^{2})}}}",
-        "Style" : "nofill-lightred",
-        "Members" : [
-            "wz3lnu-mg5amcnlo-off"
-        ]
-    },
-    "wz-mgnlo-inc" : {
-        "Name" : "#splitline{MG5_aMC NLO inc.}{#scale[0.8]{#mu_{R}= #mu_{F}= 0.5 #sqrt{#Sigma_{i} (p_{Ti}^{2} + m_{i}^{2})}}}",
-        "Style" : "nofill-darkgreen-finedash",
-        "Members" : [
-            "wz3lnu-mg5amcnlo-inc"
-        ]
-    },
-    "wz-fixed-mgnlo-inc" : {
+"wz-fixed-mgnlo-inc" : {
         "Name" : "#splitline{MG5_aMC NLO inc.}{#scale[0.8]{#mu_{R}= #mu_{F} = M_{Z} (fixed)}}",
         "Style" : "nofill-lightgreen",
         "Members" : [

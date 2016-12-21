@@ -69,7 +69,7 @@ for name in names:
         log += "%s is not a valid file! Skipping." % name
         log += "\nFile names must be defined in data.json or montecarlo.json\n"
         continue
-    proof_name = '-'.join([name] + args.selection.split("/"))
+    proof_name = '_'.join([name] + args.selection.split("/"))
     if proof.GetDataSet(proof_name) == None or reRegister :
         filelist = ROOT.TFileCollection(proof_name, proof_name)
         filename = getFilePath(name, args.selection)

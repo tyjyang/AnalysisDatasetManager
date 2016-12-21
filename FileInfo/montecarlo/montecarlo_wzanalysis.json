@@ -9,6 +9,12 @@
         "Source of cross section" : "MG5_aMC@NLO gridpack",
         "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
     },
+    "wzjj-aqgcfm" : {
+        "cross_section" : 0.01412, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "WLLJJ_WToLNu_EWK_aQGC-FM_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO"
+    },
     "ww" : {
         "cross_section" : 12.178,
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#Diboson",

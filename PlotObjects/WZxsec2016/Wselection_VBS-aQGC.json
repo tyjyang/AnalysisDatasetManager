@@ -272,16 +272,16 @@
    "ZPt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 15,
+            "nbins": 8,
             "xmin": 0,
-            "xmax": 300
+            "xmax": 400
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "p_{T}(Z) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 10 GeV",
+            "GetYaxis().SetTitle": "Events / 50 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum": 4000
+            "SetMaximum": 220
         }
     },
     "nJetCSVv2T" : {
@@ -376,16 +376,16 @@
    "mjj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 10,
-            "xmin": 0,
-            "xmax": 1500
+            "nbins": 5,
+            "xmin": 500,
+            "xmax": 2000
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
-            "GetYaxis().SetTitle": "Events / 150 GeV",
+            "GetYaxis().SetTitle": "Events / 300 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 2000
+            "SetMaximum": 1000
         }
     },
    "dEtajj": {  
@@ -538,4 +538,3 @@
         }
     }
 }
-

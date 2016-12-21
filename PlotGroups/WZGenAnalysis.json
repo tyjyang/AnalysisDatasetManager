@@ -43,7 +43,7 @@
     },
     "wz-mgnlo-inc" : {
         "Name" : "MG5_aMC NLO inc.",
-        "Style" : "nofill-darkgreen-finedash",
+        "Style" : "nofill-darkgreen",
         "Members" : [
             "wz3lnu-mg5amcnlo-inc"
         ]
