@@ -1,4 +1,18 @@
 {
+    "wlljj-ewk" : {
+        "cross_section" : 0.01785,
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "WLLJJ_WToLNu_EWK_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "wzjj-vbfnlo" : {
+        "cross_section" :  0.00354,
+        "Source of cross section" : "VBFNLO",
+        "Generator" : "VBFNLO+Herwig7",
+        "DAS Name" : "Private Generation",
+        "Cards" : ""
+    },
     "wz3lnu-powheg" : {
         "cross_section" : 4.43,
         "Source of cross section" : "POWHEG tarball",

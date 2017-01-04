@@ -23,9 +23,17 @@
             "wzjj-ewk"
         ]
     },
+    "wzjj-aqgcfm__fm1-2" : {
+        "Name" : "F_{M1}= 2 TeV^{-4} ",
+        "Style" : "nofill-lightblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wzjj-aqgcfm__fm1-2"
+        ]
+    },
     "wzjj-aqgcfm__fm0-4" : {
         "Name" : "F_{M0}= 4 TeV^{-4}",
-        "Style" : "hatch-lightpurple",
+        "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [
             "wzjj-aqgcfm__fm0-4"

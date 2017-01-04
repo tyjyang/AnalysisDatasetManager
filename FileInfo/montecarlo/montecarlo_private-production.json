@@ -44,13 +44,6 @@
         "Source of cross section" : "POWHEG tarball",
         "DAS Name" : "Private Production"
     },
-    "wlljj-ewk-4f" : {
-        "cross_section" : 0.01746,
-        "Source of cross section" : "MadGraph LO -- with taus xsec = 0.01757, without 0.007398",
-        "DAS Name" : "Private Generation",
-        "Generator" : "MadGraph5_aMC@NLO LO",
-        "Cards" : ""
-    },
     "wlljj-ewk-4f-notaus" : {
         "cross_section" : 0.007398, 
         "Source of cross section" : "MadGraph LO -- with taus xsec = 0.01757, without 0.007398",
