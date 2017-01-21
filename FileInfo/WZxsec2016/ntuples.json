@@ -23,10 +23,6 @@
         "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-28/ZZTo4L_13TeV-amcatnloFXFX-pythia8/*",
         "plot_group" : "wz3lnu-mg"
     },
-    "wlljj-ewk" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-28/WLLJJToLNu_M-60_EWK_13TeV-madgraph-pythia8/*",
-        "plot_group" : "wzjj-ewk"
-    },
     "zz4l-powheg" : {
         "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_WZMonteCarlo_2016-11-28/ZZTo4L_13TeV_powheg_pythia8/*",
         "plot_group" : "zz"

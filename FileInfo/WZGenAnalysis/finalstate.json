@@ -3,6 +3,15 @@
         "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/MGNLO_Off_GenNtuples_leptonType-finalstate_2016-11-18-wzGen_cfg/*",
         "plot_group" : "wz-mgnlo-off"
     },
+    "wzjj-vbfnlo" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WZJJ_VBS_OF-VBFNLO_GenNtuples_leptonType-finalstate_2017-01-06-wzGen_cfg/*",
+        "plot_group" : "wzjj-vbfnlo"
+    },
+    "wlljj-ewk__notaus" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_EWK-MGLO_Off_GenNtuples_leptonType-finalstate_2017-01-06-wzGen_cfg/*",
+        "plot_group" : "wzjj-ewk",
+        "weight" : "0.422192"
+    },
     "wzjj-ewk-vbfnlo-mcnlo" : {
         "file_path" : "/data/kelong/DibosonGenAnalysisSamples/WZJJ_VBFNLO/WZJJTo3LNuJJ_EWK_VBFNLO-Herwig7_MCatNLO-matching_leptonType-finalstate_Ntuple.root",
         "plot_group" : "wzjj-ewk-vbfnlo-mcnlo"
@@ -10,10 +19,6 @@
     "wzjj-ewk-vbfnlo-pow" : {
         "file_path" : "/data/kelong/DibosonGenAnalysisSamples/WZJJ_VBFNLO/WZJJTo3LNuJJ_EWK_VBFNLO-Herwig7_POWHEG-matching_leptonType-finalstate_Ntuple.root",
         "plot_group" : "wzjj-ewk-vbfnlo-pow"
-    },
-    "wlljj-ewk" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_EWK-MGLO_Off_GenNtuples_leptonType-finalstate_2016-10-10-wzGen_cfg/*",
-        "plot_group" : "wzjj-ewk"
     },
     "wlljj-ewk-4f-notaus" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_WToLNu_EWK_4F-MGLO_Off_GenNtuples_leptonType-finalstate_2016-11-25-wzGen_cfg/*",

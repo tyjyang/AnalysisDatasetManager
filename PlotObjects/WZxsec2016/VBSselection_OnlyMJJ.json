@@ -310,7 +310,7 @@
             "GetYaxis().SetTitle": "Events / 2 GeV", 
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 100
+            "SetMaximum" : 5000
         }
     },
    "MET" : {
@@ -355,7 +355,7 @@
             "GetYaxis().SetTitle": "Events / 30 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 60
+            "SetMaximum" : 6000
         }
     },
    "Pt": {  
@@ -385,15 +385,15 @@
             "GetYaxis().SetTitle": "Events / 300 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 300
+            "SetMaximum": 1000
         }
     },
    "dEtajj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 6,
-            "xmin": 2.5,
-            "xmax": 8.5
+            "nbins": 8,
+            "xmin": 0,
+            "xmax": 8
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
@@ -526,15 +526,15 @@
     "nJets": {
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 4,
-            "xmin": 2,
+            "nbins": 6,
+            "xmin": 0,
             "xmax": 6
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Number of p_{T} > 30 GeV Jets",  
             "GetYaxis().SetTitle": "Events",
             "SetMinimum" : 0.001,
-            "SetMaximum" : 300
+            "SetMaximum" : 9000
         }
     }
 }

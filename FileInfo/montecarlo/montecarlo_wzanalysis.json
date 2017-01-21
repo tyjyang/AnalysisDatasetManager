@@ -1,6 +1,6 @@
 {
     "wlljj-ewk" : {
-        "cross_section" : 0.01785,
+        "cross_section" : 0.01763,
         "Source of cross section" : "MadGraph LO",
         "DAS Name" : "WLLJJ_WToLNu_EWK_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8",
         "Generator" : "MadGraph5_aMC@NLO LO",
@@ -24,7 +24,7 @@
         "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
     },
     "wzjj-aqgcfm" : {
-        "cross_section" : 0.01412, 
+        "cross_section" : 0.01432, 
         "Source of cross section" : "MadGraph LO",
         "DAS Name" : "WLLJJ_WToLNu_EWK_aQGC-FM_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8",
         "Generator" : "MadGraph5_aMC@NLO LO"

@@ -15,12 +15,20 @@
             "wz3lnu-mg5amcnlo"
         ]
     },
-    "wzjj-ewk" : {
-        "Name" : "WZjj EWK",
-        "Style" : "hatch-purple",
+    "wzjj-mglo" : {
+        "Name" : "WZjj EWK (MG LO)",
+        "Style" : "hatch-lightpurple",
         "add_perc_error" : 0.0,
         "Members" : [
             "wzjj-ewk"
+        ]
+    },
+    "wzjj-vbfnlo" : {
+        "Name" : "WZjj EWK (VBFNLO)",
+        "Style" : "hatch-pink",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wzjj-vbfnlo"
         ]
     },
     "wzjj-aqgcfm__fm1-2" : {
@@ -40,8 +48,8 @@
         ]
     },
     "wzjj-aqgcfm__sm" : {
-        "Name" : "WZjj EWK (SM)",
-        "Style" : "hatch-lightpurple",
+        "Name" : "WZjj EWK (SM rw)",
+        "Style" : "nofill-lightgreen",
         "add_perc_error" : 0.0,
         "Members" : [
             "wzjj-aqgcfm__sm"

@@ -106,18 +106,25 @@
             "wz2e1m1nu-1j-sherpa"
         ]
     },
-    "wzjj-ewk" : {
+    "wzjj-ewk-5f" : {
         "Name" : "#splitline{MG5_aMC@NLO}{5 fl. scheme}",
         "Style" : "nofill-lightgreen", 
         "Members" : [
             "wlljj-ewk"
         ]
     },
-    "wzjj-ewk-4f" : {
-        "Name" : "#splitline{MG5_aMC@NLO}{4 fl. scheme}",
+    "wzjj-ewk" : {
+        "Name" : "Standard Model",
         "Style" : "nofill-darkgreen-finedash",
         "Members" : [
-            "wlljj-ewk-4f"
+            "wlljj-ewk"
+        ]
+    },
+    "wzjj-vbfnlo" : {
+        "Name" : "VBFNLO",
+        "Style" : "nofill-darkpurple", 
+        "Members" : [
+            "wzjj-vbfnlo"
         ]
     },
     "wzjj-ewk-vbfnlo-mcnlo" : {

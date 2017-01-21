@@ -272,16 +272,16 @@
    "ZPt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 8,
+            "nbins": 20,
             "xmin": 0,
-            "xmax": 400
+            "xmax": 500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "p_{T}(Z) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 50 GeV",
+            "GetYaxis().SetTitle": "Events / 25 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum": 220
+            "SetMaximum": 50
         }
     },
     "nJetCSVv2T" : {
@@ -355,7 +355,7 @@
             "GetYaxis().SetTitle": "Events / 30 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 60
+            "SetMaximum" : 6000
         }
     },
    "Pt": {  
@@ -376,22 +376,22 @@
    "mjj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 5,
+            "nbins": 9,
             "xmin": 500,
-            "xmax": 2000
+            "xmax": 3200
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
             "GetYaxis().SetTitle": "Events / 300 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 300
+            "SetMaximum": 50
         }
     },
    "dEtajj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 6,
+            "nbins": 12,
             "xmin": 2.5,
             "xmax": 8.5
         },
@@ -400,7 +400,7 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 200
+            "SetMaximum" : 50
         }
     },
    "zep3l": {  
@@ -534,7 +534,7 @@
             "GetXaxis().SetTitle": "Number of p_{T} > 30 GeV Jets",  
             "GetYaxis().SetTitle": "Events",
             "SetMinimum" : 0.001,
-            "SetMaximum" : 300
+            "SetMaximum" : 120
         }
     }
 }

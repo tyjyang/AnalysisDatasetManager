@@ -47,15 +47,15 @@
    "trueZPt": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 10,
+            "nbins": 25,
             "xmin": 0,
-            "xmax": 400
+            "xmax": 500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "p_{T}(Z^{true}) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 40 GeV",
+            "GetYaxis().SetTitle": "Events / 20 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMaximum" : 200
+            "SetMaximum" : 60
         }
     },
    "trueWmass": {  
@@ -238,8 +238,8 @@
     "nj": {
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 6,
-            "xmin": 0,
+            "nbins": 4,
+            "xmin": 2,
             "xmax": 6
         },
         "Attributes": {  
@@ -247,21 +247,21 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 200
+            "SetMaximum" : 400
         }
     },
    "dEtajj": {  
         "Initialize": {  
             "type": "TH1F",
             "nbins": 12,
-            "xmin": 0,
+            "xmin": 2,
             "xmax": 8.0
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#Delta#eta_{jj}",  
             "GetYaxis().SetTitle": "Events",
             "SetMinimum" : 0.001,
-            "SetMaximum" : 200
+            "SetMaximum" : 150
         }
     },
    "mjj": {  

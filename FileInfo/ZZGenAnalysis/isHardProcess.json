@@ -1,6 +1,18 @@
 {
-    "zz4l" : {
+    "zz4l-powheg" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/powhegOff_GenNtuples_isHardProcess_2016-02-14-zzGen_cfg/*",
+        "plot_group" : "zz-pwg-off"
+    },
+    "zz4l-pdf4lhc" : {
+        "file_path" : "/data/kelong/DibosonGenAnalysisSamples/POWHEG_ZZ/ZZ_pdf4lhc_powheg_pythia8_CUETP8M1_Ntuple.root",
+        "plot_group" : "zz-pwg-off"
+    },
+    "zz4m-pdf4lhc" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/powheg_ZZTo4Mu_PDF4LHC_GenNtuples_leptonType-hardProcess_2017-01-17-zzGen_cfg/*",
+        "plot_group" : "zz-pwg-off"
+    },
+    "zz2e2m-pdf4lhc" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/powheg_ZZTo2E2Mu_PDF4LHC_GenNtuples_leptonType-hardProcess_2017-01-17-zzGen_cfg/*",
         "plot_group" : "zz-pwg-off"
     },
     "zz_eemm-pwg-doubleres" : {

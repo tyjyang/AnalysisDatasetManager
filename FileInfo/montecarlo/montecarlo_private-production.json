@@ -128,6 +128,27 @@
         "Generator" : "MadGraph5_aMC@NLO LO",
         "Cards" : ""
     },
+    "zz2e2m-pdf4lhc" : {
+        "cross_section" : 0.290118,
+        "Source of cross section" : "POWHEG (Private)",
+        "DAS Name" : "Private Production",
+        "Generator" : "POWHEG",
+        "Cards" : ""
+    },
+    "zz4m-pdf4lhc" : {
+        "cross_section" : 0.12952,
+        "Source of cross section" : "POWHEG (Private)",
+        "DAS Name" : "Private Production",
+        "Generator" : "POWHEG",
+        "Cards" : ""
+    },
+    "zz4l-pdf4lhc" : {
+        "cross_section" : 1.261,
+        "Source of cross section" : "POWHEG (Private)",
+        "DAS Name" : "Private Production",
+        "Generator" : "POWHEG",
+        "Cards" : ""
+    },
     "zz4l-mg5amcnlo" : {
         "cross_section" : 1.191,
         "Source of cross section" : "McM",
