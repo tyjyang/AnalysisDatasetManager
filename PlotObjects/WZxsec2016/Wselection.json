@@ -301,13 +301,13 @@
     "ZMass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 15,
+            "nbins": 30,
             "xmin": 76,
             "xmax": 106
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{l^{+}l^{-}} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 2 GeV", 
+            "GetYaxis().SetTitle": "Events / 1 GeV", 
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum" : 5000
@@ -385,7 +385,7 @@
             "GetYaxis().SetTitle": "Events / 150 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 2000
+            "SetMaximum": 2500
         }
     },
    "dEtajj": {  

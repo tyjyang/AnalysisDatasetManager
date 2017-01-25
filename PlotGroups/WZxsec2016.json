@@ -143,7 +143,7 @@
         "Style" : "fill-green",
         "add_perc_error" : 0.3,
         "Members" : [
-            "tt",
+            "tt-lep",
             "tzq",
             "st-schan",
             "st-tchan-t",
@@ -152,6 +152,29 @@
             "st-tbarw",
             "ttz",
             "ttw"
+        ]
+    },
+    "top_notzq" : {
+        "Name" : "Top",
+        "Style" : "fill-green",
+        "add_perc_error" : 0.3,
+        "Members" : [
+            "tt-lep",
+            "st-schan",
+            "st-tchan-t",
+            "st-tchan-tbar",
+            "st-tw",
+            "st-tbarw",
+            "ttz",
+            "ttw"
+        ]
+    },
+    "tzq" : {
+        "Name" : "tZq",
+        "Style" : "fill-lightgreen",
+        "add_perc_error" : 0.3,
+        "Members" : [
+            "tzq"
         ]
     },
     "zg-filt" : {
@@ -174,15 +197,15 @@
         "Name" : "Data",
         "Style" : "data",
         "Members" : [
-            "data_DoubleEG_Run2016B-PromptReco-v2",
-            "data_DoubleEG_Run2016C-PromptReco-v2",
-            "data_DoubleEG_Run2016D-PromptReco-v2",
-            "data_DoubleMuon_Run2016B-PromptReco-v2",
-            "data_DoubleMuon_Run2016C-PromptReco-v2",
-            "data_DoubleMuon_Run2016D-PromptReco-v2",
-            "data_MuonEG_Run2016B-PromptReco-v2",
-            "data_MuonEG_Run2016C-PromptReco-v2",
-            "data_MuonEG_Run2016D-PromptReco-v2"
+            "data_DoubleEG_Run2016B-23Sep2016-v3",
+            "data_DoubleEG_Run2016C-23Sep2016-v1",
+            "data_DoubleEG_Run2016D-23Sep2016-v1",
+            "data_DoubleMuon_Run2016B-23Sep2016-v3",
+            "data_DoubleMuon_Run2016C-23Sep2016-v1",
+            "data_DoubleMuon_Run2016D-23Sep2016-v1",
+            "data_MuonEG_Run2016B-23Sep2016-v3",
+            "data_MuonEG_Run2016C-23Sep2016-v1",
+            "data_MuonEG_Run2016D-23Sep2016-v1"
         ]
     }
 }

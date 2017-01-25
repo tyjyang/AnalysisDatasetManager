@@ -1,0 +1,62 @@
+{
+    "data_DoubleEG_Run2016B-23Sep2016-v3" : {
+        "luminosity" : 1,
+        "DAS Name" : "DoubleEG/Run2016B-23Sep2016-v3/MINIAODSIM"
+    },
+    "data_DoubleEG_Run2016C-23Sep2016-v1" : {
+        "luminosity" : 1,
+        "DAS Name" : "DoubleEG/Run2016C-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_DoubleEG_Run2016D-23Sep2016-v1" : {
+        "luminosity" : 1, 
+         "DAS Name" : "DoubleEG/Run2016D-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_DoubleMuon_Run2016B-23Sep2016-v3" : {
+        "luminosity" : 1,
+        "DAS Name" : "DoubleMuon/Run2016B-23Sep2016-v3/MINIAODSIM"
+    },
+    "data_DoubleMuon_Run2016C-23Sep2016-v1" : {
+        "luminosity" : 1,
+        "DAS Name" : "DoubleMuon/Run2016C-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_DoubleMuon_Run2016D-23Sep2016-v1" : {
+        "luminosity" : 1,
+        "DAS Name" : "DoubleMuon/Run2016D-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_MuonEG_Run2016B-23Sep2016-v3" : {
+        "luminosity" : 1,
+        "DAS Name" : "MuonEG/Run2016B-23Sep2016-v3/MINIAODSIM"
+    },
+    "data_MuonEG_Run2016C-23Sep2016-v1" : {
+        "luminosity" : 1,
+        "DAS Name" : "MuonEG/Run2016C-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_MuonEG_Run2016D-23Sep2016-v1" : {
+        "luminosity" : 1,
+        "DAS Name" : "MuonEG/Run2016D-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_SingleMuon_Run2016B-23Sep2016-v3" : {
+        "luminosity" : 1,
+        "DAS Name" : "SingleMuon/Run2016B-23Sep2016-v3/MINIAODSIM"
+    },
+    "data_SingleMuon_Run2016C-23Sep2016-v1" : {
+        "luminosity" : 1,
+        "DAS Name" : "SingleMuon/Run2016C-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_SingleMuon_Run2016D-23Sep2016-v1" : {
+        "luminosity" : 1,
+        "DAS Name" : "SingleMuon/Run2016D-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_SingleElectron_Run2016B-23Sep2016-v3" : {
+        "luminosity" : 1,
+        "DAS Name" : "SingleElectron/Run2016B-23Sep2016-v3/MINIAODSIM"
+    },
+    "data_SingleElectron_Run2016C-23Sep2016-v1" : {
+        "luminosity" : 1,
+        "DAS Name" : "SingleElectron/Run2016C-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_SingleElectron_Run2016D-23Sep2016-v1" : {
+        "luminosity" : 1,
+        "DAS Name" : "SingleElectron/Run2016D-23Sep2016-v1/MINIAODSIM"
+    }
+}

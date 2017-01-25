@@ -60,6 +60,9 @@ data_info = readAllJson("FileInfo/data/*.json")
 mc_info = readAllJson("FileInfo/montecarlo/*.json")
 valid_names = mc_info.keys() + data_info.keys()
 
+if args.filelist in [[""], None]:
+    args.filelist = readJson("FileInfo/%s.json" % args.selection)
+
 names = []
 log = ""
 for name in args.filelist:
