@@ -1,6 +1,6 @@
 {
     "wlljj-ewk" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_19Jan2017/WLLJJ_WToLNu_EWK_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170119_225711/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_19Jan2017/WLLJJ_WToLNu_EWK_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170119_225711/0000/*.root",
         "plot_group" : "wzjj-ewk"
     },
     "wzjj-vbfnlo" : {
@@ -8,11 +8,11 @@
         "plot_group" : "wzjj-vbfnlo"
     },
     "wz3lnu-powheg" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_19Jan2017/WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170119_210527/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_19Jan2017/WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170119_210527/0000/*.root",
         "plot_group" : "wz3lnu-pow"
     },
     "wz3lnu-mg5amcnlo" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_182614/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_182614/0000/*.root",
         "plot_group" : "wz3lnu-mg"
     },
     "wz3lnu-mgmlm-0j" : {
@@ -32,43 +32,43 @@
         "plot_group" : "wz3lnu-mgmlm"
     },
     "wzjj-aqgcfm" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WLLJJ_WToLNu_EWK_aQGC-FM_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_182116/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WLLJJ_WToLNu_EWK_aQGC-FM_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_182116/0000/*.root",
         "plot_group" : "wzjj-aqgcfm"
     },
     "wzjj-aqgcft" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WLLJJ_WToLNu_EWK_aQGC-FT_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_182227/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WLLJJ_WToLNu_EWK_aQGC-FT_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_182227/0000/*.root",
         "plot_group" : "wzjj-aqgcft"
     },
     "wzjj-aqgcfs" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WLLJJ_WToLNu_EWK_aQGC-FS_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_180416/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WLLJJ_WToLNu_EWK_aQGC-FS_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_180416/0000/*.root",
         "plot_group" : "wzjj-aqgcfs"
     },
     "wz-atgc_pt0-200" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WZTo3LNu_PtZ-0To200_aTGC_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_145850/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WZTo3LNu_PtZ-0To200_aTGC_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_145850/0000/*.root",
         "plot_group" : "wz-atgc"
     },
     "wz-atgc_pt200-300" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WZTo3LNu_PtZ-200To300_aTGC_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_150028/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WZTo3LNu_PtZ-200To300_aTGC_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_150028/0000/*.root",
         "plot_group" : "wz-atgc"
     },
     "wz-atgc_pt300" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WZTo3LNu_PtZ-300_aTGC_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_150215/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WZTo3LNu_PtZ-300_aTGC_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_150215/0000/*.root",
         "plot_group" : "wz-atgc"
     },
     "zz4l-mg5amcnlo" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ZZTo4L_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/170120_185948/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ZZTo4L_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/170120_185948/0000/*.root",
         "plot_group" : "wz3lnu-mg"
     },
     "zz4l-powheg" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ZZTo4L_13TeV_powheg_pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_185815/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ZZTo4L_13TeV_powheg_pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_185815/0000/*.root",
         "plot_group" : "zz"
     },
     "tt-lep" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/TTTo2L2Nu_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_184355/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/TTTo2L2Nu_TuneCUETP8M2_ttHtranche3_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_184355/0000/*.root",
         "plot_group" : "ttbar"
     },
     "st-schan" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_191119/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_191119/0000/*.root",
         "plot_group" : "st"
     },
     "st-tchan-t" : {
@@ -80,39 +80,39 @@
         "plot_group" : "st"
     },
     "st-tw" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ST_tW_top_5f_NoFullyHadronicDecays_13TeV-powheg_TuneCUETP8M1/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_185527/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ST_tW_top_5f_NoFullyHadronicDecays_13TeV-powheg_TuneCUETP8M1/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_185527/0000/*.root",
         "plot_group" : "st"
     },
     "st-tbarw" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV-powheg_TuneCUETP8M1/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_185647/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV-powheg_TuneCUETP8M1/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_185647/0000/*.root",
         "plot_group" : "st"
     },
     "tzq" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/tZq_ll_4f_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/170120_185248/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/tZq_ll_4f_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/170120_185248/0000/*.root",
         "plot_group" : "st"
     },
     "ttz" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/170120_184953/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/TTZToLLNuNu_M-10_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/170120_184953/0000/*.root",
         "plot_group" : "ttv"
     },
     "ttw" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v3/170120_184503/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/TTWJetsToLNu_TuneCUETP8M1_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v3/170120_184503/0000/*.root",
         "plot_group" : "ttv"
     },
     "zzz" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_190813/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_190813/0000/*.root",
         "plot_group" : "vvv"
     },
     "wwz" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WWZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_190438/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WWZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_190438/0000/*.root",
         "plot_group" : "vvv"
     },
     "www" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WWW_4F_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_190253/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WWW_4F_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_190253/0000/*.root",
         "plot_group" : "vvv"
     },
     "ww" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WWTo2L2Nu_13TeV-powheg/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_190109/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/WWTo2L2Nu_13TeV-powheg/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_190109/0000/*.root",
         "plot_group" : "ww"
     },
     "DYm50" : {
@@ -120,7 +120,7 @@
         "plot_group" : "dy"
     },
     "DYm50-0j-nlo" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DYToLL_0J_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv2-PUMoriond17_backup_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_183511/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DYToLL_0J_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv2-PUMoriond17_backup_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_183511/0000/*.root",
         "plot_group" : "dyjets"
     },
     "DYm50-1j-nlo" : {
@@ -136,19 +136,19 @@
         "plot_group" : "dy"
     },
     "DYm50-1j" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_183618/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_183618/0000/*.root",
         "plot_group" : "dyjets"
     },
     "DYm50-2j" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_183724/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_183724/0000/*.root",
         "plot_group" : "dyjets"
     },
     "DYm50-3j" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_183854/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_183854/0000/*.root",
         "plot_group" : "dyjets"
     },
     "DYm50-4j" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_184133/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/170120_184133/0000/*.root",
         "plot_group" : "dyjets"
     },
     "ggZZ4e" : {
@@ -164,43 +164,43 @@
         "plot_group" : "zz"
     },
     "zg" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/170120_184242/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/170120_184242/0000/*.root",
         "plot_group" : "zg"
     },
     "data_DoubleEG_Run2016B-23Sep2016-v3" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DoubleEG/Run2016B-23Sep2016-v3/170120_074945/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DoubleEG/Run2016B-23Sep2016-v3/170120_074945/0000/*.root",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016C-23Sep2016-v1" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DoubleEG/Run2016C-23Sep2016-v1/170120_083039/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DoubleEG/Run2016C-23Sep2016-v1/170120_083039/0000/*.root",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016D-23Sep2016-v1" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DoubleEG/Run2016D-23Sep2016-v1/170120_083320/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DoubleEG/Run2016D-23Sep2016-v1/170120_083320/0000/*.root",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016B-23Sep2016-v3" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DoubleMuon/Run2016B-23Sep2016-v3/170120_075053/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DoubleMuon/Run2016B-23Sep2016-v3/170120_075053/0000/*.root",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016C-23Sep2016-v1" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DoubleMuon/Run2016C-23Sep2016-v1/170120_083154/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DoubleMuon/Run2016C-23Sep2016-v1/170120_083154/0000/*.root",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016D-23Sep2016-v1" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DoubleMuon/Run2016D-23Sep2016-v1/170120_083429/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/DoubleMuon/Run2016D-23Sep2016-v1/170120_083429/0000/*.root",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016B-23Sep2016-v3" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/MuonEG/Run2016B-23Sep2016-v3/170120_084643/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/MuonEG/Run2016B-23Sep2016-v3/170120_084643/0000/*.root",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016C-23Sep2016-v1" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/MuonEG/Run2016C-23Sep2016-v1/170120_084804/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/MuonEG/Run2016C-23Sep2016-v1/170120_084804/0000/*.root",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016D-23Sep2016-v1" : {
-        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/MuonEG/Run2016D-23Sep2016-v1/170120_085021/0000",
+        "file_path" : "/hdfs/store/user/kelong/UWVVNtuples_20Jan2017/MuonEG/Run2016D-23Sep2016-v1/170120_085021/0000/*.root",
         "plot_group" : "data"
     },
     "data_SingleMuon_Run2016B-23Sep2016-v3" : {

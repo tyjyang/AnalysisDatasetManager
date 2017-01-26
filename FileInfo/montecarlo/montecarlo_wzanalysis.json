@@ -41,6 +41,32 @@
         "DAS Name" : "WLLJJ_WToLNu_EWK_aQGC-FM_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8",
         "Generator" : "MadGraph5_aMC@NLO LO"
     },
+    "wz3lnu-mgmlm-0j" : {
+    },
+    "wz3lnu-mgmlm-1j" : {
+    },
+    "wz3lnu-mgmlm-2j" : {
+    },
+    "wz3lnu-mgmlm-3j" : {
+    },
+    "wz-atgc_pt0-200" : {
+        "cross_section" : 0.881, 
+        "Source of cross section" : "MadGraph NLO",
+        "DAS Name" : "WZTo3LNu_PtZ-0To200_aTGC_13TeV-amcatnloFXFX-madspin-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO NLO FxFx"
+    },
+    "wz-atgc_pt200-300" : {
+        "cross_section" : 0.0049, 
+        "Source of cross section" : "MadGraph NLO",
+        "DAS Name" : "WZTo3LNu_PtZ-200To300_aTGC_13TeV-amcatnloFXFX-madspin-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO NLO FxFx"
+    },
+    "wz-atgc_pt300" : {
+        "cross_section" : 0.0248, 
+        "Source of cross section" : "MadGraph NLO",
+        "DAS Name" : "WZTo3LNu_PtZ-300_aTGC_13TeV-amcatnloFXFX-madspin-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO NLO FxFx"
+    },
     "ww" : {
         "cross_section" : 12.178,
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#Diboson",

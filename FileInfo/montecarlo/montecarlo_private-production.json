@@ -51,13 +51,6 @@
         "Generator" : "MadGraph5_aMC@NLO LO",
         "Cards" : ""
     },
-    "wlljj-aqgcft-ewk" : {
-        "cross_section" : 0.02855, 
-        "Source of cross section" : "MadGraph LO",
-        "DAS Name" : "Private Generation",
-        "Generator" : "MadGraph5_aMC@NLO LO",
-        "Cards" : ""
-    },
     "zzjj-ewk-vbfnlo" : {
         "cross_section" : 0.000687858, 
         "Source of cross section" : "VBFNLO+Hwerig",
@@ -83,48 +76,6 @@
         "cross_section" : 0.1896, 
         "Source of cross section" : "MadGraph LO",
         "DAS Name" : "Private Production",
-        "Generator" : "MadGraph5_aMC@NLO LO",
-        "Cards" : ""
-    },
-    "wzjj-aqgc-fm" : {
-        "cross_section" : 1, 
-        "Source of cross section" : "MadGraph LO",
-        "DAS Name" : "Private sample",
-        "Generator" : "MadGraph5_aMC@NLO LO",
-        "Cards" : ""
-    },
-    "wz-atgc" : {
-        "cross_section" : 0.9689,
-        "Source of cross section" : "MadGraph NLO",
-        "DAS Name" : "Private Sample",
-        "Generator" : "MadGraph5_aMC@NLO NLO",
-        "Cards" : ""
-    },
-    "wz-0j-mgmlm" : {
-        "cross_section" : 0.4658,
-        "Source of cross section" : "MadGraph LO",
-        "DAS Name" : "Private Sample",
-        "Generator" : "MadGraph5_aMC@NLO LO",
-        "Cards" : ""
-    },
-    "wz-1j-mgmlm" : {
-        "cross_section" : 0.3483, 
-        "Source of cross section" : "MadGraph LO",
-        "DAS Name" : "Private Sample",
-        "Generator" : "MadGraph5_aMC@NLO LO",
-        "Cards" : ""
-    },
-    "wz-2j-mgmlm" : {
-        "cross_section" : 0.1949,
-        "Source of cross section" : "MadGraph LO",
-        "DAS Name" : "Private Sample",
-        "Generator" : "MadGraph5_aMC@NLO LO",
-        "Cards" : ""
-    },
-    "wz-qcut27-mgmlm" : {
-        "cross_section" : 0.1384,
-        "Source of cross section" : "MadGraph LO",
-        "DAS Name" : "Private Sample",
         "Generator" : "MadGraph5_aMC@NLO LO",
         "Cards" : ""
     },
