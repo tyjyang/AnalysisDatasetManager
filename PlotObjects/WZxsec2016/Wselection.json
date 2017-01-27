@@ -355,7 +355,7 @@
             "GetYaxis().SetTitle": "Events / 30 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 6000
+            "SetMaximum" : 9000
         }
     },
    "Pt": {  
@@ -370,7 +370,7 @@
             "GetYaxis().SetTitle": "Events / 30 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 7000
+            "SetMaximum": 10000
         }
     },
    "mjj": {  

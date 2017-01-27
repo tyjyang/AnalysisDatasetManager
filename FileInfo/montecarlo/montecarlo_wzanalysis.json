@@ -50,19 +50,19 @@
     "wz3lnu-mgmlm-3j" : {
     },
     "wz-atgc_pt0-200" : {
-        "cross_section" : 0.881, 
+        "cross_section" : 1.026, 
         "Source of cross section" : "MadGraph NLO",
         "DAS Name" : "WZTo3LNu_PtZ-0To200_aTGC_13TeV-amcatnloFXFX-madspin-pythia8",
         "Generator" : "MadGraph5_aMC@NLO NLO FxFx"
     },
     "wz-atgc_pt200-300" : {
-        "cross_section" : 0.0049, 
+        "cross_section" : 0.04155, 
         "Source of cross section" : "MadGraph NLO",
         "DAS Name" : "WZTo3LNu_PtZ-200To300_aTGC_13TeV-amcatnloFXFX-madspin-pythia8",
         "Generator" : "MadGraph5_aMC@NLO NLO FxFx"
     },
     "wz-atgc_pt300" : {
-        "cross_section" : 0.0248, 
+        "cross_section" : 0.02703, 
         "Source of cross section" : "MadGraph NLO",
         "DAS Name" : "WZTo3LNu_PtZ-300_aTGC_13TeV-amcatnloFXFX-madspin-pythia8",
         "Generator" : "MadGraph5_aMC@NLO NLO FxFx"

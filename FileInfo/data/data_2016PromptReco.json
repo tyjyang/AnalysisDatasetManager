@@ -11,6 +11,14 @@
         "luminosity" : 1, 
          "DAS Name" : "DoubleEG/Run2016D-PromptReco-v2/MINIAODSIM"
     },
+    "data_DoubleEG_Run2016H-PromptReco-v2" : {
+        "luminosity" : 1,
+        "DAS Name" : "DoubleEG/Run2016H-PromptReco-v2/MINIAODSIM"
+    },
+    "data_DoubleEG_Run2016H-PromptReco-v3" : {
+        "luminosity" : 1,
+        "DAS Name" : "DoubleEG/Run2016H-PromptReco-v2/MINIAODSIM"
+    },
     "data_DoubleMuon_Run2016B-PromptReco-v2" : {
         "luminosity" : 1,
         "DAS Name" : "DoubleMuon/Run2016B-PromptReco-v2/MINIAODSIM"
@@ -23,6 +31,14 @@
         "luminosity" : 1,
         "DAS Name" : "DoubleMuon/Run2016D-PromptReco-v2/MINIAODSIM"
     },
+    "data_DoubleMuon_Run2016H-PromptReco-v2" : {
+        "luminosity" : 1,
+        "DAS Name" : "DoubleMuon/Run2016H-PromptReco-v2/MINIAODSIM"
+    },
+    "data_DoubleMuon_Run2016H-PromptReco-v3" : {
+        "luminosity" : 1,
+        "DAS Name" : "DoubleMuon/Run2016H-PromptReco-v2/MINIAODSIM"
+    },
     "data_MuonEG_Run2016B-PromptReco-v2" : {
         "luminosity" : 1,
         "DAS Name" : "MuonEG/Run2016B-PromptReco-v2/MINIAODSIM"
@@ -34,6 +50,14 @@
     "data_MuonEG_Run2016D-PromptReco-v2" : {
         "luminosity" : 1,
         "DAS Name" : "MuonEG/Run2016D-PromptReco-v2/MINIAODSIM"
+    },
+    "data_MuonEG_Run2016H-PromptReco-v2" : {
+        "luminosity" : 1,
+        "DAS Name" : "MuonMuon/Run2016H-PromptReco-v2/MINIAODSIM"
+    },
+    "data_MuonEG_Run2016H-PromptReco-v3" : {
+        "luminosity" : 1,
+        "DAS Name" : "MuonMuon/Run2016H-PromptReco-v2/MINIAODSIM"
     },
     "data_SingleMuon_Run2016B-PromptReco-v2" : {
         "luminosity" : 1,
