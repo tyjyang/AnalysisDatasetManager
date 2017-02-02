@@ -21,7 +21,7 @@
     },
     "tt-lep" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/PreselectionLooseVeto/2016-11-23-tt-lep-WZxsec2016-preselectionLooseVeto-v1/*",
-        "plot_group" : "ttbar"
+        "plot_group" : "bleh"
     },
     "st-schan" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/PreselectionLooseVeto/2016-11-23-st-schan-WZxsec2016-preselectionLooseVeto-v1/*",

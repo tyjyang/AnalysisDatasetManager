@@ -72,8 +72,8 @@
         "DAS Name" : "MuonEG/Run2016G-23Sep2016-v1/MINIAODSIM"
     },
     "data_SingleMuon_Run2016B-23Sep2016-v3" : {
-        "luminosity" : 1,
-        "DAS Name" : "SingleMuon/Run2016B-23Sep2016-v3/MINIAODSIM"
+        "luminosity" : 1, 
+        "DAS Name" : "MuonEG/Run2016G-23Sep2016-v1/MINIAODSIM"
     },
     "data_SingleMuon_Run2016C-23Sep2016-v1" : {
         "luminosity" : 1,
@@ -82,6 +82,18 @@
     "data_SingleMuon_Run2016D-23Sep2016-v1" : {
         "luminosity" : 1,
         "DAS Name" : "SingleMuon/Run2016D-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_SingleMuon_Run2016E-23Sep2016-v1" : {
+        "luminosity" : 1, 
+        "DAS Name" : "SingleMuon/Run2016G-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_SingleMuon_Run2016F-23Sep2016-v1" : {
+        "luminosity" : 1, 
+        "DAS Name" : "SingleMuon/Run2016G-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_SingleMuon_Run2016G-23Sep2016-v1" : {
+        "luminosity" : 1, 
+        "DAS Name" : "SingleMuon/Run2016G-23Sep2016-v1/MINIAODSIM"
     },
     "data_SingleElectron_Run2016B-23Sep2016-v3" : {
         "luminosity" : 1,
@@ -94,5 +106,17 @@
     "data_SingleElectron_Run2016D-23Sep2016-v1" : {
         "luminosity" : 1,
         "DAS Name" : "SingleElectron/Run2016D-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_SingleElectron_Run2016E-23Sep2016-v1" : {
+        "luminosity" : 1, 
+        "DAS Name" : "SingleElectron/Run2016G-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_SingleElectron_Run2016F-23Sep2016-v1" : {
+        "luminosity" : 1, 
+        "DAS Name" : "SingleElectron/Run2016G-23Sep2016-v1/MINIAODSIM"
+    },
+    "data_SingleElectron_Run2016G-23Sep2016-v1" : {
+        "luminosity" : 1, 
+        "DAS Name" : "SingleElectron/Run2016G-23Sep2016-v1/MINIAODSIM"
     }
 }

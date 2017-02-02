@@ -24,13 +24,13 @@
         "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
     },
     "wzjj-aqgcft" : {
-        "cross_section" : 0.01432, 
+        "cross_section" : 0.1634, 
         "Source of cross section" : "MadGraph LO",
         "DAS Name" : "WLLJJ_WToLNu_EWK_aQGC-FT_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8",
         "Generator" : "MadGraph5_aMC@NLO LO"
     },
     "wzjj-aqgcfs" : {
-        "cross_section" : 0.01432, 
+        "cross_section" : 0.01475, 
         "Source of cross section" : "MadGraph LO",
         "DAS Name" : "WLLJJ_WToLNu_EWK_aQGC-FS_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8",
         "Generator" : "MadGraph5_aMC@NLO LO"
@@ -184,6 +184,12 @@
         "Source of cross section" : "GenXSecAnalyzer",
         "DAS Name" : "ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8",
         "Notes" : "Filtered to remove overlap with Zgamma sample. Events with photons from q or l with pt > 10 GeV are rejected."
+    },
+    "DYm50-0j-nlo" : {
+    },
+    "DYm50-1j-nlo" : {
+    },
+    "DYm50-2j-nlo" : {
     },
     "zg-filt" : {
         "cross_section" : 117.9,

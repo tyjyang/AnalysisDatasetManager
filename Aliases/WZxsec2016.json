@@ -20,10 +20,13 @@
             "Zlep2IsTight" : "m2IsTightMuon",
             "Wlep_Pt" : "ePt",
             "Wlep_Eta" : "eEta",
-            "WlepIsTight" : "eIsCBVIDtight",
+            "WlepIsTight" : "eIsCBVIDTight",
             "hasOSSFpair" : "!m1_m2_SS",
             "dR_Wlep_Zlep1" : "e_m1_DR",
-            "dR_Wlep_Zlep2" : "e_m2_DR"
+            "dR_Wlep_Zlep2" : "e_m2_DR",
+            "MtW" : "eMtToMET",
+            "CBTightElectrons" : "eIsCBVIDTight",
+            "MVATightElectrons" : "(eIsEB ? (eEta <= 0.8 ? (eMVANonTrigID > 0.941) : (eMVANonTrigID > 0.899)) : (eMVANonTrigID  > 0.758))"
         },
         "eem" : {
             "l1Pt" : "(e1Pt > e2Pt ? e1Pt : e2Pt ) > mPt ? ( e1Pt > e2Pt ? e1Pt : e2Pt ) : mPt",
@@ -38,16 +41,19 @@
             "ZPt" : "e1_e2_Pt",
             "Zlep1_Pt" : "e1Pt",
             "Zlep1_Eta" : "e1Eta",
-            "Zlep1IsTight" : "e1IsCBVIDtight",
+            "Zlep1IsTight" : "e1IsCBVIDTight",
             "Zlep2_Pt" : "e2Pt",
             "Zlep2_Eta" : "e2Eta",
-            "Zlep2IsTight" : "e2IsCBVIDtight",
+            "Zlep2IsTight" : "e2IsCBVIDTight",
             "Wlep_Pt" : "mPt",
             "Wlep_Eta" : "mEta",
             "WlepIsTight" : "mIsTightMuon",
             "hasOSSFpair" : "!e1_e2_SS",
             "dR_Wlep_Zlep1" : "e1_m_DR",
-            "dR_Wlep_Zlep2" : "e2_m_DR"
+            "dR_Wlep_Zlep2" : "e2_m_DR",
+            "MtW" : "mMtToMET",
+            "CBTightElectrons" : "e1IsCBVIDTight && e2IsCBVIDTight",
+            "MVATightElectrons" : "((e1IsEB ? (e1Eta <= 0.8 ? (e1MVANonTrigID > 0.941) : (e1MVANonTrigID > 0.899)) : (e1MVANonTrigID  > 0.758)) && (e2IsEB ? (e2Eta <= 0.8 ? (e2MVANonTrigID > 0.941) : (e2MVANonTrigID > 0.899)) : (e2MVANonTrigID  > 0.758)))"
         },
         "eee" : {
             "l1Pt" : "(e1Pt > e2Pt ? e1Pt : e2Pt ) > e3Pt ? ( e1Pt > e2Pt ? e1Pt : e2Pt ) : e3Pt",
@@ -61,16 +67,19 @@
             "ZPt" : "e1_e2_Pt",
             "Zlep1_Pt" : "e1Pt",
             "Zlep1_Eta" : "e1Eta",
-            "Zlep1IsTight" : "e1IsCBVIDtight",
+            "Zlep1IsTight" : "e1IsCBVIDTight",
             "Zlep2_Pt" : "e2Pt",
             "Zlep2_Eta" : "e2Eta",
-            "Zlep2IsTight" : "e2IsCBVIDtight",
+            "Zlep2IsTight" : "e2IsCBVIDTight",
             "Wlep_Pt" : "e3Pt",
             "Wlep_Eta" : "e3Eta",
-            "WlepIsTight" : "e3IsCBVIDtight",
+            "WlepIsTight" : "e3IsCBVIDTight",
             "hasOSSFpair" : "!(e1_e2_SS > 0.5 && e2_e3_SS > 0.5 && e1_e3_SS > 0.5)",
             "dR_Wlep_Zlep1" : "e1_e3_DR",
-            "dR_Wlep_Zlep2" : "e2_e3_DR"
+            "dR_Wlep_Zlep2" : "e2_e3_DR",
+            "MtW" : "e3MtToMET",
+            "CBTightElectrons" : "e1IsCBVIDTight && e2IsCBVIDTight && e3IsCBVIDTight",
+            "MVATightElectrons" : "((e1IsEB ? (e1Eta <= 0.8 ? (e1MVANonTrigID > 0.941) : (e1MVANonTrigID > 0.899)) : (e1MVANonTrigID  > 0.758)) && (e2IsEB ? (e2Eta <= 0.8 ? (e2MVANonTrigID > 0.941) : (e2MVANonTrigID > 0.899)) : (e2MVANonTrigID  > 0.758)) && (e3IsEB ? (e3Eta <= 0.8 ? (e3MVANonTrigID > 0.941) : (e3MVANonTrigID > 0.899)) : (e3MVANonTrigID  > 0.758)))"
         },
         "mmm" : {
             "l1Pt" : "(m1Pt > m2Pt ? m1Pt : m2Pt ) > m3Pt ? ( m1Pt > m2Pt ? m1Pt : m2Pt ) : m3Pt",
@@ -93,13 +102,17 @@
             "WlepIsTight" : "m3IsTightMuon",
             "hasOSSFpair" : "!(m1_m2_SS && m2_m3_SS && m1_m3_SS)",
             "dR_Wlep_Zlep1" : "m1_m3_DR",
-            "dR_Wlep_Zlep2" : "m2_m3_DR"
+            "dR_Wlep_Zlep2" : "m2_m3_DR",
+            "MtW" : "m3MtToMET",
+            "CBTightElectrons" : "1 > 0",
+            "MVATightElectrons" : "1 > 0"
         }
     },
     "Event" : {
         "nMediumLep" : "(nWZMediumMuon + nWWLooseCBVIDMedElec)",
         "nLooseLep" : "(nWZLooseMuon + nWWLooseElec)",
         "MET" : "type1_pfMETEt",
+        "MTWZ" : "sqrt(Mass*Mass - 2*type1_pfMETEt*Pt*(cos(Phi)*cos(type1_pfMETPhi) + sin(Phi)*sin(type1_pfMETPhi)))",
         "zep3l" : "Length$(jetEta) >= 2 ? Eta - abs(jetEta[0] - jetEta[1]) : -1",
         "dEtajj" : "abs(jetEta[0] - jetEta[1])",
         "zepj3" : "Length$(jetEta) >= 3 ? (jetEta[2] - 0.5*(jetEta[0] + jetEta[1])) : -1",

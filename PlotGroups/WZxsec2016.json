@@ -15,12 +15,12 @@
             "wz3lnu-mg5amcnlo"
         ]
     },
-    "wzjj-mglo" : {
-        "Name" : "WZjj EWK (MG LO)",
+    "wzjj-ewk" : {
+        "Name" : "WZjj EWK",
         "Style" : "hatch-lightpurple",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wzjj-ewk"
+            "wlljj-ewk"
         ]
     },
     "wzjj-vbfnlo" : {
@@ -64,15 +64,50 @@
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wzjj-aqgcfm__fm0-4"
+            "wzjj-aqgcfm"
+        ]
+    },
+    "wzjj-aqgcfm__fm0-8_fm1-8" : {
+        "Name" : "F_{M0}= 8; F_{M1} = 8 TeV^{-4}",
+        "Style" : "nofill-lightblue",
+        "weight" : "pdfWeights[484]/scaleWeights[0]",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wzjj-aqgcfm"
         ]
     },
     "wzjj-aqgcfm__sm" : {
         "Name" : "WZjj EWK (SM rw)",
         "Style" : "nofill-lightgreen",
+        "weight" : "pdfWeights[437]/scaleWeights[0]",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wzjj-aqgcfm__sm"
+            "wzjj-aqgcfm"
+        ]
+    },
+    "wzjj-aqgcft__ft0-8" : {
+        "Name" : "F_{T0}= 8 TeV^{-4}",
+        "Style" : "nofill-darkpurple-dash",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wzjj-aqgcft"
+        ]
+    },
+    "wzjj-aqgcft__ft1-2" : {
+        "Name" : "F_{T1}= 2 TeV^{-4}",
+        "Style" : "nofill-lightgrey-dash",
+        "weight" : "pdfWeights[446]/scaleWeights[0]",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wzjj-aqgcft"
+        ]
+    },
+    "wzjj-aqgcfs__fs0-16" : {
+        "Name" : "F_{S0}= 16 TeV^{-4}",
+        "Style" : "nofill-lightpink-dotdash",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wzjj-aqgcfs"
         ]
     },
     "vv-powheg" : {
@@ -158,6 +193,14 @@
             "tzq"
         ]
     },
+    "ttleptonic" : {
+        "Name" : "t#bar{t}#rightarrow2l2#nu",
+        "Style" : "fill-green",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "tt-lep"
+        ]
+    },
     "top" : {
         "Name" : "Top",
         "Style" : "fill-green",
@@ -213,7 +256,37 @@
             "zg"
         ]
     },
-    "data" : {
+    "data_2016" : {
+        "Name" : "Data",
+        "Style" : "data",
+        "Members" : [
+            "data_DoubleEG_Run2016B-23Sep2016-v3",
+            "data_DoubleEG_Run2016C-23Sep2016-v1",
+            "data_DoubleEG_Run2016D-23Sep2016-v1",
+            "data_DoubleEG_Run2016E-23Sep2016-v1",
+            "data_DoubleEG_Run2016F-23Sep2016-v1",
+            "data_DoubleEG_Run2016G-23Sep2016-v1",
+            "data_DoubleEG_Run2016H-PromptReco-v2",
+            "data_DoubleEG_Run2016H-PromptReco-v3",
+            "data_DoubleMuon_Run2016B-23Sep2016-v3",
+            "data_DoubleMuon_Run2016C-23Sep2016-v1",
+            "data_DoubleMuon_Run2016D-23Sep2016-v1",
+            "data_DoubleMuon_Run2016E-23Sep2016-v1",
+            "data_DoubleMuon_Run2016F-23Sep2016-v1",
+            "data_DoubleMuon_Run2016G-23Sep2016-v1",
+            "data_DoubleMuon_Run2016H-PromptReco-v2",
+            "data_DoubleMuon_Run2016H-PromptReco-v3",
+            "data_MuonEG_Run2016B-23Sep2016-v3",
+            "data_MuonEG_Run2016C-23Sep2016-v1",
+            "data_MuonEG_Run2016D-23Sep2016-v1",
+            "data_MuonEG_Run2016E-23Sep2016-v1",
+            "data_MuonEG_Run2016F-23Sep2016-v1",
+            "data_MuonEG_Run2016G-23Sep2016-v1",
+            "data_MuonEG_Run2016H-PromptReco-v2",
+            "data_MuonEG_Run2016H-PromptReco-v3"
+        ]
+    },
+    "data_ICHEP" : {
         "Name" : "Data",
         "Style" : "data",
         "Members" : [

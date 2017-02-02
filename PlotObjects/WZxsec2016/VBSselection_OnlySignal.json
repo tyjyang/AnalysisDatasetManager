@@ -313,6 +313,21 @@
             "SetMaximum" : 100
         }
     },
+   "MTWZ": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 9,
+            "xmin": 0,
+            "xmax": 900
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 30
+        }
+    },
    "MET" : {
         "Initialize": {  
             "type": "TH1D",

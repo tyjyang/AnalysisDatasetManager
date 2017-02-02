@@ -249,13 +249,15 @@
         "Initialize": {  
             "type": "TH1F",
             "nbins": 20,
-            "xmin": 0,
-            "xmax": 200
+            "xmin": 10,
+            "xmax": 210
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading lepton p_{T}",  
             "GetYaxis().SetTitle": "Events / 10 GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum": 20000,
+            "SetMinimum" : 0.001
         }
     },
    "l1Eta": {  
@@ -275,14 +277,16 @@
    "l2Pt": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 10,
+            "nbins": 24,
             "xmin": 0,
-            "xmax": 100
+            "xmax": 120
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Lepton 2 p_{T}",  
-            "GetYaxis().SetTitle": "Events / 10 GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitle": "Events / 5 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum": 10000,
+            "SetMinimum" : 0.001
         }
     },
    "l2Eta": {  
@@ -294,7 +298,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Lepton 2 #eta",  
-            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitle": "Events / 5 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMaximum": 230,
             "SetMinimum" : 0.001
@@ -303,14 +307,16 @@
    "l3Pt": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 10,
+            "nbins": 20,
             "xmin": 0,
             "xmax": 100
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Lepton 3 p_{T}",  
-            "GetYaxis().SetTitle": "Events",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitle": "Events / 5 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum": 22000,
+            "SetMinimum" : 0.001
         }
     },
    "l3Eta": {  
@@ -344,16 +350,16 @@
   "ZMass": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 25,
-            "xmin": 30,
-            "xmax": 130
+            "nbins": 30,
+            "xmin": 0,
+            "xmax": 150
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{l^{+}l^{-}} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 4 GeV", 
+            "GetYaxis().SetTitle": "Events / 5 GeV", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 100
+            "SetMaximum" : 20000
         }
     },
    "Mass": {  
@@ -368,7 +374,7 @@
             "GetYaxis().SetTitle": "Events / 10 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 3000
+            "SetMaximum" : 8000
         }
     },
     "numJets": {
@@ -395,7 +401,36 @@
             "GetXaxis().SetTitle": "Number of p_{T} > 30 GeV CSVv2 Tight b-tagged Jets",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMaximum" : 2000
+            "SetMaximum" : 70000
+        }
+    },
+   "MET" : {
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 22,
+            "xmin": 0,
+            "xmax": 220
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#slash{E}_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / 10 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 15000
+        }
+   },
+    "nJets": {
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 6,
+            "xmin": 0,
+            "xmax": 6
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Number of p_{T} > 30 GeV Jets",  
+            "GetYaxis().SetTitle": "Events",
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 40000
         }
     }
 }

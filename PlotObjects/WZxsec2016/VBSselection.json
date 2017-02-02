@@ -281,7 +281,7 @@
             "GetYaxis().SetTitle": "Events / 50 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum": 220
+            "SetMaximum": 250
         }
     },
     "nJetCSVv2T" : {
@@ -343,34 +343,64 @@
             "SetMaximum" : 1500
         }
     },
+   "MTWZ": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 9,
+            "xmin": 0,
+            "xmax": 900
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 300
+        }
+    },
+   "MtW": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": 0,
+            "xmax": 150
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 10 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 150
+        }
+    },
    "Mass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 14,
+            "nbins": 12,
             "xmin": 100,
-            "xmax": 520
+            "xmax": 700
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{3l} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 30 GeV",
+            "GetYaxis().SetTitle": "Events / 50 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 60
+            "SetMaximum" : 250
         }
     },
    "Pt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 11,
+            "nbins": 10,
             "xmin": 0,
-            "xmax": 330
+            "xmax": 500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "p_{T}(3l) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 30 GeV",
+            "GetYaxis().SetTitle": "Events / 50 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 7000
+            "SetMaximum": 250
         }
     },
    "mjj": {  
