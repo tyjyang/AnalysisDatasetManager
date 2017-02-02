@@ -215,7 +215,7 @@
     "tt-lep" : {
         "cross_section" : 87.31,
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#TTbar",
-        "DAS Name" : "TTJets_DiLept_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
+        "DAS Name" : "TTJets_DiLept_TuneCUETP8M1_13TeUETP8M2_ttHtranche3_13TeV-powheg-pythia8"
     },
     "tt" : {
         "cross_section" : 831.76,

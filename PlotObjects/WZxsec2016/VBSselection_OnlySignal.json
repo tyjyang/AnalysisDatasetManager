@@ -316,16 +316,16 @@
    "MTWZ": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 9,
-            "xmin": 0,
-            "xmax": 900
+            "nbins": 10,
+            "xmin": 500,
+            "xmax": 2500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitle": "Events / 200 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 30
+            "SetMaximum" : 15
         }
     },
    "MET" : {
