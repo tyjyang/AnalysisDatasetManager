@@ -301,13 +301,13 @@
     "ZMass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 30,
+            "nbins": 15,
             "xmin": 76,
             "xmax": 106
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{l^{+}l^{-}} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 1 GeV", 
+            "GetYaxis().SetTitle": "Events / 2 GeV", 
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum" : 2500
@@ -406,16 +406,16 @@
    "mjj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 10,
+            "nbins": 15,
             "xmin": 0,
-            "xmax": 500
+            "xmax": 1500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
             "GetYaxis().SetTitle": "Events / 100 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 700
+            "SetMaximum": 1000
         }
     },
    "dEtajj": {  

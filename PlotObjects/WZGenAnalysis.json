@@ -77,8 +77,8 @@
         "Initialize": {  
             "type": "TH1F",
             "nbins": 60,
-            "xmin": 0,
-            "xmax": 120
+            "xmin": 20,
+            "xmax": 140
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{W}^{true} [GeV]",  
@@ -360,7 +360,7 @@
             "GetXaxis().SetTitle": "GenMET [GeV]",  
             "GetYaxis().SetTitle": "Events / 10 GeV",
             "SetMinimum" : 0.001,
-            "SetMaximum": 7000,
+            "SetMaximum": 10000,
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },

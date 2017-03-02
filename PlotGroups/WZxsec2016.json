@@ -157,6 +157,16 @@
             "DYm10-50-filt"
         ]
     },
+    "dyjets-nlo" : {
+        "Name" : "Drell-Yan",
+        "Style" : "fill-yellow",
+        "add_perc_error" : 0.3,
+        "Members" : [
+            "DYm50-0j-nlo",
+            "DYm50-1j-nlo",
+            "DYm50-2j-nlo"
+        ]
+    },
     "dyjets" : {
         "Name" : "Drell-Yan",
         "Style" : "fill-yellow",
@@ -260,6 +270,14 @@
         "Name" : "Data",
         "Style" : "data",
         "Members" : [
+            "data_SingleMuon_Run2016B-23Sep2016-v3",
+            "data_SingleMuon_Run2016C-23Sep2016-v1", 
+            "data_SingleMuon_Run2016D-23Sep2016-v1", 
+            "data_SingleMuon_Run2016E-23Sep2016-v1", 
+            "data_SingleMuon_Run2016F-23Sep2016-v1", 
+            "data_SingleMuon_Run2016G-23Sep2016-v1", 
+            "data_SingleMuon_Run2016H-PromptReco-v2",
+            "data_SingleMuon_Run2016H-PromptReco-v3",
             "data_DoubleEG_Run2016B-23Sep2016-v3",
             "data_DoubleEG_Run2016C-23Sep2016-v1",
             "data_DoubleEG_Run2016D-23Sep2016-v1",

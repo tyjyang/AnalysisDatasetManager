@@ -154,6 +154,18 @@
         "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2017-01-31-DYm50-4j-WZxsec2016-Wselection-v1/*",
         "plot_group" : "dyjets"
     },
+    "DYm50-0j-nlo" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2017-01-31-DYm50-0j-WZxsec2016-Wselection-v1/*",
+        "plot_group" : "dyjets_nlo"
+    },
+    "DYm50-1j-nlo" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2017-01-31-DYm50-1j-nlo-WZxsec2016-Wselection-v1/*",
+        "plot_group" : "dyjets_nlo"
+    },
+    "DYm50-2j-nlo" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2017-01-31-DYm50-2j-nlo-WZxsec2016-Wselection-v1/*",
+        "plot_group" : "dyjets_nlo"
+    },
     "zg" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2017-01-31-zg-WZxsec2016-Wselection-v1/*",
         "plot_group" : "zg"
