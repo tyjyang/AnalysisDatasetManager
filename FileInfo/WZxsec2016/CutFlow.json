@@ -1,30 +1,68 @@
 {
-    "wz3lnu-powheg" : {
-        "plot_group" : "wz_signal"
+    "wlljj-ewk" : {
+        "plot_group" : "wzjj-mglo"
     },
-    "zz4l" : {
+    "wzjj-vbfnlo" : {
+        "plot_group" : "wzjj-vbfnlo"
+    },
+    "wz3lnu-powheg" : {
+        "plot_group" : "wz-powheg"
+    },
+    "wz3lnu-mg5amcnlo" : {
+        "plot_group" : "wz"
+    },
+    "wz3lnu-mgmlm-0j" : {
+        "plot_group" : "wz3lnu-mgmlm"
+    },
+    "wz3lnu-mgmlm-1j" : {
+        "plot_group" : "wz3lnu-mgmlm"
+    },
+    "wz3lnu-mgmlm-2j" : {
+        "plot_group" : "wz3lnu-mgmlm"
+    },
+    "wz3lnu-mgmlm-3j" : {
+        "plot_group" : "wz3lnu-mgmlm"
+    },
+    "wzjj-aqgcfm" : {
+        "plot_group" : "wzjj-aqgcfm"
+    },
+    "wzjj-aqgcft" : {
+        "plot_group" : "wzjj-aqgcft"
+    },
+    "wzjj-aqgcfs" : {
+        "plot_group" : "wzjj-aqgcfs"
+    },
+    "wz-atgc_pt0-200" : {
+        "plot_group" : "wz-atgc"
+    },
+    "wz-atgc_pt200-300" : {
+        "plot_group" : "wz-atgc"
+    },
+    "wz-atgc_pt300" : {
+        "plot_group" : "wz-atgc"
+    },
+    "wz-atgc_pt0-200__sm" : {
+        "plot_group" : "wz-atgc__sm",
+        "weight" : "pdfWeights[171]/scaleWeights[0]"
+    },
+    "wz-atgc_pt200-300__sm" : {
+        "plot_group" : "wz-atgc__sm",
+        "weight" : "pdfWeights[171]/scaleWeights[0]"
+    },
+    "wz-atgc_pt300__sm" : {
+        "weight" : "pdfWeights[171]/scaleWeights[0]"
+    },
+    "zz4l-powheg" : {
         "plot_group" : "zz"
     },
-    "tt" : {
-        "plot_group" : "ttbar"
+    "zz4l-mg5amcnlo" : {
+        "plot_group" : "zz"
     },
-    "ttz" : {
-        "plot_group" : "ttv"
+    "tt-lep" : {
+        "plot_group" : "top"
     },
-    "ttw" : {
-        "plot_group" : "ttv"
-    },
-    "zzz" : {
-        "plot_group" : "vvv"
-    },
-    "wzz" : {
-        "plot_group" : "vvv"
-    },
-    "wwz" : {
-        "plot_group" : "vvv"
-    },
-    "ww" : {
-        "plot_group" : "ww"
+    "tzq" : {
+        "plot_group" : "top"
     },
     "st-schan" : {
         "plot_group" : "st"
@@ -41,22 +79,52 @@
     "st-tbarw" : {
         "plot_group" : "st"
     },
+    "ttz" : {
+        "plot_group" : "ttv"
+    },
+    "ttw" : {
+        "plot_group" : "ttv"
+    },
+    "zzz" : {
+        "plot_group" : "vvv"
+    },
+    "wwz" : {
+        "plot_group" : "vvv"
+    },
+    "www" : {
+        "plot_group" : "vvv"
+    },
+    "ww" : {
+        "plot_group" : "ww"
+    },
     "DYm50" : {
         "plot_group" : "dy"
     },
-    "DYm50-filt" : {
+    "DYm50__LO" : {
         "plot_group" : "dy"
     },
-    "DYm10-50" : {
-        "plot_group" : "dy"
+    "DYm50-1j" : {
+        "plot_group" : "dyjets"
     },
-    "DYm10-50-filt" : {
-        "plot_group" : "dy"
+    "DYm50-2j" : {
+        "plot_group" : "dyjets"
+    },
+    "DYm50-3j" : {
+        "plot_group" : "dyjets"
+    },
+    "DYm50-4j" : {
+        "plot_group" : "dyjets"
+    },
+    "DYm50-0j-nlo" : {
+        "plot_group" : "dyjets_nlo"
+    },
+    "DYm50-1j-nlo" : {
+        "plot_group" : "dyjets_nlo"
+    },
+    "DYm50-2j-nlo" : {
+        "plot_group" : "dyjets_nlo"
     },
     "zg" : {
-        "plot_group" : "zg"
-    },
-    "zg-filt" : {
         "plot_group" : "zg"
     },
     "ggZZ4e" : {
@@ -65,40 +133,127 @@
     "ggZZ4m" : {
         "plot_group" : "zz"
     },
-    "ggZZ2e2tau" : {
-        "plot_group" : "zz"
-    },
     "ggZZ2e2mu" : {
         "plot_group" : "zz"
     },
-    "ggZZ2mu2tau" : {
-        "plot_group" : "zz"
-    },
-    "data_DoubleEG_Run2015C_05Oct2015_25ns" : {
+    "data_DoubleEG_Run2016B-03Feb2017_ver2" : {
         "plot_group" : "data"
     },
-    "data_DoubleEG_Run2015D_05Oct2015_25ns" : {
+    "data_DoubleEG_Run2016C-03Feb2017-v1" : {
         "plot_group" : "data"
     },
-    "data_DoubleEG_Run2015D_PromptReco-v4_25ns" : {
+    "data_DoubleEG_Run2016D-03Feb2017-v1" : {
         "plot_group" : "data"
     },
-    "data_DoubleMuon_Run2015C_05Oct2015_25ns" : {
+    "data_DoubleEG_Run2016E-03Feb2017-v1" : {
         "plot_group" : "data"
     },
-    "data_DoubleMuon_Run2015D_05Oct2015_25ns" : {
+    "data_DoubleEG_Run2016F-03Feb2017-v1" : {
         "plot_group" : "data"
     },
-    "data_DoubleMuon_Run2015D_PromptReco-v4_25ns" : {
+    "data_DoubleEG_Run2016G-03Feb2017-v1" : {
         "plot_group" : "data"
     },
-    "data_MuonEG_Run2015C_05Oct2015_25ns" : {
+    "data_DoubleEG_Run2016H-03Feb2017_ver2" : {
         "plot_group" : "data"
     },
-    "data_MuonEG_Run2015D_05Oct2015_25ns" : {
+    "data_DoubleEG_Run2016H-03Feb2017_ver3" : {
         "plot_group" : "data"
     },
-    "data_MuonEG_Run2015D_PromptReco-v4_25ns" : {
+    "data_DoubleMuon_Run2016B-03Feb2017_ver2" : {
+        "plot_group" : "data"
+    },
+    "data_DoubleMuon_Run2016C-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_DoubleMuon_Run2016D-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_DoubleMuon_Run2016E-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_DoubleMuon_Run2016F-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_DoubleMuon_Run2016G-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_DoubleMuon_Run2016H-03Feb2017_ver2" : {
+        "plot_group" : "data"
+    },
+    "data_DoubleMuon_Run2016H-03Feb2017_ver3" : {
+        "plot_group" : "data"
+    },
+    "data_MuonEG_Run2016B-03Feb2017_ver2" : {
+        "plot_group" : "data"
+    },
+    "data_MuonEG_Run2016C-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_MuonEG_Run2016D-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_MuonEG_Run2016E-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_MuonEG_Run2016F-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_MuonEG_Run2016G-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_MuonEG_Run2016H-03Feb2017_ver2" : {
+        "plot_group" : "data"
+    },
+    "data_MuonEG_Run2016H-03Feb2017_ver3" : {
+        "plot_group" : "data"
+    },
+    "data_SingleMuon_Run2016B-03Feb2017_ver2" : {
+        "plot_group" : "data"
+    },
+    "data_SingleMuon_Run2016C-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_SingleMuon_Run2016D-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_SingleMuon_Run2016E-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_SingleMuon_Run2016F-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_SingleMuon_Run2016G-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_SingleMuon_Run2016H-03Feb2017_ver2" : {
+        "plot_group" : "data"
+    },
+    "data_SingleMuon_Run2016H-03Feb2017_ver3" : {
+        "plot_group" : "data"
+    },
+    "data_SingleElectron_Run2016B-03Feb2017_ver2" : {
+        "plot_group" : "data"
+    },
+    "data_SingleElectron_Run2016C-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_SingleElectron_Run2016D-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_SingleElectron_Run2016E-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_SingleElectron_Run2016F-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_SingleElectron_Run2016G-03Feb2017-v1" : {
+        "plot_group" : "data"
+    },
+    "data_SingleElectron_Run2016H-03Feb2017_ver2" : {
+        "plot_group" : "data"
+    },
+    "data_SingleElectron_Run2016H-03Feb2017_ver3" : {
         "plot_group" : "data"
     }
 }

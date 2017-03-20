@@ -15,6 +15,17 @@
             "wz3lnu-mg5amcnlo"
         ]
     },
+    "wz-mgmlm" : {
+        "Name" : "WZ (MLM)",
+        "Style" : "fill-lightpurple",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wz3lnu-mgmlm-0j",
+            "wz3lnu-mgmlm-1j",
+            "wz3lnu-mgmlm-2j",
+            "wz3lnu-mgmlm-3j"
+        ]
+    },
     "wzjj-ewk" : {
         "Name" : "WZjj EWK",
         "Style" : "hatch-lightpurple",
@@ -157,7 +168,15 @@
             "DYm10-50-filt"
         ]
     },
-    "dyjets-nlo" : {
+    "nonprompt" : {
+        "Name" : "Non-prompt",
+        "Style" : "fill-grey",
+        "add_perc_error" : 0.3,
+        "Members" : [
+            "DataEWKCorrected"
+        ]
+    },
+    "dyjets_nlo" : {
         "Name" : "Drell-Yan",
         "Style" : "fill-yellow",
         "add_perc_error" : 0.3,
@@ -209,6 +228,16 @@
         "add_perc_error" : 0.0,
         "Members" : [
             "tt-lep"
+        ]
+    },
+    "top-ewk" : {
+        "Name" : "Top",
+        "Style" : "fill-green",
+        "add_perc_error" : 0.3,
+        "Members" : [
+            "tzq",
+            "ttz",
+            "ttw"
         ]
     },
     "top" : {
@@ -267,6 +296,44 @@
         ]
     },
     "data_2016" : {
+        "Name" : "Data",
+        "Style" : "data",
+        "Members" : [
+            "data_SingleMuon_Run2016B-03Feb2017_ver2",
+            "data_SingleMuon_Run2016C-03Feb2017-v1", 
+            "data_SingleMuon_Run2016D-03Feb2017-v1", 
+            "data_SingleMuon_Run2016E-03Feb2017-v1", 
+            "data_SingleMuon_Run2016F-03Feb2017-v1", 
+            "data_SingleMuon_Run2016G-03Feb2017-v1", 
+            "data_SingleMuon_Run2016H-03Feb2017_ver2",
+            "data_SingleMuon_Run2016H-03Feb2017_ver3",
+            "data_DoubleEG_Run2016B-03Feb2017_ver2",
+            "data_DoubleEG_Run2016C-03Feb2017-v1",
+            "data_DoubleEG_Run2016D-03Feb2017-v1",
+            "data_DoubleEG_Run2016E-03Feb2017-v1",
+            "data_DoubleEG_Run2016F-03Feb2017-v1",
+            "data_DoubleEG_Run2016G-03Feb2017-v1",
+            "data_DoubleEG_Run2016H-03Feb2017_ver2",
+            "data_DoubleEG_Run2016H-03Feb2017_ver3",
+            "data_DoubleMuon_Run2016B-03Feb2017_ver2",
+            "data_DoubleMuon_Run2016C-03Feb2017-v1",
+            "data_DoubleMuon_Run2016D-03Feb2017-v1",
+            "data_DoubleMuon_Run2016E-03Feb2017-v1",
+            "data_DoubleMuon_Run2016F-03Feb2017-v1",
+            "data_DoubleMuon_Run2016G-03Feb2017-v1",
+            "data_DoubleMuon_Run2016H-03Feb2017_ver2",
+            "data_DoubleMuon_Run2016H-03Feb2017_ver3",
+            "data_MuonEG_Run2016B-03Feb2017_ver2",
+            "data_MuonEG_Run2016C-03Feb2017-v1",
+            "data_MuonEG_Run2016D-03Feb2017-v1",
+            "data_MuonEG_Run2016E-03Feb2017-v1",
+            "data_MuonEG_Run2016F-03Feb2017-v1",
+            "data_MuonEG_Run2016G-03Feb2017-v1",
+            "data_MuonEG_Run2016H-03Feb2017_ver2",
+            "data_MuonEG_Run2016H-03Feb2017_ver3"
+        ]
+    },
+    "data_2016ReReco" : {
         "Name" : "Data",
         "Style" : "data",
         "Members" : [

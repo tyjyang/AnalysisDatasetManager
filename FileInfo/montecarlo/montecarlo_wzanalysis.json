@@ -42,12 +42,32 @@
         "Generator" : "MadGraph5_aMC@NLO LO"
     },
     "wz3lnu-mgmlm-0j" : {
+        "cross_section" : 0.57706, 
+        "kfactor" : 1.2,
+        "Source of cross section" : "MadGraph LO with MLM merging",
+        "DAS Name" : "WZTo3LNu_0Jets_MLL-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO"
     },
     "wz3lnu-mgmlm-1j" : {
+        "cross_section" : 0.344557, 
+        "kfactor" : 1.2,
+        "Source of cross section" : "MadGraph LO with MLM merging",
+        "DAS Name" : "WZTo3LNu_1Jets_MLL-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO"
     },
     "wz3lnu-mgmlm-2j" : {
+        "cross_section" : 0.07684, 
+        "kfactor" : 1.2,
+        "Source of cross section" : "MadGraph LO with MLM merging",
+        "DAS Name" : "WZTo3LNu_2Jets_MLL-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO"
     },
     "wz3lnu-mgmlm-3j" : {
+        "cross_section" : 0.11120, 
+        "kfactor" : 1.2,
+        "Source of cross section" : "MadGraph LO with MLM merging",
+        "DAS Name" : "WZTo3LNu_3Jets_MLL-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO"
     },
     "wz-atgc_pt0-200" : {
         "cross_section" : 1.026, 

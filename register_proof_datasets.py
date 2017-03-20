@@ -79,7 +79,7 @@ for name in names:
         num_files = filelist.Add(filename)
         if filelist.GetNFiles() == 0:
             log += "\n%s does not point to a valid file! Skipping" % name
-            log += "\nFile name was %s" % filename
+            log += "\nFile name was %s\n" % filename
             continue
         proof.RegisterDataSet(proof_name, filelist, 'OVnostagedcheck:')
 os.chdir(current_path)
