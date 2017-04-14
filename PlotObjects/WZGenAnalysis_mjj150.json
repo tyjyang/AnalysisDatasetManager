@@ -266,6 +266,7 @@
         }
     },
    "mjj": {  
+        scale_weight_expr = "scaleWeights/scaleWeights[0]"
         "Initialize": {  
             "type": "TH1F",
             "nbins": 50,

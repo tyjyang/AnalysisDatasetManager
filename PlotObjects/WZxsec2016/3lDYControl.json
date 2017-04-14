@@ -301,28 +301,28 @@
     "ZMass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 30,
+            "nbins": 15,
             "xmin": 76,
             "xmax": 106
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{l^{+}l^{-}} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 1 GeV", 
+            "GetYaxis().SetTitle": "Events / 2 GeV", 
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 2500
+            "SetMaximum" : 3000
         }
     },
    "MET" : {
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 10,
-            "xmin": 30,
-            "xmax": 230
+            "nbins": 6,
+            "xmin": 0,
+            "xmax": 30
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#slash{E}_{T} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 20 GeV",
+            "GetYaxis().SetTitle": "Events / 5 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum": 8000
@@ -433,6 +433,21 @@
             "SetMaximum" : 700
         }
     },
+   "MtW": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 36,
+            "xmin": 0,
+            "xmax": 180
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{T}(W) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 5 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 1500
+        }
+    },
    "jetEta[0]": {  
         "Initialize": {  
             "type": "TH1D",
@@ -535,6 +550,20 @@
             "GetYaxis().SetTitle": "Events",
             "SetMinimum" : 0.001,
             "SetMaximum" : 9000
+        }
+    },
+    "YieldByChannel": {
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 2,
+            "xmin": 0,
+            "xmax": 2
+        },
+        "Attributes": {  
+            "GetYaxis().SetTitle": "Events Passing Selection",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 8000,
+            "SetMinimum" : 0.001
         }
     }
 }

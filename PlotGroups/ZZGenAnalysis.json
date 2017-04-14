@@ -1,13 +1,13 @@
 {
     "zz4l-pwg-off" : {
-        "Name" : "#splitline{POWHEG}{#scale[0.8]{NLO inc.}}",
+        "Name" : "POWHEG NLO inc.",
         "Style" : "nofill-lightblue",
         "Members" : [
             "zz4l-powheg"
         ]
     },
     "zz4l-mgnlo-off" : {
-        "Name" : "#splitline{MG5_aMC}{#scale[0.8]{#leq1j FxFx NLO}}",
+        "Name" : "MG5_aMC #leq1j FxFx NLO",
         "Style" : "nofill-lightred",
         "Members" : [
             "zz4l-mg5amcnlo-off"

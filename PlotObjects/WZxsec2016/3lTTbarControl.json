@@ -302,30 +302,30 @@
         "Initialize": {  
             "type": "TH1D",
             "nbins": 15,
-            "xmin": 76,
-            "xmax": 106
+            "xmin": 0,
+            "xmax": 150
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{l^{+}l^{-}} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 2 GeV", 
+            "GetYaxis().SetTitle": "Events / 10 GeV", 
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 2500
+            "SetMaximum" : 3000
         }
     },
    "MET" : {
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 12,
+            "nbins": 30,
             "xmin": 0,
-            "xmax": 240
+            "xmax": 300
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#slash{E}_{T} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 20 GeV",
+            "GetYaxis().SetTitle": "Events / 10 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum": 8000
+            "SetMaximum": 20000
         }
    },
    "nvtx": {  
@@ -358,70 +358,40 @@
             "SetMaximum" : 6000
         }
     },
-   "MtW": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 36,
-            "xmin": 0,
-            "xmax": 180
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "M_{T}(W) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 5 GeV",
-            "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
-            "SetMaximum" : 1500
-        }
-    },
-   "MTWZ": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 20,
-            "xmin": 100,
-            "xmax": 700
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 30 GeV",
-            "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
-            "SetMaximum" : 3500
-        }
-    },
    "Pt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 15,
+            "nbins": 11,
             "xmin": 0,
-            "xmax": 300
+            "xmax": 330
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "p_{T}(3l) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 20 GeV",
+            "GetYaxis().SetTitle": "Events / 30 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 5000
+            "SetMaximum": 10000
         }
     },
    "mjj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 15,
+            "nbins": 10,
             "xmin": 0,
             "xmax": 1500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
-            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitle": "Events / 150 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 1000
+            "SetMaximum": 2500
         }
     },
    "dEtajj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 12,
+            "nbins": 8,
             "xmin": 0,
             "xmax": 6
         },
@@ -430,7 +400,7 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 650
+            "SetMaximum" : 1100
         }
     },
    "zep3l": {  
@@ -565,6 +535,20 @@
             "GetYaxis().SetTitle": "Events",
             "SetMinimum" : 0.001,
             "SetMaximum" : 9000
+        }
+    },
+    "YieldByChannel": {
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 2,
+            "xmin": 0,
+            "xmax": 2
+        },
+        "Attributes": {  
+            "GetYaxis().SetTitle": "Events Passing Selection",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 1500,
+            "SetMinimum" : 0.001
         }
     }
 }

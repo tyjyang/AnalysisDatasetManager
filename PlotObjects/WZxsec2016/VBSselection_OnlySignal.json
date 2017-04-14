@@ -363,11 +363,11 @@
             "type": "TH1D",
             "nbins": 14,
             "xmin": 100,
-            "xmax": 520
+            "xmax": 800
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{3l} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 30 GeV",
+            "GetYaxis().SetTitle": "Events / 50 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum" : 6000

@@ -197,7 +197,7 @@
    "l1Eta": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 15,
+            "nbins": 5,
             "xmin": -2.5,
             "xmax": 2.5
         },
@@ -206,7 +206,7 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 3500
+            "SetMaximum" : 600
         }
     },
    "l2Pt": {  
@@ -301,13 +301,13 @@
     "ZMass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 15,
+            "nbins": 5,
             "xmin": 76,
             "xmax": 106
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{l^{+}l^{-}} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 2 GeV", 
+            "GetYaxis().SetTitle": "Events / 6 GeV", 
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum" : 100
@@ -346,16 +346,16 @@
    "MTWZ": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 9,
-            "xmin": 0,
-            "xmax": 900
+            "nbins": 14,
+            "xmin": 100,
+            "xmax": 800
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitle": "Events / 50 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 300
+            "SetMaximum" : 150
         }
     },
    "MtW": {  
@@ -376,16 +376,16 @@
    "Mass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 12,
+            "nbins": 14,
             "xmin": 100,
-            "xmax": 700
+            "xmax": 800
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{3l} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 50 GeV",
+            "GetYaxis().SetTitle": "Events / 100 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 250
+            "SetMaximum" : 500
         }
     },
    "Pt": {  
@@ -406,9 +406,9 @@
    "mjj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 5,
-            "xmin": 500,
-            "xmax": 2000
+            "nbins": 15,
+            "xmin": 0,
+            "xmax": 1500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
@@ -421,9 +421,9 @@
    "dEtajj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 6,
-            "xmin": 2.5,
-            "xmax": 8.5
+            "nbins": 12,
+            "xmin": 0,
+            "xmax": 6
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
@@ -565,6 +565,20 @@
             "GetYaxis().SetTitle": "Events",
             "SetMinimum" : 0.001,
             "SetMaximum" : 300
+        }
+    },
+    "YieldByChannel": {
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 5,
+            "xmin": 0,
+            "xmax": 5
+        },
+        "Attributes": {  
+            "GetYaxis().SetTitle": "Events Passing Selection",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 600,
+            "SetMinimum" : 0.001
         }
     }
 }

@@ -197,51 +197,66 @@
             "GetXaxis().SetTitle": "Number of p_{T} > 30 GeV Gen Jets",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMaximum": 550
+            "SetMaximum": 70000
+        }
+    },
+   "dEtajj": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 10.0
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#Delta#eta_{jj}",  
+            "GetYaxis().SetTitle": "Events",
+            "SetMinimum" : 0.001,
+            "SetMaximum": 1500
         }
     },
    "j1Pt": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 44,
+            "nbins": 22,
             "xmin": 30,
             "xmax": 250
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading Gen-Jet p_{T} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 5 GeV",
+            "GetYaxis().SetTitle": "Events / 10 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum": 20
+            "SetMaximum": 6000
         }
     },
    "j2Pt": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 45,
+            "nbins": 22,
             "xmin": 30,
-            "xmax": 120
+            "xmax": 140
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Subleading Gen-Jet p_{T} [GeV]",  
             "GetYaxis().SetTitle": "Events / 2 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum": 3
+            "SetMaximum": 900
         }
     },
    "mjj": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 70,
+            "nbins": 30,
             "xmin": 0,
-            "xmax": 700
+            "xmax": 1500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{jj} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 10 GeV",
+            "GetYaxis().SetTitle": "Events / 50 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMaximum": 2.5
+            "SetMinimum" : 0.001,
+            "SetMaximum": 1000
         }
     },
    "j1Eta": {  
@@ -254,7 +269,8 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "#eta(j_{1})",  
             "GetYaxis().SetTitle": "Events",
-            "SetMaximum": 80
+            "SetMinimum" : 0.001,
+            "SetMaximum": 3000
         }
     },
    "j2Eta": {  
@@ -267,7 +283,8 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "#eta(j_{2})",  
             "GetYaxis().SetTitle": "Events",
-            "SetMaximum": 80  
+            "SetMinimum" : 0.001,
+            "SetMaximum": 1000
         }
     },
    "Mass": {  

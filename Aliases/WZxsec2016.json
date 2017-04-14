@@ -50,7 +50,7 @@
             "Zlep2IsTight" : "e2IsCBVIDTight",
             "Wlep_Pt" : "mPt",
             "Wlep_Eta" : "mEta",
-            "WlepIsTight" : "RelPFIsoDBR04 < 0.15",
+            "WlepIsTight" : "mRelPFIsoDBR04 < 0.15",
             "hasOSSFpair" : "!e1_e2_SS",
             "dR_Wlep_Zlep1" : "e1_m_DR",
             "dR_Wlep_Zlep2" : "e2_m_DR",

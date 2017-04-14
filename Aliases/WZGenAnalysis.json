@@ -14,7 +14,7 @@
         "lep_pt" : "l1Pt > 20 && l2Pt > 20 && (abs(l3motherId) == 24 ? l3Pt > 20 : l3Pt > 10)",
         "lep_eta" : "(abs(l1Eta) < 2.5 && abs(l2Eta) < 2.5 && abs(l3Eta) < 2.5)",
         "Zwindow" : "((Z1isTrueDecay && Z1mass < 120 & Z1mass > 60) || (Z2isTrueDecay && Z2mass < 120 && Z2mass > 60))",
-        "dEtajj" : "abs(j1Eta - j2Eta)",
+        "dEtajj" : "nj >= 2 ? abs(j1Eta - j2Eta) : -1",
         "zep3l" : "Eta - 0.5*(j1Eta + j2Eta)",
         "zepZ" : "(Z1isTrueDecay > 0.5 ? Z1Eta : Z2Eta)- 0.5*(j1Eta + j2Eta)",
         "zepj3" : "j3Eta - 0.5*(j1Eta + j2Eta)",

@@ -352,16 +352,16 @@
   "ZMass": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 30,
-            "xmin": 0,
-            "xmax": 150
+            "nbins": 22,
+            "xmin": 80,
+            "xmax": 102
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{l^{+}l^{-}} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 5 GeV", 
+            "GetYaxis().SetTitle": "Events / 1 GeV", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
-            "SetMaximum" : 50000
+            "SetMaximum" : 3000
         }
     },
    "Mass": {  
@@ -426,14 +426,14 @@
             "type": "TH1D",
             "nbins": 20,
             "xmin": 0,
-            "xmax": 2
+            "xmax": 0.5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "PF Rel. Iso (#DeltaR 0.4) [GeV]",  
+            "GetXaxis().SetTitle": "l_{3} PF Rel. Iso (#DeltaR 0.4) [GeV]",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum": 30000
+            "SetMaximum": 10000
         }
    },
     "nJets": {

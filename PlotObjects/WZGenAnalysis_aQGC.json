@@ -351,15 +351,15 @@
    "MTtrue": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 70,
+            "nbins": 20,
             "xmin": 0,
-            "xmax": 800
+            "xmax": 1000
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{T}^{true}(WZ) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 15 GeV",
+            "GetYaxis().SetTitle": "Events / 50 GeV",
             "SetMinimum" : 0.001,
-            "SetMaximum": 90,
+            "SetMaximum": 900,
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },

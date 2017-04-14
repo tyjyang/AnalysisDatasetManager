@@ -23,6 +23,10 @@
         "file_path" : "/data/kelong/DibosonGenAnalysisSamples/WZ_VBS/WLLJJ_M-60_EWK_QCD-MGLO_Ntuple.root",
         "plot_group" : "wlljj-m60-ewkqcd"
     },
+    "wzjj-aqgcft": {
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_EWK_aTGC-FT_UPDATE-MGLO_GenNtuples_leptonType-isHardProcess_2017-03-21-wzGen_cfg.root",
+        "plot_group" : "wzjj-aqgcft"
+    },
     "wzjj-aqgc-fm" : {
         "file_path" : "/data/kelong/DibosonGenAnalysisSamples/WZ_VBS/WZT3MuNuJJ_aQGCfm.root",
         "plot_group" : "wz-mgnlo-inc"

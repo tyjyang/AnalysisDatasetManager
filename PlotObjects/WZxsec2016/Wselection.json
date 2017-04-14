@@ -331,9 +331,9 @@
    "MET" : {
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 10,
-            "xmin": 30,
-            "xmax": 230
+            "nbins": 12,
+            "xmin": 0,
+            "xmax": 240
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#slash{E}_{T} [GeV]",  
@@ -361,16 +361,16 @@
    "Mass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 11,
+            "nbins": 14,
             "xmin": 100,
-            "xmax": 540
+            "xmax": 520
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "M_{3l} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 40 GeV",
+            "GetXaxis().SetTitle": "M_{3\\ell} \\, [GeV]",  
+            "GetYaxis().SetTitle": "Events / 30 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 6000
+            "SetMaximum" : 4500
         }
     },
    "MtW": {  
@@ -411,7 +411,7 @@
             "xmax": 300
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "p_{T}(3l) [GeV]",  
+            "GetXaxis().SetTitle": "p_{T}\\,(3\\ell) \\,[GeV]",  
             "GetYaxis().SetTitle": "Events / 20 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
@@ -421,16 +421,16 @@
    "mjj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 12,
+            "nbins": 15,
             "xmin": 0,
-            "xmax": 600
+            "xmax": 1500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
-            "GetYaxis().SetTitle": "Events / 50 GeV",
+            "GetYaxis().SetTitle": "Events / 100 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 2000
+            "SetMaximum": 1300
         }
     },
    "dEtajj": {  
@@ -445,7 +445,7 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 650
+            "SetMaximum" : 850
         }
     },
    "zep3l": {  
@@ -606,7 +606,7 @@
         "Attributes": {  
             "GetYaxis().SetTitle": "Events Passing Selection",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMaximum" : 20000,
+            "SetMaximum" : 18000,
             "SetMinimum" : 0.001
         }
     }

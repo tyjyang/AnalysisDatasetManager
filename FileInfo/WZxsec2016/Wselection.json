@@ -68,7 +68,8 @@
     "wz-atgc_pt300__sm" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2017-03-19-wz-atgc_pt300-WZxsec2016-preselectionToWselection-v1/*",
         "plot_group" : "wz-atgc__sm",
-        "weight" : "pdfWeights[171]/scaleWeights[0]"
+        "draw_weight" : "pdfWeights[171]/scaleWeights[0]",
+        "weight_index" : 171
     },
     "zz4l-powheg" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2017-03-19-zz4l-powheg-WZxsec2016-preselectionToWselection-v1/*",
@@ -88,7 +89,7 @@
     },
     "st-schan" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2017-03-19-st-schan-WZxsec2016-preselectionToWselection-v1/*",
-        "plot_group" : "st"
+        "plot_group" : "top"
     },
     "st-tchan-t" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/Wselection/2017-03-19-st-tchan-t-WZxsec2016-preselectionToWselection-v1/*",

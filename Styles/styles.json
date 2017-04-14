@@ -18,7 +18,7 @@
         "SetLineColor": "ROOT.TColor.GetColor(#7E668A)",
         "SetLineStyle": 1,
         "SetFillStyle": 3004,
-        "SetLineWidth": 1,
+        "SetLineWidth": 2,
         "SetMarkerSize" : 0
     },
     "hatch-purple" : {
@@ -26,7 +26,7 @@
         "SetLineColor": "ROOT.TColor.GetColor(#4C0257)",
         "SetLineStyle": 1,
         "SetFillStyle": 3004,
-        "SetLineWidth": 1,
+        "SetLineWidth": 2,
         "SetMarkerSize" : 0
     },
     "nofill-darkpurple" : {
@@ -282,7 +282,7 @@
         "SetLineColor": "ROOT.TColor.GetColor(#AB3573)",
         "SetLineStyle": 1,
         "SetFillStyle": 3004,
-        "SetLineWidth": 1,
+        "SetLineWidth": 2,
         "SetMarkerSize" : 0
     },
     "data" : {

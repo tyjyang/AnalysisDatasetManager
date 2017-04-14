@@ -28,7 +28,7 @@
     },
     "wzjj-ewk" : {
         "Name" : "WZjj EWK",
-        "Style" : "hatch-lightpurple",
+        "Style" : "hatch-purple",
         "add_perc_error" : 0.0,
         "Members" : [
             "wlljj-ewk"
@@ -179,7 +179,7 @@
     "dyjets_nlo" : {
         "Name" : "Drell-Yan",
         "Style" : "fill-yellow",
-        "add_perc_error" : 0.3,
+        "add_perc_error" : 0.25,
         "Members" : [
             "DYm50-0j-nlo",
             "DYm50-1j-nlo",
@@ -231,13 +231,17 @@
         ]
     },
     "top-ewk" : {
-        "Name" : "Top",
+        "Name" : "t+V/VVV",
         "Style" : "fill-green",
         "add_perc_error" : 0.3,
         "Members" : [
             "tzq",
             "ttz",
-            "ttw"
+            "ttw",
+            "zzz",
+            "wzz",
+            "wwz",
+            "www"
         ]
     },
     "top" : {
