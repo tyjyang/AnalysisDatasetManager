@@ -99,12 +99,5 @@
         "DAS Name" : "Private Production",
         "Generator" : "POWHEG",
         "Cards" : ""
-    },
-    "zz4l-mg5amcnlo" : {
-        "cross_section" : 1.191,
-        "Source of cross section" : "McM",
-        "DAS Name" : "ZZTo4L_13TeV-amcatnloFXFX-pythia8",
-        "Generator" : "MadGraph5_aMC@NLO NLO FxFx 0,1j",
-        "Cards" : ""
     }
 }

@@ -425,7 +425,7 @@
         "Members": [
             "wzjj-aqgcfm"
         ], 
-        "Name": "SM (rw)", 
+        "Name": "SM (rw FM)", 
         "Style": "nofill-lightred", 
         "add_perc_error": 0.0, 
         "weight": "LHEweights[446]/LHEweights[0]"

@@ -17,16 +17,16 @@
    "Zlep1_Pt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 10,
+            "nbins": 20,
             "xmin": 25,
-            "xmax": 175
+            "xmax": 225
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading Z lepton p_{T}",  
-            "GetYaxis().SetTitle": "Events / 15 GeV",
+            "GetYaxis().SetTitle": "Events / 10 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : -100,
-            "SetMaximum" : 6500
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 4000
         }
     },
    "Zlep2_Pt": {  
@@ -38,16 +38,16 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Subleading Z lepton p_{T}",  
-            "GetYaxis().SetTitle": "Events / 10 GeV",
+            "GetYaxis().SetTitle": "Events / 5 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 6000
+            "SetMaximum" : 5000
         }
     },
    "Wlep_Pt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 10,
+            "nbins": 20,
             "xmin": 20,
             "xmax": 220
         },
@@ -56,7 +56,7 @@
             "GetYaxis().SetTitle": "Events / 10 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 7500
+            "SetMaximum" : 5500
         }
     },
    "Zlep1_Eta": {  
@@ -481,7 +481,7 @@
    "jetEta[0]": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 15,
+            "nbins": 10,
             "xmin": -4.7,
             "xmax": 4.7
         },
@@ -511,7 +511,7 @@
    "jetEta[1]": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 15,
+            "nbins": 10,
             "xmin": -4.7,
             "xmax": 4.7
         },
@@ -541,7 +541,7 @@
    "jetEta[2]": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 7,
+            "nbins": 10,
             "xmin": -4.7,
             "xmax": 4.7
         },

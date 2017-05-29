@@ -218,7 +218,7 @@
         "Members": [
             "wzjj-aqgcft"
         ], 
-        "Name": "SM (rw)", 
+        "Name": "SM (rw FT)", 
         "Style": "nofill-grey", 
         "add_perc_error": 0.0, 
         "weight": "LHEweights[446]/LHEweights[0]"

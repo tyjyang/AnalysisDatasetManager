@@ -123,6 +123,13 @@
         "Source of k-factor" : "k factor from mll only calculation of Grazzini",
         "DAS Name" : "ZZTo4L_13TeV_powheg_pythia8"
     },
+    "zz4l-mg5amcnlo" : {
+        "cross_section" : 1.191,
+        "Source of cross section" : "McM",
+        "DAS Name" : "ZZTo4L_13TeV-amcatnloFXFX-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO NLO FxFx 0,1j",
+        "Cards" : ""
+    },
     "zz2l2q" : {
         "cross_section" : 3.38,
         "Source of cross section" : "MCM",
@@ -202,7 +209,7 @@
     "DYm50-filt" : {
         "cross_section" : 5765,
         "Source of cross section" : "GenXSecAnalyzer",
-        "DAS Name" : "ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8",
+        "DAS Name" : "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-[amcatnloFXFX OR madgraphMLM]-pythia8",
         "Notes" : "Filtered to remove overlap with Zgamma sample. Events with photons from q or l with pt > 10 GeV are rejected."
     },
     "DYm50-0j-nlo" : {
