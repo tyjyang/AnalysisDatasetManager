@@ -1,4 +1,12 @@
 {
+    "wzjj-aqgcft__ft0-1_ft1-0_ft2-0": {
+        "Members": [
+            "wzjj-aqgcft"
+        ], 
+        "Name": "F_{T0}= 1 F_{T1}= 0 F_{T2}= 0 TeV^{-4}", 
+        "Style": "nofill-lightpink-dotdash", 
+        "add_perc_error": 0.0
+    }, 
     "wzjj-aqgcft__ft0-0_ft1-0_ft2-12": {
         "Members": [
             "wzjj-aqgcft"

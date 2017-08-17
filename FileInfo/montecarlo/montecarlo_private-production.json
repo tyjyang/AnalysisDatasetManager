@@ -29,6 +29,11 @@
         "Source of cross section" : "MG5_aMC@NLO gridpack",
         "DAS Name" : "Private Production"
     },
+    "wz2m1e1nujj-ewk-nobs" : {
+        "cross_section" : 0.001826,
+        "Source of cross section" : "MadGraph",
+        "DAS Name" : "Private Production"
+    },
     "wz2m1e1nu-fixed-powheg" : {
         "cross_section" : 0.50392,
         "Source of cross section" : "POWHEG tarball",
@@ -43,6 +48,13 @@
         "cross_section" : 0.076555,
         "Source of cross section" : "POWHEG tarball",
         "DAS Name" : "Private Production"
+    },
+    "wlljj-ewk-allscales" : {
+        "cross_section" : 0.01758, 
+        "Source of cross section" : "MadGraph LO -- with taus xsec = 0.01757, without 0.007398",
+        "DAS Name" : "Private Generation",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
     },
     "wlljj-ewk-4f-notaus" : {
         "cross_section" : 0.007398, 
@@ -70,6 +82,20 @@
         "Source of cross section" : "VBFNLO+Hwerig",
         "DAS Name" : "Private Production",
         "Generator" : "VBFNLO+Herwig (MC@NLO style matching)",
+        "Cards" : ""
+    },
+    "wzjj-vbfnlo-lo" : {
+        "cross_section" : 0.00306, 
+        "Source of cross section" : "VBFNLO+Hwerig",
+        "DAS Name" : "Private Production",
+        "Generator" : "VBFNLO+Herwig (at leading order)",
+        "Cards" : ""
+    },
+    "wzjj-vbfnlo-lo-fromauthors" : {
+        "cross_section" : 0.00389413, 
+        "Source of cross section" : "VBFNLO+Herwig",
+        "DAS Name" : "Private Production by Michael Rauch",
+        "Generator" : "VBFNLO+Herwig (at leading order)",
         "Cards" : ""
     },
     "wzjj-qcd-scaleHT" : {

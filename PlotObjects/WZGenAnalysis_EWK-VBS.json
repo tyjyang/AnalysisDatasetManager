@@ -4,13 +4,28 @@
             "type": "TH1F",
             "nbins": 20,
             "xmin": 60,
-           "xmax": 120
+           "xmax": 140
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{Z1} [GeV]",  
             "GetYaxis().SetTitle": "Events / 3 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMaximum" : 200,
+            "SetMinimum" : 0.001
+        }
+    },
+   "Z2mass": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 30,
+            "xmin": 0,
+           "xmax": 300
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{Z2} [GeV]",  
+            "GetYaxis().SetTitle": "Events / 10 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 100,
             "SetMinimum" : 0.001
         }
     },
@@ -130,7 +145,7 @@
             "GetYaxis().SetTitle": "Events / 10 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 200
+            "SetMaximum" : 70
         }
     },
    "j4Pt": {  
@@ -145,7 +160,7 @@
             "GetYaxis().SetTitle": "Events / 5 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 200
+            "SetMaximum" : 20
         }
     },
    "l1Pt": {  
@@ -320,15 +335,15 @@
    "Mass": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 10,
+            "nbins": 40,
             "xmin": 40,
             "xmax": 1040
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{WZ} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitle": "Events / 25 GeV",
             "SetMinimum" : 0.001,
-            "SetMaximum" : 200,
+            "SetMaximum" : 75,
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },
@@ -392,18 +407,18 @@
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },
-   "trueWMTGenMET": {  
+   "weight": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 20,
-            "xmin": 0,
-            "xmax": 140
+            "nbins": 3,
+            "xmin": 1.5,
+            "xmax": 1.5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "M_{T}^{GenMET}(W) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 10 GeV",
-            "SetMinimum" : 0.001,
-            "SetMaximum" : 200,
+            "GetXaxis().SetTitle": "Weight",  
+            "GetYaxis().SetTitle": "Events",
+            "SetMinimum" : -5,
+            "SetMaximum" : 1000,
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },

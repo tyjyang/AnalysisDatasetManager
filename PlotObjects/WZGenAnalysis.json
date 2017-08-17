@@ -284,7 +284,7 @@
             "type": "TH1F",
             "nbins": 30,
             "xmin": 0,
-            "xmax": 1500
+            "xmax": 3000
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{jj} [GeV]",  
@@ -315,6 +315,19 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#eta(j_{2})",  
+            "GetYaxis().SetTitle": "Events",
+            "SetMaximum": 8000
+        }
+   },
+   "j3Eta": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 15,
+            "xmin": -6.0,
+            "xmax": 6.0
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#eta(j_{3})",  
             "GetYaxis().SetTitle": "Events",
             "SetMaximum": 8000
         }
@@ -382,12 +395,12 @@
    "trueWMTtrue": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 24,
+            "nbins": 20,
             "xmin": 0,
-            "xmax": 1200
+            "xmax": 200
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "M_{T}^{true}(WZ) [GeV]",  
+            "GetXaxis().SetTitle": "M_{T}^{true}(W) [GeV]",  
             "GetYaxis().SetTitle": "Events / 50 GeV",
             "SetMinimum" : 0.001,
             "SetMaximum": 70000,
@@ -405,7 +418,7 @@
             "GetXaxis().SetTitle": "M_{T}^{GenMET}(W) [GeV]",  
             "GetYaxis().SetTitle": "Events / 10 GeV",
             "SetMinimum" : 0.001,
-            "SetMaximum": 7000,
+            "SetMaximum": 70000,
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },

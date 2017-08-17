@@ -6,8 +6,15 @@
         "Generator" : "MadGraph5_aMC@NLO LO",
         "Cards" : ""
     },
-    "wzjj-vbfnlo" : {
+    "wzjj-vbfnlo-of" : {
         "cross_section" :  0.00354,
+        "Source of cross section" : "VBFNLO",
+        "Generator" : "VBFNLO+Herwig7",
+        "DAS Name" : "Private Generation",
+        "Cards" : ""
+    },
+    "wzjj-vbfnlo-sf" : {
+        "cross_section" :  0.00349,
         "Source of cross section" : "VBFNLO",
         "Generator" : "VBFNLO+Herwig7",
         "DAS Name" : "Private Generation",

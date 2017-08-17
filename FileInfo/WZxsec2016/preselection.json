@@ -8,7 +8,7 @@
         "plot_group" : "wzjj-vbfnlo"
     },
     "wz3lnu-powheg" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/preselection/2017-02-01-wz3lnu-powheg-WZxsec2016-preselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/preselection/2017-07-19-wz3lnu-powheg-WZxsec2016-preselection-v1/*",
         "plot_group" : "wz-powheg"
     },
     "wz3lnu-mg5amcnlo" : {

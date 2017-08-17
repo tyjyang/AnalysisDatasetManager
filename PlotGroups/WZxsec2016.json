@@ -15,6 +15,17 @@
             "wz3lnu-mg5amcnlo"
         ]
     },
+    "wz-mgmlm_standalone" : {
+        "Name" : "WZ (MLM)",
+        "Style" : "nofill-lightpurple",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wz3lnu-mgmlm-0j",
+            "wz3lnu-mgmlm-1j",
+            "wz3lnu-mgmlm-2j",
+            "wz3lnu-mgmlm-3j"
+        ]
+    },
     "wz-mgmlm" : {
         "Name" : "WZ (MLM)",
         "Style" : "fill-lightpurple",
@@ -24,6 +35,14 @@
             "wz3lnu-mgmlm-1j",
             "wz3lnu-mgmlm-2j",
             "wz3lnu-mgmlm-3j"
+        ]
+    },
+    "wzjj-ewk_standalone" : {
+        "Name" : "WZjj EWK",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wlljj-ewk"
         ]
     },
     "wzjj-ewk" : {
@@ -39,7 +58,17 @@
         "Style" : "hatch-pink",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wzjj-vbfnlo"
+            "wzjj-vbfnlo-of",
+            "wzjj-vbfnlo-sf"
+        ]
+    },
+    "wzjj-vbfnlo_standalone" : {
+        "Name" : "WZjj EWK (VBFNLO)",
+        "Style" : "nofill-pink",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wzjj-vbfnlo-of",
+            "wzjj-vbfnlo-sf"
         ]
     },
     "wz-atgc" : {
@@ -242,6 +271,19 @@
             "wzz",
             "wwz",
             "www"
+        ]
+    },
+    "top-nonprompt" : {
+        "Name" : "Nonprompt Top",
+        "Style" : "fill-lightgreen",
+        "add_perc_error" : 0.3,
+        "Members" : [
+            "tt-lep",
+            "st-schan",
+            "st-tchan-t",
+            "st-tchan-tbar",
+            "st-tw",
+            "st-tbarw"
         ]
     },
     "top" : {

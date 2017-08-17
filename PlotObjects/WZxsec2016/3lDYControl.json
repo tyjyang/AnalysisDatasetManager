@@ -89,6 +89,66 @@
             "SetMaximum" : 3500
         }
    },
+   "Zlep1_Phi": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": -3.5,
+            "xmax": 3.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "lepton 1 #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 3500
+        }
+   },
+   "Zlep2_Phi": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": -3.5,
+            "xmax": 3.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading lepton #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 3500
+        }
+   },
+   "Wlep_Phi": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": -3.5,
+            "xmax": 3.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading lepton #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 3500
+        }
+   },
+   "dR_lW_Z": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": 0,
+            "xmax": 7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "\\Delta R(Z, \\ell_{W})",  
+            "GetYaxis().SetTitle": "Events / 2 rad",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 4000
+        }
+    },
    "m1Pt": {  
         "Initialize": {  
             "type": "TH1D",
@@ -275,6 +335,21 @@
             "nbins": 15,
             "xmin": 0,
             "xmax": 300
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "p_{T}(Z) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 10 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 4000
+        }
+    },
+   "ZPhi": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": -3.5,
+            "xmax": 3.5
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "p_{T}(Z) [GeV]",  

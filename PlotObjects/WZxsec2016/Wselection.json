@@ -104,6 +104,66 @@
             "SetMaximum" : 3500
         }
    },
+   "Zlep1_Phi": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": -3.5,
+            "xmax": 3.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "lepton 1 #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 3500
+        }
+   },
+   "Zlep2_Phi": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": -3.5,
+            "xmax": 3.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading lepton #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 3500
+        }
+   },
+   "Wlep_Phi": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": -3.5,
+            "xmax": 3.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading lepton #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 3500
+        }
+   },
+   "dR_lW_Z": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": 0,
+            "xmax": 7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "p_{T}(Z) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 2 rad",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 4000
+        }
+    },
    "m1Pt": {  
         "Initialize": {  
             "type": "TH1D",
@@ -299,6 +359,21 @@
             "SetMaximum": 4000
         }
     },
+   "ZPhi": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": -3.5,
+            "xmax": 3.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "p_{T}(Z) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 10 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 4000
+        }
+    },
     "nJetCSVv2T" : {
         "Initialize": {  
             "type": "TH1D",
@@ -433,7 +508,142 @@
             "SetMaximum": 1300
         }
     },
-   "dEtajj": {  
+   "mjj_jesUp": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": 0,
+            "xmax": 1500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
+            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitleOffset": 1.1,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 400
+        }
+    },
+   "mjj_jesDown": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": 0,
+            "xmax": 1500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
+            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitleOffset": 1.1,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 400
+        }
+    },
+   "mjj_jerUp": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": 0,
+            "xmax": 1500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
+            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitleOffset": 1.1,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 400
+        }
+    },
+   "mjj_jerDown": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": 0,
+            "xmax": 1500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
+            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitleOffset": 1.1,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 400
+        }
+   },
+   "mjj_dEtajj2": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": 0,
+            "xmax": 1500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
+            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitleOffset": 1.1,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 1000
+        }
+    },
+   "mjj_dEtajj2p25": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": 0,
+            "xmax": 1500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
+            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitleOffset": 1.1,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 1000
+        }
+    },
+   "mjj_dEtajj2p5": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": 0,
+            "xmax": 1500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
+            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitleOffset": 1.1,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 1000
+        }
+    },
+   "mjj_dEtajj2p75": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": 0,
+            "xmax": 1500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
+            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitleOffset": 1.1,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 1000
+        }
+    },
+   "mjj_dEtajj3": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": 0,
+            "xmax": 1500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
+            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitleOffset": 1.1,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 1000
+        }
+    },
+   "dEtajj_mjj400": {  
         "Initialize": {  
             "type": "TH1D",
             "nbins": 12,
@@ -445,9 +655,160 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
+            "SetMaximum" : 650
+        }
+    },
+   "dEtajj_mjj450": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 12,
+            "xmin": 0,
+            "xmax": 6
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 650
+        }
+    },
+   "dEtajj_mjj450": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 12,
+            "xmin": 0,
+            "xmax": 6
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 650
+        }
+    },
+   "dEtajj_mjj500": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 12,
+            "xmin": 0,
+            "xmax": 6
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 650
+        }
+    },
+   "dEtajj_mjj550": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 12,
+            "xmin": 0,
+            "xmax": 6
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 650
+        }
+    },
+   "dEtajj_mjj600": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 12,
+            "xmin": 0,
+            "xmax": 6
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 650
+        }
+    },
+   "dEtajj": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": 0,
+            "xmax": 7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
             "SetMaximum" : 850
         }
     },
+   "dEtajj_jesUp": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": 0,
+            "xmax": 7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 400
+        }
+    },
+   "dEtajj_jesDown": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": 0,
+            "xmax": 7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 400
+        }
+   },
+   "dEtajj_jerUp": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": 0,
+            "xmax": 7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 400
+        }
+    },
+   "dEtajj_jerDown": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 14,
+            "xmin": 0,
+            "xmax": 7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 400
+        }
+    },
+
    "zep3l": {  
         "Initialize": {  
             "type": "TH1D",
@@ -551,6 +912,292 @@
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum" : 500
+        }
+    },
+   "jetEta_jesDown[0]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 2000
+        }
+    },
+   "jetPt_jesDown[0]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 30,
+            "xmax": 430
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading jet p_{T}",  
+            "GetYaxis().SetTitle": "Events / 40 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 4500
+        }
+    },
+   "jetEta_jesDown[1]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Sub-leading jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 1000
+        }
+    },
+   "jetPt_jesDown[1]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 12,
+            "xmin": 30,
+            "xmax": 210
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Sub-leading jet p_{T}",  
+            "GetYaxis().SetTitle": "Events / 15 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 1500
+        }
+    },
+   "jetEta_jesDown[2]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 7,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "3^{rd} jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 500
+        }
+    },
+   "jetPt_jesDown[2]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 7,
+            "xmin": 30,
+            "xmax": 135
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "3^{rd} jet p_{T}",  
+            "GetYaxis().SetTitle": "Events / 15 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 900
+        }
+    },
+   "jetEta_jesUp[0]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 2000
+        }
+    },
+   "jetPt_jesUp[0]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 30,
+            "xmax": 430
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading jet p_{T}",  
+            "GetYaxis().SetTitle": "Events / 40 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 4500
+        }
+    },
+   "jetEta_jesUp[1]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Sub-leading jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 1000
+        }
+    },
+   "jetPt_jesUp[1]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 12,
+            "xmin": 30,
+            "xmax": 210
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Sub-leading jet p_{T}",  
+            "GetYaxis().SetTitle": "Events / 15 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 1500
+        }
+    },
+   "jetEta_jesUp[2]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 7,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "3^{rd} jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 500
+        }
+    },
+   "jetPt_jesUp[2]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 7,
+            "xmin": 30,
+            "xmax": 135
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "3^{rd} jet p_{T}",  
+            "GetYaxis().SetTitle": "Events / 15 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 900
+        }
+    },
+   "jetEta[0]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 2000
+        }
+    },
+   "jetPt[0]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 30,
+            "xmax": 430
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading jet p_{T}",  
+            "GetYaxis().SetTitle": "Events / 40 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 4500
+        }
+    },
+   "jetEta[1]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Sub-leading jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 1000
+        }
+    },
+   "jetPt[1]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 12,
+            "xmin": 30,
+            "xmax": 210
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Sub-leading jet p_{T}",  
+            "GetYaxis().SetTitle": "Events / 15 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 1500
+        }
+    },
+   "jetEta[2]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 7,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "3^{rd} jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 500
+        }
+    },
+   "jetPt[2]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 7,
+            "xmin": 30,
+            "xmax": 135
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "3^{rd} jet p_{T}",  
+            "GetYaxis().SetTitle": "Events / 15 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 900
+        }
+    },
+
+   "jetEta12": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Jet 1 and 2 #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 1300
         }
     },
    "jetPt[2]": {  

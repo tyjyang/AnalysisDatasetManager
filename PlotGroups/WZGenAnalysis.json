@@ -1,5 +1,5 @@
 {
-    "wz-pwg" : {
+    "wz3lnu-powheg" : {
         "Name" : "POWHEG NLO inc.",
         "Style" : "nofill-lightblue",
         "Members" : [
@@ -62,13 +62,14 @@
             "wzjj-qcd"
         ]
     },
-    "wz-mgmlm" : {
-        "Name" : "#splitline{WZ+#leq2j MLM MG}{xqcut=10,qcut=19}",
+    "wz3lnu-mgmlm" : {
+        "Name" : "MG5_aMC #leq3j MLM LO",
         "Style" : "nofill-darkgreen",
         "Members" : [
-            "wz-0j-mgmlm",
-            "wz-1j-mgmlm",
-            "wz-2j-mgmlm"
+            "wz3lnu-mgmlm-0j",
+            "wz3lnu-mgmlm-1j",
+            "wz3lnu-mgmlm-2j",
+            "wz3lnu-mgmlm-3j"
         ]
     },
     "wz-qcut27-mgmlm" : {
@@ -78,25 +79,25 @@
             "wz-qcut27-mgmlm"
         ]
     },
-    "wz-0j-mgmlm" : {
+    "wz3lnu-mgmlm-0j" : {
         "Name" : "WZ+0j MLM MG",
         "Style" : "nofill-green-dash",
         "Members" : [
-            "wz-0j-mgmlm"
+            "wz3lnu-mgmlm-0j"
         ]
     },
-    "wz-1j-mgmlm" : {
+    "wz3lnu-mgmlm-1j" : {
         "Name" : "WZ+1j MLM MG",
         "Style" : "nofill-lightgreen-finedash",
         "Members" : [
-            "wz-1j-mgmlm"
+            "wz3lnu-mgmlm-1j"
         ]
     },
-    "wz-2j-mgmlm" : {
+    "wz3lnu-mgmlm-2j" : {
         "Name" : "WZ+2j MLM MG",
         "Style" : "nofill-darkgreen-dotdash",
         "Members" : [
-            "wz-2j-mgmlm"
+            "wz3lnu-mgmlm-2j"
         ]
     },
     "wz-1j-sherpa" : {
@@ -106,6 +107,13 @@
             "wz2e1m1nu-1j-sherpa"
         ]
     },
+    "wzjj-ewk-nobs" : {
+        "Name" : "#splitline{MG5_aMC@NLO LO}{no b quarks}",
+        "Style" : "nofill-lightgreen", 
+        "Members" : [
+            "wz2m1e1nujj-ewk-nobs"
+        ]
+    },
     "wzjj-ewk-5f" : {
         "Name" : "#splitline{MG5_aMC@NLO}{5 fl. scheme}",
         "Style" : "nofill-lightgreen", 
@@ -113,18 +121,58 @@
             "wlljj-ewk"
         ]
     },
-    "wzjj-ewk" : {
-        "Name" : "Standard Model",
-        "Style" : "nofill-darkgreen-finedash",
+    "wzjj-ewk-allscales__sqrts" : {
+        "Name" : "MG5_aMC (#mu = #sqrt{s})",
+        "Style" : "nofill-lightpink-dotdash",
+        "weight" : "0.422192*LHEweights[1]/LHEweights[0]",
         "Members" : [
-            "wlljj-ewk"
+            "wlljj-ewk-allscales"
+        ]
+    },
+    "wzjj-ewk-allscales__sumpt" : {
+        "Name" : "MG5_aMC (#mu = #Sigma p_{T})",
+        "Style" : "nofill-grey",
+        "weight" : "0.422192*LHEweights[4]/LHEweights[0]",
+        "Members" : [
+            "wlljj-ewk-allscales"
+        ]
+    },
+    "wzjj-ewk-allscales__summt" : {
+        "Name" : "MG5_aMC (#mu = #Sigma m_{T})",
+        "Style" : "nofill-orange",
+        "weight" : "0.422192*LHEweights[2]/LHEweights[0]",
+        "Members" : [
+            "wlljj-ewk-allscales"
+        ]
+    },
+    "wzjj-ewk__notaus" : {
+        "Name" : "MG5_aMC LO",
+        "Style" : "nofill-darkgreen-finedash",
+        "weight" : "0.422192",
+        "Members" : [
+            "wlljj-ewk__notaus"
+        ]
+    },
+    "wzjj-vbfnlo-lo-fromauthors" : {
+        "Name" : "#splitline{#scale[0.9]{VBFNLO (LO)}}{#scale[0.7]{via Michael}}",
+        "Style" : "nofill-lightred", 
+        "Members" : [
+            "wzjj-vbfnlo-lo-fromauthors"
+        ]
+    },
+    "wzjj-vbfnlo-lo" : {
+        "Name" : "VBFNLO (LO)",
+        "Style" : "nofill-lightblue", 
+        "Members" : [
+            "wzjj-vbfnlo-lo"
         ]
     },
     "wzjj-vbfnlo" : {
-        "Name" : "VBFNLO",
+        "Name" : "VBFNLO (NLO)",
         "Style" : "nofill-darkpurple", 
         "Members" : [
-            "wzjj-vbfnlo"
+            "wzjj-vbfnlo-of",
+            "wzjj-vbfnlo-sf"
         ]
     },
     "wzjj-ewk-vbfnlo-mcnlo" : {
