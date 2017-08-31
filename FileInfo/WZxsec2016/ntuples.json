@@ -236,35 +236,35 @@
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016B-03Feb2017_ver2" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/MuonEG/Run2016B-03Feb2017_ver2*/*/*/*.root",
+        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016B-03Feb2017_ver2*/*/*/*.root",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016C-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/MuonEG/Run2016C-03Feb2017*/*/*/*.root",
+        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016C-03Feb2017*/*/*/*.root",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016D-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/MuonEG/Run2016D-03Feb2017*/*/*/*.root",
+        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016D-03Feb2017*/*/*/*.root",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016E-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/MuonEG/Run2016E-03Feb2017*/*/*/*.root",
+        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016E-03Feb2017*/*/*/*.root",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016F-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/MuonEG/Run2016F-03Feb2017*/*/*/*.root",
+        "file_path" : "/store/user/kelong/UWVVNtuples_25Aug2017/MuonEG/Run2016F-03Feb2017*/*/*/*.root",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016G-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/MuonEG/Run2016G-03Feb2017*/*/*/*.root",
+        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016G-03Feb2017*/*/*/*.root",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016H-03Feb2017_ver2" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/MuonEG/Run2016H-03Feb2017_ver2*/*/*/*.root",
+        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016H-03Feb2017_ver2*/*/*/*.root",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016H-03Feb2017_ver3" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/MuonEG/Run2016H-03Feb2017_ver3*/*/*/*.root",
+        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016H-03Feb2017_ver3*/*/*/*.root",
         "plot_group" : "data"
     },
     "data_SingleMuon_Run2016B-03Feb2017_ver2" : {

@@ -25,7 +25,7 @@ for directory in glob.glob(args.path):
             dir_name = "_".join(dirs[6:8])
         else:
             dir_name = "_".join(dirs[5:7])
-    new_dir = "/data/kelong/DibosonAnalysisData/%s/%s" % (args.selection, dir_name)
+    new_dir = "/data/kelong/DibosonAnalysisData/%s/%s" % (args.selection.strip("/"), dir_name)
     if args.eos:
         new_dir = "/eos/user/k/kelong/%s/%s" % (args.selection, dir_name)
     try:

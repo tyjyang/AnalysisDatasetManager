@@ -308,5 +308,19 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2  
         }
+    },
+    "YieldByChannel": {
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 2,
+            "xmin": 0,
+            "xmax": 2
+        },
+        "Attributes": {  
+            "GetYaxis().SetTitle": "Events Passing Selection",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 30000,
+            "SetMinimum" : 0.001
+        }
     }
 }
