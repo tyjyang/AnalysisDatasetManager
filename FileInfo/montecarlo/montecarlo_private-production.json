@@ -50,8 +50,8 @@
         "DAS Name" : "Private Production"
     },
     "wlljj-ewk-allscales" : {
-        "cross_section" : 0.01758, 
-        "Source of cross section" : "MadGraph LO -- with taus xsec = 0.01757, without 0.007398",
+        "cross_section" : 0.009888, 
+        "Source of cross section" : "MadGraph LO",
         "DAS Name" : "Private Generation",
         "Generator" : "MadGraph5_aMC@NLO LO",
         "Cards" : ""

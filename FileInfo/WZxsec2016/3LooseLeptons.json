@@ -15,24 +15,28 @@
         "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-17-wz3lnu-powheg-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "wz-powheg"
     },
+    "wz3lnu-powheg__sync" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-06-25-wz3lnu-powheg-WZxsec2016-3LooseLeptonsNoVeto-noKalmanFilter-v1/*",
+        "plot_group" : "wz-powheg"
+    },
     "wz3lnu-mg5amcnlo" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-17-wz3lnu-mg5amcnlo-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "wz"
     },
     "wz3lnu-mgmlm-0j" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-17-wz3lnu-mgmlm-0j-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-09-14-wz3lnu-mgmlm-0j-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "wz3lnu-mgmlm"
     },
     "wz3lnu-mgmlm-1j" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-17-wz3lnu-mgmlm-1j-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-09-14-wz3lnu-mgmlm-1j-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "wz3lnu-mgmlm"
     },
     "wz3lnu-mgmlm-2j" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-17-wz3lnu-mgmlm-2j-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-09-14-wz3lnu-mgmlm-2j-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "wz3lnu-mgmlm"
     },
     "wz3lnu-mgmlm-3j" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-17-wz3lnu-mgmlm-3j-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-09-14-wz3lnu-mgmlm-3j-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "wz3lnu-mgmlm"
     },
     "wzjj-aqgcfm" : {
@@ -251,35 +255,35 @@
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016B-03Feb2017_ver2" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-29-data_MuonEG_Run2016B-03Feb2017_ver2-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-31-data_MuonEG_Run2016B-03Feb2017_ver2-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016C-03Feb2017-v1" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-29-data_MuonEG_Run2016C-03Feb2017-v1-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-31-data_MuonEG_Run2016C-03Feb2017-v1-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016D-03Feb2017-v1" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-29-data_MuonEG_Run2016D-03Feb2017-v1-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-31-data_MuonEG_Run2016D-03Feb2017-v1-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016E-03Feb2017-v1" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-29-data_MuonEG_Run2016E-03Feb2017-v1-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-31-data_MuonEG_Run2016E-03Feb2017-v1-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016F-03Feb2017-v1" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-29-data_MuonEG_Run2016F-03Feb2017-v1-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-31-data_MuonEG_Run2016F-03Feb2017-v1-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016G-03Feb2017-v1" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-29-data_MuonEG_Run2016G-03Feb2017-v1-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-31-data_MuonEG_Run2016G-03Feb2017-v1-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016H-03Feb2017_ver2" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-29-data_MuonEG_Run2016H-03Feb2017_ver2-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-31-data_MuonEG_Run2016H-03Feb2017_ver2-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016H-03Feb2017_ver3" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-29-data_MuonEG_Run2016H-03Feb2017_ver3-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3LooseLeptons/2017-08-31-data_MuonEG_Run2016H-03Feb2017_ver3-WZxsec2016-3LooseLeptonsNoVeto-v1/*",
         "plot_group" : "data"
     },
     "data_SingleMuon_Run2016B-03Feb2017_ver2" : {

@@ -376,13 +376,13 @@
    "Mass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 14,
+            "nbins": 20,
             "xmin": 100,
-            "xmax": 800
+            "xmax": 900
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{3\\ell} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitle": "Events / 200 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum" : 100

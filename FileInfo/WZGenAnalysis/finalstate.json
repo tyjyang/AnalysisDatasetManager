@@ -20,7 +20,7 @@
         "plot_group" : "wzjj-vbfnlo-lo-fromauthors"
     },
     "wlljj-ewk-allscales" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis//WLLJJ_EWK-MGLO_AllScales_GenNtuples_leptonType-finalstate_2017-08-16-wzGen_cfg/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_EWK-MGLO_AllScales_GenNtuples_leptonType-finalstate_2017-09-06-wzGen_cfg/*",
         "plot_group" : "wzjj-ewk-allscales"
     },
     "wlljj-ewk__notaus" : {

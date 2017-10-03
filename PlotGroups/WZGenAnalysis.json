@@ -121,6 +121,13 @@
             "wlljj-ewk"
         ]
     },
+    "wzjj-ewk-allscales__maxptj" : {
+        "Name" : "MG5_aMC (#mu = p_{T}(j_{max}))",
+        "Style" : "nofill-lightpink-dotdash",
+        "Members" : [
+            "wlljj-ewk-allscales"
+        ]
+    },
     "wzjj-ewk-allscales__sqrts" : {
         "Name" : "MG5_aMC (#mu = #sqrt{s})",
         "Style" : "nofill-lightpink-dotdash",

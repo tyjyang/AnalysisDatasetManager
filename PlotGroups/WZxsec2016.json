@@ -47,7 +47,7 @@
     },
     "wzjj-ewk" : {
         "Name" : "WZjj EWK",
-        "Style" : "hatch-purple",
+        "Style" : "nofill-darkpurple-dash",
         "add_perc_error" : 0.0,
         "Members" : [
             "wlljj-ewk"
@@ -55,7 +55,7 @@
     },
     "wzjj-vbfnlo" : {
         "Name" : "WZjj EWK (VBFNLO)",
-        "Style" : "hatch-pink",
+        "Style" : "nofill-pink-dotdash",
         "add_perc_error" : 0.0,
         "Members" : [
             "wzjj-vbfnlo-of",
@@ -198,7 +198,7 @@
         ]
     },
     "nonprompt" : {
-        "Name" : "Non-prompt",
+        "Name" : "Nonprompt",
         "Style" : "fill-grey",
         "add_perc_error" : 0.3,
         "Members" : [

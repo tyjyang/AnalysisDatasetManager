@@ -4,15 +4,19 @@
         "plot_group" : "wzjj-mglo"
     },
     "wzjj-vbfnlo-of" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wzjj-vbfnlo-of-WZxsec2016-3LooseLeptonsNoVetoNoVetoToWselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wzjj-vbfnlo-of-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wzjj-vbfnlo"
     },
     "wzjj-vbfnlo-sf" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wzjj-vbfnlo-sf-WZxsec2016-3LooseLeptonsNoVetoNoVetoToWselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wzjj-vbfnlo-sf-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wzjj-vbfnlo"
     },
     "wz3lnu-powheg" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wz3lnu-powheg-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
+        "plot_group" : "wz-powheg"
+    },
+    "wz3lnu-powheg__sync" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-06-19-wz3lnu-powheg-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wz-powheg"
     },
     "wz3lnu-mg5amcnlo" : {
@@ -20,19 +24,19 @@
         "plot_group" : "wz"
     },
     "wz3lnu-mgmlm-0j" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wz3lnu-mgmlm-0j-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-09-14-wz3lnu-mgmlm-0j-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wz3lnu-mgmlm"
     },
     "wz3lnu-mgmlm-1j" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wz3lnu-mgmlm-1j-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-09-14-wz3lnu-mgmlm-1j-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wz3lnu-mgmlm"
     },
     "wz3lnu-mgmlm-2j" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wz3lnu-mgmlm-2j-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-09-14-wz3lnu-mgmlm-2j-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wz3lnu-mgmlm"
     },
     "wz3lnu-mgmlm-3j" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wz3lnu-mgmlm-3j-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-09-14-wz3lnu-mgmlm-3j-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wz3lnu-mgmlm"
     },
     "wzjj-aqgcfm" : {
@@ -123,7 +127,7 @@
         "plot_group" : "vvv"
     },
     "wwz" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-zzz-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wwz-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "vvv"
     },
     "www" : {
