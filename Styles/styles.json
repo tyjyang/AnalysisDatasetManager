@@ -192,7 +192,7 @@
         "SetFillColor": 0,
         "SetLineColor": "ROOT.TColor.GetColor(#980000)",
         "SetLineStyle": 7,
-        "SetLineWidth": 2,
+        "SetLineWidth": 3,
         "SetMarkerSize" : 0
     },
     "fill-blue" : {
@@ -225,7 +225,7 @@
         "SetFillColor": 0,
         "SetLineColor": "ROOT.TColor.GetColor(#00326C)",
         "SetLineStyle": 3,
-        "SetLineWidth": 2,
+        "SetLineWidth": 3,
         "SetMarkerSize" : 0
     },
     "fill-blue-noline" : {
@@ -274,6 +274,13 @@
         "SetFillColor": 0,
         "SetLineColor": "ROOT.TColor.GetColor(#999999)",
         "SetLineStyle": 7,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
+    "nofill-bluegrey" : {
+        "SetFillColor": 0,
+        "SetLineColor": "ROOT.TColor.GetColor(#3f4760)",
+        "SetLineStyle": 1,
         "SetLineWidth": 2,
         "SetMarkerSize" : 0
     },

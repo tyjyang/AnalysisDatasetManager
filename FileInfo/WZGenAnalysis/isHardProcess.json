@@ -1,6 +1,6 @@
 {
     "wz3lnu-powheg" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/powhegOff_GenNtuples_leptonType-hardProcess_2016-07-06-wzGen_cfg/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/powhegOff_GenNtuples_leptonType-hardProcess_2017-11-15-wzGen_cfg/*",
         "plot_group" : "wz-pwg"
     },
     "wz3lnu-mg5amcnlo-off" : {

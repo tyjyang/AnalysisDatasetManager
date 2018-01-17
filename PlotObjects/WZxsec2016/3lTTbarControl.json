@@ -547,7 +547,7 @@
         "Attributes": {  
             "GetYaxis().SetTitle": "Events Passing Selection",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMaximum" : 1500,
+            "SetMaximum" : 800,
             "SetMinimum" : 0.001
         }
     }

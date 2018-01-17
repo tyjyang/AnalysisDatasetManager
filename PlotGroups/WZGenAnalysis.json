@@ -27,6 +27,13 @@
             "wz2e1m1nu-scaleWZ-2j-sherpa"
         ]
     },
+    "wzjj-vbfnlo-lo-fixedscale" : {
+        "Name" : "VBFNLO LO (#mu= m_{Z})",
+        "Style" : "nofill-red-dash",
+        "Members" : [
+            "wzjj-vbfnlo-lo-fixedscale"
+        ]
+    },
     "wz-fixed-pwg" : {
         "Name" : "POWHEG NLO inc.",
         "Style" : "nofill-darkblue-finedash",
@@ -121,6 +128,13 @@
             "wlljj-ewk"
         ]
     },
+    "wzjj-ewk-fixedscale" : {
+        "Name" : "MG5_aMC (#mu = m_{Z})",
+        "Style" : "nofill-bluegrey",
+        "Members" : [
+            "wlljj-ewk-fixedscale"
+        ]
+    },
     "wzjj-ewk-allscales__maxptj" : {
         "Name" : "MG5_aMC (#mu = p_{T}(j_{max}))",
         "Style" : "nofill-lightpink-dotdash",
@@ -131,7 +145,7 @@
     "wzjj-ewk-allscales__sqrts" : {
         "Name" : "MG5_aMC (#mu = #sqrt{s})",
         "Style" : "nofill-lightpink-dotdash",
-        "weight" : "0.422192*LHEweights[1]/LHEweights[0]",
+        "weight" : "LHEweights[1]/LHEweights[0]",
         "Members" : [
             "wlljj-ewk-allscales"
         ]
@@ -139,7 +153,7 @@
     "wzjj-ewk-allscales__sumpt" : {
         "Name" : "MG5_aMC (#mu = #Sigma p_{T})",
         "Style" : "nofill-grey",
-        "weight" : "0.422192*LHEweights[4]/LHEweights[0]",
+        "weight" : "LHEweights[4]/LHEweights[0]",
         "Members" : [
             "wlljj-ewk-allscales"
         ]
@@ -147,7 +161,7 @@
     "wzjj-ewk-allscales__summt" : {
         "Name" : "MG5_aMC (#mu = #Sigma m_{T})",
         "Style" : "nofill-orange",
-        "weight" : "0.422192*LHEweights[2]/LHEweights[0]",
+        "weight" : "0.422191*LHEweights[2]/LHEweights[0]",
         "Members" : [
             "wlljj-ewk-allscales"
         ]
@@ -158,6 +172,14 @@
         "weight" : "0.422192",
         "Members" : [
             "wlljj-ewk__notaus"
+        ]
+    },
+    "wzjj-ewk__ofchans" : {
+        "Name" : "MG5_aMC LO (OF)",
+        "Style" : "nofill-lightgreen",
+        "weight" : "0.211096",
+        "Members" : [
+            "wlljj-ewk__ofchans"
         ]
     },
     "wzjj-vbfnlo-lo-fromauthors" : {

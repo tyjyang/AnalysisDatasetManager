@@ -4,8 +4,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 0 F_{S1}= 16 TeV^{-4}", 
-        "Style": "nofill-orange", 
+        "Style": "nofill-lightred", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 456, 
         "weight": "pdfWeights[447]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-0_fs1-32": {
@@ -13,8 +14,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 0 F_{S1}= 32 TeV^{-4}", 
-        "Style": "nofill-darkred", 
+        "Style": "nofill-darkgreen-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 457, 
         "weight": "pdfWeights[448]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-0_fs1-8": {
@@ -22,8 +24,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 0 F_{S1}= 8 TeV^{-4}", 
-        "Style": "nofill-lightblue", 
+        "Style": "nofill-lightgreen", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 455, 
         "weight": "pdfWeights[446]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-0_fs1-m16": {
@@ -31,8 +34,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 0 F_{S1}= -16 TeV^{-4}", 
-        "Style": "nofill-darkgreen-dash", 
+        "Style": "nofill-lightgrey-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 453, 
         "weight": "pdfWeights[444]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-0_fs1-m32": {
@@ -40,8 +44,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 0 F_{S1}= -32 TeV^{-4}", 
-        "Style": "nofill-darkgreen-dash", 
+        "Style": "nofill-darkpurple-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 452, 
         "weight": "pdfWeights[443]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-0_fs1-m8": {
@@ -49,8 +54,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 0 F_{S1}= -8 TeV^{-4}", 
-        "Style": "nofill-darkgreen", 
+        "Style": "nofill-green-dotdash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 454, 
         "weight": "pdfWeights[445]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-16_fs1-16": {
@@ -58,8 +64,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 16 F_{S1}= 16 TeV^{-4}", 
-        "Style": "nofill-lightpink-dotdash", 
+        "Style": "nofill-lightgrey-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 486, 
         "weight": "pdfWeights[477]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-16_fs1-32": {
@@ -67,8 +74,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 16 F_{S1}= 32 TeV^{-4}", 
-        "Style": "nofill-lightpurple", 
+        "Style": "nofill-darkgreen-dotdash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 487, 
         "weight": "pdfWeights[478]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-16_fs1-8": {
@@ -76,8 +84,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 16 F_{S1}= 8 TeV^{-4}", 
-        "Style": "nofill-orange", 
+        "Style": "nofill-darkpurple-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 485, 
         "weight": "pdfWeights[476]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-16_fs1-m16": {
@@ -85,8 +94,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 16 F_{S1}= -16 TeV^{-4}", 
-        "Style": "nofill-lightblue", 
+        "Style": "nofill-red-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 483, 
         "weight": "pdfWeights[474]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-16_fs1-m32": {
@@ -94,8 +104,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 16 F_{S1}= -32 TeV^{-4}", 
-        "Style": "nofill-lightgrey-dash", 
+        "Style": "nofill-darkpurple-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 482, 
         "weight": "pdfWeights[473]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-16_fs1-m8": {
@@ -103,8 +114,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 16 F_{S1}= -8 TeV^{-4}", 
-        "Style": "nofill-lightpurple", 
+        "Style": "nofill-orange", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 484, 
         "weight": "pdfWeights[475]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-32_fs1-0": {
@@ -112,8 +124,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 32 F_{S1}= 0 TeV^{-4}", 
-        "Style": "nofill-yellow", 
+        "Style": "nofill-lightblue-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 451, 
         "weight": "pdfWeights[442]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-32_fs1-16": {
@@ -121,8 +134,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 32 F_{S1}= 16 TeV^{-4}", 
-        "Style": "nofill-darkgreen-dash", 
+        "Style": "nofill-green-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 492, 
         "weight": "pdfWeights[483]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-32_fs1-32": {
@@ -130,8 +144,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 32 F_{S1}= 32 TeV^{-4}", 
-        "Style": "nofill-darkred", 
+        "Style": "nofill-green-dotdash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 493, 
         "weight": "pdfWeights[484]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-32_fs1-8": {
@@ -139,8 +154,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 32 F_{S1}= 8 TeV^{-4}", 
-        "Style": "nofill-lightgreen-dotdash", 
+        "Style": "nofill-darkblue", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 491, 
         "weight": "pdfWeights[482]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-32_fs1-m16": {
@@ -148,8 +164,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 32 F_{S1}= -16 TeV^{-4}", 
-        "Style": "nofill-lightgreen-dash", 
+        "Style": "nofill-lightpink-dotdash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 489, 
         "weight": "pdfWeights[480]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-32_fs1-m32": {
@@ -157,8 +174,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 32 F_{S1}= -32 TeV^{-4}", 
-        "Style": "nofill-darkpurple-dash", 
+        "Style": "nofill-red-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 488, 
         "weight": "pdfWeights[479]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-32_fs1-m8": {
@@ -166,8 +184,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 32 F_{S1}= -8 TeV^{-4}", 
-        "Style": "nofill-lightpink-dotdash", 
+        "Style": "nofill-lightblue", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 490, 
         "weight": "pdfWeights[481]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-8_fs1-0": {
@@ -175,8 +194,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 8 F_{S1}= 0 TeV^{-4}", 
-        "Style": "nofill-lightgreen-dotdash", 
+        "Style": "nofill-darkred", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 450, 
         "weight": "pdfWeights[441]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-8_fs1-16": {
@@ -184,8 +204,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 8 F_{S1}= 16 TeV^{-4}", 
-        "Style": "nofill-darkgreen", 
+        "Style": "nofill-lightred", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 480, 
         "weight": "pdfWeights[471]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-8_fs1-32": {
@@ -193,8 +214,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 8 F_{S1}= 32 TeV^{-4}", 
-        "Style": "nofill-lightblue-dash", 
+        "Style": "nofill-darkgreen-finedash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 481, 
         "weight": "pdfWeights[472]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-8_fs1-8": {
@@ -202,8 +224,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 8 F_{S1}= 8 TeV^{-4}", 
-        "Style": "nofill-darkblue-finedash", 
+        "Style": "nofill-green-dotdash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 479, 
         "weight": "pdfWeights[470]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-8_fs1-m16": {
@@ -211,8 +234,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 8 F_{S1}= -16 TeV^{-4}", 
-        "Style": "nofill-lightblue", 
+        "Style": "nofill-red-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 477, 
         "weight": "pdfWeights[468]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-8_fs1-m32": {
@@ -220,8 +244,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 8 F_{S1}= -32 TeV^{-4}", 
-        "Style": "nofill-lightpink-dotdash", 
+        "Style": "nofill-darkgreen", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 476, 
         "weight": "pdfWeights[467]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-8_fs1-m8": {
@@ -229,8 +254,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= 8 F_{S1}= -8 TeV^{-4}", 
-        "Style": "nofill-grey", 
+        "Style": "nofill-lightgreen-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 478, 
         "weight": "pdfWeights[469]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m16_fs1-0": {
@@ -238,8 +264,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -16 F_{S1}= 0 TeV^{-4}", 
-        "Style": "nofill-grey", 
+        "Style": "nofill-darkpurple", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 448, 
         "weight": "pdfWeights[439]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m16_fs1-16": {
@@ -247,8 +274,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -16 F_{S1}= 16 TeV^{-4}", 
-        "Style": "nofill-lightgreen-finedash", 
+        "Style": "nofill-darkred", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 468, 
         "weight": "pdfWeights[459]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m16_fs1-32": {
@@ -256,8 +284,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -16 F_{S1}= 32 TeV^{-4}", 
-        "Style": "nofill-darkgreen-dotdash", 
+        "Style": "nofill-lightpurple", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 469, 
         "weight": "pdfWeights[460]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m16_fs1-8": {
@@ -265,8 +294,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -16 F_{S1}= 8 TeV^{-4}", 
-        "Style": "nofill-darkred", 
+        "Style": "nofill-lightgreen-dotdash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 467, 
         "weight": "pdfWeights[458]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m16_fs1-m16": {
@@ -274,8 +304,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -16 F_{S1}= -16 TeV^{-4}", 
-        "Style": "nofill-darkblue", 
+        "Style": "nofill-lightblue-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 465, 
         "weight": "pdfWeights[456]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m16_fs1-m32": {
@@ -283,8 +314,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -16 F_{S1}= -32 TeV^{-4}", 
-        "Style": "nofill-lightgreen-finedash", 
+        "Style": "nofill-darkpurple", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 464, 
         "weight": "pdfWeights[455]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m16_fs1-m8": {
@@ -292,8 +324,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -16 F_{S1}= -8 TeV^{-4}", 
-        "Style": "nofill-lightblue-dash", 
+        "Style": "nofill-green-dotdash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 466, 
         "weight": "pdfWeights[457]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m32_fs1-0": {
@@ -301,8 +334,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -32 F_{S1}= 0 TeV^{-4}", 
-        "Style": "nofill-lightred", 
+        "Style": "nofill-lightgreen", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 447, 
         "weight": "pdfWeights[438]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m32_fs1-16": {
@@ -310,8 +344,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -32 F_{S1}= 16 TeV^{-4}", 
-        "Style": "nofill-red-dash", 
+        "Style": "nofill-darkpurple-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 462, 
         "weight": "pdfWeights[453]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m32_fs1-32": {
@@ -319,8 +354,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -32 F_{S1}= 32 TeV^{-4}", 
-        "Style": "nofill-lightgreen-dash", 
+        "Style": "nofill-darkblue-finedash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 463, 
         "weight": "pdfWeights[454]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m32_fs1-8": {
@@ -328,8 +364,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -32 F_{S1}= 8 TeV^{-4}", 
-        "Style": "nofill-orange", 
+        "Style": "nofill-lightgreen-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 461, 
         "weight": "pdfWeights[452]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m32_fs1-m16": {
@@ -337,8 +374,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -32 F_{S1}= -16 TeV^{-4}", 
-        "Style": "nofill-lightblue", 
+        "Style": "nofill-lightpurple", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 459, 
         "weight": "pdfWeights[450]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m32_fs1-m32": {
@@ -346,8 +384,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -32 F_{S1}= -32 TeV^{-4}", 
-        "Style": "nofill-yellow", 
+        "Style": "nofill-darkgreen-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 458, 
         "weight": "pdfWeights[449]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m32_fs1-m8": {
@@ -355,8 +394,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -32 F_{S1}= -8 TeV^{-4}", 
-        "Style": "nofill-red-dash", 
+        "Style": "nofill-lightgreen-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 460, 
         "weight": "pdfWeights[451]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m8_fs1-0": {
@@ -364,8 +404,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -8 F_{S1}= 0 TeV^{-4}", 
-        "Style": "nofill-lightpurple", 
+        "Style": "nofill-darkblue", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 449, 
         "weight": "pdfWeights[440]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m8_fs1-16": {
@@ -373,8 +414,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -8 F_{S1}= 16 TeV^{-4}", 
-        "Style": "nofill-lightred-dash", 
+        "Style": "nofill-yellow", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 474, 
         "weight": "pdfWeights[465]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m8_fs1-32": {
@@ -382,8 +424,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -8 F_{S1}= 32 TeV^{-4}", 
-        "Style": "nofill-green-dotdash", 
+        "Style": "nofill-darkgreen", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 475, 
         "weight": "pdfWeights[466]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m8_fs1-8": {
@@ -391,8 +434,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -8 F_{S1}= 8 TeV^{-4}", 
-        "Style": "nofill-lightgreen-finedash", 
+        "Style": "nofill-darkgreen-finedash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 473, 
         "weight": "pdfWeights[464]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m8_fs1-m16": {
@@ -400,16 +444,19 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -8 F_{S1}= -16 TeV^{-4}", 
-        "Style": "nofill-green-dash", 
-        "add_perc_error": 0.0
+        "Style": "nofill-lightgreen-dash", 
+        "add_perc_error": 0.0, 
+        "lheWeightEntry": 471, 
+        "weight": "pdfWeights[462]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m8_fs1-m32": {
         "Members": [
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -8 F_{S1}= -32 TeV^{-4}", 
-        "Style": "nofill-lightgreen-dash", 
+        "Style": "nofill-red-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 470, 
         "weight": "pdfWeights[461]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__fs0-m8_fs1-m8": {
@@ -417,8 +464,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "F_{S0}= -8 F_{S1}= -8 TeV^{-4}", 
-        "Style": "nofill-green-dash", 
+        "Style": "nofill-lightgrey-dash", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 472, 
         "weight": "pdfWeights[463]/scaleWeights[0]"
     }, 
     "wzjj-aqgcfs__sm": {
@@ -426,8 +474,9 @@
             "wzjj-aqgcfs"
         ], 
         "Name": "SM (rw)", 
-        "Style": "nofill-lightred", 
+        "Style": "nofill-lightblue", 
         "add_perc_error": 0.0, 
+        "lheWeightEntry": 446, 
         "weight": "pdfWeights[437]/scaleWeights[0]"
     }
 }

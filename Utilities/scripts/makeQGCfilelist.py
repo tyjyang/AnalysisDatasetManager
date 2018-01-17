@@ -2,12 +2,12 @@ from DataFormats.FWLite import Handle, Events
 import random
 import json
 
-#events = Events("root://cmsxrootd.fnal.gov///store/user/kelong/WLLJJ_WToLNu_EWK_aQGC-FM_v2/RunIISummer15wmLHEGS/170331_093308/0000/SMP-RunIISummer15wmLHEGS-00044_62.root")
-#sample = "fm"
+events = Events("root://cmsxrootd.fnal.gov///store/user/kelong/WLLJJ_WToLNu_EWK_aQGC-FM_v2/RunIISummer15wmLHEGS/170331_093308/0000/SMP-RunIISummer15wmLHEGS-00044_62.root")
+sample = "fm"
 #events = Events("root://cmsxrootd.fnal.gov///store/mc/RunIISummer16MiniAODv2/WLLJJ_WToLNu_EWK_aQGC-FS_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/120000/00AEA2AB-82C5-E611-9920-0CC47A706D40.root")
 #sample = "fs"
-events = Events("root://cmsxrootd.fnal.gov///store/user/kelong/WLLJJ_WToLNu_EWK_aQGC-FT_v3/RunIISummer15wmLHEGS/170405_220602/0000/SMP-RunIISummer15wmLHEGS-00044_10.root")
-sample = "ft"
+#events = Events("root://cmsxrootd.fnal.gov///store/user/kelong/WLLJJ_WToLNu_EWK_aQGC-FT_v3/RunIISummer15wmLHEGS/170405_220602/0000/SMP-RunIISummer15wmLHEGS-00044_10.root")
+#sample = "ft"
 handle = Handle("LHEEventProduct")
 colors = [
     "nofill-darkpurple",
@@ -69,9 +69,10 @@ for i,weight in enumerate(weights):
         "Style" : random.choice(colors),
         "add_perc_error" : 0.0,
         # For reco tuples
-        #"weight" : "pdfWeights[%i]/scaleWeights[0]" % (i-9),
+        "weight" : "pdfWeights[%i]/scaleWeights[0]" % (i-9),
+        "lheWeightEntry" : i, 
         # For gen tuples
-        "weight" : "LHEweights[%i]/LHEweights[0]" % i,
+        #"weight" : "LHEweights[%i]/LHEweights[0]" % i,
         "Members" : [
             "wzjj-aqgc%s" % sample
         ]}

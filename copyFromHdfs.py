@@ -27,7 +27,7 @@ for directory in glob.glob(args.path):
             dir_name = "_".join(dirs[5:7])
     new_dir = "/data/%s/DibosonAnalysisData/%s/%s" % (os.getlogin(), args.selection.strip("/"), dir_name)
     if args.eos:
-        new_dir = "/eos/user/k/%s/%s/%s" % (os.getlogin(), args.selection, dir_name)
+        new_dir = "/".join(["/eos/user", os.getlogin()[0], os.getlogin(), args.selection, dir_name])
     try:
         os.mkdir(new_dir)
     except OSError as e:

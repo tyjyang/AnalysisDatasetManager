@@ -65,7 +65,7 @@
         "Members": [
             "wzjj-aqgcfm"
         ], 
-        "Name": "F_{M0}= 16 F_{M1}= 16 TeV^{-4}", 
+        "Name": "F_{M0}= 16 F_{M1}= 16 TeV^{-4}", FM
         "Style": "nofill-green-dotdash", 
         "add_perc_error": 0.0, 
         "weight": "LHEweights[478]/LHEweights[0]"
@@ -93,7 +93,7 @@
             "wzjj-aqgcfm"
         ], 
         "Name": "F_{M0}= 16 F_{M1}= -16 TeV^{-4}", 
-        "Style": "nofill-lightgreen", 
+        "Style": "nofill-darkgreen-dash", 
         "add_perc_error": 0.0, 
         "weight": "LHEweights[477]/LHEweights[0]"
     }, 
@@ -120,7 +120,7 @@
             "wzjj-aqgcfm"
         ], 
         "Name": "F_{M0}= 4 F_{M1}= 16 TeV^{-4}", 
-        "Style": "nofill-yellow", 
+        "Style": "nofill-darkblue-finedash", 
         "add_perc_error": 0.0, 
         "weight": "LHEweights[484]/LHEweights[0]"
     }, 
@@ -246,7 +246,7 @@
             "wzjj-aqgcfm"
         ], 
         "Name": "F_{M0}= -16 F_{M1}= 16 TeV^{-4}", 
-        "Style": "nofill-darkpurple", 
+        "Style": "nofill-darkblue-finedash", 
         "add_perc_error": 0.0, 
         "weight": "LHEweights[472]/LHEweights[0]"
     }, 
@@ -363,7 +363,7 @@
             "wzjj-aqgcfm"
         ], 
         "Name": "F_{M0}= -8 F_{M1}= 0 TeV^{-4}", 
-        "Style": "nofill-darkblue-finedash", 
+        "Style": "nofill-darkpurple", 
         "add_perc_error": 0.0, 
         "weight": "LHEweights[447]/LHEweights[0]"
     }, 

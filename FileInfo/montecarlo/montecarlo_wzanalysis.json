@@ -15,7 +15,7 @@
     },
     "wzjj-vbfnlo-sf" : {
         "cross_section" :  0.00349,
-        "Source of cross section" : "VBFNLO",
+        "Source of cross section" : "VBFNLO (apply kfactor of 1.71 to agree with MG)",
         "Generator" : "VBFNLO+Herwig7",
         "DAS Name" : "Private Generation",
         "Cards" : ""

@@ -7,6 +7,14 @@
             "wz3lnu-powheg"
         ]
     },
+    "wz-powheg_standalone" : {
+        "Name" : "POWHEG NLO inc.",
+        "Style" : "nofill-darkpurple-dash",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wz3lnu-powheg"
+        ]
+    },
     "wz" : {
         "Name" : "WZ",
         "Style" : "fill-purple",
@@ -15,8 +23,16 @@
             "wz3lnu-mg5amcnlo"
         ]
     },
+    "wz_standalone" : {
+        "Name" : "MG5_aMC #leq1j@NLO",
+        "Style" : "nofill-lightpink-dotdash",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wz3lnu-mg5amcnlo"
+        ]
+    },
     "wz-mgmlm_standalone" : {
-        "Name" : "WZ (MLM)",
+        "Name" : "MG5_aMC #leq3j@LO",
         "Style" : "nofill-lightpurple",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -89,65 +105,6 @@
             "wz-atgc_pt0-200__sm",
             "wz-atgc_pt200-300__sm",
             "wz-atgc_pt300__sm"
-        ]
-    },
-    "wzjj-aqgcfm__fm1-2" : {
-        "Name" : "F_{M1}= 2 TeV^{-4} ",
-        "Style" : "nofill-lightblue",
-        "add_perc_error" : 0.0,
-        "Members" : [
-            "wzjj-aqgcfm__fm1-2"
-        ]
-    },
-    "wzjj-aqgcfm__fm0-4" : {
-        "Name" : "F_{M0}= 4 TeV^{-4}",
-        "Style" : "nofill-darkgreen",
-        "add_perc_error" : 0.0,
-        "Members" : [
-            "wzjj-aqgcfm"
-        ]
-    },
-    "wzjj-aqgcfm__fm0-8_fm1-8" : {
-        "Name" : "F_{M0}= 8; F_{M1} = 8 TeV^{-4}",
-        "Style" : "nofill-lightblue",
-        "weight" : "pdfWeights[484]/scaleWeights[0]",
-        "add_perc_error" : 0.0,
-        "Members" : [
-            "wzjj-aqgcfm"
-        ]
-    },
-    "wzjj-aqgcfm__sm" : {
-        "Name" : "WZjj EWK (SM rw)",
-        "Style" : "nofill-lightgreen",
-        "weight" : "pdfWeights[437]/scaleWeights[0]",
-        "add_perc_error" : 0.0,
-        "Members" : [
-            "wzjj-aqgcfm"
-        ]
-    },
-    "wzjj-aqgcft__ft0-8" : {
-        "Name" : "F_{T0}= 8 TeV^{-4}",
-        "Style" : "nofill-darkpurple-dash",
-        "add_perc_error" : 0.0,
-        "Members" : [
-            "wzjj-aqgcft"
-        ]
-    },
-    "wzjj-aqgcft__ft1-2" : {
-        "Name" : "F_{T1}= 2 TeV^{-4}",
-        "Style" : "nofill-lightgrey-dash",
-        "weight" : "pdfWeights[446]/scaleWeights[0]",
-        "add_perc_error" : 0.0,
-        "Members" : [
-            "wzjj-aqgcft"
-        ]
-    },
-    "wzjj-aqgcfs__fs0-16" : {
-        "Name" : "F_{S0}= 16 TeV^{-4}",
-        "Style" : "nofill-lightpink-dotdash",
-        "add_perc_error" : 0.0,
-        "Members" : [
-            "wzjj-aqgcfs"
         ]
     },
     "vv-powheg" : {
@@ -375,6 +332,20 @@
             "data_MuonEG_Run2016E-03Feb2017-v1",
             "data_MuonEG_Run2016F-03Feb2017-v1",
             "data_MuonEG_Run2016G-03Feb2017-v1",
+            "data_MuonEG_Run2016H-03Feb2017_ver2",
+            "data_MuonEG_Run2016H-03Feb2017_ver3"
+        ]
+    },
+    "data_2016H" : {
+        "Name" : "Data",
+        "Style" : "data",
+        "Members" : [
+            "data_SingleMuon_Run2016H-03Feb2017_ver2",
+            "data_SingleMuon_Run2016H-03Feb2017_ver3",
+            "data_DoubleEG_Run2016H-03Feb2017_ver2",
+            "data_DoubleEG_Run2016H-03Feb2017_ver3",
+            "data_DoubleMuon_Run2016H-03Feb2017_ver2",
+            "data_DoubleMuon_Run2016H-03Feb2017_ver3",
             "data_MuonEG_Run2016H-03Feb2017_ver2",
             "data_MuonEG_Run2016H-03Feb2017_ver3"
         ]

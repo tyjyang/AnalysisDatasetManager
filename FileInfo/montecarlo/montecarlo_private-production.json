@@ -49,8 +49,15 @@
         "Source of cross section" : "POWHEG tarball",
         "DAS Name" : "Private Production"
     },
+    "wlljj-ewk-fixedscale" : {
+        "cross_section" : 0.007595, 
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "Private Generation",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
     "wlljj-ewk-allscales" : {
-        "cross_section" : 0.009888, 
+        "cross_section" : 0.007051, 
         "Source of cross section" : "MadGraph LO",
         "DAS Name" : "Private Generation",
         "Generator" : "MadGraph5_aMC@NLO LO",
@@ -86,6 +93,13 @@
     },
     "wzjj-vbfnlo-lo" : {
         "cross_section" : 0.00306, 
+        "Source of cross section" : "VBFNLO+Hwerig",
+        "DAS Name" : "Private Production",
+        "Generator" : "VBFNLO+Herwig (at leading order)",
+        "Cards" : ""
+    },
+    "wzjj-vbfnlo-lo-fixedscale" : {
+        "cross_section" : 0.00327771, 
         "Source of cross section" : "VBFNLO+Hwerig",
         "DAS Name" : "Private Production",
         "Generator" : "VBFNLO+Herwig (at leading order)",
