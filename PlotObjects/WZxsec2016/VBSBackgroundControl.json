@@ -226,16 +226,17 @@
    "mjj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 30,
+            "nbins": 80,
             "xmin": 0,
-            "xmax": 3000
+            "xmax": 2000
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
             "GetYaxis().SetTitle": "Events / 100 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 2500
+            "SetMaximum": 250,
+            "Rebin": 4
         }
     },
    "mjj_mtwz_unrolled": {  
@@ -359,16 +360,17 @@
    "dEtajj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 36,
+            "nbins": 56,
             "xmin": 0,
-            "xmax": 9
+            "xmax": 7
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
-            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitle": "Events / 0.25",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 150
+            "SetMaximum" : 250,
+            "Rebin" : 2
         }
     },
    "dEtajj_jesUp": {  

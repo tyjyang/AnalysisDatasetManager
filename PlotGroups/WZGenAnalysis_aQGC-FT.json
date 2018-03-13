@@ -14,7 +14,7 @@
         "Name": "F_{T0}= 0 F_{T1}= 0 F_{T2}= 1 TeV^{-4}", 
         "Style": "nofill-darkpurple", 
         "add_perc_error": 0.0, 
-        "lheWeightEntry" : 469
+        "lheWeightEntry" : 469,
         "weight": "LHEweights[469]/LHEweights[0]"
     }, 
     "wzjj-aqgcft__ft0-0_ft1-0_ft2-2": {

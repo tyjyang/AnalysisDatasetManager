@@ -50,6 +50,13 @@
         "SetLineWidth": 3,
         "SetMarkerSize" : 0
     },
+    "nofill-darkpurple-dotdash" : {
+        "SetFillColor": 0,
+        "SetLineColor": "ROOT.TColor.GetColor(#4C0257)",
+        "SetLineStyle": 8,
+        "SetLineWidth": 3,
+        "SetMarkerSize" : 0
+    },
     "fill-green" : {
         "SetFillColor": "ROOT.TColor.GetColor(#4daf4a)",
         "SetLineColor": "ROOT.TColor.GetColor(#016300)",

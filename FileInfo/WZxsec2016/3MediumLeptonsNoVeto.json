@@ -36,15 +36,15 @@
         "plot_group" : "wz3lnu-mgmlm"
     },
     "wzjj-aqgcfm" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2017-12-10-wzjj-aqgcfm-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-01-28-wzjj-aqgcfm-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "wzjj-aqgcfm"
     },
     "wzjj-aqgcft" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2017-12-10-wzjj-aqgcft-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-01-28-wzjj-aqgcft-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "wzjj-aqgcft"
     },
     "wzjj-aqgcfs" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2017-12-10-wzjj-aqgcfs-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-01-28-wzjj-aqgcfs-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "wzjj-aqgcfs"
     },
     "wz-atgc_pt0-200" : {
@@ -58,6 +58,46 @@
     "wz-atgc_pt300" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2017-12-10-wz-atgc_pt300-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "wz-atgc"
+    },
+    "chargedHiggsWZ-m300" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/chargedHiggsWZ-m300-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "plot_group" : "chargedHiggsWZ-m300"
+    },
+    "chargedHiggsWZ-m400" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/chargedHiggsWZ-m400-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "plot_group" : "chargedHiggsWZ-m400"
+    },
+    "chargedHiggsWZ-m500" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/chargedHiggsWZ-m500-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "plot_group" : "chargedHiggsWZ-m500"
+    },
+    "chargedHiggsWZ-m600" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/chargedHiggsWZ-m600-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "plot_group" : "chargedHiggsWZ-m600"
+    },
+    "chargedHiggsWZ-m700" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/chargedHiggsWZ-m700-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "plot_group" : "chargedHiggsWZ-m700"
+    },
+    "chargedHiggsWZ-m800" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/chargedHiggsWZ-m800-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "plot_group" : "chargedHiggsWZ-m800"
+    },
+    "chargedHiggsWZ-m900" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/chargedHiggsWZ-m900-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "plot_group" : "chargedHiggsWZ-m900"
+    },
+    "chargedHiggsWZ-m1000" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/chargedHiggsWZ-m1000-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "plot_group" : "chargedHiggsWZ-m1000"
+    },
+    "chargedHiggsWZ-m1500" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/chargedHiggsWZ-m1500-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "plot_group" : "chargedHiggsWZ-m1500"
+    },
+    "chargedHiggsWZ-m2000" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/chargedHiggsWZ-m2000-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "plot_group" : "chargedHiggsWZ-m2000"
     },
     "zz4l-powheg" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2017-12-10-zz4l-powheg-WZxsec2016-3MediumLeptonsNoVeto-v1/*",

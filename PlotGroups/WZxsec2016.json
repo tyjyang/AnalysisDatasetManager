@@ -9,7 +9,7 @@
     },
     "wz-powheg_standalone" : {
         "Name" : "POWHEG NLO inc.",
-        "Style" : "nofill-darkpurple-dash",
+        "Style" : "nofill-darkpurple-dotdash",
         "add_perc_error" : 0.0,
         "Members" : [
             "wz3lnu-powheg"
@@ -25,7 +25,7 @@
     },
     "wz_standalone" : {
         "Name" : "MG5_aMC #leq1j@NLO",
-        "Style" : "nofill-lightpink-dotdash",
+        "Style" : "nofill-lightblue-dash",
         "add_perc_error" : 0.0,
         "Members" : [
             "wz3lnu-mg5amcnlo"
@@ -33,17 +33,6 @@
     },
     "wz-mgmlm_standalone" : {
         "Name" : "MG5_aMC #leq3j@LO",
-        "Style" : "nofill-lightpurple",
-        "add_perc_error" : 0.0,
-        "Members" : [
-            "wz3lnu-mgmlm-0j",
-            "wz3lnu-mgmlm-1j",
-            "wz3lnu-mgmlm-2j",
-            "wz3lnu-mgmlm-3j"
-        ]
-    },
-    "wz-mgmlm" : {
-        "Name" : "WZ (MLM)",
         "Style" : "fill-lightpurple",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -53,8 +42,20 @@
             "wz3lnu-mgmlm-3j"
         ]
     },
+    "wz-mgmlm" : {
+        "Name" : "QCD-WZjj",
+        "Style" : "fill-lightpurple",
+        "Scale" : 0.831,
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wz3lnu-mgmlm-0j",
+            "wz3lnu-mgmlm-1j",
+            "wz3lnu-mgmlm-2j",
+            "wz3lnu-mgmlm-3j"
+        ]
+    },
     "wzjj-ewk_standalone" : {
-        "Name" : "WZjj EWK",
+        "Name" : "EW-WZjj",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -62,7 +63,7 @@
         ]
     },
     "wzjj-ewk" : {
-        "Name" : "WZjj EWK",
+        "Name" : "EW-WZjj",
         "Style" : "nofill-darkpurple-dash",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -296,6 +297,93 @@
         "add_perc_error" : 0.0,
         "Members" : [
             "zg"
+        ]
+    },
+    "chargedHiggsWZ-m300" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 300 \\mathrm{GeV}",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "chargedHiggsWZ-m300"
+        ]
+    },
+    "chargedHiggsWZ-m400" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 400 \\mathrm{GeV}",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "chargedHiggsWZ-m400"
+        ]
+    },
+    "chargedHiggsWZ-m500" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 500 \\mathrm{GeV}",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "chargedHiggsWZ-m500"
+        ]
+    },
+    "chargedHiggsWZ-m600" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 600 \\mathrm{GeV}",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "chargedHiggsWZ-m600"
+        ]
+    },
+    "chargedHiggsWZ-m700" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 700 \\mathrm{GeV}",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "chargedHiggsWZ-m700"
+        ]
+    },
+    "chargedHiggsWZ-m800" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 800 \\mathrm{GeV}",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "chargedHiggsWZ-m800"
+        ]
+    },
+    "chargedHiggsWZ-m900" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 900 \\mathrm{GeV}",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "chargedHiggsWZ-m900"
+        ]
+    },
+    "chargedHiggsWZ-m1000" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 1000 \\mathrm{GeV}",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "chargedHiggsWZ-m1000"
+        ]
+    },
+    "chargedHiggsWZ-m1500" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 1500 \\mathrm{GeV}",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "chargedHiggsWZ-m1500"
+        ]
+    },
+    "chargedHiggsWZ-m2000" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 2000 \\mathrm{GeV}",
+        "Style" : "nofill-darkgreen",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "chargedHiggsWZ-m2000"
+        ]
+    },
+    "data_all" : {
+        "Name" : "Data",
+        "Style" : "data",
+        "Members" : [
+            "AllData"
         ]
     },
     "data_2016" : {

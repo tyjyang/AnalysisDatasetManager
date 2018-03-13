@@ -163,7 +163,82 @@
             "SetMaximum" : 1500
         }
     },
+   "M3lMET": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 7,
+            "xmin": 100,
+            "xmax": 800
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{3\\ell+E^{\\mathrm{miss}}_{T}}(WZ) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 200 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 150
+        }
+    },
    "MTWZ": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 40,
+            "xmin": 100,
+            "xmax": 1100
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 200 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 150
+        }
+    },
+   "MTWZ_jesUp": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 7,
+            "xmin": 100,
+            "xmax": 800
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 200 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 150
+        }
+    },
+   "MTWZ_jesDown": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 7,
+            "xmin": 100,
+            "xmax": 800
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 200 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 150
+        }
+    },
+   "MTWZ_jerUp": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 7,
+            "xmin": 100,
+            "xmax": 800
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 200 GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 150
+        }
+    },
+   "MTWZ_jerDown": {  
         "Initialize": {  
             "type": "TH1D",
             "nbins": 7,
@@ -226,13 +301,13 @@
    "mjj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 5,
+            "nbins": 20,
             "xmin": 500,
             "xmax": 2500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
-            "GetYaxis().SetTitle": "Events / 400 GeV",
+            "GetYaxis().SetTitle": "Events / 200 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
             "SetMaximum": 250
@@ -270,9 +345,9 @@
    "mjj_etajj_unrolled": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 12,
+            "nbins": 13,
             "xmin": 0,
-            "xmax": 12
+            "xmax": 13
         },
         "Attributes": {  
             "GetXaxis().SetBinLabel": [
@@ -293,7 +368,37 @@
             "GetYaxis().SetTitle": "Events / bin",
             "GetYaxis().SetTitleOffset": 1.05,
             "SetMinimum" : 0.001,
-            "SetMaximum": 180
+            "SetMaximum": 1800
+        }
+    },
+   "mjj_etajj_unrolled_wCR": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 13,
+            "xmin": 0,
+            "xmax": 13
+        },
+        "Attributes": {  
+            "GetXaxis().SetBinLabel": [
+                [1, "Ctrl reg."],  
+                [2, "0.5 - 1.0"],  
+                [3, "1.0 - 1.5"],  
+                [4, "1.5 - 2.0"],  
+                [5, "#geq 2.0"],  
+                [6, "0.5 - 1.0"],  
+                [7, "1.0 - 1.5"],  
+                [8, "1.5 - 2.0"],  
+                [9, "#geq 2.0"],  
+                [10, "0.5 - 1.0"],  
+                [11, "1.0 - 1.5"],  
+                [12, "1.5 - 2.0"],  
+                [13, "#geq 2.0"]
+            ],
+            "GetXaxis().SetTitle": "m_{jj} (TeV)",
+            "GetYaxis().SetTitle": "Events / bin",
+            "GetYaxis().SetTitleOffset": 1.05,
+            "SetMinimum" : 0.001,
+            "SetMaximum": 1800
         }
     },
    "mjj_jesUp": {  
@@ -305,10 +410,10 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
-            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitle": "Events / 400 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 400
+            "SetMaximum": 250
         }
     },
    "mjj_jesDown": {  
@@ -320,10 +425,10 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
-            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitle": "Events / 400 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 400
+            "SetMaximum": 250
         }
     },
    "mjj_jerUp": {  
@@ -359,7 +464,7 @@
    "dEtajj": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 5,
+            "nbins": 20,
             "xmin": 2.5,
             "xmax": 7.5
         },
@@ -383,7 +488,7 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 400
+            "SetMaximum" : 150
         }
     },
    "dEtajj_jesDown": {  
@@ -398,7 +503,7 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 400
+            "SetMaximum" : 150
         }
    },
    "dEtajj_jerUp": {  
@@ -434,7 +539,7 @@
    "zep3l": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 14,
+            "nbins": 48,
             "xmin": -7,
             "xmax": 7
         },
@@ -443,7 +548,8 @@
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 100
+            "SetMaximum" : 100,
+            "Rebin" : 1
         }
     },
    "zepj3": {  

@@ -69,6 +69,17 @@
             "wzjj-qcd"
         ]
     },
+    "wz3lnu-mgmlm__notaus" : {
+        "Name" : "MG5_aMC #leq3j MLM LO",
+        "Style" : "nofill-darkgreen",
+        "weight" : "0.422192",
+        "Members" : [
+            "wz3lnu-mgmlm-0j",
+            "wz3lnu-mgmlm-1j",
+            "wz3lnu-mgmlm-2j",
+            "wz3lnu-mgmlm-3j"
+        ]
+    },
     "wz3lnu-mgmlm" : {
         "Name" : "MG5_aMC #leq3j MLM LO",
         "Style" : "nofill-darkgreen",
@@ -76,6 +87,34 @@
             "wz3lnu-mgmlm-0j",
             "wz3lnu-mgmlm-1j",
             "wz3lnu-mgmlm-2j",
+            "wz3lnu-mgmlm-3j"
+        ]
+    },
+    "wz0lnu-mgmlm-0j" : {
+        "Name" : "MG5_aMC 0j MLM LO",
+        "Style" : "nofill-darkgreen",
+        "Members" : [
+            "wz0lnu-mgmlm-0j"
+        ]
+    },
+    "wz1lnu-mgmlm-1j" : {
+        "Name" : "MG5_aMC 1j MLM LO",
+        "Style" : "nofill-darkgreen",
+        "Members" : [
+            "wz1lnu-mgmlm-1j"
+        ]
+    },
+    "wz2lnu-mgmlm-2j" : {
+        "Name" : "MG5_aMC 2j MLM LO",
+        "Style" : "nofill-darkgreen",
+        "Members" : [
+            "wz2lnu-mgmlm-2j"
+        ]
+    },
+    "wz3lnu-mgmlm-3j" : {
+        "Name" : "MG5_aMC 3j MLM LO",
+        "Style" : "nofill-darkgreen",
+        "Members" : [
             "wz3lnu-mgmlm-3j"
         ]
     },

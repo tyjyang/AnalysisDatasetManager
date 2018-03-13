@@ -36,15 +36,15 @@
         "plot_group" : "wz3lnu-mgmlm"
     },
     "wzjj-aqgcfm" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/WLLJJ_WToLNu_EWK_aQGC-FM_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/*/*/*.root",
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/WLLJJ_WToLNu_EWK_aQGC-FM_ScanUpdate_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/*/*/*.root",
         "plot_group" : "wzjj-aqgcfm"
     },
     "wzjj-aqgcft" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/WLLJJ_WToLNu_EWK_aQGC-FT*_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/*/*/*.root",
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/WLLJJ_WToLNu_EWK_aQGC-FT_ScanUpdate_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/*/*/*.root",
         "plot_group" : "wzjj-aqgcft"
     },
     "wzjj-aqgcfs" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/WLLJJ_WToLNu_EWK_aQGC-FS*_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/*/*/*.root",
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/WLLJJ_WToLNu_EWK_aQGC-FS_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/*/*/*.root",
         "plot_group" : "wzjj-aqgcfs"
     },
     "wz-atgc_pt0-200" : {
@@ -58,6 +58,46 @@
     "wz-atgc_pt300" : {
         "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/WZTo3LNu_PtZ-300_aTGC_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/*/*/*.root",
         "plot_group" : "wz-atgc"
+    },
+    "chargedHiggsWZ-m300" : {
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/ChargedHiggsToWZTo3LNu_M300_13TeV-madgraph-pythia8/*/*/*/*.root",
+        "plot_group" : "chargedHiggsWZ-m300"
+    },
+    "chargedHiggsWZ-m400" : {
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/ChargedHiggsToWZTo3LNu_M400_13TeV-madgraph-pythia8/*/*/*/*.root",
+        "plot_group" : "chargedHiggsWZ-m400"
+    },
+    "chargedHiggsWZ-m500" : {
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/ChargedHiggsToWZTo3LNu_M500_13TeV-madgraph-pythia8/*/*/*/*.root",
+        "plot_group" : "chargedHiggsWZ-m500"
+    },
+    "chargedHiggsWZ-m600" : {
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/ChargedHiggsToWZTo3LNu_M600_13TeV-madgraph-pythia8/*/*/*/*.root",
+        "plot_group" : "chargedHiggsWZ-m600"
+    },
+    "chargedHiggsWZ-m700" : {
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/ChargedHiggsToWZTo3LNu_M700_13TeV-madgraph-pythia8/*/*/*/*.root",
+        "plot_group" : "chargedHiggsWZ-m700"
+    },
+    "chargedHiggsWZ-m800" : {
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/ChargedHiggsToWZTo3LNu_M800_13TeV-madgraph-pythia8/*/*/*/*.root",
+        "plot_group" : "chargedHiggsWZ-m800"
+    },
+    "chargedHiggsWZ-m900" : {
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/ChargedHiggsToWZTo3LNu_M900_13TeV-madgraph-pythia8/*/*/*/*.root",
+        "plot_group" : "chargedHiggsWZ-m900"
+    },
+    "chargedHiggsWZ-m1000" : {
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/ChargedHiggsToWZTo3LNu_M1000_13TeV-madgraph-pythia8/*/*/*/*.root",
+        "plot_group" : "chargedHiggsWZ-m1000"
+    },
+    "chargedHiggsWZ-m1500" : {
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/ChargedHiggsToWZTo3LNu_M1500_13TeV-madgraph-pythia8/*/*/*/*.root",
+        "plot_group" : "chargedHiggsWZ-m1500"
+    },
+    "chargedHiggsWZ-m2000" : {
+        "file_path" : "/store/user/kelong/UWVVNtuples_27Jan2018/ChargedHiggsToWZTo3LNu_M2000_13TeV-madgraph-pythia8/*/*/*/*.root",
+        "plot_group" : "chargedHiggsWZ-m2000"
     },
     "zz4l-mg5amcnlo" : {
         "file_path" : "/store/user/kelong/UWVVNtuples_16Aug2017/ZZTo4L_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/*/*/*.root",
