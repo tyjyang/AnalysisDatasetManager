@@ -6,6 +6,20 @@
         "Generator" : "MadGraph5_aMC@NLO LO",
         "Cards" : ""
     },
+    "zz4ljj-ewk" : {
+        "cross_section" : 0.000440,
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "ZZJJTo4L_EWK_13TeV-madgraph-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
+    "zz2l2vjj-ewk" : {
+        "cross_section" : 0.002998,
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "ZZJJ_ZZTo2L2Nu_EWK_13TeV-madgraph-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
     "wzjj-vbfnlo-of" : {
         "cross_section" :  0.00354,
         "Source of cross section" : "VBFNLO",
@@ -269,8 +283,8 @@
         "DAS Name" : "TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
     },
     "tzq" : {
-        "cross_section" : 0.0758,
-        "Source of cross section" : "MCM",
+        "cross_section" : 0.0942,
+        "Source of cross section" : "AN-2016-276",
         "DAS Name" : "tZq_ll_4f_13TeV-amcatnlo-pythia8"
     },
     "ttz" : {
@@ -341,13 +355,13 @@
     },
     "chargedHiggsWZ-m800" : { 
         "cross_section" : 0.05375,
-        "kfactor" : 0.03272,
+        "kfactor" : 0.1,
         "Source of cross section" : "Gridpack ('k-factor' is branching ratio = .1080*3*0.033658*3)",
         "DAS Name" : "ChargedHiggsToWZTo3LNu_M800_13TeV-madgraph-pythia8"
     },
     "chargedHiggsWZ-m900" : { 
         "cross_section" : 0.03965,
-        "kfactor" : 0.03272,
+        "kfactor" : 0.1,
         "Source of cross section" : "Gridpack ('k-factor' is branching ratio = .1080*3*0.033658*3)",
         "DAS Name" : "ChargedHiggsToWZTo3LNu_M900_13TeV-madgraph-pythia8"
     },

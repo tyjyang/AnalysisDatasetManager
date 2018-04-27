@@ -45,7 +45,6 @@
     "wz-mgmlm" : {
         "Name" : "QCD-WZjj",
         "Style" : "fill-lightpurple",
-        "Scale" : 0.831,
         "add_perc_error" : 0.0,
         "Members" : [
             "wz3lnu-mgmlm-0j",
@@ -58,6 +57,13 @@
         "Name" : "EW-WZjj",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
+        "Members" : [
+            "wlljj-ewk"
+        ]
+    },
+    "wzjj-ewk_filled" : {
+        "Name" : "EW-WZjj",
+        "Style" : "fill-purple",
         "Members" : [
             "wlljj-ewk"
         ]
@@ -117,9 +123,9 @@
             "ww",
             "ggZZ4e",
             "ggZZ4m",
-            "ggZZ2mu2tau",
-            "ggZZ2e2tau",
-            "ggZZ2e2mu"
+            "ggZZ2e2mu",
+            "zz4ljj-ewk",
+            "zz2l2vjj-ewk"
         ]
     },
     "vv" : {
@@ -131,9 +137,9 @@
             "ww",
             "ggZZ4e",
             "ggZZ4m",
-            "ggZZ2mu2tau",
-            "ggZZ2e2tau",
-            "ggZZ2e2mu"
+            "ggZZ2e2mu",
+            "zz4ljj-ewk",
+            "zz2l2vjj-ewk"
         ]
     },
     "vvv" : {
@@ -300,7 +306,7 @@
         ]
     },
     "chargedHiggsWZ-m300" : {
-        "Name" : "m_{\\mathrm{H}^{\\pm}} = 300 \\mathrm{GeV}",
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 300 \\,\\mathrm{GeV}",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -308,7 +314,7 @@
         ]
     },
     "chargedHiggsWZ-m400" : {
-        "Name" : "m_{\\mathrm{H}^{\\pm}} = 400 \\mathrm{GeV}",
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 400 \\,\\mathrm{GeV}",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -316,7 +322,7 @@
         ]
     },
     "chargedHiggsWZ-m500" : {
-        "Name" : "m_{\\mathrm{H}^{\\pm}} = 500 \\mathrm{GeV}",
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 500 \\,\\mathrm{GeV}",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -324,7 +330,7 @@
         ]
     },
     "chargedHiggsWZ-m600" : {
-        "Name" : "m_{\\mathrm{H}^{\\pm}} = 600 \\mathrm{GeV}",
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 600 \\,\\mathrm{GeV}",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -332,7 +338,7 @@
         ]
     },
     "chargedHiggsWZ-m700" : {
-        "Name" : "m_{\\mathrm{H}^{\\pm}} = 700 \\mathrm{GeV}",
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 700 \\,\\mathrm{GeV}",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -340,7 +346,7 @@
         ]
     },
     "chargedHiggsWZ-m800" : {
-        "Name" : "m_{\\mathrm{H}^{\\pm}} = 800 \\mathrm{GeV}",
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 800 \\,\\mathrm{GeV}",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -348,7 +354,7 @@
         ]
     },
     "chargedHiggsWZ-m900" : {
-        "Name" : "m_{\\mathrm{H}^{\\pm}} = 900 \\mathrm{GeV}",
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 900 \\,\\mathrm{GeV}",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -356,7 +362,7 @@
         ]
     },
     "chargedHiggsWZ-m1000" : {
-        "Name" : "m_{\\mathrm{H}^{\\pm}} = 1000 \\mathrm{GeV}",
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 1000 \\,\\mathrm{GeV}",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -364,7 +370,7 @@
         ]
     },
     "chargedHiggsWZ-m1500" : {
-        "Name" : "m_{\\mathrm{H}^{\\pm}} = 1500 \\mathrm{GeV}",
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 1500 \\,\\mathrm{GeV}",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [
@@ -372,7 +378,7 @@
         ]
     },
     "chargedHiggsWZ-m2000" : {
-        "Name" : "m_{\\mathrm{H}^{\\pm}} = 2000 \\mathrm{GeV}",
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 2000 \\,\\mathrm{GeV}",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
         "Members" : [

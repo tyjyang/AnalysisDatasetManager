@@ -220,163 +220,163 @@
         "plot_group" : "zg"
     },
     "data_DoubleEG_Run2016B-03Feb2017_ver2" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/DoubleEG/Run2016B-03Feb2017_ver2*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleEG_Run2016B-03Feb2017_ver2-v2/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016C-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/DoubleEG/Run2016C-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleEG_Run2016C-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016D-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/DoubleEG/Run2016D-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleEG_Run2016D-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016E-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/DoubleEG/Run2016E-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleEG_Run2016E-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016F-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/DoubleEG/Run2016F-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleEG_Run2016F-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016G-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/DoubleEG/Run2016G-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleEG_Run2016G-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016H-03Feb2017_ver2" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/DoubleEG/Run2016H-03Feb2017_ver2*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleEG_Run2016H-03Feb2017_ver2-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleEG_Run2016H-03Feb2017_ver3" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/DoubleEG/Run2016H-03Feb2017_ver3*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleEG_Run2016H-03Feb2017_ver3-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016B-03Feb2017_ver2" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/DoubleMuon/Run2016B-03Feb2017_ver2*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleMuon_Run2016B-03Feb2017_ver2-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016C-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/DoubleMuon/Run2016C-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleMuon_Run2016C-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016D-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/DoubleMuon/Run2016D-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleMuon_Run2016D-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016E-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/DoubleMuon/Run2016E-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleMuon_Run2016E-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016F-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/DoubleMuon/Run2016F-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleMuon_Run2016F-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016G-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_11Aug2017/DoubleMuon/Run2016G-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleMuon_Run2016G-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016H-03Feb2017_ver2" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/DoubleMuon/Run2016H-03Feb2017_ver2*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleMuon_Run2016H-03Feb2017_ver2-v1/*",
         "plot_group" : "data"
     },
     "data_DoubleMuon_Run2016H-03Feb2017_ver3" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/DoubleMuon/Run2016H-03Feb2017_ver3*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/DoubleMuon_Run2016H-03Feb2017_ver3-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016B-03Feb2017_ver2" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016B-03Feb2017_ver2*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/MuonEG_Run2016B-03Feb2017_ver2-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016C-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016C-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/MuonEG_Run2016C-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016D-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016D-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/MuonEG_Run2016D-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016E-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016E-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/MuonEG_Run2016E-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016F-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_25Aug2017/MuonEG/Run2016F-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/MuonEG_Run2016F-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016G-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016G-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/MuonEG_Run2016G-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016H-03Feb2017_ver2" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016H-03Feb2017_ver2*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/MuonEG_Run2016H-03Feb2017_ver2-v1/*",
         "plot_group" : "data"
     },
     "data_MuonEG_Run2016H-03Feb2017_ver3" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_22Aug2017/MuonEG/Run2016H-03Feb2017_ver3*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/MuonEG_Run2016H-03Feb2017_ver3-v1/*",
         "plot_group" : "data"
     },
     "data_SingleMuon_Run2016B-03Feb2017_ver2" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_15Aug2017/SingleMuon/Run2016B-03Feb2017_ver2*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleMuon/Run2016B-03Feb2017_ver2-v1/*",
         "plot_group" : "data"
     },
     "data_SingleMuon_Run2016C-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_15Aug2017/SingleMuon/Run2016C-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleMuon/Run2016C-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_SingleMuon_Run2016D-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_15Aug2017/SingleMuon/Run2016D-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleMuon/Run2016D-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_SingleMuon_Run2016E-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_15Aug2017/SingleMuon/Run2016E-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleMuon/Run2016E-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_SingleMuon_Run2016F-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_15Aug2017/SingleMuon/Run2016F-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleMuon/Run2016F-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_SingleMuon_Run2016G-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_15Aug2017/SingleMuon/Run2016G-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleMuon/Run2016G-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_SingleMuon_Run2016H-03Feb2017_ver2" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/SingleMuon/Run2016H-03Feb2017_ver2*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleMuon/Run2016H-03Feb2017_ver2-v1/*",
         "plot_group" : "data"
     },
     "data_SingleMuon_Run2016H-03Feb2017_ver3" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/SingleMuon/Run2016H-03Feb2017_ver3*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleMuon/Run2016H-03Feb2017_ver3-v1/*",
         "plot_group" : "data"
     },
     "data_SingleElectron_Run2016B-03Feb2017_ver2" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_15Aug2017/SingleElectron/Run2016B-03Feb2017_ver2*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleElectron/Run2016B-03Feb2017_ver2-v1/*",
         "plot_group" : "data"
     },
     "data_SingleElectron_Run2016C-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_15Aug2017/SingleElectron/Run2016C-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleElectron/Run2016C-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_SingleElectron_Run2016D-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_15Aug2017/SingleElectron/Run2016D-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleElectron/Run2016D-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_SingleElectron_Run2016E-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_15Aug2017/SingleElectron/Run2016E-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleElectron/Run2016E-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_SingleElectron_Run2016F-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_15Aug2017/SingleElectron/Run2016F-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleElectron/Run2016F-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_SingleElectron_Run2016G-03Feb2017-v1" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_15Aug2017/SingleElectron/Run2016G-03Feb2017*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleElectron/Run2016G-03Feb2017-v1/*",
         "plot_group" : "data"
     },
     "data_SingleElectron_Run2016H-03Feb2017_ver2" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_14Aug2017/SingleElectron/Run2016H-03Feb2017_ver2*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleElectron/Run2016H-03Feb2017_ver2-v1/*",
         "plot_group" : "data"
     },
     "data_SingleElectron_Run2016H-03Feb2017_ver3" : {
-        "file_path" : "/store/user/kelong/UWVVNtuples_16Aug2017/SingleElectron/Run2016H-03Feb2017_ver3*/*/*/*.root",
+        "file_path" : "/data/kelong/DibosonAnalysisData/Ntuples/SingleElectron/Run2016H-03Feb2017_ver3-v1/*",
         "plot_group" : "data"
     }
 }

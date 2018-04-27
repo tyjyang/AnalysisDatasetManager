@@ -67,6 +67,10 @@ names = []
 log = ""
 for name in args.filelist:
     names += fnmatch.filter(valid_names, name) if "*" in name else [name]
+
+registerTogether=True
+proof_name_all = '_'.join(args.selection.split("/"))
+filelist_all = ROOT.TFileCollection(proof_name_all, proof_name_all)
 for name in names:
     if name.split("__")[0] not in valid_names:
         log += "%s is not a valid file! Skipping." % name
@@ -74,13 +78,23 @@ for name in names:
         continue
     proof_name = '_'.join([name] + args.selection.split("/"))
     if proof.GetDataSet(proof_name) == None or reRegister :
-        filelist = ROOT.TFileCollection(proof_name, proof_name)
         filename = getFilePath(name, args.selection)
-        num_files = filelist.Add(filename)
-        if filelist.GetNFiles() == 0:
-            log += "\n%s does not point to a valid file! Skipping" % name
-            log += "\nFile name was %s\n" % filename
-            continue
-        proof.RegisterDataSet(proof_name, filelist, 'OVnostagedcheck:')
+        if registerTogether:
+            filelist_all.Add(filename)
+        else:
+            filelist = ROOT.TFileCollection(proof_name, proof_name)
+            num_files = filelist.Add(filename)
+            if filelist.GetNFiles() == 0:
+                log += "\n%s does not point to a valid file! Skipping" % name
+                log += "\nFile name was %s\n" % filename
+                continue
+            proof.RegisterDataSet(proof_name, filelist, 'OVnostagedcheck:')
+if registerTogether:
+    if filelist_all.GetNFiles() == 0:
+        log += "\n%s does not point to a valid file! Skipping" % name
+        log += "\nFile name was %s\n" % filename
+    else:
+        proof.RegisterDataSet(proof_name_all, filelist_all, 'OVnostagedcheck:')
+
 os.chdir(current_path)
 print log

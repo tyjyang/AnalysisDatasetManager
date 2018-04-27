@@ -145,6 +145,7 @@
         "Name": "F_{S0}= 32 F_{S1}= 16 TeV^{-4}", 
         "Style": "nofill-lightgreen-dash", 
         "add_perc_error": 0.0, 
+        "Scale" : 1.1,
         "lheWeightEntry": 493, 
         "weight": "pdfWeights[483]/scaleWeights[0]"
     }, 

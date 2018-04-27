@@ -271,24 +271,24 @@
    "MTWZ": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 20,
-            "xmin": 100,
-            "xmax": 700
+            "nbins": 60,
+            "xmin": 0,
+            "xmax": 1200
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 30 GeV",
+            "GetYaxis().SetTitle": "Events / 200 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
-            "SetMaximum" : 2500
+            "SetMaximum" : 150
         }
     },
    "MTWZ_jesUp": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 20,
-            "xmin": 100,
-            "xmax": 700
+            "nbins": 60,
+            "xmin": 0,
+            "xmax": 1200
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
@@ -301,9 +301,9 @@
    "MTWZ_jesDown": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 20,
-            "xmin": 100,
-            "xmax": 700
+            "nbins": 60,
+            "xmin": 0,
+            "xmax": 1200
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
@@ -316,9 +316,9 @@
    "MTWZ_jerDown": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 20,
-            "xmin": 100,
-            "xmax": 700
+            "nbins": 60,
+            "xmin": 0,
+            "xmax": 1200
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
@@ -331,9 +331,9 @@
    "MTWZ_jerUp": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 20,
-            "xmin": 100,
-            "xmax": 700
+            "nbins": 60,
+            "xmin": 0,
+            "xmax": 1200
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
