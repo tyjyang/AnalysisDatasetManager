@@ -358,6 +358,21 @@
             "SetMaximum": 5000
         }
     },
+    "mjj_etajj_2D": {
+        "Initialize": {  
+            "type": "TH2D",
+            "nbinsx": 60,
+            "xmin": 0,
+            "xmax": 3000,
+            "nbinsy": 32,
+            "ymin": 0,
+            "ymax": 8
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "m_{jj} (GeV)",
+            "GetYaxis().SetTitle": "#Delta#eja_{jj}"
+        }
+    },
    "mjj": {  
         "Initialize": {  
             "type": "TH1D",
