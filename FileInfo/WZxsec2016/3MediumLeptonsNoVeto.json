@@ -100,19 +100,19 @@
         "plot_group" : "chargedHiggsWZ-m2000"
     },
     "zz4l-powheg" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-04-27-zz4l-powheg-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-05-09-zz4l-powheg-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "zz"
     },
     "zz4l-mg5amcnlo" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-04-27-zz4l-mg5amcnlo-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-05-09-zz4l-mg5amcnlo-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "zz"
     },
     "zz4ljj-ewk" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-04-29-zz4ljj-ewk-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-05-09-zz4ljj-ewk-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "zz"
     },
     "zz2l2vjj-ewk" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-04-29-zz2l2vjj-ewk-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-05-09-zz2l2vjj-ewk-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "zz"
     },
     "tt-lep" : {
@@ -120,7 +120,7 @@
         "plot_group" : "top"
     },
     "tzq" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-04-27-tzq-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-05-09-tzq-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "top"
     },
     "st-schan" : {
@@ -152,19 +152,19 @@
         "plot_group" : "ttv"
     },
     "zzz" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-04-27-zzz-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-05-09-zzz-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "vvv"
     },
     "wwz" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-04-27-wwz-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-05-09-wwz-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "vvv"
     },
     "www" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-04-27-www-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-05-09-www-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "vvv"
     },
     "ww" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-04-27-ww-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-05-09-ww-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "ww"
     },
     "DYm50" : {
@@ -208,15 +208,15 @@
         "plot_group" : "zg"
     },
     "ggZZ4e" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-04-27-ggZZ4e-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-05-09-ggZZ4e-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "zz"
     },
     "ggZZ4m" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-04-27-ggZZ4m-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-05-09-ggZZ4m-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "zz"
     },
     "ggZZ2e2mu" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-04-27-ggZZ2e2mu-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/3MediumLeptons/2018-05-09-ggZZ2e2mu-WZxsec2016-3MediumLeptonsNoVeto-v1/*",
         "plot_group" : "zz"
     },
     "data_DoubleEG_Run2016B-03Feb2017_ver2" : {
