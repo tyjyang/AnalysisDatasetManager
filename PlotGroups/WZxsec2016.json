@@ -53,6 +53,17 @@
             "wz3lnu-mgmlm-3j"
         ]
     },
+    "QCD-WZjj" : {
+        "Name" : "QCD-WZjj",
+        "Style" : "fill-lightpurple",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wz3lnu-mgmlm-0j",
+            "wz3lnu-mgmlm-1j",
+            "wz3lnu-mgmlm-2j",
+            "wz3lnu-mgmlm-3j"
+        ]
+    },
     "wzjj-ewk_standalone" : {
         "Name" : "EW-WZjj",
         "Style" : "nofill-darkgreen",
@@ -69,6 +80,14 @@
         ]
     },
     "wzjj-ewk" : {
+        "Name" : "EW-WZjj",
+        "Style" : "nofill-darkpurple-dash",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wlljj-ewk"
+        ]
+    },
+    "EW-WZjj" : {
         "Name" : "EW-WZjj",
         "Style" : "nofill-darkpurple-dash",
         "add_perc_error" : 0.0,
@@ -134,6 +153,9 @@
         "add_perc_error" : 0.0,
         "Members" : [
             "zz4l-mg5amcnlo",
+            "ggZZ4e",
+            "ggZZ4m",
+            "ggZZ2e2mu",
             "ww",
             "zz4ljj-ewk",
             "zz2l2vjj-ewk"

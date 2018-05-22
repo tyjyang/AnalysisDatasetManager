@@ -1,4 +1,13 @@
 {
+    "wzjj-aqgcfm": {
+        "Members": [
+            "wzjj-aqgcfm"
+        ], 
+        "Name": "F_{M} Central Point", 
+        "Style": "nofill-lightred", 
+        "add_perc_error": 0.0, 
+        "lheWeightEntry": 1
+    }, 
     "wzjj-aqgcfm__fm0-16_fm1-0": {
         "Members": [
             "wzjj-aqgcfm"

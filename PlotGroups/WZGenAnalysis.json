@@ -81,8 +81,8 @@
         ]
     },
     "wz3lnu-mgmlm" : {
-        "Name" : "MG5_aMC #leq3j MLM LO",
-        "Style" : "nofill-darkgreen",
+        "Name" : "QCD-WZjj",
+        "Style" : "nofill-darkgreen-dotdash",
         "Members" : [
             "wz3lnu-mgmlm-0j",
             "wz3lnu-mgmlm-1j",
@@ -160,8 +160,8 @@
             "wz2m1e1nujj-ewk-nobs"
         ]
     },
-    "wzjj-ewk-5f" : {
-        "Name" : "#splitline{MG5_aMC@NLO}{5 fl. scheme}",
+    "wzjj-ewk" : {
+        "Name" : "EW-WZjj",
         "Style" : "nofill-lightgreen", 
         "Members" : [
             "wlljj-ewk"

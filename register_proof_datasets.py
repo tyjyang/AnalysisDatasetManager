@@ -68,7 +68,7 @@ log = ""
 for name in args.filelist:
     names += fnmatch.filter(valid_names, name) if "*" in name else [name]
 
-registerTogether=True
+registerTogether=False
 proof_name_all = '_'.join(args.selection.split("/"))
 filelist_all = ROOT.TFileCollection(proof_name_all, proof_name_all)
 for name in names:
@@ -77,6 +77,7 @@ for name in names:
         log += "\nFile names must be defined in data.json or montecarlo.json\n"
         continue
     proof_name = '_'.join([name] + args.selection.split("/"))
+    print "Proof name is", proof_name
     if proof.GetDataSet(proof_name) == None or reRegister :
         filename = getFilePath(name, args.selection)
         if registerTogether:

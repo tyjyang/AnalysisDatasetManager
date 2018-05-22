@@ -48,7 +48,7 @@
         "plot_group" : "wzjj-ewk-vbfnlo"
     },
     "wlljj-ewk" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_EWK-MGLO_Off_GenNtuples_leptonType-dressed_2017-01-06-wzGen_cfg/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WLLJJ_EWK-MGLO_Off_GenNtuples_leptonType-dressed_2018-05-11-wzGen_cfg/*",
         "plot_group" : "wzjj-ewk"
     },
     "wzjj-aqgcfm" : {
@@ -82,15 +82,15 @@
         "plot_group" : "wz-mcnlo"
     },
     "wz3lnu-mgmlm-0j" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WZTo3LNu_0J_qcut27_MLM_GenNtuples_leptonType-dressed_2017-06-11-wzGen_cfg/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WZTo3LNu_0J_MLM_GenNtuples_leptonType-dressed_2018-05-11-wzGen_cfg/*",
         "plot_group" : "wz3lnu-mgmlm-0j"
     },
     "wz3lnu-mgmlm-1j" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WZTo3LNu_1J_MLM_GenNtuples_leptonType-dressed_2017-06-11-wzGen_cfg/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WZTo3LNu_1J_MLM_GenNtuples_leptonType-dressed_2018-05-11-wzGen_cfg/*",
         "plot_group" : "wz3lnu-mgmlm-1j"
     },
     "wz3lnu-mgmlm-2j" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WZTo3LNu_2J_Max3J_MLM_GenNtuples_leptonType-dressed_2017-06-11-wzGen_cfg/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WZTo3LNu_2J_MLM_GenNtuples_leptonType-dressed_2018-05-10-wzGen_cfg/*",
         "plot_group" : "wz3lnu-mgmlm-2j"
     },
     "wz3lnu-mgmlm-2j-max2j" : {
@@ -98,7 +98,7 @@
         "plot_group" : "wz3lnu-mgmlm-2j"
     },
     "wz3lnu-mgmlm-3j" : {
-        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WZTo3LNu_3J_MLM_GenNtuples_leptonType-dressed_2017-06-11-wzGen_cfg/*",
+        "file_path" : "/data/kelong/DibosonAnalysisData/GenAnalysis/WZTo3LNu_3J_MLM_GenNtuples_leptonType-dressed_2018-05-10-wzGen_cfg/*",
         "plot_group" : "wz3lnu-mgmlm-3j"
     },
     "wz-qcut27-mgmlm" : {

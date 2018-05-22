@@ -1,4 +1,12 @@
 {
+    "wzjj-aqgcft": {
+        "Members": [
+            "wzjj-aqgcft"
+        ], 
+        "Name": "F_{T} Central point", 
+        "Style": "nofill-lightpink-dotdash", 
+        "add_perc_error": 0.0
+    }, 
     "wzjj-aqgcft__ft0-1_ft1-0_ft2-0": {
         "Members": [
             "wzjj-aqgcft"
@@ -24,7 +32,7 @@
         "Name": "F_{T0}= 0 F_{T1}= 0 F_{T2}= 2 TeV^{-4}", 
         "Style": "nofill-lightgreen-dotdash", 
         "add_perc_error": 0.0, 
-        "lheWeightEntry" : 468
+        "lheWeightEntry" : 468,
         "weight": "LHEweights[468]/LHEweights[0]"
     }, 
     "wzjj-aqgcft__ft0-0_ft1-0_ft2-3": {
@@ -34,7 +42,7 @@
         "Name": "F_{T0}= 0 F_{T1}= 0 F_{T2}= 3 TeV^{-4}", 
         "Style": "nofill-orange", 
         "add_perc_error": 0.0, 
-        "lheWeightEntry" : 467
+        "lheWeightEntry" : 467,
         "weight": "LHEweights[467]/LHEweights[0]"
     }, 
     "wzjj-aqgcft__ft0-0_ft1-0_ft2-6": {
@@ -44,7 +52,7 @@
         "Name": "F_{T0}= 0 F_{T1}= 0 F_{T2}= 6 TeV^{-4}", 
         "Style": "nofill-lightred", 
         "add_perc_error": 0.0, 
-        "lheWeightEntry" : 466
+        "lheWeightEntry" : 466,
         "weight": "LHEweights[466]/LHEweights[0]"
     }, 
     "wzjj-aqgcft__ft0-0_ft1-0_ft2-m1": {
@@ -54,7 +62,7 @@
         "Name": "F_{T0}= 0 F_{T1}= 0 F_{T2}= -1 TeV^{-4}", 
         "Style": "nofill-darkred", 
         "add_perc_error": 0.0, 
-        "lheWeightEntry" : 462
+        "lheWeightEntry" : 462,
         "weight": "LHEweights[462]/LHEweights[0]"
     }, 
     "wzjj-aqgcft__ft0-0_ft1-0_ft2-m2": {
@@ -64,7 +72,7 @@
         "Name": "F_{T0}= 0 F_{T1}= 0 F_{T2}= -2 TeV^{-4}", 
         "Style": "nofill-darkpurple-dash", 
         "add_perc_error": 0.0, 
-        "lheWeightEntry" : 463
+        "lheWeightEntry" : 463,
         "weight": "LHEweights[463]/LHEweights[0]"
     }, 
     "wzjj-aqgcft__ft0-0_ft1-0_ft2-m3": {
@@ -74,7 +82,7 @@
         "Name": "F_{T0}= 0 F_{T1}= 0 F_{T2}= -3 TeV^{-4}", 
         "Style": "nofill-lightgreen-dash", 
         "add_perc_error": 0.0, 
-        "lheWeightEntry" : 464
+        "lheWeightEntry" : 464,
         "weight": "LHEweights[464]/LHEweights[0]"
     }, 
     "wzjj-aqgcft__ft0-0_ft1-0_ft2-m6": {
