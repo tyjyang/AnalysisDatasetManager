@@ -404,6 +404,13 @@
             "chargedHiggsWZ-m2000"
         ]
     },
+    "data" : {
+        "Name" : "Data",
+        "Style" : "data",
+        "Members" : [
+            "AllData"
+        ]
+    },
     "data_all" : {
         "Name" : "Data",
         "Style" : "data",
