@@ -374,7 +374,7 @@
     },
     "chargedHiggsWZ-m900" : {
         "Name" : "m_{\\mathrm{H}^{\\pm}} = 900 \\,\\mathrm{GeV}",
-        "Style" : "nofill-darkgreen",
+        "Style" : "nofill-darkgreen-largedash",
         "add_perc_error" : 0.0,
         "Members" : [
             "chargedHiggsWZ-m900"

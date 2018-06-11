@@ -121,7 +121,7 @@
    "MET" : {
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 10,
+            "nbins": 40,
             "xmin": 30,
             "xmax": 230
         },
@@ -188,6 +188,7 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{T}(WZ) [GeV]",  
             "GetYaxis().SetTitle": "Events / bin",
+            "GetYaxis().ChangeLabel": [1, -1.0, 0],
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum" : 150
@@ -258,13 +259,13 @@
             "type": "TH1D",
             "nbins": 100,
             "xmin": 0,
-            "xmax": 2500
+            "xmax": 3000
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
-            "GetYaxis().SetTitle": "Events / 125 GeV",
+            "GetYaxis().SetTitle": "Events / 250 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
-            "SetMinimum" : 0.001,
+            "SetMinimum" : 0.00,
             "SetMaximum": 250
         }
     },
@@ -445,6 +446,21 @@
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum" : 100
+        }
+    },
+   "jetEta[0]": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 15,
+            "xmin": -4.7,
+            "xmax": 4.7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Leading jet #eta",  
+            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 1000
         }
     },
    "jetEta[1]": {  

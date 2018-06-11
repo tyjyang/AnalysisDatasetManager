@@ -155,6 +155,13 @@
         "SetLineWidth": 2,
         "SetMarkerSize" : 0
     },
+    "nofill-darkgreen-largedash" : {
+        "SetFillColor": 0,
+        "SetLineColor": "ROOT.TColor.GetColor(#016300)",
+        "SetLineStyle": 9,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
     "fill-yellow" : {
         "SetFillColor": "ROOT.TColor.GetColor(#ffff33)",
         "SetLineColor": "ROOT.TColor.GetColor(#B3B300)",

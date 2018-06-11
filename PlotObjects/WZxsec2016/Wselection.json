@@ -277,7 +277,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "M_{T}(WZ) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 200 GeV",
+            "GetYaxis().SetTitle": "Events / bin",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum" : 2000
