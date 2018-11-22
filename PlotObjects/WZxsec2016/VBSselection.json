@@ -112,7 +112,37 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{\\ell^{+}\\ell^{-}} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 6 GeV", 
+            "GetYaxis().SetTitle": "Events / 2 GeV", 
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 300
+        }
+    },
+    "m_l1l3": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 80,
+            "xmin": 0,
+            "xmax": 400
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "m_{\\ell^{1}\\ell^{3}} [GeV]",  
+            "GetYaxis().SetTitle": "Events / 2 GeV", 
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.001,
+            "SetMaximum" : 300
+        }
+    },
+    "m_l2l3": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 80,
+            "xmin": 0,
+            "xmax": 400
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "m_{\\ell^{2}\\ell^{3}} [GeV]",  
+            "GetYaxis().SetTitle": "Events / 2 GeV", 
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum" : 300
@@ -190,7 +220,7 @@
             "GetYaxis().SetTitle": "Events / bin",
             "GetYaxis().ChangeLabel": [1, -1.0, 0],
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
+            "SetMinimum" : 0.0,
             "SetMaximum" : 150
         }
     },
@@ -258,13 +288,12 @@
         "Initialize": {  
             "type": "TH1D",
             "nbins": 100,
-            "xmin": 0,
-            "xmax": 3000
+            "xmin": 50,
+            "xmax": 3050
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
+            "GetXaxis().SetTitle": "m_{jj} [GeV]",  
             "GetYaxis().SetTitle": "Events / 250 GeV",
-            "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.00,
             "SetMaximum": 250
         }
@@ -291,7 +320,7 @@
                 [11, "1.5 - 2.0"],  
                 [12, "#geq 2.0"]
             ],
-            "GetXaxis().SetTitle": "m_{jj} (TeV)",
+            "GetXaxis().SetTitle": "m_{jj} [TeV]",
             "GetYaxis().SetTitle": "Events / bin",
             "GetYaxis().SetTitleOffset": 1.05,
             "SetMinimum" : 0.001,
@@ -320,10 +349,10 @@
                 [11, "1.5 - 2.0"],  
                 [12, "#geq 2.0"]
             ],
-            "GetXaxis().SetTitle": "m_{jj} (TeV)",
+            "GetXaxis().SetTitle": "m_{jj} [TeV]",
             "GetYaxis().SetTitle": "Events / bin",
-            "GetYaxis().SetTitleOffset": 1.05,
-            "SetMinimum" : 0.001,
+            "GetYaxis().SetTitleOffset": 0.9,
+            "SetMinimum" : 0.1,
             "SetMaximum": 180
         }
     },
@@ -350,7 +379,7 @@
                 [12, "1.5 - 2.0"],  
                 [13, "#geq 2.0"]
             ],
-            "GetXaxis().SetTitle": "m_{jj} (TeV)",
+            "GetXaxis().SetTitle": "m_{jj} [TeV]",
             "GetYaxis().SetTitle": "Events / bin",
             "GetYaxis().SetTitleOffset": 1.05,
             "SetMinimum" : 0.001,
@@ -381,9 +410,9 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
-            "GetYaxis().SetTitle": "Events",
+            "GetYaxis().SetTitle": "Events / 0.5",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
+            "SetMinimum" : 0.0,
             "SetMaximum" : 150
         }
     },
@@ -556,7 +585,7 @@
             "xmax": 10
         },
         "Attributes": {  
-            "GetYaxis().SetTitle": "Events Passing Selection"
+            "GetYaxis().SetTitle": "Events"
         }
     },
     "mjj_etajj_2D": {
@@ -589,7 +618,7 @@
             "GetYaxis().SetTitle": "#Delta R_{jj}"
         }
     },
-    "YieldByChannel": {
+    "yieldByChannel": {
         "Initialize": {  
             "type": "TH1D",
             "nbins": 5,
@@ -597,7 +626,15 @@
             "xmax": 5
         },
         "Attributes": {  
-            "GetYaxis().SetTitle": "Events Passing Selection",
+            "GetYaxis().SetTitle": "Events",
+            "GetXaxis().SetBinLabel": [[1, "Total yield"],
+                [2, "#mu#mu#mu"],
+                [3, "#mu#mue"],
+                [4, "ee#mu"],
+                [5, "eee"]
+            ],
+            "GetXaxis().SetLabelSize" : 0.05,
+            "GetXaxis().SetLabelOffset" : 1.2,
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMaximum" : 400,
             "SetMinimum" : 0.001

@@ -182,7 +182,7 @@
             "wzjj-aqgcfm"
         ], 
         "Name": "F_{M0}= 4 F_{M1}= -4 TeV^{-4}", 
-        "Style": "nofill-darkpurple", 
+        "Style": "nofill-darkblue-dotdash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 484, 
         "weight": "LHEweights[483]/LHEweights[0]"

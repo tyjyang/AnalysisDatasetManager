@@ -296,9 +296,9 @@
    "dEtajj": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 10,
+            "nbins": 16,
             "xmin": 0,
-            "xmax": 10.0
+            "xmax": 8.0
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#Delta#eta_{jj}",  
@@ -310,13 +310,13 @@
    "mjj": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 30,
-            "xmin": 0,
-            "xmax": 3000
+            "nbins": 4,
+            "xmin": 500,
+            "xmax": 2500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{jj} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 50 GeV",
+            "GetYaxis().SetTitle": "Events / 200 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMaximum": 5000
         }

@@ -8,7 +8,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading Z lepton p_{T}",  
-            "GetYaxis().SetTitle": "Events / 10 GeV",
+            "GetYaxis().SetTitle": "Events / 20 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum" : 4500
@@ -17,9 +17,9 @@
    "Zlep2_Pt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 12,
-            "xmin": 25,
-            "xmax": 145
+            "nbins": 28,
+            "xmin": 15,
+            "xmax": 155
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Subleading Z lepton p_{T}",  
@@ -89,21 +89,6 @@
             "SetMaximum" : 3500
         }
    },
-   "m1Pt": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 14,
-            "xmin": 25,
-            "xmax": 235
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "Leading muon p_{T}",  
-            "GetYaxis().SetTitle": "Events / 15 GeV",
-            "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
-            "SetMaximum" : 4500
-        }
-    },
     "nJetCSVv2T" : {
         "Initialize": {  
             "type": "TH1D",
@@ -121,13 +106,13 @@
     "ZMass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 5,
+            "nbins": 30,
             "xmin": 76,
             "xmax": 106
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{\\ell^{+}\\ell^{-}} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 6 GeV", 
+            "GetYaxis().SetTitle": "Events / 2 GeV", 
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
             "SetMaximum" : 300
@@ -204,7 +189,7 @@
             "GetXaxis().SetTitle": "M_{3\\ell} [GeV]",  
             "GetYaxis().SetTitle": "Events / 200 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
+            "SetMinimum" : 0.0,
             "SetMaximum" : 100
         }
     },
@@ -232,11 +217,10 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
-            "GetYaxis().SetTitle": "Events / 100 GeV",
+            "GetYaxis().SetTitle": "Events / 200 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,
-            "SetMaximum": 250,
-            "Rebin": 4
+            "SetMaximum": 250
         }
     },
    "mjj_mtwz_unrolled": {  
@@ -306,11 +290,10 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
-            "GetYaxis().SetTitle": "Events / 0.25",
+            "GetYaxis().SetTitle": "Events / 0.5",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
-            "SetMaximum" : 250,
-            "Rebin" : 2
+            "SetMinimum" : 0.0,
+            "SetMaximum" : 250
         }
     },
    "zep3l": {  
@@ -361,15 +344,15 @@
    "jetPt[0]": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 10,
-            "xmin": 30,
-            "xmax": 430
+            "nbins": 50,
+            "xmin": 50,
+            "xmax": 550
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading jet p_{T}",  
-            "GetYaxis().SetTitle": "Events / 40 GeV",
+            "GetYaxis().SetTitle": "Events / 10 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
+            "SetMinimum" : 0.0,
             "SetMaximum" : 4500
         }
     },
@@ -384,22 +367,22 @@
             "GetXaxis().SetTitle": "Sub-leading jet #eta",  
             "GetYaxis().SetTitle": "Events",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
+            "SetMinimum" : 0.0,
             "SetMaximum" : 1000
         }
     },
    "jetPt[1]": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 12,
-            "xmin": 30,
-            "xmax": 210
+            "nbins": 40,
+            "xmin": 50,
+            "xmax": 250
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Sub-leading jet p_{T}",  
-            "GetYaxis().SetTitle": "Events / 15 GeV",
+            "GetYaxis().SetTitle": "Events / 10 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
+            "SetMinimum" : 0.0,
             "SetMaximum" : 1500
         }
     },

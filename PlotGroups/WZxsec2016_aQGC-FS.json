@@ -12,7 +12,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 0 F_{S1}= 16 TeV^{-4}", 
+        "Name": "F_{S0}= 0, F_{S1}= 16 TeV^{-4}", 
         "Style": "nofill-lightred-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 1
@@ -21,7 +21,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 0 F_{S1}= 16 TeV^{-4}", 
+        "Name": "F_{S0}= 0, F_{S1}= 16 TeV^{-4}", 
         "Style": "nofill-lightred-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 457, 
@@ -31,7 +31,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 0 F_{S1}= 32 TeV^{-4}", 
+        "Name": "F_{S0}= 0, F_{S1}= 32 TeV^{-4}", 
         "Style": "nofill-lightblue", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 458, 
@@ -41,7 +41,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 0 F_{S1}= 8 TeV^{-4}", 
+        "Name": "F_{S0}= 0, F_{S1}= 8 TeV^{-4}", 
         "Style": "nofill-lightblue-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 456, 
@@ -51,7 +51,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 0 F_{S1}= -16 TeV^{-4}", 
+        "Name": "F_{S0}= 0, F_{S1}= -16 TeV^{-4}", 
         "Style": "nofill-lightpink-dotdash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 454, 
@@ -61,7 +61,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 0 F_{S1}= -32 TeV^{-4}", 
+        "Name": "F_{S0}= 0, F_{S1}= -32 TeV^{-4}", 
         "Style": "nofill-lightblue", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 453, 
@@ -71,7 +71,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 0 F_{S1}= -8 TeV^{-4}", 
+        "Name": "F_{S0}= 0, F_{S1}= -8 TeV^{-4}", 
         "Style": "nofill-lightblue-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 455, 
@@ -81,7 +81,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 16 F_{S1}= 16 TeV^{-4}", 
+        "Name": "F_{S0}= 16, F_{S1}= 16 TeV^{-4}", 
         "Style": "nofill-darkblue-finedash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 487, 
@@ -91,7 +91,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 16 F_{S1}= 32 TeV^{-4}", 
+        "Name": "F_{S0}= 16, F_{S1}= 32 TeV^{-4}", 
         "Style": "nofill-red-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 488, 
@@ -101,7 +101,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 16 F_{S1}= 8 TeV^{-4}", 
+        "Name": "F_{S0}= 16, F_{S1}= 8 TeV^{-4}", 
         "Style": "nofill-lightgreen-dotdash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 486, 
@@ -111,7 +111,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 16 F_{S1}= -16 TeV^{-4}", 
+        "Name": "F_{S0}= 16, F_{S1}= -16 TeV^{-4}", 
         "Style": "nofill-lightblue", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 484, 
@@ -121,7 +121,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 16 F_{S1}= -32 TeV^{-4}", 
+        "Name": "F_{S0}= 16, F_{S1}= -32 TeV^{-4}", 
         "Style": "nofill-darkblue", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 483, 
@@ -131,7 +131,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 16 F_{S1}= -8 TeV^{-4}", 
+        "Name": "F_{S0}= 16, F_{S1}= -8 TeV^{-4}", 
         "Style": "nofill-red-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 485, 
@@ -141,7 +141,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 32 F_{S1}= 0 TeV^{-4}", 
+        "Name": "F_{S0}= 32, F_{S1}= 0 TeV^{-4}", 
         "Style": "nofill-lightgreen", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 452, 
@@ -151,8 +151,8 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 32 F_{S1}= 16 TeV^{-4}", 
-        "Style": "nofill-lightgreen-dash", 
+        "Name": "F_{S0}= 32, F_{S1}= 16 TeV^{-4}", 
+        "Style": "nofill-lightred", 
         "add_perc_error": 0.0, 
         "Scale" : 1.1,
         "lheWeightEntry": 493, 
@@ -162,7 +162,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 32 F_{S1}= 32 TeV^{-4}", 
+        "Name": "F_{S0}= 32, F_{S1}= 32 TeV^{-4}", 
         "Style": "nofill-lightpink-dotdash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 494, 
@@ -172,7 +172,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 32 F_{S1}= 8 TeV^{-4}", 
+        "Name": "F_{S0}= 32, F_{S1}= 8 TeV^{-4}", 
         "Style": "nofill-lightblue-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 492, 
@@ -182,7 +182,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 32 F_{S1}= -16 TeV^{-4}", 
+        "Name": "F_{S0}= 32, F_{S1}= -16 TeV^{-4}", 
         "Style": "nofill-lightpurple", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 490, 
@@ -192,7 +192,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 32 F_{S1}= -32 TeV^{-4}", 
+        "Name": "F_{S0}= 32, F_{S1}= -32 TeV^{-4}", 
         "Style": "nofill-lightblue", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 489, 
@@ -202,7 +202,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 32 F_{S1}= -8 TeV^{-4}", 
+        "Name": "F_{S0}= 32, F_{S1}= -8 TeV^{-4}", 
         "Style": "nofill-darkgreen-finedash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 491, 
@@ -212,7 +212,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 8 F_{S1}= 0 TeV^{-4}", 
+        "Name": "F_{S0}= 8, F_{S1}= 0 TeV^{-4}", 
         "Style": "nofill-lightpink-dotdash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 451, 
@@ -222,7 +222,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 8 F_{S1}= 16 TeV^{-4}", 
+        "Name": "F_{S0}= 8, F_{S1}= 16 TeV^{-4}", 
         "Style": "nofill-darkgreen-finedash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 481, 
@@ -232,7 +232,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 8 F_{S1}= 32 TeV^{-4}", 
+        "Name": "F_{S0}= 8, F_{S1}= 32 TeV^{-4}", 
         "Style": "nofill-darkpurple-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 482, 
@@ -242,7 +242,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 8 F_{S1}= 8 TeV^{-4}", 
+        "Name": "F_{S0}= 8, F_{S1}= 8 TeV^{-4}", 
         "Style": "nofill-lightred", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 480, 
@@ -252,7 +252,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 8 F_{S1}= -16 TeV^{-4}", 
+        "Name": "F_{S0}= 8, F_{S1}= -16 TeV^{-4}", 
         "Style": "nofill-lightgreen-finedash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 478, 
@@ -262,7 +262,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 8 F_{S1}= -32 TeV^{-4}", 
+        "Name": "F_{S0}= 8, F_{S1}= -32 TeV^{-4}", 
         "Style": "nofill-green-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 477, 
@@ -272,7 +272,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= 8 F_{S1}= -8 TeV^{-4}", 
+        "Name": "F_{S0}= 8, F_{S1}= -8 TeV^{-4}", 
         "Style": "nofill-darkgreen-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 479, 
@@ -282,7 +282,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -16 F_{S1}= 0 TeV^{-4}", 
+        "Name": "F_{S0}= -16, F_{S1}= 0 TeV^{-4}", 
         "Style": "nofill-red-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 449, 
@@ -292,7 +292,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -16 F_{S1}= 16 TeV^{-4}", 
+        "Name": "F_{S0}= -16, F_{S1}= 16 TeV^{-4}", 
         "Style": "nofill-darkgreen-dotdash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 469, 
@@ -302,7 +302,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -16 F_{S1}= 32 TeV^{-4}", 
+        "Name": "F_{S0}= -16, F_{S1}= 32 TeV^{-4}", 
         "Style": "nofill-lightblue", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 470, 
@@ -312,7 +312,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -16 F_{S1}= 8 TeV^{-4}", 
+        "Name": "F_{S0}= -16, F_{S1}= 8 TeV^{-4}", 
         "Style": "nofill-darkgreen-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 468, 
@@ -322,7 +322,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -16 F_{S1}= -16 TeV^{-4}", 
+        "Name": "F_{S0}= -16, F_{S1}= -16 TeV^{-4}", 
         "Style": "nofill-green-dotdash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 466, 
@@ -332,7 +332,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -16 F_{S1}= -32 TeV^{-4}", 
+        "Name": "F_{S0}= -16, F_{S1}= -32 TeV^{-4}", 
         "Style": "nofill-lightgreen", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 465, 
@@ -342,7 +342,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -16 F_{S1}= -8 TeV^{-4}", 
+        "Name": "F_{S0}= -16, F_{S1}= -8 TeV^{-4}", 
         "Style": "nofill-lightred-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 467, 
@@ -352,7 +352,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -32 F_{S1}= 0 TeV^{-4}", 
+        "Name": "F_{S0}= -32, F_{S1}= 0 TeV^{-4}", 
         "Style": "nofill-lightblue-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 448, 
@@ -362,7 +362,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -32 F_{S1}= 16 TeV^{-4}", 
+        "Name": "F_{S0}= -32, F_{S1}= 16 TeV^{-4}", 
         "Style": "nofill-lightgreen-finedash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 463, 
@@ -372,7 +372,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -32 F_{S1}= 32 TeV^{-4}", 
+        "Name": "F_{S0}= -32, F_{S1}= 32 TeV^{-4}", 
         "Style": "nofill-darkblue-finedash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 464, 
@@ -382,7 +382,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -32 F_{S1}= 8 TeV^{-4}", 
+        "Name": "F_{S0}= -32, F_{S1}= 8 TeV^{-4}", 
         "Style": "nofill-green-dotdash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 462, 
@@ -392,7 +392,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -32 F_{S1}= -16 TeV^{-4}", 
+        "Name": "F_{S0}= -32, F_{S1}= -16 TeV^{-4}", 
         "Style": "nofill-lightblue-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 460, 
@@ -402,7 +402,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -32 F_{S1}= -32 TeV^{-4}", 
+        "Name": "F_{S0}= -32, F_{S1}= -32 TeV^{-4}", 
         "Style": "nofill-green-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 459, 
@@ -412,7 +412,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -32 F_{S1}= -8 TeV^{-4}", 
+        "Name": "F_{S0}= -32, F_{S1}= -8 TeV^{-4}", 
         "Style": "nofill-darkpurple", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 461, 
@@ -422,7 +422,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -8 F_{S1}= 0 TeV^{-4}", 
+        "Name": "F_{S0}= -8, F_{S1}= 0 TeV^{-4}", 
         "Style": "nofill-darkblue-finedash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 450, 
@@ -432,7 +432,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -8 F_{S1}= 16 TeV^{-4}", 
+        "Name": "F_{S0}= -8, F_{S1}= 16 TeV^{-4}", 
         "Style": "nofill-lightgreen", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 475, 
@@ -442,7 +442,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -8 F_{S1}= 32 TeV^{-4}", 
+        "Name": "F_{S0}= -8, F_{S1}= 32 TeV^{-4}", 
         "Style": "nofill-yellow", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 476, 
@@ -452,7 +452,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -8 F_{S1}= 8 TeV^{-4}", 
+        "Name": "F_{S0}= -8, F_{S1}= 8 TeV^{-4}", 
         "Style": "nofill-red-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 474, 
@@ -462,7 +462,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -8 F_{S1}= -16 TeV^{-4}", 
+        "Name": "F_{S0}= -8, F_{S1}= -16 TeV^{-4}", 
         "Style": "nofill-orange", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 472, 
@@ -472,7 +472,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -8 F_{S1}= -32 TeV^{-4}", 
+        "Name": "F_{S0}= -8, F_{S1}= -32 TeV^{-4}", 
         "Style": "nofill-darkgreen-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 471, 
@@ -482,7 +482,7 @@
         "Members": [
             "wzjj-aqgcfs"
         ], 
-        "Name": "F_{S0}= -8 F_{S1}= -8 TeV^{-4}", 
+        "Name": "F_{S0}= -8, F_{S1}= -8 TeV^{-4}", 
         "Style": "nofill-darkred", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 473, 

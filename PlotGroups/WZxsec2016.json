@@ -8,12 +8,13 @@
         ]
     },
     "wz-powheg_standalone" : {
-        "Name" : "POWHEG NLO inc.",
-        "Style" : "nofill-darkpurple-dotdash",
+        "Name" : "QCD-WZjj (POWHEG)",
+        "Style" : "nofill-black-dotdash",
         "add_perc_error" : 0.0,
         "Members" : [
             "wz3lnu-powheg"
-        ]
+        ],
+        "Scale" : 1.267
     },
     "wz" : {
         "Name" : "WZ",
@@ -21,15 +22,17 @@
         "add_perc_error" : 0.0,
         "Members" : [
             "wz3lnu-mg5amcnlo"
-        ]
+        ],
+        "Scale" : 0.854
     },
     "wz_standalone" : {
-        "Name" : "MG5_aMC #leq1j@NLO",
-        "Style" : "nofill-lightblue-dash",
+        "Name" : "QCD-WZjj (#leq1j@NLO)",
+        "Style" : "nofill-darkblue-finedash",
         "add_perc_error" : 0.0,
         "Members" : [
             "wz3lnu-mg5amcnlo"
-        ]
+        ],
+        "Scale" : 0.854
     },
     "wz-mgmlm_standalone" : {
         "Name" : "MG5_aMC #leq3j@LO",
@@ -43,6 +46,17 @@
         ]
     },
     "wz-mgmlm" : {
+        "Name" : "QCD-WZjj",
+        "Style" : "fill-lightpurple",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wz3lnu-mgmlm-0j",
+            "wz3lnu-mgmlm-1j",
+            "wz3lnu-mgmlm-2j",
+            "wz3lnu-mgmlm-3j"
+        ]
+    },
+    "WZ" : {
         "Name" : "QCD-WZjj",
         "Style" : "fill-lightpurple",
         "add_perc_error" : 0.0,
@@ -68,6 +82,13 @@
         "Name" : "EW-WZjj",
         "Style" : "nofill-darkgreen",
         "add_perc_error" : 0.0,
+        "Members" : [
+            "wlljj-ewk"
+        ]
+    },
+    "EWWZ" : {
+        "Name" : "EW-WZjj",
+        "Style" : "fill-purple",
         "Members" : [
             "wlljj-ewk"
         ]
@@ -147,6 +168,15 @@
             "zz2l2vjj-ewk"
         ]
     },
+    "ZZ" : {
+        "Name" : "VV",
+        "Style" : "fill-blue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "zz4l-mg5amcnlo",
+            "zz2l2vjj-ewk"
+        ]
+    },
     "vv" : {
         "Name" : "VV",
         "Style" : "fill-blue",
@@ -178,6 +208,14 @@
         "Members" : [
             "DYm50-filt",
             "DYm10-50-filt"
+        ]
+    },
+    "Fake" : {
+        "Name" : "Nonprompt",
+        "Style" : "fill-grey",
+        "add_perc_error" : 0.3,
+        "Members" : [
+            "DataEWKCorrected"
         ]
     },
     "nonprompt" : {
@@ -242,6 +280,20 @@
             "tt-lep"
         ]
     },
+    "VVV" : {
+        "Name" : "t+V/VVV",
+        "Style" : "fill-green",
+        "add_perc_error" : 0.3,
+        "Members" : [
+            "tzq",
+            "ttz",
+            "ttw",
+            "zzz",
+            "wzz",
+            "wwz",
+            "www"
+        ]
+    },
     "top-ewk" : {
         "Name" : "t+V/VVV",
         "Style" : "fill-green",
@@ -257,7 +309,7 @@
         ]
     },
     "top-nonprompt" : {
-        "Name" : "Nonprompt Top",
+        "Name" : "Nonprompt top",
         "Style" : "fill-lightgreen",
         "add_perc_error" : 0.3,
         "Members" : [
@@ -324,6 +376,14 @@
             "zg"
         ]
     },
+    "Zg" : {
+        "Name" : "Z#gamma",
+        "Style" : "fill-red",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "zg"
+        ]
+    },
     "chargedHiggsWZ-m300" : {
         "Name" : "m_{\\mathrm{H}^{\\pm}} = 300 \\,\\mathrm{GeV}",
         "Style" : "nofill-darkgreen",
@@ -334,7 +394,8 @@
     },
     "chargedHiggsWZ-m400" : {
         "Name" : "m_{\\mathrm{H}^{\\pm}} = 400 \\,\\mathrm{GeV}",
-        "Style" : "nofill-darkgreen",
+        "Style" : "nofill-orange",
+        "Scale" : 2,
         "add_perc_error" : 0.0,
         "Members" : [
             "chargedHiggsWZ-m400"
@@ -402,6 +463,53 @@
         "add_perc_error" : 0.0,
         "Members" : [
             "chargedHiggsWZ-m2000"
+        ]
+    },
+    "Higgs" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 1500 \\,\\mathrm{GeV}",
+        "Style": "nofill-darkgreen-largedash", 
+        "Scale" : 2,
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "Higgs"
+        ]
+    },
+    "Higgs_M400" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 400 \\,\\mathrm{GeV}, \\,s_{\\mathrm{H}} = 0.3",
+        "Style" : "nofill-yellow-dash",
+        "Scale" : 2.85,
+        "add_perc_error" : 0.0,
+        "Note" : "sigma_{sH = 1}*BR(WZ->3lv) = (604.1+358.4) x (0.101*3*0.1086) x sH^2",
+        "Members" : [
+            "Higgs"
+        ]
+    },
+    "Higgs_M500" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 500 \\,\\mathrm{GeV}",
+        "Style": "nofill-green-largedash", 
+        "Scale" : 2,
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "Higgs"
+        ]
+    },
+    "Higgs_M900" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 900 \\,\\mathrm{GeV}, \\,s_{\\mathrm{H}} = 0.5",
+        "Style": "nofill-lightred-dotdash", 
+        "Scale" : 1.256,
+        "Note" : "sigma_{sH = 1}*BR(WZ->3lv) = (101.5+51.22) x (0.101*3*0.1086) x sH^2",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "Higgs"
+        ]
+    },
+    "Higgs_M1500" : {
+        "Name" : "m_{\\mathrm{H}^{\\pm}} = 1500 \\,\\mathrm{GeV}",
+        "Style": "nofill-blue-finedash", 
+        "Scale" : 2,
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "Higgs"
         ]
     },
     "data" : {

@@ -167,6 +167,20 @@
             "wlljj-ewk"
         ]
     },
+    "wpzjj-ewk-int" : {
+        "Name" : "W^{+}Zjj EW/QCD Int.",
+        "Style" : "nofill-lightgreen", 
+        "Members" : [
+            "wplljj-ewk-int"
+        ]
+    },
+    "wpzjj-ewk" : {
+        "Name" : "W^{+}Zjj EW",
+        "Style" : "nofill-lightpink-dotdash",
+        "Members" : [
+            "wplljj-ewk"
+        ]
+    },
     "wzjj-ewk-fixedscale" : {
         "Name" : "MG5_aMC (#mu = m_{Z})",
         "Style" : "nofill-bluegrey",

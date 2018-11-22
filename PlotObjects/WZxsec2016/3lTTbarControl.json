@@ -381,7 +381,7 @@
             "xmax": 1500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
+            "GetXaxis().SetTitle": "m_{jj} [GeV]",  
             "GetYaxis().SetTitle": "Events / 150 GeV",
             "GetYaxis().SetTitleOffset": 1.1,
             "SetMinimum" : 0.001,

@@ -608,7 +608,7 @@
             "GetYaxis().SetTitle": "Events Passing Selection"
         }
     },
-    "YieldByChannel": {
+    "yieldByChannel": {
         "Initialize": {  
             "type": "TH1D",
             "nbins": 2,
