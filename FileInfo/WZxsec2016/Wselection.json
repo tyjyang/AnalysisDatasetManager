@@ -3,6 +3,10 @@
         "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wlljj-ewk-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wzjj-mglo"
     },
+    "wlljj-ewk__prefire" : {
+        "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wlljj-ewk-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
+        "plot_group" : "wzjj-mglo"
+    },
     "wzjj-vbfnlo-of" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wzjj-vbfnlo-of-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wzjj-vbfnlo"
