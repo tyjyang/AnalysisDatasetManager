@@ -108,6 +108,14 @@
             "wlljj-ewk"
         ]
     },
+    "wzjj-ewk__prefire" : {
+        "Name" : "w/ Prefire Eff.",
+        "Style" : "nofill-darkgreen-largedash",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wlljj-ewk__prefire"
+        ]
+    },
     "EW-WZjj" : {
         "Name" : "EW-WZjj",
         "Style" : "nofill-darkpurple-dash",
