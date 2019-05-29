@@ -1,10 +1,18 @@
 import json
 
-def readAllJson(json_file_path):
-    json_info = {}
-    for json_file in glob.glob(json_file_path):
-        json_info.update(readJson(json_file))
+def readAllInfo(file_path):
+    info = {}
+    for info_file in glob.glob(file_path):
+        json_info.update(readInfo(info_file))
     return json_info
+
+def readInfo(file_path):
+    try:
+        file_info = imp.load_source("info_file", file_path)
+        info = file_info.info
+    except IOError:
+        info = readJson(file_path)
+    return info
 
 def readJson(json_file_name):
     json_info = {}

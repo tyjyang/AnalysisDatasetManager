@@ -1,4 +1,4 @@
-{
+info = {
     "wlljj-ewk" : {
         "cross_section" : 0.01763,
         "Source of cross section" : "MadGraph LO",
