@@ -9,10 +9,14 @@ import multiprocessing
 parser = argparse.ArgumentParser()
 parser.add_argument("path", type=str, help="path to files in hdfs")
 parser.add_argument("--eos", action='store_true', help="Store files on eos instead of /data")
-parser.add_argument("-s", "--selection", type=str, default="FinalSelection",
-        help="Selection tier (default FinalSelection)")
+parser.add_argument("-s", "--selection", type=str, default="Dilepton",
+        help="Selection tier (default Dilepton)")
+parser.add_argument("-d", "--data_name", type=str, default="DibosonAnalysisData",
+        help="Data name")
 args = parser.parse_args()
 
+if "store" in args.path[:7]:
+    args.path = "/hdfs" + args.path
 for directory in glob.glob(args.path):
     print "Copying directory", directory
     if not os.path.isdir(directory):
@@ -22,14 +26,17 @@ for directory in glob.glob(args.path):
     dir_name = dirs[-1]
     if dir_name[:3] == "000" and len(dirs)>= 5:
         if "/hdfs" in directory:
-            dir_name = "_".join(dirs[6:8])
+            indices = (6,8)
         else:
-            dir_name = "_".join(dirs[5:7])
-    new_dir = "/data/%s/DibosonAnalysisData/%s/%s" % (os.getlogin(), args.selection.strip("/"), dir_name)
+            indices = (5,7)
+        dir_name = dirs[indices[0]]
+        if any(y in dir_name for y in ["Muon", "EG", "Electron"]):
+            dir_name = "_".join(dirs[indices[0]:indices[1]])
+    new_dir = "/".join(["/data", os.getlogin(), args.data_name, args.selection.strip("/"), dir_name])
     if args.eos:
         new_dir = "/".join(["/eos/user", os.getlogin()[0], os.getlogin(), args.selection, dir_name])
     try:
-        os.mkdir(new_dir)
+        os.makedirs(new_dir)
     except OSError as e:
         print e
         continue

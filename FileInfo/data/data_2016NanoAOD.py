@@ -1,8 +1,4 @@
 info = {
-    "data_DoubleMuon_Run2016B-22Aug2018_ver2-v1" : {
-        "Luminosity" : 1,
-        "DAS Name" : ""
-    },
     "data_DoubleEG_Run2016B_ver2-Nano14Dec2018_ver2-v1" : {
         "Luminosity" : 1,
         "DAS Name" : ""
