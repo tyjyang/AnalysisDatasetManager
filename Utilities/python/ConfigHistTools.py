@@ -1,16 +1,20 @@
 import json
+import imp
+import glob
 
 def readAllInfo(file_path):
     info = {}
     for info_file in glob.glob(file_path):
-        json_info.update(readInfo(info_file))
-    return json_info
+        if ".py" not in info_file[-3:] and ".json" not in info_file[-5:]:
+            continue
+        info.update(readInfo(info_file))
+    return info
 
 def readInfo(file_path):
-    try:
+    if ".py" in file_path[-3:]:
         file_info = imp.load_source("info_file", file_path)
         info = file_info.info
-    except IOError:
+    else:
         info = readJson(file_path)
     return info
 
@@ -27,7 +31,7 @@ def readJson(json_file_name):
 def getHistType(manager_path, selection, hist_name):
     hist_file = "/".join([manager_path, 
         "AnalysisDatasetManager", "PlotObjects", selection + ".json"]) 
-    all_hist_info = readJson(hist_file)
+    all_hist_info = readInfo(hist_file)
     if hist_name not in all_hist_info.keys():
         print all_hist_info
         raise ValueError("Invalid hist name '%s'. Must be defined in %s"
@@ -39,7 +43,7 @@ def getHistBinInfo(manager_path, selection, hist_name):
     bin_info = {}
     hist_file = "/".join([manager_path, 
         "AnalysisDatasetManager", "PlotObjects", selection + ".json"]) 
-    all_hist_info = readJson(hist_file)
+    all_hist_info = readInfo(hist_file)
     if hist_name not in all_hist_info.keys():
         print all_hist_info
         raise ValueError("Invalid hist name '%s'. Must be defined in %s"
@@ -60,5 +64,5 @@ def getAllHistNames(manager_path, selection):
     bin_info = {}
     hist_file = "/".join([manager_path, 
         "AnalysisDatasetManager", "PlotObjects", selection + ".json"]) 
-    all_hist_names = readJson(hist_file).keys()
+    all_hist_names = readInfo(hist_file).keys()
     return all_hist_names
