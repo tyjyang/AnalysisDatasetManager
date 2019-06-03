@@ -201,7 +201,7 @@
             "xmax": 106
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "M_{l^{+}l^{-}} [GeV]",  
+            "GetXaxis().SetTitle": "m_{l^{+}l^{-}} [GeV]",  
             "GetYaxis().SetTitle": "Events / 2 GeV", 
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
@@ -246,7 +246,7 @@
             "xmax": 520
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "M_{3\\ell} \\, [GeV]",  
+            "GetXaxis().SetTitle": "m_{3\\ell} \\, [GeV]",  
             "GetYaxis().SetTitle": "Events / 30 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,
@@ -261,7 +261,7 @@
             "xmax": 180
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "M_{T}(W) [GeV]",  
+            "GetXaxis().SetTitle": "m_{T}(W) [GeV]",  
             "GetYaxis().SetTitle": "Events / 5 GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.001,

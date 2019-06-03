@@ -42,7 +42,7 @@
             "wzjj-aqgcft"
         ], 
         "Name": "F_{T0}= F_{T1}= 0, F_{T2}= 3 TeV^{-4}", 
-        "Style": "nofill-lightgreen-dash", 
+        "Style": "nofill-darkgreen-dash", 
         "add_perc_error": 0.0, 
         "lheWeightEntry": 468, 
         "Scale": 1.1, 

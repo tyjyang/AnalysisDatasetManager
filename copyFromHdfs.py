@@ -9,8 +9,10 @@ import multiprocessing
 parser = argparse.ArgumentParser()
 parser.add_argument("path", type=str, help="path to files in hdfs")
 parser.add_argument("--eos", action='store_true', help="Store files on eos instead of /data")
-parser.add_argument("-s", "--selection", type=str, default="FinalSelection",
-        help="Selection tier (default FinalSelection)")
+parser.add_argument("-s", "--selection", type=str, default="Dilepton",
+        help="Selection tier (default Dilepton)")
+parser.add_argument("-d", "--data_name", type=str, default="DibosonAnalysisData",
+        help="Data name")
 args = parser.parse_args()
 
 for directory in glob.glob(args.path):
@@ -25,11 +27,11 @@ for directory in glob.glob(args.path):
             dir_name = "_".join(dirs[6:8])
         else:
             dir_name = "_".join(dirs[5:7])
-    new_dir = "/data/%s/DibosonAnalysisData/%s/%s" % (os.getlogin(), args.selection.strip("/"), dir_name)
+    new_dir = "/".join(["/data", os.getlogin(), args.data_name, args.selection.strip("/"), dir_name])
     if args.eos:
         new_dir = "/".join(["/eos/user", os.getlogin()[0], os.getlogin(), args.selection, dir_name])
     try:
-        os.mkdir(new_dir)
+        os.makedirs(new_dir)
     except OSError as e:
         print e
         continue
