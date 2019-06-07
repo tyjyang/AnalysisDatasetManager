@@ -1,6 +1,6 @@
 import os
 uwlogin = "uwlogin" in os.environ["HOSTNAME"] 
-uwlogin = "hep.wisc.edu" in os.environ["HOSTNAME"] 
+uw = "hep.wisc.edu" in os.environ["HOSTNAME"] 
 info = {
     "DYm50" : {
         "file_path" : "/store/user/kelong/DileptonNanoSkims/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/NanoPostprocessing-v2/*/*/*.root",
@@ -104,6 +104,6 @@ if uwlogin:
             name = "_".join(filelabels[5:7])
         value["file_path"] = "/".join(["/data", os.getlogin(), "NanoAODSkims/Dilepton", name, "*"]) 
 
-elif login:
+elif uw:
     for key, value in info.iteritems():
-        value["file_path"] = "/hdfs/" + value_path
+        value["file_path"] = "/hdfs" + value["file_path"]

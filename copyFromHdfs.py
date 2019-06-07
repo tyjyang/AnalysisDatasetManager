@@ -8,11 +8,16 @@ import multiprocessing
 
 parser = argparse.ArgumentParser()
 parser.add_argument("path", type=str, help="path to files in hdfs")
-parser.add_argument("--eos", action='store_true', help="Store files on eos instead of /data")
+parser.add_argument("-a", "--storage_area", type=str, default="data",
+        help="Are to store files (default /data)")
 parser.add_argument("-s", "--selection", type=str, default="Dilepton",
         help="Selection tier (default Dilepton)")
 parser.add_argument("-d", "--data_name", type=str, default="DibosonAnalysisData",
         help="Data name")
+parser.add_argument("-u", "--username", type=str, default="%s" % os.getlogin(),
+        help="Username for storage area, default is your login username")
+parser.add_argument("--hadd", action='store_true',
+        help="Combine files with hadd")
 args = parser.parse_args()
 
 if "store" in args.path[:7]:
@@ -32,9 +37,11 @@ for directory in glob.glob(args.path):
         dir_name = dirs[indices[0]]
         if any(y in dir_name for y in ["Muon", "EG", "Electron"]):
             dir_name = "_".join(dirs[indices[0]:indices[1]])
-    new_dir = "/".join(["/data", os.getlogin(), args.data_name, args.selection.strip("/"), dir_name])
-    if args.eos:
-        new_dir = "/".join(["/eos/user", os.getlogin()[0], os.getlogin(), args.selection, dir_name])
+    new_dir = "/".join(["/data", args.username, args.data_name, args.selection.strip("/"), dir_name])
+    if "eos" in args.storage_area:
+        new_dir = "/".join(["/eos/user", args.username, args.username, args.selection, dir_name])
+    elif "nfs_scratch" in args.storage_area:
+        new_dir = new_dir.replace("data", "nfs_scratch")
     try:
         os.makedirs(new_dir)
     except OSError as e:
@@ -46,3 +53,5 @@ for directory in glob.glob(args.path):
             "root://cmsxrootd.hep.wisc.edu/%s" % filename, 
             new_dir] for filename in filenames]
         )
+    if args.hadd:
+        subprocess.call(["hadd", "%s/combined.root" % new_dir] + glob.glob("%s/*.root" % new_dir))
