@@ -6,7 +6,9 @@ import glob
 def readAllInfo(file_path):
     info = {}
     for info_file in glob.glob(file_path):
-        info.update(readInfo(info_file))
+        file_info = readInfo(info_file)
+        if file_info:
+            info.update(file_info)
     return info
 
 def readInfo(file_path):
