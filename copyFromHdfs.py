@@ -39,7 +39,7 @@ for directory in glob.glob(args.path):
             dir_name = "_".join(dirs[indices[0]:indices[1]])
     new_dir = "/".join(["/data", args.username, args.data_name, args.selection.strip("/"), dir_name])
     if "eos" in args.storage_area:
-        new_dir = "/".join(["/eos/user", args.username, args.username, args.selection, dir_name])
+        new_dir = "/".join(["/eos/user", args.username[0], args.username, args.selection, dir_name])
     elif "nfs_scratch" in args.storage_area:
         new_dir = new_dir.replace("data", "nfs_scratch")
     try:
