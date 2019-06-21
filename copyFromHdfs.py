@@ -48,6 +48,9 @@ for directory in glob.glob(args.path):
         print e
         continue
     filenames = [f if "hdfs" not in f else f[5:] for f in glob.glob(directory + "/*.root")]
+    if len(filenames) == 0:
+        print "WARNING: No files found for directory %s. Skipping." % directory
+        continue
     p = multiprocessing.Pool(processes=10)
     p.map(subprocess.call, [["xrdcp", 
             "root://cmsxrootd.hep.wisc.edu/%s" % filename, 

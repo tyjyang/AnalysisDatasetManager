@@ -4,6 +4,8 @@ import imp
 import glob
 
 def readPythonOrJson(file_path):
+    if ".pyc" in file_path[-4:] or ".jsonc" in file_path[-6:]:
+        return ""
     if ".py" not in file_path[-3:] and ".json" not in file_path[-5:]:
         if os.path.isfile(file_path+".py"):
             file_path = file_path +".py"
@@ -22,14 +24,19 @@ def readAllInfo(file_path):
     return info
 
 def readInfo(file_path):
-    try:
-        file_path = readPythonOrJson(file_path)
-    # Fall back to single analysis-wide definition (not different by selection)
-    except ValueError:
-        if "/" in file_path:
-            file_path = file_path.rsplit("/", 1)[0]
-        pass
-        file_path = readPythonOrJson(file_path)
+    #try:
+    #    file_path = readPythonOrJson(file_path)
+    ## Fall back to single analysis-wide definition (not different by selection)
+    #except ValueError:
+    #    print "Here we are in here"
+    #    if "/" in file_path:
+    #        file_path = file_path.rsplit("/", 1)[0]
+    #    pass
+    #    file_path = readPythonOrJson(file_path)
+    file_path = readPythonOrJson(file_path)
+    info = {}
+    if not os.path.isfile(file_path):
+        return info
     if ".py" in file_path[-3:]:
         file_info = imp.load_source("info_file", file_path)
         info = file_info.info
