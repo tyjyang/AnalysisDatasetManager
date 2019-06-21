@@ -1,4 +1,11 @@
 info = {
+    "wlnu-mglo" : {
+        "cross_section" : 9000,
+        "Source of cross section" : "MadGraph LO",
+        "DAS Name" : "WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8",
+        "Generator" : "MadGraph5_aMC@NLO LO",
+        "Cards" : ""
+    },
     "wlljj-ewk" : {
         "cross_section" : 0.01763,
         "Source of cross section" : "MadGraph LO",
