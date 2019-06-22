@@ -24,16 +24,14 @@ def readAllInfo(file_path):
     return info
 
 def readInfo(file_path):
-    #try:
-    #    file_path = readPythonOrJson(file_path)
-    ## Fall back to single analysis-wide definition (not different by selection)
-    #except ValueError:
-    #    print "Here we are in here"
-    #    if "/" in file_path:
-    #        file_path = file_path.rsplit("/", 1)[0]
-    #    pass
-    #    file_path = readPythonOrJson(file_path)
-    file_path = readPythonOrJson(file_path)
+    try:
+        file_path = readPythonOrJson(file_path)
+    # Fall back to single analysis-wide definition (not different by selection)
+    except ValueError:
+        if "/" in file_path:
+            file_path = file_path.rsplit("/", 1)[0]
+        pass
+        file_path = readPythonOrJson(file_path)
     info = {}
     if not os.path.isfile(file_path):
         return info
