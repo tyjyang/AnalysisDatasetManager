@@ -1,4 +1,19 @@
 info = {
+    "ptZ": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 50,
+            "xmin": 0,
+            "xmax": 100
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "p_{\\mathrm{T}}(\\ell^{+}\\ell^{-}) [GeV]",  
+            "GetYaxis().SetTitle": "Events / 2 GeV", 
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 10000000
+        }
+    },
     "yZ": {  
         "Initialize": {  
             "type": "TH1F",
