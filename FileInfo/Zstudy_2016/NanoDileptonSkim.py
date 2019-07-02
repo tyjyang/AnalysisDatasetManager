@@ -125,7 +125,7 @@ info = {
     }
 }
 
-if uwlogin:
+if uwlogin and False:
     for key, value in info.iteritems():
         filelabels = value["file_path"].strip("/").split("/")
         name = filelabels[5]
@@ -133,8 +133,7 @@ if uwlogin:
             continue # Take data from eos for now
         if "data" in value["plot_group"]:
             name = "_".join(filelabels[5:7])
-        #value["file_path"] = "/".join(["/data", os.getlogin(), "NanoAODSkims/Dilepton", name, "*"]) 
-        value["file_path"] = "/".join(["/data", "dteague", "NanoAODSkims/Dilepton", name, "*"]) 
+        value["file_path"] = "/".join(["/data", os.getlogin(), "NanoAODSkims/Dilepton", name, "*"]) 
 
 elif uw:
     for key, value in info.iteritems():
