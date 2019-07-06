@@ -202,11 +202,11 @@ info = {
             "xmax": 10
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Num p_{T} > 30 GeV GenJets",  
+            "GetXaxis().SetTitle": "Num p_{T} > 30 GeV jets",  
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
-            "SetMaximum" : 40000000
+            "SetMaximum" : 60000000
         }
     },
    "MET": {  

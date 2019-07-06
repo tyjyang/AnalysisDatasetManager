@@ -4,7 +4,15 @@
         "Style" : "fill-lightpurple",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wz3lnu-powheg"
+            "wz3lnu_powheg"
+        ]
+    },
+    "wz-powheg_testNano" : {
+        "Name" : "WZ",
+        "Style" : "fill-lightpurple",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "wz3lnu_powheg__testNano"
         ]
     },
     "wz-powheg_standalone" : {
@@ -12,7 +20,7 @@
         "Style" : "nofill-black-dotdash",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wz3lnu-powheg"
+            "wz3lnu_powheg"
         ],
         "Scale" : 1.267
     },
@@ -21,7 +29,7 @@
         "Style" : "fill-purple",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wz3lnu-mg5amcnlo"
+            "wz3lnu_mg5amcnlo"
         ],
         "Scale" : 0.854
     },
@@ -30,7 +38,7 @@
         "Style" : "nofill-darkblue-finedash",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wz3lnu-mg5amcnlo"
+            "wz3lnu_mg5amcnlo"
         ],
         "Scale" : 0.854
     },
@@ -39,10 +47,10 @@
         "Style" : "fill-lightpurple",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wz3lnu-mgmlm-0j",
-            "wz3lnu-mgmlm-1j",
-            "wz3lnu-mgmlm-2j",
-            "wz3lnu-mgmlm-3j"
+            "wz3lnu_mgmlm_0j",
+            "wz3lnu_mgmlm_1j",
+            "wz3lnu_mgmlm_2j",
+            "wz3lnu_mgmlm_3j"
         ]
     },
     "wz-mgmlm" : {
@@ -50,10 +58,10 @@
         "Style" : "fill-lightpurple",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wz3lnu-mgmlm-0j",
-            "wz3lnu-mgmlm-1j",
-            "wz3lnu-mgmlm-2j",
-            "wz3lnu-mgmlm-3j"
+            "wz3lnu_mgmlm_0j",
+            "wz3lnu_mgmlm_1j",
+            "wz3lnu_mgmlm_2j",
+            "wz3lnu_mgmlm_3j"
         ]
     },
     "WZ" : {
@@ -61,10 +69,10 @@
         "Style" : "fill-lightpurple",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wz3lnu-mgmlm-0j",
-            "wz3lnu-mgmlm-1j",
-            "wz3lnu-mgmlm-2j",
-            "wz3lnu-mgmlm-3j"
+            "wz3lnu_mgmlm_0j",
+            "wz3lnu_mgmlm_1j",
+            "wz3lnu_mgmlm_2j",
+            "wz3lnu_mgmlm_3j"
         ]
     },
     "QCD-WZjj" : {
@@ -72,10 +80,10 @@
         "Style" : "fill-lightpurple",
         "add_perc_error" : 0.0,
         "Members" : [
-            "wz3lnu-mgmlm-0j",
-            "wz3lnu-mgmlm-1j",
-            "wz3lnu-mgmlm-2j",
-            "wz3lnu-mgmlm-3j"
+            "wz3lnu_mgmlm_0j",
+            "wz3lnu_mgmlm_1j",
+            "wz3lnu_mgmlm_2j",
+            "wz3lnu_mgmlm_3j"
         ]
     },
     "wzjj-ewk_standalone" : {

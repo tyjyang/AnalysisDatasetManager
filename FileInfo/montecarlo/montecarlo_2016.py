@@ -41,12 +41,12 @@ info = {
         "DAS Name" : "Private Generation",
         "Cards" : ""
     },
-    "wz3lnu-powheg" : {
+    "wz3lnu_powheg" : {
         "cross_section" : 4.43,
         "Source of cross section" : "POWHEG tarball",
         "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-powheg-pythia8"
     },
-    "wz3lnu-mg5amcnlo" : {
+    "wz3lnu_mg5amcnlo" : {
         "cross_section" : 4.715,
         "Source of cross section" : "MG5_aMC@NLO gridpack",
         "DAS Name" : "WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
@@ -69,28 +69,28 @@ info = {
         "DAS Name" : "WLLJJ_WToLNu_EWK_aQGC-FM_TuneCUETP8M1_13TeV_madgraph-madspin-pythia8",
         "Generator" : "MadGraph5_aMC@NLO LO"
     },
-    "wz3lnu-mgmlm-0j" : {
+    "wz3lnu_mgmlm_0j" : {
         "cross_section" : 0.57706, 
         "kfactor" : 1.2,
         "Source of cross section" : "MadGraph LO with MLM merging",
         "DAS Name" : "WZTo3LNu_0Jets_MLL-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8",
         "Generator" : "MadGraph5_aMC@NLO LO"
     },
-    "wz3lnu-mgmlm-1j" : {
+    "wz3lnu_mgmlm_1j" : {
         "cross_section" : 0.344557, 
         "kfactor" : 1.2,
         "Source of cross section" : "MadGraph LO with MLM merging",
         "DAS Name" : "WZTo3LNu_1Jets_MLL-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8",
         "Generator" : "MadGraph5_aMC@NLO LO"
     },
-    "wz3lnu-mgmlm-2j" : {
+    "wz3lnu_mgmlm_2j" : {
         "cross_section" : 0.07684, 
         "kfactor" : 1.2,
         "Source of cross section" : "MadGraph LO with MLM merging",
         "DAS Name" : "WZTo3LNu_2Jets_MLL-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8",
         "Generator" : "MadGraph5_aMC@NLO LO"
     },
-    "wz3lnu-mgmlm-3j" : {
+    "wz3lnu_mgmlm_3j" : {
         "cross_section" : 0.11120, 
         "kfactor" : 1.2,
         "Source of cross section" : "MadGraph LO with MLM merging",

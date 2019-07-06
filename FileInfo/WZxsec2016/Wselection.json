@@ -15,31 +15,35 @@
         "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wzjj-vbfnlo-sf-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wzjj-vbfnlo"
     },
-    "wz3lnu-powheg" : {
+    "wz3lnu_powheg" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-08-18-wz3lnu-powheg-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wz-powheg"
     },
-    "wz3lnu-powheg__sync" : {
+    "wz3lnu_powheg__testNano" : {
+        "file_path" : "",
+        "plot_group" : "wz-powheg_testNano"
+    },
+    "wz3lnu_powheg__sync" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-06-19-wz3lnu-powheg-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wz-powheg"
     },
-    "wz3lnu-mg5amcnlo" : {
+    "wz3lnu_mg5amcnlo" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-11-28-wz3lnu-mg5amcnlo-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wz"
     },
-    "wz3lnu-mgmlm-0j" : {
+    "wz3lnu_mgmlm_0j" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-09-14-wz3lnu-mgmlm-0j-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wz-mgmlm"
     },
-    "wz3lnu-mgmlm-1j" : {
+    "wz3lnu_mgmlm_1j" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-09-14-wz3lnu-mgmlm-1j-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wz-mgmlm"
     },
-    "wz3lnu-mgmlm-2j" : {
+    "wz3lnu_mgmlm_2j" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-09-14-wz3lnu-mgmlm-2j-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wz-mgmlm"
     },
-    "wz3lnu-mgmlm-3j" : {
+    "wz3lnu_mgmlm_3j" : {
         "file_path" : "/data/kelong/DibosonAnalysisData/WselectionLooseLeps/2017-09-14-wz3lnu-mgmlm-3j-WZxsec2016-3LooseLeptonsNoVetoToWselection-v1/*",
         "plot_group" : "wz-mgmlm"
     },
