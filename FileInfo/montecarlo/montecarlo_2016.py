@@ -145,13 +145,13 @@ info = {
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#Single_top",
         "DAS Name" : "ST_tW_antitop_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M1"
     },
-    "zz4l-powheg" : {
+    "zz4l_powheg" : {
         "cross_section" : 1.256,
         "Source of cross section" : "POWHEG tarball",
         "Source of k-factor" : "k factor from mll only calculation of Grazzini",
         "DAS Name" : "ZZTo4L_13TeV_powheg_pythia8"
     },
-    "zz4l-mg5amcnlo" : {
+    "zz4l_mg5amcnlo" : {
         "cross_section" : 1.191,
         "Source of cross section" : "McM",
         "DAS Name" : "ZZTo4L_13TeV-amcatnloFXFX-pythia8",
@@ -279,7 +279,7 @@ info = {
         "Source of cross section" : "MCM",
         "DAS Name" : "DYJetsToLL_M-10to50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
     },
-    "tt-lep" : {
+    "tt_lep" : {
         "cross_section" : 87.31,
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#TTbar",
         "DAS Name" : "TTJets_DiLept_TuneCUETP8M1_13TeUETP8M2_ttHtranche3_13TeV-powheg-pythia8"
