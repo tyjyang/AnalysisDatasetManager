@@ -6,7 +6,7 @@ info = {
             "/store/user/uhussain/UWVVNtuplesZ_05Mar2019/DYJetsToLL_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/*/*/*",
         "plot_group" : "dy"
     },
-    "tt-lep" : {
+    "tt_lep" : {
         "file_path" : "/nfs_scratch/kdlong/UWVVNtuples/ZNtuples/TTJets_TuneCP5_13TeV-amcatnloFXFX-pythia8//*.root" if uw else \
             "/store/user/uhussain/UWVVNtuplesZ_05Mar2019/TTJets_TuneCP5_13TeV-amcatnloFXFX-pythia8//*/*/*",
         "plot_group" : "tt"
