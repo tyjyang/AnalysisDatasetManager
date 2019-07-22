@@ -229,11 +229,6 @@ info = {
         "Source of cross section" : "HTT group",
         "DAS Name" : "DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8"
     },
-    "DYm50" : {
-        "cross_section" : 5765.4,
-        "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#DY_Z",
-        "DAS Name" : "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-[amcatnloFXFX OR madgraphMLM]-pythia8"
-    },
     "DYm50-filt" : {
         "cross_section" : 5765,
         "Source of cross section" : "GenXSecAnalyzer",
