@@ -1,14 +1,29 @@
 info = {
+    "HT": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 150,
+            "xmin": 0,
+            "xmax": 1500
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "H_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / bin", 
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 10000000
+        }
+    },
     "ptZ": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 50,
+            "nbins": 150,
             "xmin": 0,
-            "xmax": 100
+            "xmax": 1500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "p_{\\mathrm{T}}(\\ell^{+}\\ell^{-}) [GeV]",  
-            "GetYaxis().SetTitle": "Events / 2 GeV", 
+            "GetYaxis().SetTitle": "Events / bin", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
             "SetMaximum" : 10000000
@@ -178,25 +193,12 @@ info = {
    "MET": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 120,
+            "nbins": 100,
             "xmin": 0,
-            "xmax": 120
+            "xmax": 500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "p_{T}^{miss} [GeV]",  
-            "GetYaxis().SetTitle": "Events / GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
-        }
-    },
-   "ptZ": {  
-        "Initialize": {  
-            "type": "TH1D",
-            "nbins": 120,
-            "xmin": 0,
-            "xmax": 120
-        },
-        "Attributes": {  
-            "GetXaxis().SetTitle": "p_{T}(ll) [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV",
             "GetYaxis().SetTitleOffset": 1.2  
         }
