@@ -1,3 +1,6 @@
+import socket
+uwlogin = "uwlogin" in socket.gethostname() 
+uw = "hep.wisc.edu" in socket.gethostname() 
 info = {
     "HT": {  
         "Initialize": {  
@@ -22,7 +25,7 @@ info = {
             "xmax": 1500
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "p_{\\mathrm{T}}(\\ell^{+}\\ell^{-}) [GeV]",  
+            "GetXaxis().SetTitle": "p_{\\mathrm{T}}(\\ell^{+}\\ell^{-}) [GeV]" if uw else "p_{T}(Z) [GeV]",  
             "GetYaxis().SetTitle": "Events / bin", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
@@ -52,7 +55,7 @@ info = {
             "xmax": 106
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{\\ell^{+}\\ell^{-}} [GeV]",  
+            "GetXaxis().SetTitle": "m_{\\ell^{+}\\ell^{-}} [GeV]" if uw else "m_{Z}",  
             "GetYaxis().SetTitle": "Events / GeV", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
@@ -93,7 +96,7 @@ info = {
             "xmax": 2.5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "\\eta^{\\ell_1}",  
+            "GetXaxis().SetTitle": "\\eta^{\\ell_1}" if uw else "#eta_{l1}",  
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
@@ -108,7 +111,7 @@ info = {
             "xmax": 2.5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "\\eta^{\\ell_2}",  
+            "GetXaxis().SetTitle": "\\eta^{\\ell_2}" if uw else "#eta_{l2}",  
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
@@ -153,7 +156,7 @@ info = {
             "xmax": 5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "\\eta^{\\mathrm{j}_1}",  
+            "GetXaxis().SetTitle": "\\eta^{\\mathrm{j}_1}" if uw else "#eta_{j1}",  
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
@@ -168,7 +171,7 @@ info = {
             "xmax": 5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "\\eta^{\\mathrm{j}_2}",  
+            "GetXaxis().SetTitle": "\\eta^{\\mathrm{j}_2}" if uw else "#eta_{j2}",  
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
@@ -200,7 +203,8 @@ info = {
         "Attributes": {  
             "GetXaxis().SetTitle": "p_{T}^{miss} [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.1,
         }
     },
     "CutFlow": {  
@@ -219,3 +223,10 @@ info = {
         }
     },
 }
+
+partonicChans = ["uu_dd", "uubar_ddbar", "ug_dg", "ubarg_dbarg", "gg", "other"]
+tempdict = {}
+for key, value in info.iteritems():
+    for partonicChan in partonicChans:
+        tempdict["_".join([partonicChan, key])] = value
+info.update(tempdict)

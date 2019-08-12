@@ -8,7 +8,7 @@ info = {
     },
     "dy_lo" : {
         "Name" : "DY MG LO (2016)",
-        "Style" : "nofill-yellow",
+        "Style" : "nofill-lightgrey-dash",
         "Members" : [
             "DYm50__LO"
         ]
@@ -29,7 +29,7 @@ info = {
     },
     "dy_htbinned_cp5" : {
         "Name" : "DY HT-bin LO (2017/8)",
-        "Style" : "nofill-lightgrey-dash",
+        "Style" : "nofill-yellow",
         "Members" : [
             "DYm50_HT_70to100__cp5",
             "DYm50_HT_100to200__cp5",

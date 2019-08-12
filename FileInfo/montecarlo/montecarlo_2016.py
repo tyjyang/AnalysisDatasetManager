@@ -145,13 +145,13 @@ info = {
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#Single_top",
         "DAS Name" : "ST_tW_antitop_5f_inclusiveDecays_13TeV-powheg-pythia8_TuneCUETP8M1"
     },
-    "zz4l_powheg" : {
+    "zz4l-powheg" : {
         "cross_section" : 1.256,
         "Source of cross section" : "POWHEG tarball",
         "Source of k-factor" : "k factor from mll only calculation of Grazzini",
         "DAS Name" : "ZZTo4L_13TeV_powheg_pythia8"
     },
-    "zz4l_mg5amcnlo" : {
+    "zz4l-mg5amcnlo" : {
         "cross_section" : 1.191,
         "Source of cross section" : "McM",
         "DAS Name" : "ZZTo4L_13TeV-amcatnloFXFX-pythia8",
@@ -386,3 +386,8 @@ info = {
         "DAS Name" : "ChargedHiggsToWZTo3LNu_M2000_13TeV-madgraph-pythia8"
     }
 }
+
+append = {}
+for key, value in info.iteritems():
+    append[key.replace("-", "_")] = value
+info.update(append)
