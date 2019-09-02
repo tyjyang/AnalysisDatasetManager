@@ -74,8 +74,7 @@ info = {
         "Style" : "fill-green",
         "add_perc_error" : 0.3,
         "Members" : [
-            #"DataEWKCorrected"
-            "DYJetsToLLM-50"
+            "DataEWKCorrected"
 
         ]
     },
