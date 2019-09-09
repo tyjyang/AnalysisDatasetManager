@@ -109,4 +109,8 @@ info = {
         "DAS" : "/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_13TeV-madgraphMLM-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_new_pmx_102X_mc2017_realistic_v7-v1/NANOAODSIM",
         "plot_group" : "dy_lo"
     },
+    "nonprompt" : {
+        "file_path" : "",
+        "plot_group" : "nonprompt"
+    },
 }

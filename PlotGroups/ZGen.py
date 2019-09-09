@@ -55,4 +55,11 @@ info = {
             "DYm50_HT_2500toInf",
         ],
     },
+    "nonprompt" : {
+        "Name" : "Nonprompt",
+        "Style" : "fill-grey",
+        "Members" : [
+            "nonprompt"
+        ]
+    },
 }
