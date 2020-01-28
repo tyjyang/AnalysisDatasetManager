@@ -15,8 +15,8 @@ class ConfigHistFactory(object):
         self.config = config_object.ConfigObject(self.info)
         self.mc_info = ConfigHistTools.readAllInfo('/'.join([self.manager_path, "FileInfo", "montecarlo/*"]))
         self.data_info = ConfigHistTools.readAllInfo('/'.join([self.manager_path, "FileInfo", "data/*"]))
-        self.styles = ConfigHistTools.readInfo('/'.join([self.manager_path, 
-            "Styles", "styles.json"]))
+        self.styles = ConfigHistTools.readAllInfo('/'.join([self.manager_path, 
+            "Styles/*"]))
         base_name = self.dataset_name.split("/")[0]
         self.plot_groups = self.readAllInSet("PlotGroups", base_name)
         object_file = '/'.join([self.manager_path,  "PlotObjects", 

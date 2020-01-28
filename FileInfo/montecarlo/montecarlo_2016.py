@@ -1,11 +1,4 @@
 info = {
-    "wlnu-mglo" : {
-        "cross_section" : 9000,
-        "Source of cross section" : "MadGraph LO",
-        "DAS Name" : "WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8",
-        "Generator" : "MadGraph5_aMC@NLO LO",
-        "Cards" : ""
-    },
     "wlljj-ewk" : {
         "cross_section" : 0.01763,
         "Source of cross section" : "MadGraph LO",
@@ -236,19 +229,19 @@ info = {
         "Notes" : "Filtered to remove overlap with Zgamma sample. Events with photons from q or l with pt > 10 GeV are rejected."
     },
     "DYm50-0j-nlo" : {
-        "cross_section" : 4770,
+        "cross_section" : 4620,
         "Source of cross section" : "McM",
         "DAS Name" : "DYToLL_0J_13TeV-amcatnloFXFX-pythia8",
         "Notes" : ""
     },
     "DYm50-1j-nlo" : {
-        "cross_section" : 931.3,
+        "cross_section" : 859,
         "Source of cross section" : "McM",
         "DAS Name" : "DYToLL_1J_13TeV-amcatnloFXFX-pythia8",
         "Notes" : ""
     },
     "DYm50-2j-nlo" : {
-        "cross_section" : 374,
+        "cross_section" : 338,
         "Source of cross section" : "McM",
         "DAS Name" : "DYToLL_2J_13TeV-amcatnloFXFX-pythia8",
         "Notes" : ""

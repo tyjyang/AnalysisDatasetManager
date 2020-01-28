@@ -1,5 +1,16 @@
 info = {
+    "DYm50_minnlo" : {
+        "cross_section" : 1863*2,
+        "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
+        "DAS Name" : ""
+    },
+    "DYm50_minnlo_photos" : {
+        "cross_section" : 1863*2,
+        "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00341",
+        "DAS Name" : ""
+    },
     "DYm50" : {
+        #"cross_section" : 5765.4*10,
         "cross_section" : 5765.4,
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#DY_Z",
         "DAS Name" : "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-[amcatnloFXFX OR madgraphMLM]-pythia8"
@@ -83,5 +94,78 @@ info = {
         "cross_section" : 0.003659,
         "Source of cross section" : "XSDB",
         "DAS Name" : "/DYJetsToLL_M-50_HT-2500toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8",
+    },
+    "DYm50_0j_nlo_cp5" : {
+        "cross_section" : 5335,
+        #"kfactor" : 0.97,
+        "kfactor" : 0.8678,
+        "DAS name" : "/DYToLL_0J_13TeV-amcatnloFXFX-pythia8/RunIISummer16NanoAODv5-PUMoriond17_Nano1June2019_102X_*-v1/NANOAODSIM",
+    },
+    "DYm50_1j_nlo_cp5" : {
+        "cross_section" : 958,
+        #"kfactor" : 0.97,
+        "kfactor" : 0.8996,
+        "DAS name" : "/DYToLL_1J_13TeV-amcatnloFXFX-pythia8/RunIISummer16NanoAODv5-PUMoriond17_Nano1June2019_102X_*-v1/NANOAODSIM",
+    },
+    "DYm50_2j_nlo_cp5" : {
+        "cross_section" : 356,
+        "kfactor" : 0.8987,
+        "DAS name" : "/DYToLL_2J_13TeV-amcatnloFXFX-pythia8/RunIISummer16NanoAODv5-PUMoriond17_Nano1June2019_102X_*-v1/NANOAODSIM",
+    },
+    "DYm50_1j_pt50to150_nlo_cp5" : {
+        "cross_section" : 5765.4,
+        "DAS name" : "/DY1JetsToLL_M-50_LHEZpT_50-150_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+    },
+    "DYm50_1j_pt150to250_nlo_cp5" : {
+        "cross_section" : 5765.4,
+        "DAS name" : "/DY1JetsToLL_M-50_LHEZpT_150-250_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+    },
+    "DYm50_1j_pt250to400_nlo_cp5" : {
+        "cross_section" : 5765.4,
+        "DAS name" : "/DY1JetsToLL_M-50_LHEZpT_250-400_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+    },
+    "DYm50_1j_pt400toInf_nlo_cp5" : {
+        "cross_section" : 5765.4,
+        "DAS name" : "/DY1JetsToLL_M-50_LHEZpT_400-inf_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+    },
+    "DYm50_2j_pt50to150_nlo_cp5" : {
+        "cross_section" : 5765.4,
+        "DAS name" : "/DY2JetsToLL_M-50_LHEZpT_50-150_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+    },
+    "DYm50_2j_pt150to250_nlo_cp5" : {
+        "cross_section" : 5765.4,
+        "DAS name" : "/DY2JetsToLL_M-50_LHEZpT_150-250_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_new_pmx_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+    },
+    "DYm50_2j_pt250to400_nlo_cp5" : {
+        "cross_section" : 5765.4,
+        "DAS name" : "/DY2JetsToLL_M-50_LHEZpT_250-400_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+    },
+    "DYm50_2j_pt400toInf_nlo_cp5" : {
+        "cross_section" : 5765.4,
+        "DAS name" : "/DY2JetsToLL_M-50_LHEZpT_400-inf_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+    },
+    "DYm50_pt0to50_nlo" : {
+        "cross_section" : 5358.09168,
+        "DAS name" : "",
+    },
+    "DYm50_pt50to100_nlo" : {
+        "cross_section" : 364.18896,
+        "DAS name" : "",
+    },
+    "DYm50_pt100to250_nlo" : {
+        "cross_section" : 84.101328,
+        "DAS name" : "",
+    },
+    "DYm50_pt250to400_nlo" : {
+        "cross_section" : 3.2316084,
+        "DAS name" : "",
+    },
+    "DYm50_pt400to650_nlo" : {
+        "cross_section" : 0.4365252,
+        "DAS name" : "",
+    },
+    "DYm50_pt650toInf_nlo" : {
+        "cross_section" : 0.0410184,
+        "DAS name" : "",
     },
 }

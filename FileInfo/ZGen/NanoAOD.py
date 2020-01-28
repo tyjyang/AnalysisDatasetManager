@@ -4,10 +4,30 @@ info = {
         "DAS" : "/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16NanoAODv5-PUMoriond17_Nano1June2019_102X_mcRun2_asymptotic_v7*/NANOAODSIM",
         "plot_group" : "dy_lo"
     },
+    "DYm50_minnlo__photos" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/*/*/*/*NanoGen*.root",
+        "DAS" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
+        "plot_group" : "dy_minlo"
+    },
+    "DYm50_minnlo__default" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_TuneCUETP8M1_DefaultNNPDF30_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/191218_144742/*/*.root",
+        "DAS" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
+        "plot_group" : "dy_minlo_default"
+    },
+    "DYm50_minnlo" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8/*/*/*/*NanoGen*.root",
+        "DAS" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
+        "plot_group" : "dy_minlo"
+    },
     "DYm50" : {
         "file_path" : "",
         "DAS" : "/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIISummer16NanoAODv5-PUMoriond17_Nano1June2019_102X_mcRun2_asymptotic_v7*/NANOAODSIM",
         "plot_group" : "dy"
+    },
+    "DYm50__cp5" : {
+        "file_path" : "",
+        "DAS" : "/DYJetsToLL_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_new_pmx_102X_mc2017_realistic_*/NANOAODSIM",
+        "plot_group" : "dy_cp5"
     },
     "DYm50__CUETP8M1TuneUp" : {
         "file_path" : "",
@@ -19,12 +39,12 @@ info = {
         "DAS" : "/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_CUETP8M1Down/RunIISummer16NanoAODv5-PUMoriond17_Nano1June2019_102X_mcRun2_asymptotic_v7-v1/NANOAODSIM",
         "plot_group" : "dy_tuneDown"
     },
-    "DYm50__LO_2018" : {
+    "DYm50__LO_cp5" : {
         "file_path" : "",
         "DAS" : "/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/RunIIAutumn18NanoAODv5-Nano1June2019_102X_upgrade2018_realistic_v19-v1/NANOAODSIM",
         "plot_group" : "dy_lo2018"
     },
-    "DYm50__2018" : {
+    "DYm50__cp5" : {
         "file_path" : "",
         "DAS" : "/DYJetsToLL_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIIAutumn18NanoAODv5-Nano1June2019_102X_upgrade2018_realistic_v19-v1/NANOAODSIM",
         "plot_group" : "dy_lo"
@@ -112,5 +132,110 @@ info = {
     "nonprompt" : {
         "file_path" : "",
         "plot_group" : "nonprompt"
+    },
+    "DYm50_0j_nlo" : {
+        "file_path" : "",
+        "DAS" : "/DYToLL_0J_13TeV-amcatnloFXFX-pythia8/RunIISummer16NanoAODv5-PUMoriond17_Nano1June2019_102X_*-v1/NANOAODSIM",
+        "plot_group" : "dy_nlo_jetbinned"
+    },
+    "DYm50_1j_nlo" : {
+        "file_path" : "",
+        "DAS" : "/DYToLL_1J_13TeV-amcatnloFXFX-pythia8/RunIISummer16NanoAODv5-PUMoriond17_Nano1June2019_102X_*-v1/NANOAODSIM",
+        "plot_group" : "dy_nlo_jetbinned"
+    },
+    "DYm50_2j_nlo" : {
+        "file_path" : "",
+        "DAS" : "/DYToLL_2J_13TeV-amcatnloFXFX-pythia8/RunIISummer16NanoAODv5-PUMoriond17_Nano1June2019_102X_*-v1/NANOAODSIM",
+        "plot_group" : "dy_nlo_jetbinned"
+    },
+    "DYm50_0j_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017*/NANOAODSIM",
+        "plot_group" : "dy_nlo_jetbinned"
+    },
+    "DYm50_1j_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DYJetsToLL_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017*/NANOAODSIM",
+        "plot_group" : "dy_nlo_jetbinned"
+    },
+    "DYm50_2j_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017*/NANOAODSIM",
+        "plot_group" : "dy_nlo_jetbinned"
+    },
+    "DYm50_1j_pt50to150_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DY1JetsToLL_M-50_LHEZpT_50-150_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptjetbinned"
+    },
+    "DYm50_1j_pt150to250_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DY1JetsToLL_M-50_LHEZpT_150-250_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptjetbinned"
+    },
+    "DYm50_1j_pt250to400_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DY1JetsToLL_M-50_LHEZpT_250-400_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptjetbinned"
+    },
+    "DYm50_1j_pt400toInf_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DY1JetsToLL_M-50_LHEZpT_400-inf_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptjetbinned"
+    },
+    "DYm50_2j_pt50to150_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DY2JetsToLL_M-50_LHEZpT_50-150_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptjetbinned"
+    },
+    "DYm50_2j_pt150to250_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DY2JetsToLL_M-50_LHEZpT_150-250_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_new_pmx_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptjetbinned"
+    },
+    "DYm50_2j_pt250to400_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DY2JetsToLL_M-50_LHEZpT_250-400_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptjetbinned"
+    },
+    "DYm50_2j_pt400toInf_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DY2JetsToLL_M-50_LHEZpT_400-inf_TuneCP5_13TeV-amcnloFXFX-pythia8/RunIIFall17NanoAODv5-PU2017_12Apr2018_Nano1June2019_102X_mc2017_realistic_v7*v1/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptjetbinned"
+    },
+    "DYm50_pt0to50_nlo" : {
+        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_Zpt-0To50_amcatnloFXFX/*.root",
+        "DAS name" : "",
+        "plot_group" : "dy_nlo_ptbinned"
+    },
+    "DYm50_pt50to100_nlo" : {
+        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_Pt-50To100*amcatnloFXFX/*.root",
+        "DAS name" : "",
+        "plot_group" : "dy_nlo_ptbinned"
+    },
+    "DYm50_pt100to250_nlo" : {
+        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_Pt-100To250*amcatnloFXFX/*.root",
+        "DAS name" : "",
+        "plot_group" : "dy_nlo_ptbinned"
+    },
+    "DYm50_pt250to400_nlo" : {
+        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_Pt-250To400*amcatnloFXFX/*.root",
+        "DAS name" : "",
+        "plot_group" : "dy_nlo_ptbinned"
+    },
+    "DYm50_pt400to650_nlo" : {
+        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_Pt-400To650*amcatnloFXFX/*.root",
+        "DAS name" : "",
+        "plot_group" : "dy_nlo_ptbinned"
+    },
+    "DYm50_pt650toInf_nlo" : {
+        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_Pt-650ToInf*amcatnloFXFX/*.root",
+        "DAS name" : "",
+        "plot_group" : "dy_nlo_ptbinned"
+    },
+    "DYm50__sethsSkim" : {
+        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NanoPostDYJIncAMCNLO/191217_151103/0000/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_lo"
     },
 }

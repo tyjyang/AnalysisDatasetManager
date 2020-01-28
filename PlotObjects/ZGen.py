@@ -20,7 +20,7 @@ info = {
     "ptZ": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 150,
+            "nbins": 1500,
             "xmin": 0,
             "xmax": 1500
         },
@@ -29,7 +29,7 @@ info = {
             "GetYaxis().SetTitle": "Events / bin", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
-            "SetMaximum" : 10000000
+            "SetMaximum" : 15000000
         }
     },
     "yZ": {  
@@ -70,9 +70,10 @@ info = {
             "xmax": 160
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen Lepton p_{T} [GeV]",  
+            "GetXaxis().SetTitle": r"p_{T}(\ell_{1}) [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 10000000,
         }
     },
    "ptl2": {  
@@ -83,9 +84,10 @@ info = {
             "xmax": 120
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen Lepton p_{T} [GeV]",  
+            "GetXaxis().SetTitle": "p_{T}(l_{2}) [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 10000000,
         }
     },
     "etal1": {  
@@ -100,7 +102,7 @@ info = {
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
-            "SetMaximum" : 7000000
+            "SetMaximum" : 15000000
         }
     },
     "etal2": {  
@@ -115,7 +117,7 @@ info = {
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
-            "SetMaximum" : 7000000
+            "SetMaximum" : 15000000
         }
     },
    "ptj1": {  
@@ -190,7 +192,7 @@ info = {
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
-            "SetMaximum" : 40000000
+            "SetMaximum" : 150000000
         }
     },
    "MET": {  

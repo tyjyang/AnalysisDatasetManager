@@ -1,4 +1,25 @@
 info = {
+    "dy_minnlo" : {
+        "Name" : "DY MiNNLO (NNPDF3.1)",
+        "Style" : "nofill-lightblue-dash",
+        "Members" : [
+            "DYm50_minnlo"
+        ]
+    },
+    "dy_minnlo_default" : {
+        "Name" : "DY MiNNLO (default, NNPDF3.0)",
+        "Style" : "nofill-grey",
+        "Members" : [
+            "DYm50_minnlo__default"
+        ]
+    },
+    "dy_minnlo_photos" : {
+        "Name" : "DY MiNNLO (Pythia+Photos)",
+        "Style" : "nofill-grey",
+        "Members" : [
+            "DYm50_minnlo_photos"
+        ]
+    },
     "dy_nlo" : {
         "Name" : "DY MG NLO (2016)",
         "Style" : "nofill-black-dotdash",
@@ -13,14 +34,74 @@ info = {
             "DYm50__LO"
         ]
     },
-    "dy_nlo_2018" : {
-        "Name" : "DY MG NLO (2017/8)",
-        "Style" : "nofill-lightpurple",
+    "dy_0j_nlo" : {
+        "Name" : "NLO 0 jet (2016)",
+        "Style" : "nofill-lightgreen-dotdash",
         "Members" : [
-            "DYm50__2018"
+            "DYm50_0j_nlo",
         ]
     },
-    "dy_lo_2018" : {
+    "dy_1j_nlo" : {
+        "Name" : "NLO 1 jet (2016)",
+        "Style" : "nofill-darkgreen-dash",
+        "Members" : [
+            "DYm50_1j_nlo",
+        ]
+    },
+    "dy_2j_nlo" : {
+        "Name" : "NLO 2 jet (2016)",
+        "Style" : "nofill-green-dash",
+        "Members" : [
+            "DYm50_2j_nlo",
+        ]
+    },
+    "dy_0j_nlo_cp5" : {
+        "Name" : "NLO 0 jet (2017/8)",
+        "Style" : "nofill-lightpurple-dotdash",
+        "Members" : [
+            "DYm50_0j_nlo_cp5",
+        ]
+    },
+    "dy_1j_nlo_cp5" : {
+        "Name" : "NLO 1 jet (2017/8)",
+        "Style" : "nofill-darkpurple-dash",
+        "Members" : [
+            "DYm50_1j_nlo_cp5",
+        ]
+    },
+    "dy_2j_nlo_cp5" : {
+        "Name" : "NLO 2 jet (2017/8)",
+        "Style" : "nofill-pink-dotdash",
+        "Members" : [
+            "DYm50_2j_nlo_cp5",
+        ]
+    },
+    "dy_nlo_jetbinned" : {
+        "Name" : "NLO jet binned (2016)",
+        "Style" : "nofill-darkgreen",
+        "Members" : [
+            "DYm50_0j_nlo",
+            "DYm50_1j_nlo",
+            "DYm50_2j_nlo",
+        ]
+    },
+    "dy_nlo_jetbinned_cp5" : {
+        "Name" : "NLO jet binned (2017/8)",
+        "Style" : "nofill-darkpurple",
+        "Members" : [
+            "DYm50_0j_nlo_cp5",
+            "DYm50_1j_nlo_cp5",
+            "DYm50_2j_nlo_cp5",
+        ]
+    },
+    "dy_nlo_cp5" : {
+        "Name" : "DY MG NLO (2017/8)",
+        "Style" : "nofill-lightblue",
+        "Members" : [
+            "DYm50__cp5"
+        ]
+    },
+    "dy_lo_cp5" : {
         "Name" : "DY MG LO (2017/8)",
         "Style" : "nofill-darkgreen",
         "Members" : [
@@ -60,6 +141,25 @@ info = {
         "Style" : "fill-grey",
         "Members" : [
             "nonprompt"
+        ]
+    },
+    "dy_skim" : {
+        "Name" : "DY NLO (skim)",
+        "Style" : "nofill-lightblue-dash",
+        "Members" : [
+            "DYm50__sethsSkim"
+        ]
+    },
+    "dy_nlo_ptbinned_skim" : {
+        "Name" : "DY NLO pt-binned (skim)",
+        "Style" : "nofill-darkblue-finedash",
+        "Members" : [
+            "DYm50_pt0to50_nlo",
+            "DYm50_pt50to100_nlo",
+            "DYm50_pt100to250_nlo",
+            "DYm50_pt250to400_nlo",
+            "DYm50_pt400to650_nlo",
+            "DYm50_pt650toInf_nlo",
         ]
     },
 }
