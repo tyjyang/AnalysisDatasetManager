@@ -114,6 +114,11 @@ class ConfigHistFactory(object):
             if "weight" in self.plot_groups[plot_group].keys():
                 return self.plot_groups[plot_group]["weight"]
         return 1
+    def getPlotGroupScale(self, plot_group):
+        if plot_group in self.plot_groups.keys():
+            if "Scale" in self.plot_groups[plot_group].keys():
+                return self.plot_groups[plot_group]["Scale"]
+        return 1
     def getPlotGroupMembers(self, plot_group):
         if plot_group in self.plot_groups.keys():
             return self.plot_groups[plot_group]["Members"]

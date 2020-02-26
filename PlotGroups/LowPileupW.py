@@ -99,26 +99,6 @@ info = {
             "zz__m",
         ]
     },
-    "nonprompt" : {
-        "Name" : "Nonprompt",
-        "Style" : "fill-lightpink",
-        "Members" : [
-            "data__e",
-            "-DYm50__e",
-            "-ww__e",
-            "-wz__e",
-            "-tt_lep__e",
-            "-wlnu_0j_nlo__e", # Since they're all in one file...
-            "data__m",
-            "-DYm50__m",
-            "-ww__m",
-            "-wz__m",
-            "-tt_lmp__m",
-            "-wlnu_0j_nlo__m", # Sincm thmy'rm all in onm film...
-            #"-wlnu_1j_nlo",
-            #"-wlnu_2j_nlo",
-        ],
-    },
     "data" : {
         "Name" : "Data",
         "Style" : "data",
@@ -126,6 +106,48 @@ info = {
             "data__e",
             "data__m",
         ]
+    },
+    "nonprompt_m" : {
+        "Name" : "Nonprompt",
+        "Scale" : 0.12,
+        "Style" : "fill-lightpink",
+        "Members" : [
+            "data__m",
+            "-DYm50__m",
+            "-ww__m",
+            "-wz__m",
+            "-tt_lmp__m",
+            "-wlnu_0j_nlo__m", 
+            "-wlnu_1j_nlo__m", 
+            "-wlnu_2j_nlo__m", 
+            "-wlnu_0j_nlo__tm", 
+            "-wlnu_1j_nlo__tm",
+            "-wlnu_2j_nlo__tm",
+            "-tt_lep__m",
+            "-tt_semilep__m",
+            "-tt_had__m",
+        ],
+    },
+    "nonprompt_e" : {
+        "Name" : "Nonprompt",
+        "Scale" : 2,
+        "Style" : "fill-lightpink",
+        "Members" : [
+            "data__e",
+            "-DYm50__e",
+            "-ww__e",
+            "-wz__e",
+            "-tt_lep__e",
+            "-wlnu_0j_nlo__e", 
+            "-wlnu_1j_nlo__e", 
+            "-wlnu_2j_nlo__e", 
+            "-wlnu_0j_nlo__te", 
+            "-wlnu_1j_nlo__te", 
+            "-wlnu_2j_nlo__te", 
+            "-tt_lep__e",
+            "-tt_semilep__e",
+            "-tt_had__e",
+        ],
     },
     "wlnu_jetbinned_nlo_pt0to13" : {
         "Name" : r"\mathrm{W} \rightarrow \mu\nu: p_{\mathrm{T}}^{true}(W) \in [0, 13] \,\mathrm{GeV}",
@@ -224,6 +246,10 @@ info = {
         ]
     },
 }
+
+import copy
+for name in ["data", "wlnu_jetbinned_nlo", "ewk", "top"]:
+    info["nonprompt_"+name] = copy.deepcopy(info[name])
 #ptbins = [0.0, 13.0, 26.0, 38.0, 50.0, 62.0, 75.0, 100.0]
 #bin_pairs = [(ptbins[i], ptbins[i+1]) for i in range(len(ptbins)-1)]
 #regions = ["pt%ito%i" % pair for pair in bin_pairs]

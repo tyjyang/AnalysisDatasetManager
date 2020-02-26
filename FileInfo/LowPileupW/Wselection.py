@@ -4,15 +4,15 @@ info = {
         "plot_group" : "ewk"
     },
     "wlnu_0j_nlo__tm" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/wx0_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/wx0_select.raw.root",
         "plot_group" : "ewk"
     },
     "wlnu_1j_nlo__tm" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/wx1_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/wx1_select.raw.root",
         "plot_group" : "ewk"
     },
     "wlnu_2j_nlo__tm" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/wx2_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/wx2_select.raw.root",
         "plot_group" : "ewk"
     },
     "wlnu_0j_nlo__m" : {

@@ -9,7 +9,7 @@ info = {
     "yW": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 100,
+            "nbins": 200,
             "xmin": -5,
             "xmax": 5
         },
@@ -59,7 +59,7 @@ info = {
             "xmax": 200
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{\\ell\\nu} [GeV]",  
+            "GetXaxis().SetTitle": "m_{T}(W_{MET}) [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
@@ -89,11 +89,11 @@ info = {
             "xmax": 5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "y^{W}",  
+            "GetXaxis().SetTitle": "y^{l+p_{T}^{miss}}",  
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
-            "SetMaximum" : 7000000
+            "SetMaximum" : 70000000
         }
     },
    "ptWmet": {  
@@ -135,15 +135,16 @@ info = {
         "Attributes": {  
             "GetXaxis().SetTitle": "Gen Lepton p_{T} [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 30000000
         }
     },
     "etal": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 20,
-            "xmin": -2.5,
-            "xmax": 2.5
+            "nbins": 100,
+            "xmin": -5,
+            "xmax": 5
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "\\eta^{\\ell}" if not converteps else "#eta^{l}",  
@@ -185,9 +186,9 @@ info = {
     "etanu": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 20,
-            "xmin": -2.5,
-            "xmax": 2.5
+            "nbins": 100,
+            "xmin": -5,
+            "xmax": 5
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "\\eta^{\\nu}",  
@@ -316,7 +317,7 @@ info = {
             "SetMinimum" : 0.1,
         }
     },
-   "dRlgamma_maxptassoc_barelep" : {
+   "dRlgamma_maxptassoc" : {
         "Initialize": {  
             "type": "TH1D",
             "nbins": 100,
@@ -330,7 +331,7 @@ info = {
             "SetMinimum" : 0.1,
         }
     },
-    "dRlgamma_minassoc_barelep" : {
+    "dRlgamma_minassoc" : {
         "Initialize": {  
             "type": "TH1D",
             "nbins": 100,
@@ -344,7 +345,7 @@ info = {
             "SetMinimum" : 0.1,
         }
     },
-    "ptg_closeassoc_barelep" : {
+    "ptg_closeassoc" : {
         "Initialize": {  
             "type": "TH1D",
             "nbins": 120,
@@ -354,10 +355,11 @@ info = {
         "Attributes": {  
             "GetXaxis().SetTitle": "Closest assoc photon p_{T} [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.01,
         }
     },
-    "ptgmax_assoc_barelep" : {
+    "ptgmax_assoc" : {
         "Initialize": {  
             "type": "TH1D",
             "nbins": 120,
@@ -367,7 +369,8 @@ info = {
         "Attributes": {  
             "GetXaxis().SetTitle": "Max assoc photon p_{T} [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.01,
         }
     },
     "nGammaAssoc" : {
@@ -380,16 +383,17 @@ info = {
         "Attributes": {  
             "GetXaxis().SetTitle": "# associated photons",  
             "GetYaxis().SetTitle": "Events / GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMinimum" : 0.01,
         }
     },
 }
 
 import copy
-bareleps = {}
+altleps = {}
 for i in info:
-    if "barelep" in i or i == "nGammaAssoc":
-        continue
-    bareleps[i+"_barelep"] = copy.deepcopy(info[i])
+    altleps[i+"_barelep"] = copy.deepcopy(info[i])
+    altleps[i+"_born"] = copy.deepcopy(info[i])
+    altleps[i+"_lhe"] = copy.deepcopy(info[i])
 
-info.update(bareleps)
+info.update(altleps)

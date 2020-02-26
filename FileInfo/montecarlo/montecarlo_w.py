@@ -65,8 +65,14 @@ info = {
     "wlnu_2j_nlo" : {
         "cross_section" : 3118.08,
     },
-    "wmenu_nloew_photos" : {
+    "wpenu_nloew" : {
         "cross_section" : 11638.57,
+        "DAS Name" : "",
+        "Generator" : "POWHEG + Photos",
+        "Cards" : ""
+    },
+    "wpenu_nloewConf_noew" : {
+        "cross_section" : 11563.45,
         "DAS Name" : "",
         "Generator" : "POWHEG + Photos",
         "Cards" : ""
@@ -87,6 +93,27 @@ info = {
         "cross_section" : 10670,
         "DAS Name" : "",
         "Generator" : "POWHEG NNLOPS",
+        "Cards" : "",
+    },
+    "wpmunu_dynnlo" : {
+        #"cross_section" : 11170,
+        "cross_section" : 1,
+        "DAS Name" : "",
+        "Generator" : "Fixed or DYNNLO",
+        "Cards" : "",
+    },
+    "wpmunu_matrix" : {
+        #"cross_section" : 11830,
+        "cross_section" : 2,
+        "DAS Name" : "",
+        "Generator" : "Fixed or DYNNLO",
+        "Cards" : "",
+    },
+    "wpmunu_fewz" : {
+        #"cross_section" : 11170,
+        "cross_section" : 1,
+        "DAS Name" : "",
+        "Generator" : "Fixed order FEWZ",
         "Cards" : "",
     },
 }

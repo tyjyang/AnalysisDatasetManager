@@ -5,44 +5,79 @@ info = {
     "wpmunu_minnlo_photos" : {
         "Name" : r'W^{-}(\mu\nu)+\text{jets} \,\mathrm{MiNNLO}' if not converteps else "W(#mu#nu)+jets MiNNLO",
         "Style" : "qual12_green",
-        "Style" : "qual12_purple_dotdash",
         "Members" : [
             "wpmunu_minnlo__photos"
         ]
     },
     "wpmunu_minnlo_nnlopslike_photos" : {
-        "Name" : r'W^{-}(\mu\nu)+\text{jets} \,\mathrm{MiNNLO}' if not converteps else "W(#mu#nu)+jets MiNNLO",
+        "Name" : "W^{+}(#mu#nu)+jets MiNNLO",
         "Style" : "qual12_red",
         "Members" : [
             "wpmunu_minnlo_nnlopslike__photos"
         ]
     },
     "wpmunu_nnlops_photos" : {
-        "Name" : r'W^{-}(\mu\nu)+\text{jets} \,\mathrm{NNLOPS}' if not converteps else "W(#mu#nu)+jets NNLOPS",
+        "Name" : "W^{+}(#mu#nu)+jets NNLOPS",
         "Style" : "qual12_lightblue",
         "Members" : [
             "wpmunu_nnlops__photos"
         ]
     },
-    "wpmunu_nnlops_nloWeight" : {
-        "Name" : r'W^{-}(\mu\nu)+\text{jets} \,\mathrm{NNLOPS NLOw}' if not converteps else "W(#mu#nu)+jets NNLOPS wNLO",
-        "Style" : "qual12_green",
+    "wpmunu_nnlops_nlow" : {
+        "Name" : "W^{+}(#mu#nu)+jets MiNLO (via NNLOPS)",
+        "Style" : "qual12_green_dash",
         "Members" : [
             "wpmunu_nnlops__nloOnly_photos"
         ]
     },
+    "wpmunu_matrix" : {
+        "Name" : "W^{+}(#mu#nu)+jets MATRIX (FO)",
+        "Style" : "qual12_purple_dotdash",
+        "Members" : [
+            "wpmunu_matrix"
+        ]
+    },
+    "wpmunu_dynnlo" : {
+        "Name" : "W^{+}(e#nu)+jets DYNNLO (FO)",
+        "Style" : "qual12_brown_dash",
+        "Members" : [
+            "wpmunu_dynnlo"
+        ]
+    },
+    "wpmunu_fewz" : {
+        "Name" : "W^{+}(e#nu)+jets FEWZ (FO)",
+        "Style" : "qual12_orange_dotdash",
+        "Members" : [
+            "wpmunu_fewz"
+        ]
+    },
     "wpmunu_nnlops" : {
-        "Name" : r'W^{-}(\ell\nu)+\text{jets} \,\mathrm{NNLOPS}' if not converteps else "W(l#nu)+jets NNLOPS",
+        "Name" : r'W^{+}(\ell\nu)+\text{jets} \,\mathrm{NNLOPS}' if not converteps else "W(l#nu)+jets NNLOPS",
         "Style" : "nofill-grey",
         "Members" : [
             "wpmunu_nnlops"
         ]
     },
     "wpenu_nloew_photos" : {
-        "Name" : r'W^{-}(\ell\nu)+\text{jets} \,\mathrm{(NLO\,EW)}' if not converteps else "W(e#nu)+jets NLO EW",
-        "Style" : "nofill-darkred",
+        "Name" : "W(e#nu)+jets NLO QCD+EW (photos)",
+        "Style" : "qual12_green",
         "Members" : [
-            "wpenu_nloew_photos"
+            "wpenu_nloew__photos"
+        ],
+        "Scale" : 0.5,
+    },
+    "wpenu_nloew" : {
+        "Name" : "W(e#nu)+jets NLO QCD+EW",
+        "Style" : "qual12_brown",
+        "Members" : [
+            "wpenu_nloew"
+        ]
+    },
+    "wpenu_nloewConf_noew" : {
+        "Name" : "W(e#nu)+jets NLO QCD",
+        "Style" : "qual12_burntorange_dotdash",
+        "Members" : [
+            "wpenu_nloewConf_noew"
         ]
     },
     "wlnu_lo" : {

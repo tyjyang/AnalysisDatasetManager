@@ -1,16 +1,20 @@
 info = {
     "DYm50_minnlo" : {
-        "cross_section" : 1863*2,
+        "cross_section" : 1990.5,
         "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
         "DAS Name" : ""
     },
-    "DYm50_minnlo_photos" : {
-        "cross_section" : 1863*2,
-        "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00341",
+    "DYm50_minnlo_default" : {
+        "cross_section" : 1951.5,
+        "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
+        "DAS Name" : ""
+    },
+    "DYm50_nnlops" : {
+        "cross_section" : 1863,
+        "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
         "DAS Name" : ""
     },
     "DYm50" : {
-        #"cross_section" : 5765.4*10,
         "cross_section" : 5765.4,
         "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#DY_Z",
         "DAS Name" : "DYJetsToLL_M-50_TuneCUETP8M1_13TeV-[amcatnloFXFX OR madgraphMLM]-pythia8"

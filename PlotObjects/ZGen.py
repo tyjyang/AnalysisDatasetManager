@@ -35,9 +35,9 @@ info = {
     "yZ": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 56,
-            "xmin": -3,
-            "xmax": 3
+            "nbins": 100,
+            "xmin": -5,
+            "xmax": 5
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "y^{Z}",  
@@ -232,3 +232,14 @@ for key, value in info.iteritems():
     for partonicChan in partonicChans:
         tempdict["_".join([partonicChan, key])] = value
 info.update(tempdict)
+
+import copy
+altleps = {}
+for i in info:
+    if "barelep" in i or i == "nGammaAssoc":
+        continue
+    altleps[i+"_barelep"] = copy.deepcopy(info[i])
+    altleps[i+"_born"] = copy.deepcopy(info[i])
+    altleps[i+"_lhe"] = copy.deepcopy(info[i])
+
+info.update(altleps)

@@ -31,13 +31,11 @@ dash = copy.deepcopy(info)
 for name in info:
     dash[name+"_dash"] = copy.deepcopy(info[name])
     dash[name+"_dash"]["SetLineStyle"] = 7
-    dash[name+"_dash"]["SetLineStyle"] = 3
 
-dotdash = copy.deepcopy(info)
-for name in info:
-    dotdash[name+"_dotdash"] = copy.deepcopy(info[name])
-    dotdash[name+"_dotdash"]["SetLineStyle"] = 8
-    dotdash[name+"_dotdash"]["SetLineStyle"] = 4
+    dash[name+"_dotdash"] = copy.deepcopy(info[name])
+    dash[name+"_dotdash"]["SetLineStyle"] = 4
+
+    dash[name+"_finedash"] = copy.deepcopy(info[name])
+    dash[name+"_finedash"]["SetLineStyle"] = 2
 
 info.update(dash) 
-info.update(dotdash) 

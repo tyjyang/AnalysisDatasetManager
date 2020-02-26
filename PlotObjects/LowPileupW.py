@@ -32,6 +32,21 @@ info = {
             "SetMaximum" : 20000000
         }
     },
+    "pfMetPhi": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 28,
+            "xmin": 0,
+            "xmax": 7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "pfMET phi",
+            "GetYaxis().SetTitle": "Events", 
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 20000000
+        }
+    },
    "ptW": {  
         "Initialize": {  
             "type": "TH1D",
@@ -45,6 +60,21 @@ info = {
             "GetYaxis().SetTitleOffset": 1.2  ,
             "SetMinimum" : 0.1,
             "SetMaximum" : 10000000
+        }
+    },
+    "phiW": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 28,
+            "xmin": 0,
+            "xmax": 7
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#phi^{W}",
+            "GetYaxis().SetTitle": "Events", 
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 20000000
         }
     },
    "ptl": {  
@@ -86,7 +116,8 @@ info = {
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{\\ell\\ell} \\, \\mathrm{[GeV]}",  
             "GetYaxis().SetTitle": "Events / GeV",
-            "GetYaxis().SetTitleOffset": 1.2  
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 50000000,
         }
     },
    "mtWUncorr": {  

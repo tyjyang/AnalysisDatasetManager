@@ -5,18 +5,30 @@ info = {
         "plot_group" : "dy_lo"
     },
     "DYm50_minnlo__photos" : {
-        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/*/*/*/*NanoGen*.root",
-        "DAS" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
+        #"file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/*/*/*/*NanoGen*.root",
+        # Note: this is the path to the re-NanoGEN of the central samples. Previous is to private NanoGEN (has all gen particles)
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/NanoGEN/200202_002554/0000/*.root",
+        "DAS" : "/ZJToMuMu_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer16NanoAODv6-PUMoriond17_Nano25Oct2019_102X_mcRun2_asymptotic_v7-v1/NANOAODSIM",
         "plot_group" : "dy_minlo"
     },
-    "DYm50_minnlo__default" : {
-        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_TuneCUETP8M1_DefaultNNPDF30_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/191218_144742/*/*.root",
+    "DYm50_nnlops__photos" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZToMuMu_TuneCUETP8M1_13TeV-powheg-NNLOPS-pythia8-photos/*/*/*/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_nnlops"
+    },
+    "DYm50_nnlops__nloOnly_photos" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZToMuMu_TuneCUETP8M1_13TeV-powheg-NNLOPS-pythia8-photos/*/*/*/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_nnlops"
+    },
+    "DYm50_minnlo_default" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZToMuMu_TuneCUETP8M1_Default_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200215_165800/000*/*.root",
         "DAS" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
         "plot_group" : "dy_minlo_default"
     },
     "DYm50_minnlo" : {
         "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8/*/*/*/*NanoGen*.root",
-        "DAS" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
+        "DAS" : "/ZJToMuMu_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8/RunIISummer16NanoAODv6-PUMoriond17_Nano25Oct2019_102X_mcRun2_asymptotic_v7-v1/NANOAODSIM",
         "plot_group" : "dy_minlo"
     },
     "DYm50" : {

@@ -8,24 +8,39 @@ info = {
     },
     "dy_minnlo_default" : {
         "Name" : "DY MiNNLO (default, NNPDF3.0)",
-        "Style" : "nofill-grey",
+        "Style" : "qual12_pink_dash",
         "Members" : [
-            "DYm50_minnlo__default"
+            "DYm50_minnlo_default"
         ]
     },
     "dy_minnlo_photos" : {
         "Name" : "DY MiNNLO (Pythia+Photos)",
-        "Style" : "nofill-grey",
+        "Style" : "qual12_red",
         "Members" : [
-            "DYm50_minnlo_photos"
+            "DYm50_minnlo__photos"
+        ]
+    },
+    "dy_nnlops_photos" : {
+        "Name" : "DY NNLOPS (Pythia+Photos)",
+        "Style" : "qual12_lightblue",
+        "Members" : [
+            "DYm50_nnlops__photos"
+        ]
+    },
+    "dy_nnlops_nlow" : {
+        "Name" : "DY NNLOPS wNLO",
+        "Style" : "qual12_green_dash",
+        "Members" : [
+            "DYm50_nnlops__nloOnly_photos"
         ]
     },
     "dy_nlo" : {
         "Name" : "DY MG NLO (2016)",
-        "Style" : "nofill-black-dotdash",
+        "Style" : "qual12_green_dash",
         "Members" : [
             "DYm50"
-        ]
+        ],
+        "Scale" : 0.5
     },
     "dy_lo" : {
         "Name" : "DY MG LO (2016)",
