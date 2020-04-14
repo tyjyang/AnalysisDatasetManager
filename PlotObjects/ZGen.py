@@ -17,6 +17,21 @@ info = {
             "SetMaximum" : 10000000
         }
     },
+    "phiZ": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 70,
+            "xmin": -3.5,
+            "xmax": 3.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "\\phi_{\\ell^{+}\\ell^{-}}" if uw else "#phi_Z",  
+            "GetYaxis().SetTitle": "Events / bin", 
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 15000000
+        }
+    },
     "ptZ": {  
         "Initialize": {  
             "type": "TH1F",
@@ -50,9 +65,9 @@ info = {
     "ZMass": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 31,
-            "xmin": 75,
-            "xmax": 106
+            "nbins": 2000,
+            "xmin": 81, #50,
+            "xmax": 101, #150
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{\\ell^{+}\\ell^{-}} [GeV]" if uw else "m_{Z}",  
@@ -70,7 +85,7 @@ info = {
             "xmax": 160
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": r"p_{T}(\ell_{1}) [GeV]",  
+            "GetXaxis().SetTitle": r"p_{T}(\ell_{1}) [GeV]" if uw else "p_{T}^{l1} [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMaximum" : 10000000,
@@ -84,7 +99,7 @@ info = {
             "xmax": 120
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "p_{T}(l_{2}) [GeV]",  
+            "GetXaxis().SetTitle": "p_{T}(l_{2}) [GeV]" if uw else "p_{T}^{l2} [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMaximum" : 10000000,
@@ -114,6 +129,36 @@ info = {
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "\\eta^{\\ell_2}" if uw else "#eta_{l2}",  
+            "GetYaxis().SetTitle": "Events", 
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 15000000
+        }
+    },
+    "phil1": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 70,
+            "xmin": -3.5,
+            "xmax": 3.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "\\phi^{\\ell_1}" if uw else "#phi_{l1}",  
+            "GetYaxis().SetTitle": "Events", 
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 15000000
+        }
+    },
+    "phil2": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 70,
+            "xmin": -3.5,
+            "xmax": 3.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "\\phi^{\\ell_2}" if uw else "#phi_{l2}",  
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
@@ -158,7 +203,7 @@ info = {
             "xmax": 5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "\\eta^{\\mathrm{j}_1}" if uw else "#eta_{j1}",  
+            "GetXaxis().SetTitle": "#eta_{j1}",  
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
@@ -173,11 +218,41 @@ info = {
             "xmax": 5
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "\\eta^{\\mathrm{j}_2}" if uw else "#eta_{j2}",  
+            "GetXaxis().SetTitle": "#eta_{j2}",  
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
             "SetMaximum" : 2000000
+        }
+    },
+    "phij1": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 70,
+            "xmin": -3.5,
+            "xmax": 3.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#phi_{j1}",  
+            "GetYaxis().SetTitle": "Events", 
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 15000000
+        }
+    },
+    "phij2": {  
+        "Initialize": {  
+            "type": "TH1F",
+            "nbins": 70,
+            "xmin": -3.5,
+            "xmax": 3.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#phi_{j2}",  
+            "GetYaxis().SetTitle": "Events", 
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 15000000
         }
     },
     "nJets": {  
@@ -226,12 +301,12 @@ info = {
     },
 }
 
-partonicChans = ["uu_dd", "uubar_ddbar", "ug_dg", "ubarg_dbarg", "gg", "other"]
-tempdict = {}
-for key, value in info.iteritems():
-    for partonicChan in partonicChans:
-        tempdict["_".join([partonicChan, key])] = value
-info.update(tempdict)
+#partonicChans = ["uu_dd", "uubar_ddbar", "ug_dg", "ubarg_dbarg", "gg", "other"]
+#tempdict = {}
+#for key, value in info.iteritems():
+#    for partonicChan in partonicChans:
+#        tempdict["_".join([partonicChan, key])] = value
+#info.update(tempdict)
 
 import copy
 altleps = {}

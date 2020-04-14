@@ -9,6 +9,90 @@ info = {
         "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
         "DAS Name" : ""
     },
+    "DYm50_minnlo_update" : {
+        "cross_section" : 2045.76,
+        "Source of cross section" : "",
+        "DAS Name" : ""
+    },
+    "DYm50_minnlo_ewweights" : {
+        "cross_section" : 2046.77,
+        "Source of cross section" : "",
+        "DAS Name" : ""
+    },
+    "DYm50_minnlo_update_ref" : {
+        "cross_section" : 1955.13,
+        "Source of cross section" : "",
+        "DAS Name" : ""
+    },
+    "DYm50_minnlo_update_ref_nnpdf31" : {
+        "cross_section" : 1955.13,
+        "Source of cross section" : "",
+        "DAS Name" : ""
+    },
+    "DYm50_minnlo_cutoff05GeV" : {
+        "cross_section" : 1989.27,
+        "Source of cross section" : "",
+        "DAS Name" : ""
+    },
+    "DYm50_minnlo_lowcutoff" : {
+        "cross_section" : 1945.94,
+        "Source of cross section" : "",
+        "DAS Name" : ""
+    },
+    "DYm50_minnlo_lowcutoff_ref_nnpdf31" : {
+        "cross_section" : 1945.94,
+        "Source of cross section" : "",
+        "DAS Name" : ""
+    },
+    "DYm50_matrix" : {
+        #"cross_section" : 11830,
+        "cross_section" : 2,
+        "DAS Name" : "",
+        "Generator" : "Fixed order MATRIX",
+        "Cards" : "",
+    },
+    "DYm50_dynnlo" : {
+        #"cross_section" : 11830,
+        "cross_section" : 2,
+        "DAS Name" : "",
+        "Generator" : "Fixed order MATRIX",
+        "Cards" : "",
+    },
+    "DYm50_matrix_nnpdf30" : {
+        #"cross_section" : 11830,
+        "cross_section" : 2,
+        "DAS Name" : "",
+        "Generator" : "Fixed order MATRIX",
+        "Cards" : "",
+    },
+    "DYm50_matrix_nlo_nnpdf30_nnlopdf" : {
+        #"cross_section" : 11830,
+        "cross_section" : 2,
+        "DAS Name" : "",
+        "Generator" : "Fixed order MATRIX",
+        "Cards" : "",
+    },
+    "DYm50_matrix_nlo_nnpdf30" : {
+        #"cross_section" : 11830,
+        "cross_section" : 2,
+        "DAS Name" : "",
+        "Generator" : "Fixed order MATRIX",
+        "Cards" : "",
+    },
+    "DYm50_matrix_nlo_nnlopdf" : {
+        #"cross_section" : 11830,
+        "cross_section" : 2,
+        "DAS Name" : "",
+        "Generator" : "Fixed order MATRIX",
+        "Cards" : "",
+    },
+    "DYm50_matrix_nlo" : {
+        #"cross_section" : 11830,
+        "cross_section" : 2,
+        "DAS Name" : "",
+        "Generator" : "Fixed order MATRIX",
+        "Cards" : "",
+    },
     "DYm50_nnlops" : {
         "cross_section" : 1863,
         "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",

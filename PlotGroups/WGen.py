@@ -10,10 +10,17 @@ info = {
         ]
     },
     "wpmunu_minnlo_nnlopslike_photos" : {
-        "Name" : "W^{+}(#mu#nu)+jets MiNNLO",
+        "Name" : "W^{+}(#mu#nu)+jets MiNNLO (old)",
         "Style" : "qual12_red",
         "Members" : [
             "wpmunu_minnlo_nnlopslike__photos"
+        ]
+    },
+    "wpmunu_nnlops" : {
+        "Name" : "W^{+}(#mu#nu)+jets NNLOPS",
+        "Style" : "qual12_lightblue",
+        "Members" : [
+            "wpmunu_nnlops__photos"
         ]
     },
     "wpmunu_nnlops_photos" : {
@@ -23,8 +30,72 @@ info = {
             "wpmunu_nnlops__photos"
         ]
     },
+    "wmmunu_nnlops" : {
+        "Name" : "W^{-}(#mu#nu)+jets NNLOPS",
+        "Style" : "qual12_lightblue",
+        "Members" : [
+            "wmmunu_nnlops"
+        ]
+    },
+    "wmunu_nnlops" : {
+        "Name" : "W^{#pm}(#mu#nu)+jets NNLOPS",
+        "Style" : "qual12_lightblue",
+        "Members" : [
+            "wmmunu_nnlops",
+            "wpmunu_nnlops__photos",
+        ]
+    },
+    "wpmunu_minnlo_ewweights" : {
+        "Name" : "W^{-}(#mu#nu)+jets MiNNLO (auth. update)",
+        "Style" : "qual12_purple_dotdash",
+        "Members" : [
+            "wpmunu_minnlo_ewweights__photos"
+        ]
+    },
+    "wpmunu_minnlo_update_doublefsr" : {
+        "Name" : "W^{-}(#mu#nu)+jets MiNNLO (update, double fsr, NNPDF31)",
+        "Style" : "qual12_brown_dash",
+        "Members" : [
+            "wpmunu_minnlo_update_doublefsr"
+        ]
+    },
+    "wmmunu_minnlo_update_ubound" : {
+        "Name" : "W^{-}(#mu#nu)+jets MiNNLO (update, grid fix1, NNPDF31)",
+        "Style" : "qual12_purple_dotdash",
+        "Members" : [
+            "wmmunu_minnlo_update_ubound"
+        ]
+    },
+    "wpmunu_minnlo_update_uboundonly" : {
+        "Name" : "W^{+}(#mu#nu)+jets MiNNLO (update, ubound only, NNPDF31)",
+        "Style" : "qual12_blue",
+        "Members" : [
+            "wpmunu_minnlo_update_uboundonly"
+        ]
+    },
+    "wpmunu_minnlo_update_storemintupb" : {
+        "Name" : "W^{+}(#mu#nu)+jets MiNNLO (update, storemintupb, NNPDF31)",
+        "Style" : "qual12_green_dotdash",
+        "Members" : [
+            "wpmunu_minnlo_update_storemintupb"
+        ]
+    },
+    "wpmunu_minnlo_update" : {
+        "Name" : "W^{+}(#mu#nu)+jets MiNNLO (update, ref., NNPDF31)",
+        "Style" : "qual12_pink",
+        "Members" : [
+            "wpmunu_minnlo_update"
+        ]
+    },
+    "wpmunu_minnlo_update_ubound" : {
+        "Name" : "W^{+}(#mu#nu)+jets MiNNLO (update, grid fix, NNPDF31)",
+        "Style" : "qual12_purple_dotdash",
+        "Members" : [
+            "wpmunu_minnlo_update_ubound"
+        ]
+    },
     "wpmunu_nnlops_nlow" : {
-        "Name" : "W^{+}(#mu#nu)+jets MiNLO (via NNLOPS)",
+        "Name" : "W^{+}(#mu#nu)+jets MiNLO'",
         "Style" : "qual12_green_dash",
         "Members" : [
             "wpmunu_nnlops__nloOnly_photos"
@@ -32,7 +103,7 @@ info = {
     },
     "wpmunu_matrix" : {
         "Name" : "W^{+}(#mu#nu)+jets MATRIX (FO)",
-        "Style" : "qual12_purple_dotdash",
+        "Style" : "qual12_green_dotdash",
         "Members" : [
             "wpmunu_matrix"
         ]
@@ -49,13 +120,6 @@ info = {
         "Style" : "qual12_orange_dotdash",
         "Members" : [
             "wpmunu_fewz"
-        ]
-    },
-    "wpmunu_nnlops" : {
-        "Name" : r'W^{+}(\ell\nu)+\text{jets} \,\mathrm{NNLOPS}' if not converteps else "W(l#nu)+jets NNLOPS",
-        "Style" : "nofill-grey",
-        "Members" : [
-            "wpmunu_nnlops"
         ]
     },
     "wpenu_nloew_photos" : {

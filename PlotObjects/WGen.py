@@ -39,9 +39,9 @@ info = {
     "mW": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 140,
-            "xmin": 0,
-            "xmax": 140
+            "nbins": 200,
+            "xmin": 70,
+            "xmax": 90
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{\\ell\\nu} [GeV]",  
@@ -54,9 +54,9 @@ info = {
     "mTmet": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 200,
+            "nbins": 300,
             "xmin": 0,
-            "xmax": 200
+            "xmax": 150
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{T}(W_{MET}) [GeV]",  
@@ -69,9 +69,9 @@ info = {
     "mTtrue": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 200,
-            "xmin": 0,
-            "xmax": 200
+            "nbins": 1000,
+            "xmin": 50,
+            "xmax": 100
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{\\ell\\nu} [GeV]",  
@@ -128,12 +128,26 @@ info = {
    "ptl": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 120,
+            "nbins": 240,
             "xmin": 0,
             "xmax": 120
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "Gen Lepton p_{T} [GeV]",  
+            "GetXaxis().SetTitle": "p_{T}^{l} [GeV]",  
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 30000000
+        }
+    },
+   "ptl_smear": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 240,
+            "xmin": 0,
+            "xmax": 120
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "p_{T}^{l} (smeared) [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMaximum" : 30000000
@@ -172,7 +186,7 @@ info = {
    "ptnu": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 120,
+            "nbins": 240,
             "xmin": 0,
             "xmax": 120
         },
@@ -385,6 +399,68 @@ info = {
             "GetYaxis().SetTitle": "Events / GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.01,
+        }
+    },
+   "etal_ptl_2D": {  
+        "Initialize": {  
+            "type": "TH2D",
+            "nbinsx": 50,
+            "xmin": -2.5,
+            "xmax": 2.5,
+            "nbinsy": 75,
+            "ymin": 25,
+            "ymax": 100,
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen Lepton p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 30000000
+        }
+    },
+   "etal_ptl_smear_2D": {  
+        "Initialize": {  
+            "type": "TH2D",
+            "nbinsx": 50,
+            "xmin": -2.5,
+            "xmax": 2.5,
+            "nbinsy": 75,
+            "ymin": 25,
+            "ymax": 100,
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen Lepton p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 30000000
+        }
+    },
+   "etal_ptl_unrolled": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": -0,
+            "xmax": 100,
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "p_{T}/#eta bin",  
+            "GetYaxis().SetTitle": "Events / bin",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 3000000
+        }
+    },
+   "etal_ptl_smear_unrolled": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": -0,
+            "xmax": 100,
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "p_{T}/#eta bin",  
+            "GetYaxis().SetTitle": "Events / bin",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 3000000
         }
     },
 }

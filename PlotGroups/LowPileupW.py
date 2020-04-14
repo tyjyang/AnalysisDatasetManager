@@ -116,7 +116,7 @@ info = {
             "-DYm50__m",
             "-ww__m",
             "-wz__m",
-            "-tt_lmp__m",
+            "-tt_lep__m",
             "-wlnu_0j_nlo__m", 
             "-wlnu_1j_nlo__m", 
             "-wlnu_2j_nlo__m", 
