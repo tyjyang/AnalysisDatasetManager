@@ -1,6 +1,4 @@
 #!/bin/bash
-set -x
-set -e
 
 if [[ $# -lt 1 ]]; then
     echo "Must pass the name of the sparse checkout config (in SparseCheckouts/<file>) as an argument"
@@ -14,16 +12,17 @@ else
     userName=$USER
 fi
 
-repName=AnalysisDatasetManager
-mkdir $repoName; cd $repoName
+repoName=AnalysisDatasetManager
+mkdir $repoName
+cd $repoName
 git init
-if !git ls-remote git@github.com:${userName}/VVAnalysis.git >& /dev/null; then
-    echo "WARNING: Didn't find a repo at git@github.com:${userName}/VVAnalysis.git."
-    echo "    falling back to git@github.com:kdlong/VVAnalysis.git."
+if ! git ls-remote git@github.com:${userName}/${repoName}.git >& /dev/null; then
+    echo "WARNING: Didn't find a repo at git@github.com:${userName}/${repoName}.git."
+    echo "    falling back to git@github.com:kdlong/${repoName}.git."
     userName="kdlong"
 fi
-git remote add origin git@github.com:${userName}/VVAnalysis.git
+git remote add origin git@github.com:${userName}/${repoName}.git
 git config core.sparsecheckout true
-wget origin https://raw.githubusercontent.com/${userName}/VVAnalysis/master/SparseCheckouts/${configFile}
-cp ${configFile} .git/info/sparse-checkout
+wget https://raw.githubusercontent.com/${userName}/${repoName}/master/SparseCheckouts/${configFile}
+mv ${configFile} .git/info/sparse-checkout
 git pull origin master
