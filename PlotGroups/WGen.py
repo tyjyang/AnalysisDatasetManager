@@ -52,6 +52,41 @@ info = {
             "wpmunu_minnlo_ewweights__photos"
         ]
     },
+    "wpmunu_minnlo_gridfix" : {
+        "Name" : "W^{-}(#mu#nu)+jets MiNNLO (update, grid fix)",
+        "Style" : "qual12_blue_dotdash",
+        "Members" : [
+            "wpmunu_minnlo_gridfix"
+        ]
+    },
+    "wpmunu_minnlo_gridfix_wFac1000" : {
+        "Name" : "W^{-}(#mu#nu)+jets MiNNLO (grid fix, w < 1000 w_{0})",
+        "Style" : "qual12_purple_dash",
+        "Members" : [
+            "wpmunu_minnlo_gridfix__wFac1000"
+        ]
+    },
+    "wpmunu_minnlo_gridfix_wFac100" : {
+        "Name" : "W^{-}(#mu#nu)+jets MiNNLO (grid fix, w < 100 w_{0})",
+        "Style" : "qual12_brown_dash",
+        "Members" : [
+            "wpmunu_minnlo_gridfix__wFac100"
+        ]
+    },
+    "wpmunu_minnlo_gridfix_wFac10" : {
+        "Name" : "W^{-}(#mu#nu)+jets MiNNLO (grid fix, w < 10 w_{0})",
+        "Style" : "qual12_orange",
+        "Members" : [
+            "wpmunu_minnlo_gridfix__wFac100"
+        ]
+    },
+    "wpmunu_minnlo_gridfix_wSignOnly" : {
+        "Name" : "W^{-}(#mu#nu)+jets MiNNLO (grid fix, w #in {0, 1})",
+        "Style" : "qual12_pink_dotdash",
+        "Members" : [
+            "wpmunu_minnlo_gridfix__wSignOnly"
+        ]
+    },
     "wpmunu_minnlo_update_doublefsr" : {
         "Name" : "W^{-}(#mu#nu)+jets MiNNLO (update, double fsr, NNPDF31)",
         "Style" : "qual12_brown_dash",
@@ -102,8 +137,8 @@ info = {
         ]
     },
     "wpmunu_matrix" : {
-        "Name" : "W^{+}(#mu#nu)+jets MATRIX (FO)",
-        "Style" : "qual12_green_dotdash",
+        "Name" : "W^{+}(#mu#nu)+jets MATRIX",
+        "Style" : "qual12_green",
         "Members" : [
             "wpmunu_matrix"
         ]

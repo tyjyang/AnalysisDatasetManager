@@ -4,6 +4,21 @@ info = {
         "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
         "DAS Name" : ""
     },
+    "DYm50_minnlo_pilot" : {
+        "cross_section" : 1989.25,
+        "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
+        "DAS Name" : ""
+    },
+    "DYm50_minnlo_pilotGridFix" : {
+        "cross_section" : 1994.2,
+        "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
+        "DAS Name" : ""
+    },
+    "DYm50_minnlo_fixedgrid0" : {
+        "cross_section" : 1995.26,
+        "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
+        "DAS Name" : ""
+    },
     "DYm50_minnlo_default" : {
         "cross_section" : 1951.5,
         "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
@@ -185,20 +200,27 @@ info = {
     },
     "DYm50_0j_nlo_cp5" : {
         "cross_section" : 5335,
-        #"kfactor" : 0.97,
-        "kfactor" : 0.8678,
-        "DAS name" : "/DYToLL_0J_13TeV-amcatnloFXFX-pythia8/RunIISummer16NanoAODv5-PUMoriond17_Nano1June2019_102X_*-v1/NANOAODSIM",
+        # Correction factor to agree with inclusive x NNLO+NLO EW
+        #"kfactor" : 0.8946*.97,
+        "kfactor" : 0.931284*.97,
+        #"kfactor" : .97,
+        "DAS Name" : "DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8",
     },
     "DYm50_1j_nlo_cp5" : {
         "cross_section" : 958,
-        #"kfactor" : 0.97,
-        "kfactor" : 0.8996,
-        "DAS name" : "/DYToLL_1J_13TeV-amcatnloFXFX-pythia8/RunIISummer16NanoAODv5-PUMoriond17_Nano1June2019_102X_*-v1/NANOAODSIM",
+        # Correction factor to agree with inclusive x NNLO+NLO EW
+        #"kfactor" : 0.92742*.97,
+        "kfactor" : 0.96100*.97,
+        #"kfactor" : .97,
+        "DAS Name" : "DYJetsToLL_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8",
     },
     "DYm50_2j_nlo_cp5" : {
         "cross_section" : 356,
-        "kfactor" : 0.8987,
-        "DAS name" : "/DYToLL_2J_13TeV-amcatnloFXFX-pythia8/RunIISummer16NanoAODv5-PUMoriond17_Nano1June2019_102X_*-v1/NANOAODSIM",
+        # Correction factor to agree with inclusive x NNLO+NLO EW
+        #"kfactor" : 0.9265*.97,
+        "kfactor" : 0.98935*.97,
+        #"kfactor" : .97,
+        "DAS Name" : "DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8",
     },
     "DYm50_1j_pt50to150_nlo_cp5" : {
         "cross_section" : 5765.4,

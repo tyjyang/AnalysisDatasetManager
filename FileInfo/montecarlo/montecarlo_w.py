@@ -97,6 +97,12 @@ info = {
         "Generator" : "POWHEG NNLOPS",
         "Cards" : "",
     },
+    "wpmunu_minnlo_gridfix" : {
+        "cross_section" : 11679.96,
+        "DAS Name" : "",
+        "Generator" : "POWHEG NNLOPS",
+        "Cards" : "",
+    },
     "wpmunu_minnlo_update_storemintupb" : {
         "cross_section" : 11437.102361566940,
         "DAS Name" : "",

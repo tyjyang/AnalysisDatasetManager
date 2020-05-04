@@ -44,6 +44,31 @@ info = {
         "plot_group" : "wpmunu_minnlo_update",
         "DAS" : "",
     },
+    "wpmunu_minnlo_gridfix" : {
+        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_AuthorsUpdate_GridFixPDGCKM_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200429_212222/000*/*.root",
+        "plot_group" : "wpmunu_minnlo_gridfix",
+        "DAS" : "",
+    },
+    "wpmunu_minnlo_gridfix__wSignOnly" : {
+        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_AuthorsUpdate_GridFixPDGCKM_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200429_212222/000*/*.root",
+        "plot_group" : "wpmunu_minnlo_gridfix_wSignOnly",
+        "DAS" : "",
+    },
+    "wpmunu_minnlo_gridfix__wFac1000" : {
+        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_AuthorsUpdate_GridFixPDGCKM_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200429_212222/000*/*.root",
+        "plot_group" : "wpmunu_minnlo_gridfix_wFac1000",
+        "DAS" : "",
+    },
+    "wpmunu_minnlo_gridfix__wFac100" : {
+        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_AuthorsUpdate_GridFixPDGCKM_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200429_212222/000*/*.root",
+        "plot_group" : "wpmunu_minnlo_gridfix_wFac100",
+        "DAS" : "",
+    },
+    "wpmunu_minnlo_gridfix__wFac10" : {
+        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_AuthorsUpdate_GridFixPDGCKM_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200429_212222/000*/*.root",
+        "plot_group" : "wpmunu_minnlo_gridfix_wFac10",
+        "DAS" : "",
+    },
     "wpmunu_minnlo_update_doublefsr" : {
         "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_AuthorsUpdate_DoubleFSR_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200325_130522/000*/*.root",
         "plot_group" : "wpmunu_minnlo_update_doublefsr",

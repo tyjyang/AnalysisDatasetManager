@@ -13,6 +13,27 @@ info = {
             "DYm50_minnlo_default"
         ]
     },
+    "dy_minnlo_pilot" : {
+        "Name" : "DY MiNNLO (m_{W} pilot)",
+        "Style" : "qual12_purple",
+        "Members" : [
+            "DYm50_minnlo_pilot"
+        ]
+    },
+    "dy_minnlo_pilotGridFix" : {
+        "Name" : "DY MiNNLO (pilot, grid fix)",
+        "Style" : "qual12_blue_dotdash",
+        "Members" : [
+            "DYm50_minnlo_pilotGridFix"
+        ]
+    },
+    "dy_minnlo_fixedgrid0" : {
+        "Name" : "DY MiNNLO (fixedgrid 0)",
+        "Style" : "qual12_lightpurple_dash",
+        "Members" : [
+            "DYm50_minnlo_fixedgrid0"
+        ]
+    },
     "dy_minnlo_ewweights_photos" : {
         "Name" : "DY MiNNLO Py8+Phos (auth. update)",
         "Style" : "qual12_green_dotdash",
@@ -22,7 +43,7 @@ info = {
     },
     "dy_minnlo_ewweights_photos_cp5" : {
         "Name" : "DY MiNNLO Py8(CP5)+Phos (auth. update)",
-        "Style" : "qual12_red_dotdash",
+        "Style" : "qual12_purple_dotdash",
         "Members" : [
             "DYm50_minnlo_ewweights__photosCP5"
         ]
@@ -196,11 +217,10 @@ info = {
         "Members" : [
             "DYm50_0j_nlo_cp5",
         ],
-        "Scale" : 1.05
     },
     "dy_1j_nlo_cp5" : {
         "Name" : "NLO 1 jet (2017/8)",
-        "Style" : "nofill-darkpurple-dash",
+        "Style" : "nofill-lightgrey-dash",
         "Members" : [
             "DYm50_1j_nlo_cp5",
         ]

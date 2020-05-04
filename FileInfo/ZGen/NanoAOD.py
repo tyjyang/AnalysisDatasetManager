@@ -31,6 +31,26 @@ info = {
         "DAS" : "",
         "plot_group" : "dy_minlo_mZup"
     },
+    "DYm50_minnlo_pilot" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_mWPilot_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/NanoGen/200429_162601/0000/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_minlo_pilot"
+    },
+    "DYm50_minnlo_pilot__wFac1000" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_mWPilot_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/NanoGen/200429_162601/0000/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_minlo_pilot_wFac1000"
+    },
+    "DYm50_minnlo_pilotGridFix" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_mWPilotGridFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200421_230026/000*/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_minlo_pilotGridFix"
+    },
+    "DYm50_minnlo_fixedgrid0" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZToMuMu_AuthorsUpdate_FixedGrid0_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/*/*/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_minlo_mZup"
+    },
     "DYm50_minnlo_ewweights__photos" : {
         "file_path" : "/eos/cms/store/user/kelong/ZToMuMu_AuthorsUpdate_EWWeightsFix_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/*/*/*.root",
         "DAS" : "",
@@ -306,38 +326,33 @@ info = {
         "plot_group" : "dy_nlo_ptjetbinned"
     },
     "DYm50_pt0to50_nlo" : {
-        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_Zpt-0To50_amcatnloFXFX/*.root",
-        "DAS name" : "",
-        "plot_group" : "dy_nlo_ptbinned"
-    },
-    "DYm50_pt50to100_nlo" : {
-        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_Pt-50To100*amcatnloFXFX/*.root",
-        "DAS name" : "",
-        "plot_group" : "dy_nlo_ptbinned"
-    },
-    "DYm50_pt100to250_nlo" : {
-        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_Pt-100To250*amcatnloFXFX/*.root",
-        "DAS name" : "",
-        "plot_group" : "dy_nlo_ptbinned"
-    },
-    "DYm50_pt250to400_nlo" : {
-        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_Pt-250To400*amcatnloFXFX/*.root",
-        "DAS name" : "",
-        "plot_group" : "dy_nlo_ptbinned"
-    },
-    "DYm50_pt400to650_nlo" : {
-        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_Pt-400To650*amcatnloFXFX/*.root",
-        "DAS name" : "",
-        "plot_group" : "dy_nlo_ptbinned"
-    },
-    "DYm50_pt650toInf_nlo" : {
-        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_Pt-650ToInf*amcatnloFXFX/*.root",
-        "DAS name" : "",
-        "plot_group" : "dy_nlo_ptbinned"
-    },
-    "DYm50__sethsSkim" : {
-        "file_path" : "/eos/cms/store/group/phys_exotica/leptonsPlusJets/LQ/scooper/2016nanoPostProc/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/NanoPostDYJIncAMCNLO/191217_151103/0000/*.root",
+        "file_path" : "",
         "DAS" : "",
-        "plot_group" : "dy_lo"
+        "plot_group" : "dy_nlo_ptbinned"
+    },
+    "DYm50_pt50to100_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DYJetsToLL_Pt-50To100_TuneCP5_13TeV-amcatnloFXFX-pythia8/*NanoAODv6*/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptbinned"
+    },
+    "DYm50_pt100to250_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DYJetsToLL_Pt-100To250_TuneCP5_13TeV-amcatnloFXFX-pythia8/*NanoAODv6*/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptbinned"
+    },
+    "DYm50_pt250to400_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DYJetsToLL_Pt-250To400_TuneCP5_13TeV-amcatnloFXFX-pythia8/*NanoAODv6*/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptbinned"
+    },
+    "DYm50_pt400to650_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DYJetsToLL_Pt-400To650_TuneCP5_13TeV-amcatnloFXFX-pythia8/*NanoAODv6*/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptbinned"
+    },
+    "DYm50_pt650toInf_nlo_cp5" : {
+        "file_path" : "",
+        "DAS" : "/DYJetsToLL_Pt-650ToInf_TuneCP5_13TeV-amcatnloFXFX-pythia8/*NanoAODv6*/NANOAODSIM",
+        "plot_group" : "dy_nlo_ptbinned"
     },
 }
