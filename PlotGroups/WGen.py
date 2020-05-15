@@ -101,6 +101,13 @@ info = {
             "wmmunu_minnlo_update_ubound"
         ]
     },
+    "wmmunu_minnlo_gridfix_wFac1000" : {
+        "Name" : "W^{-}(#mu#nu)+jets MiNNLO (update, grid fix, w > 1000 w_{0})",
+        "Style" : "qual12_purple_dotdash",
+        "Members" : [
+            "wmmunu_minnlo_gridfix__wFac1000"
+        ]
+    },
     "wpmunu_minnlo_update_uboundonly" : {
         "Name" : "W^{+}(#mu#nu)+jets MiNNLO (update, ubound only, NNPDF31)",
         "Style" : "qual12_blue",

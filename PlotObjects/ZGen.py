@@ -318,3 +318,56 @@ for i in info:
     altleps[i+"_lhe"] = copy.deepcopy(info[i])
 
 info.update(altleps)
+info.update({
+   "a2_pt": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 50
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "p_{T}^{Z} [GeV]",  
+            "GetYaxis().SetTitle": "A_{2}",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "GetXaxis().SetTitleSize" : 0.04,
+            "GetXaxis().SetLabelSize" : 0.03,
+            "SetMinimum" : 0.0,
+            "SetMaximum" : 50.,
+        }
+    },
+   "a4_y": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 20,
+            "xmin": 0,
+            "xmax": 4
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "y^{Z} [GeV]",  
+            "GetYaxis().SetTitle": "A_{4}",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "GetXaxis().SetTitleSize" : 0.04,
+            "GetXaxis().SetLabelSize" : 0.03,
+            "SetMinimum" : 0.0,
+            "SetMaximum" : 50.,
+        }
+    },
+   "a0_pt": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 50
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "p_{T}^{Z} [GeV]",  
+            "GetYaxis().SetTitle": "A_{0}",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "GetXaxis().SetTitleSize" : 0.04,
+            "GetXaxis().SetLabelSize" : 0.03,
+            "SetMinimum" : 0.0,
+            "SetMaximum" : 50.,
+        }
+    },
+})

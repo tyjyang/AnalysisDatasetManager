@@ -20,11 +20,46 @@ info = {
             "DYm50_minnlo_pilot"
         ]
     },
+    "dy_minnlo_pilot_wFac1000" : {
+        "Name" : "DY MiNNLO (m_{W} pilot, w < 1000 w_{0})",
+        "Style" : "qual12_lightpurple_dash",
+        "Members" : [
+            "DYm50_minnlo_pilot__wFac1000"
+        ]
+    },
+    "dy_minnlo_pilotGridFix_wFac10" : {
+        "Name" : "DY MiNNLO (m_{W} pilot, w < 10 w_{0})",
+        "Style" : "qual12_lightgreen",
+        "Members" : [
+            "DYm50_minnlo_pilotGridFix__wFac10"
+        ]
+    },
+    "dy_minnlo_oneshotgrids" : {
+        "Name" : "DY MiNNLO (one-step grids)",
+        "Style" : "qual12_brown",
+        "Members" : [
+            "DYm50_minnlo_oneshotgrids"
+        ]
+    },
+    "dy_minnlo_pilotGridFix_wSignOnly" : {
+        "Name" : "DY MiNNLO (m_{W} pilot, w #in {0, 1})",
+        "Style" : "qual12_green",
+        "Members" : [
+            "DYm50_minnlo_pilotGridFix__wSignOnly"
+        ]
+    },
     "dy_minnlo_pilotGridFix" : {
         "Name" : "DY MiNNLO (pilot, grid fix)",
         "Style" : "qual12_blue_dotdash",
         "Members" : [
             "DYm50_minnlo_pilotGridFix"
+        ]
+    },
+    "dy_minnlo_pilotGridFix_wFac1000" : {
+        "Name" : "DY MiNNLO (pilot, grid fix, w < 1000 w_{0})",
+        "Style" : "qual12_brown_dotdash",
+        "Members" : [
+            "DYm50_minnlo_pilotGridFix__wFac1000"
         ]
     },
     "dy_minnlo_fixedgrid0" : {
@@ -43,7 +78,7 @@ info = {
     },
     "dy_minnlo_ewweights_photos_cp5" : {
         "Name" : "DY MiNNLO Py8(CP5)+Phos (auth. update)",
-        "Style" : "qual12_purple_dotdash",
+        "Style" : "qual12_lightpurple_dotdash",
         "Members" : [
             "DYm50_minnlo_ewweights__photosCP5"
         ]

@@ -463,6 +463,23 @@ info = {
             "SetMaximum" : 3000000
         }
     },
+   "a4_y": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 20,
+            "xmin": 0,
+            "xmax": 4
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "y^{W} [GeV]",  
+            "GetYaxis().SetTitle": "A_{4}",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "GetXaxis().SetTitleSize" : 0.04,
+            "GetXaxis().SetLabelSize" : 0.03,
+            "SetMinimum" : 0.0,
+            "SetMaximum" : 120.,
+        }
+    },
 }
 
 import copy

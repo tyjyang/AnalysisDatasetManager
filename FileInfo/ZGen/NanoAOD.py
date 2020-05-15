@@ -36,6 +36,31 @@ info = {
         "DAS" : "",
         "plot_group" : "dy_minlo_pilot"
     },
+    "DYm50_minnlo_oneshotgrids" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_OneShotGrids_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200513_213637/0000/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_minlo_oneshotgrids"
+    },
+    "DYm50_minnlo_pilotGridFix__wFac1000" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_mWPilotGridFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200421_230026/000*/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_minlo_pilotGridFix_wFac1000"
+    },
+    "DYm50_minnlo_pilotGridFix__wFac10" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_mWPilotGridFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200421_230026/000*/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_minlo_pilotGridFix_wFac10"
+    },
+    "DYm50_minnlo_pilotGridFix__wSignOnly" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_mWPilotGridFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200421_230026/000*/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_minlo_pilotGridFix_wSignOnly"
+    },
+    "DYm50_minnlo_pilot__wSignOnly" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_mWPilot_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/NanoGen/200429_162601/0000/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_minlo_pilot_wSignOnly"
+    },
     "DYm50_minnlo_pilot__wFac1000" : {
         "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_mWPilot_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/NanoGen/200429_162601/0000/*.root",
         "DAS" : "",

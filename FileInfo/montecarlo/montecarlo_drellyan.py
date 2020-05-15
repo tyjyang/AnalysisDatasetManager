@@ -29,6 +29,11 @@ info = {
         "Source of cross section" : "",
         "DAS Name" : ""
     },
+    "DYm50_minnlo_oneshotgrids" : {
+        "cross_section" : 1996.11,
+        "Source of cross section" : "",
+        "DAS Name" : ""
+    },
     "DYm50_minnlo_ewweights" : {
         "cross_section" : 2046.77,
         "Source of cross section" : "",
@@ -202,24 +207,24 @@ info = {
         "cross_section" : 5335,
         # Correction factor to agree with inclusive x NNLO+NLO EW
         #"kfactor" : 0.8946*.97,
-        "kfactor" : 0.931284*.97,
-        #"kfactor" : .97,
+        #"kfactor" : 0.931284*.97,
+        "kfactor" : .97,
         "DAS Name" : "DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8",
     },
     "DYm50_1j_nlo_cp5" : {
         "cross_section" : 958,
         # Correction factor to agree with inclusive x NNLO+NLO EW
         #"kfactor" : 0.92742*.97,
-        "kfactor" : 0.96100*.97,
-        #"kfactor" : .97,
+        #"kfactor" : 0.96100*.97,
+        "kfactor" : .97,
         "DAS Name" : "DYJetsToLL_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8",
     },
     "DYm50_2j_nlo_cp5" : {
         "cross_section" : 356,
         # Correction factor to agree with inclusive x NNLO+NLO EW
         #"kfactor" : 0.9265*.97,
-        "kfactor" : 0.98935*.97,
-        #"kfactor" : .97,
+        #"kfactor" : 0.98935*.97,
+        "kfactor" : .97,
         "DAS Name" : "DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8",
     },
     "DYm50_1j_pt50to150_nlo_cp5" : {
@@ -277,5 +282,26 @@ info = {
     "DYm50_pt650toInf_nlo" : {
         "cross_section" : 0.0410184,
         "DAS name" : "",
+    },
+    "DYm50_0j_nlo" : {
+        "cross_section" : 4620,
+        "kfactor" : 1.04,
+        "Source of cross section" : "McM",
+        "DAS Name" : "DYToLL_0J_13TeV-amcatnloFXFX-pythia8",
+        "Notes" : ""
+    },
+    "DYm50_1j_nlo" : {
+        "cross_section" : 859,
+        "kfactor" : 1.04,
+        "Source of cross section" : "McM",
+        "DAS Name" : "DYToLL_1J_13TeV-amcatnloFXFX-pythia8",
+        "Notes" : ""
+    },
+    "DYm50_2j_nlo" : {
+        "cross_section" : 338,
+        "kfactor" : 1.04,
+        "Source of cross section" : "McM",
+        "DAS Name" : "DYToLL_2J_13TeV-amcatnloFXFX-pythia8",
+        "Notes" : ""
     },
 }

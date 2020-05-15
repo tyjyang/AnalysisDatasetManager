@@ -89,13 +89,23 @@ info = {
         "plot_group" : "wpmunu_minnlo_update_ubound",
         "DAS" : "",
     },
-    "wmmunu_minnlo_update_ubound" : {
-        "file_path" : "/eos/cms/store/user/kelong/WminusJToMuNu_AuthorsUpdate_UbndImpr_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200322_185934/000*/*.root",
-        "plot_group" : "wmmunu_minnlo_update_ubound",
+    "wmmunu_minnlo_gridfix" : {
+        "file_path" : "/eos/cms/store/user/kelong/WminusJToMuNu_AuthorsUpdate_GridFixPDGCKM_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200508_230338/00*/*.root",
+        "plot_group" : "wmmunu_minnlo_gridfix",
+        "DAS" : "",
+    },
+    "wmmunu_minnlo_gridfix__wFac1000" : {
+        "file_path" : "/eos/cms/store/user/kelong/WminusJToMuNu_AuthorsUpdate_GridFixPDGCKM_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200508_230338/00*/*.root",
+        "plot_group" : "wmmunu_minnlo_gridfix_wFac1000",
+        "DAS" : "",
+    },
+    "wmmunu_minnlo_gridfix__wSignOnly" : {
+        "file_path" : "/eos/cms/store/user/kelong/WminusJToMuNu_AuthorsUpdate_GridFixPDGCKM_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200508_230338/00*/*.root",
+        "plot_group" : "wmmunu_minnlo_gridfix_wFac1000",
         "DAS" : "",
     },
     "wmmunu_nnlops" : {
-        "file_path" : "/eos/cms/store/user/kelong/WminusJToMuNu_TuneCUETP8M1_13TeV-powheg-NNLOPS-pythia8-photos/RunIISummer15wmLHEGS/*/*/*.root",
+        "file_path" : "/eos/cms/store/cmst3/group/wmass/kelong/WminusJToMuNu_TuneCUETP8M1_13TeV-powheg-NNLOPS-pythia8-photos/RunIISummer15wmLHEGS/20032*/*/*.root",
         "plot_group" : "wmmunu_nnlops",
         "DAS" : "",
     },

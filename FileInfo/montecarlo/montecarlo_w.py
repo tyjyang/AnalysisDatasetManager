@@ -100,7 +100,13 @@ info = {
     "wpmunu_minnlo_gridfix" : {
         "cross_section" : 11679.96,
         "DAS Name" : "",
-        "Generator" : "POWHEG NNLOPS",
+        "Generator" : "POWHEG MiNNLO",
+        "Cards" : "",
+    },
+    "wmmunu_minnlo_gridfix" : {
+        "cross_section" : 8721.9,
+        "DAS Name" : "",
+        "Generator" : "POWHEG MiNNLO",
         "Cards" : "",
     },
     "wpmunu_minnlo_update_storemintupb" : {
@@ -137,7 +143,7 @@ info = {
     },
     "wmmunu_nnlops" : {
         #"cross_section" : 11423*0.94,
-        "cross_section" : 8445.86,
+        "cross_section" : 7906.58,
         "DAS Name" : "",
         "Generator" : "POWHEG NNLOPS",
         "Cards" : "",
