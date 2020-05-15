@@ -37,7 +37,7 @@ fi
 
 cp ${configFile} .git/info/sparse-checkout
 
-if [[ "$getFile" ]]; then
+if [ "$getFile" = true ]; then
     rm ${configFile}
     git pull origin master
 else
