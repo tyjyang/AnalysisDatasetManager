@@ -13,16 +13,33 @@ else
 fi
 
 repoName=AnalysisDatasetManager
-mkdir $repoName
-cd $repoName
-git init
-if ! git ls-remote git@github.com:${userName}/${repoName}.git >& /dev/null; then
-    echo "WARNING: Didn't find a repo at git@github.com:${userName}/${repoName}.git."
-    echo "    falling back to git@github.com:kdlong/${repoName}.git."
-    userName="kdlong"
+path=$(git rev-parse --show-toplevel)
+basepath=$(basename $path)
+if [[ "$?" && "$basepath" == "$repoName" ]]; then
+    cd $path
+else
+    mkdir $repoName
+    cd $repoName
+    git init
+    if ! git ls-remote git@github.com:${userName}/${repoName}.git >& /dev/null; then
+        echo "WARNING: Didn't find a repo at git@github.com:${userName}/${repoName}.git."
+        echo "    falling back to git@github.com:kdlong/${repoName}.git."
+        userName="kdlong"
+    fi
+    git remote add origin git@github.com:${userName}/${repoName}.git
 fi
-git remote add origin git@github.com:${userName}/${repoName}.git
 git config core.sparsecheckout true
-wget https://raw.githubusercontent.com/${userName}/${repoName}/master/SparseCheckouts/${configFile}
-mv ${configFile} .git/info/sparse-checkout
-git pull origin master
+getFile=false
+if [[ ! -f "$configFile" ]]; then
+    wget https://raw.githubusercontent.com/${userName}/${repoName}/master/SparseCheckouts/${configFile}
+    getFile=true
+fi
+
+cp ${configFile} .git/info/sparse-checkout
+
+if [[ "$getFile" ]]; then
+    rm ${configFile}
+    git pull origin master
+else
+    git read-tree --reset -u HEAD
+fi
