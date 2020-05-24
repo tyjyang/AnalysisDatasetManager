@@ -46,7 +46,5 @@ cp ${configFile} .git/info/sparse-checkout
 
 if [ "$getFile" = true ]; then
     rm ${configFile}
-    git pull origin master
-else
-    git read-tree --reset -u HEAD
-fi
+
+git read-tree --reset -u HEAD
