@@ -1,114 +1,114 @@
 info = {
     "DYm50__m" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/zxx_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/zxx_select.raw.root",
         "plot_group" : "ewk"
     },
     "wlnu_0j_nlo__tm" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/wx0_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/wx0_select.raw.root",
         "plot_group" : "ewk"
     },
     "wlnu_1j_nlo__tm" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/wx1_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/wx1_select.raw.root",
         "plot_group" : "ewk"
     },
     "wlnu_2j_nlo__tm" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/wx2_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/wx2_select.raw.root",
         "plot_group" : "ewk"
     },
     "wlnu_0j_nlo__m" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/wm0_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/wm0_select.raw.root",
         "plot_group" : "wmv"
     },
     "wlnu_1j_nlo__m" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/wm1_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/wm1_select.raw.root",
         "plot_group" : "wmv"
     },
     "wlnu_2j_nlo__m" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/wm2_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/wm2_select.raw.root",
         "plot_group" : "wmv"
     },
     "tt_had__m" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/top1_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/top1_select.raw.root",
         "plot_group" : "top"
     },
     "tt_semilep__m" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/top2_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/top2_select.raw.root",
         "plot_group" : "top"
     },
     "tt_lep__m" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/top3_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/top3_select.raw.root",
         "plot_group" : "top"
     },
     "ww__m" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/ww_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/ww_select.raw.root",
         "plot_group" : "ewk"
     },
     "wz__m" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/wz_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/wz_select.raw.root",
         "plot_group" : "ewk"
     },
     "zz__m" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/zz_select.raw.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/zz_select.raw.root",
         "plot_group" : "ewk"
     },
     "data__m" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v4_fixHist_PP_full/Wmunu/ntuples/data_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wmunu/ntuples/data_select.root",
         "plot_group" : "data"
     },
     "DYm50__e" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/zxx_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/zxx_select.root",
         "plot_group" : "ewk"
     },
     "wlnu_0j_nlo__te" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/wx0_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/wx0_select.root",
         "plot_group" : "ewk"
     },
     "wlnu_1j_nlo__te" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/wx1_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/wx1_select.root",
         "plot_group" : "ewk"
     },
     "wlnu_2j_nlo__te" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/wx2_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/wx2_select.root",
         "plot_group" : "ewk"
     },
     "wlnu_0j_nlo__e" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/we0_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/we0_select.root",
         "plot_group" : "wev"
     },
     "wlnu_1j_nlo__e" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/we1_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/we1_select.root",
         "plot_group" : "wev"
     },
     "wlnu_2j_nlo__e" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/we2_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/we2_select.root",
         "plot_group" : "wev"
     },
     "tt_had__e" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/top1_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/top1_select.root",
         "plot_group" : "top"
     },
     "tt_semilep__e" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/top2_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/top2_select.root",
         "plot_group" : "top"
     },
     "tt_lep__e" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/top3_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/top3_select.root",
         "plot_group" : "top"
     },
     "ww__e" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/ww_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/ww_select.root",
         "plot_group" : "ewk"
     },
     "wz__e" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/wz_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/wz_select.root",
         "plot_group" : "ewk"
     },
     "zz__e" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/zz_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/zz_select.root",
         "plot_group" : "ewk"
     },
     "data__e" : {
-        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/LowPU2017ID_13TeV_v5_EleMedID2017_PP_full/Wenu/ntuples/data_select.root",
+        "file_path" : "/eos/cms/store/user/sabrandt/StandardModel/Ntuples2017GH/Production_13TeV/Wenu/ntuples/data_select.root",
         "plot_group" : "data"
     },
 }

@@ -11,12 +11,12 @@ info = {
     },
     "tt_had" : {
         "cross_section" : 2,
-        "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#TTbar",
+        "Source of cross section" : "placeholder",
         "DAS Name" : ""
     },
     "tt_semilep" : {
         "cross_section" : 2,
-        "Source of cross section" : "https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns#TTbar",
+        "Source of cross section" : "placeholder",
         "DAS Name" : ""
     },
 }

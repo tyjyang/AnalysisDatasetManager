@@ -55,7 +55,7 @@ info = {
             "xmax": 120
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": r"p_{\mathrm{T}}(\mathrm{W}) \mathrm{[GeV]}",  
+            "GetXaxis().SetTitle": "p_{T}(W) [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV",
             "GetYaxis().SetTitleOffset": 1.2  ,
             "SetMinimum" : 0.1,
