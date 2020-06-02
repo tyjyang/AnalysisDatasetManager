@@ -19,6 +19,16 @@ info = {
         "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
         "DAS Name" : ""
     },
+    "DYm50_minnlo_svn3741" : {
+        "cross_section" : 1996.39,
+        "Source of cross section" : "gridpack",
+        "DAS Name" : ""
+    },
+    "DYm50_minnlo_svn3741_width" : {
+        "cross_section" : 1997.20,
+        "Source of cross section" : "gridpack",
+        "DAS Name" : ""
+    },
     "DYm50_minnlo_default" : {
         "cross_section" : 1951.5,
         "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",

@@ -103,6 +103,12 @@ info = {
         "Generator" : "POWHEG MiNNLO",
         "Cards" : "",
     },
+    "wpmunu_minnlo_svn3741" : {
+        "cross_section" : 11727.87,
+        "DAS Name" : "",
+        "Generator" : "POWHEG MiNNLO",
+        "Cards" : "",
+    },
     "wmmunu_minnlo_gridfix" : {
         "cross_section" : 8721.9,
         "DAS Name" : "",

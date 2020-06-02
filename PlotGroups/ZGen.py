@@ -20,6 +20,34 @@ info = {
             "DYm50_minnlo_pilot"
         ]
     },
+    "dy_minnlo_svn3741" : {
+        "Name" : "DY MiNNLO (svn 3741)",
+        "Style" : "qual12_pink",
+        "Members" : [
+            "DYm50_minnlo_svn3741"
+        ]
+    },
+    "dy_minnlo_svn3741_width" : {
+        "Name" : "DY MiNNLO (svn3741+#Gamma_{W}^{th.})",
+        "Style" : "qual12_orange",
+        "Members" : [
+            "DYm50_minnlo_svn3741_width"
+        ]
+    },
+    "dy_minnlo_svn3741_dress" : {
+        "Name" : "DY MiNNLO (svn3741+#Gamma_{W}^{th.},dressed)",
+        "Style" : "qual12_blue_dotdash",
+        "Members" : [
+            "DYm50_minnlo_svn3741_width"
+        ]
+    },
+    "dy_minnlo_svn3741_bare" : {
+        "Name" : "DY MiNNLO (svn3741+#Gamma_{W}^{th.},bare)",
+        "Style" : "qual12_red_dash",
+        "Members" : [
+            "DYm50_minnlo_svn3741_width"
+        ]
+    },
     "dy_minnlo_pilot_wFac1000" : {
         "Name" : "DY MiNNLO (m_{W} pilot, w < 1000 w_{0})",
         "Style" : "qual12_lightpurple_dash",
@@ -112,10 +140,17 @@ info = {
         ]
     },
     "dy_matrix" : {
-        "Name" : "DY MATRIX NNLO (NNPDF3.1)",
+        "Name" : "DY MATRIX NNLO (tuned)",
         "Style" : "qual12_green",
         "Members" : [
             "DYm50_matrix"
+        ]
+    },
+    "dy_matrix_default" : {
+        "Name" : "DY MATRIX NNLO (default)",
+        "Style" : "qual12_lightgreen_dash",
+        "Members" : [
+            "DYm50_matrix__default"
         ]
     },
     "dy_matrix_nlo_nnlopdf" : {

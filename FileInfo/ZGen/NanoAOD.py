@@ -12,7 +12,7 @@ info = {
         "plot_group" : "dy_minlo"
     },
     "DYm50_nnlops__photos" : {
-        "file_path" : "/eos/cms/store/user/kelong/ZToMuMu_TuneCUETP8M1_13TeV-powheg-NNLOPS-pythia8-photos/*/*/*/*.root",
+        "file_path" : "/eos/cms/store/cmst3/group/wmass/kelong/ZToMuMu_TuneCUETP8M1_13TeV-powheg-NNLOPS-pythia8-photos//*/*/*/*.root",
         "DAS" : "",
         "plot_group" : "dy_nnlops"
     },
@@ -40,6 +40,16 @@ info = {
         "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_OneShotGrids_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200513_213637/0000/*.root",
         "DAS" : "",
         "plot_group" : "dy_minlo_oneshotgrids"
+    },
+    "DYm50_minnlo_svn3741" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToEE_svn3741_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200523_214140/000*/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_minlo_svn3741"
+    },
+    "DYm50_minnlo_svn3741_width" : {
+        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_svn3741_widthVars_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200530_140626/*/*NANOAODSIM*.root",
+        "DAS" : "",
+        "plot_group" : "dy_minlo_svn3741_width"
     },
     "DYm50_minnlo_pilotGridFix__wFac1000" : {
         "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_mWPilotGridFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200421_230026/000*/*.root",

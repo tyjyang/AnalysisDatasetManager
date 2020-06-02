@@ -108,9 +108,9 @@ info = {
     "etal1": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 20,
-            "xmin": -2.5,
-            "xmax": 2.5
+            "nbins": 100,
+            "xmin": -5.0,
+            "xmax": 5.0
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "\\eta^{\\ell_1}" if uw else "#eta_{l1}",  
@@ -123,9 +123,9 @@ info = {
     "etal2": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 20,
-            "xmin": -2.5,
-            "xmax": 2.5
+            "nbins": 100,
+            "xmin": -5.0,
+            "xmax": 5.0
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "\\eta^{\\ell_2}" if uw else "#eta_{l2}",  

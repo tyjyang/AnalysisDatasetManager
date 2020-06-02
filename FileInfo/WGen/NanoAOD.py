@@ -44,6 +44,11 @@ info = {
         "plot_group" : "wpmunu_minnlo_update",
         "DAS" : "",
     },
+    "wpmunu_minnlo_svn3741" : {
+        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_svn3741_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200523_221452/000*/*.root",
+        "plot_group" : "wpmunu_minnlo_svn3741",
+        "DAS" : "",
+    },
     "wpmunu_minnlo_gridfix" : {
         "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_AuthorsUpdate_GridFixPDGCKM_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200429_212222/000*/*.root",
         "plot_group" : "wpmunu_minnlo_gridfix",
