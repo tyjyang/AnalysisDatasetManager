@@ -28,17 +28,109 @@ info = {
         ]
     },
     "dy_minnlo_svn3741_width" : {
-        "Name" : "DY MiNNLO (svn3741+#Gamma_{W}^{th.})",
+        "Name" : "DY MiNNLO (svn3741)",
         "Style" : "qual12_orange",
         "Members" : [
             "DYm50_minnlo_svn3741_width"
         ]
     },
+    "dy_minnlo_svn3741_prefsr" : {
+        "Name" : "DY MiNNLO (svn3741, prefsr)",
+        "Style" : "qual12_blue",
+        "Members" : [
+            "DYm50_minnlo_svn3741_width"
+        ]
+    },
     "dy_minnlo_svn3741_dress" : {
-        "Name" : "DY MiNNLO (svn3741+#Gamma_{W}^{th.},dressed)",
+        "Name" : "DY MiNNLO (svn3741, prefsr)",
+        "Style" : "qual12_blue",
+        "Members" : [
+            "DYm50_minnlo_svn3741_width"
+        ]
+    },
+    "dy_minnlo_svn3741_doubleFSR_prefsr" : {
+        "Name" : "DY MiNNLO (svn3741, doubleFSR)",
+        "Style" : "qual12_lightpurple",
+        "Members" : [
+            "DYm50_minnlo_svn3741__doubleFSR"
+        ]
+    },
+    "dy_minnlo_svn3741_doubleFSR_lhe" : {
+        "Name" : "DY MiNNLO (svn3741, doubleFSR, LHE)",
+        "Style" : "qual12_lightpurple",
+        "Members" : [
+            #"DYm50_minnlo_svn3741__doubleFSR",
+            "DYm50_minnlo_svn3741__doubleFSRWimpyDipolePrimkt2p5"
+        ]
+    },
+    "dy_minnlo_svn3741_doubleFSR_dress" : {
+        "Name" : "DY MiNNLO (svn3741, doubleFSR, dressed)",
+        "Style" : "qual12_lightpurple",
+        "Members" : [
+            "DYm50_minnlo_svn3741__doubleFSR"
+        ]
+    },
+    "dy_minnlo_svn3741_doubleFSR" : {
+        "Name" : "DY MiNNLO (svn3741, doubleFSR+powVeto)",
+        "Style" : "qual12_red_dotdash",
+        "Members" : [
+            "DYm50_minnlo_svn3741__doubleFSR"
+        ]
+    },
+    "dy_minnlo_svn3741_doubleFSRWimpyDipole" : {
+        "Name" : "DY MiNNLO (svn3741, doubleFSR+wimpy+Dip)",
+        "Style" : "qual12_lightblue_dash",
+        "Members" : [
+            "DYm50_minnlo_svn3741__doubleFSRWimpyDipole"
+        ]
+    },
+    "dy_minnlo_svn3741_doubleFSRWimpyDipolePrimkt2p5" : {
+        "Name" : "DY MiNNLO (svn3741, doubleFSR+wimpy+Dip, pkT = 2.5)",
+        "Style" : "qual12_orange_dash",
+        "Members" : [
+            "DYm50_minnlo_svn3741__doubleFSRWimpyDipolePrimkt2p5"
+        ]
+    },
+    "dy_minnlo_svn3741_doubleFSRDipole" : {
+        "Name" : "DY MiNNLO (svn3741, doubleFSR+powVeto+Dip)",
+        "Style" : "qual12_brown",
+        "Members" : [
+            "DYm50_minnlo_svn3741__doubleFSRDipole"
+        ]
+    },
+    "dy_minnlo_svn3741_dress" : {
+        "Name" : "DY MiNNLO (svn3741, dressed)",
         "Style" : "qual12_blue_dotdash",
         "Members" : [
             "DYm50_minnlo_svn3741_width"
+        ]
+    },
+    "dy_minnlo_svn3741_lhe" : {
+        "Name" : "DY MiNNLO (svn3741, LHE)",
+        "Style" : "qual12_blue",
+        "Members" : [
+            "DYm50_minnlo_svn3741_width"
+        ]
+    },
+    "dy_minnlo_svn3756" : {
+        "Name" : "DY MiNNLO (svn3756)",
+        "Style" : "qual12_brown",
+        "Members" : [
+            "DYm50_minnlo_svn3756__wimpyDipole"
+        ]
+    },
+    "dy_minnlo_svn3756_hoppet" : {
+        "Name" : "DY MiNNLO (svn3756, wgt Hoppet)",
+        "Style" : "qual12_orange",
+        "Members" : [
+            "DYm50_minnlo_svn3756_hoppet"
+        ]
+    },
+    "dy_minnlo_svn3756_largeptscales" : {
+        "Name" : "DY MiNNLO (svn3756, largeptscales=1)",
+        "Style" : "qual12_purple",
+        "Members" : [
+            "DYm50_minnlo_svn3756_largeptscales"
         ]
     },
     "dy_minnlo_svn3741_bare" : {
@@ -111,9 +203,23 @@ info = {
             "DYm50_minnlo_ewweights__photosCP5"
         ]
     },
-    "dy_minnlo_ewweights_nofsr" : {
-        "Name" : "DY MiNNLO Py8 no fsr (auth. update)",
+    "dy_minnlo_nofsr" : {
+        "Name" : "DY MiNNLO Py8 no fsr",
         "Style" : "qual12_brown",
+        "Members" : [
+            "DYm50_minnlo_ewweights__nofsr"
+        ]
+    },
+    "dy_minnlo_nofsr_prefsr" : {
+        "Name" : "DY MiNNLO Py8 no fsr (prefsr)",
+        "Style" : "qual12_green_dotdash",
+        "Members" : [
+            "DYm50_minnlo_ewweights__nofsr"
+        ]
+    },
+    "dy_minnlo_nofsr_bare" : {
+        "Name" : "DY MiNNLO Py8 no fsr (bare)",
+        "Style" : "qual12_lightblue",
         "Members" : [
             "DYm50_minnlo_ewweights__nofsr"
         ]
@@ -139,11 +245,32 @@ info = {
             "DYm50_dynnlo"
         ]
     },
-    "dy_matrix" : {
-        "Name" : "DY MATRIX NNLO (tuned)",
+    "dy_matrix_lhe" : {
+        "Name" : "DY MATRIX NNLO",
         "Style" : "qual12_green",
         "Members" : [
             "DYm50_matrix"
+        ]
+    },
+    "dy_matrix" : {
+        "Name" : "DY MATRIX NNLO",
+        "Style" : "qual12_green",
+        "Members" : [
+            "DYm50_matrix"
+        ]
+    },
+    "dy_matrix_radish" : {
+        "Name" : "DY MATRIX+RadISH NNLO+N3LL",
+        "Style" : "qual12_lightgreen",
+        "Members" : [
+            "DYm50_matrix__radish"
+        ]
+    },
+    "dy_matrix_radish_lhe" : {
+        "Name" : "DY MATRIX+RadISH NNLO+N3LL",
+        "Style" : "qual12_lightgreen",
+        "Members" : [
+            "DYm50_matrix__radish"
         ]
     },
     "dy_matrix_default" : {
@@ -225,7 +352,7 @@ info = {
     },
     "dy_minnlo_photos" : {
         "Name" : "DY MiNNLO Py8+Phos (DAS)",
-        "Style" : "qual12_red",
+        "Style" : "qual12_blue",
         "Members" : [
             "DYm50_minnlo__photos"
         ]
@@ -233,6 +360,13 @@ info = {
     "dy_nnlops_photos" : {
         "Name" : "DY NNLOPS Py8+Phos",
         "Style" : "qual12_lightblue",
+        "Members" : [
+            "DYm50_nnlops__photos"
+        ]
+    },
+    "dy_nnlops_lhe" : {
+        "Name" : "DY NNLOPS Py8+Phos (LHE)",
+        "Style" : "qual12_blue",
         "Members" : [
             "DYm50_nnlops__photos"
         ]

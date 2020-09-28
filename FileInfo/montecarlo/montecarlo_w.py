@@ -115,6 +115,30 @@ info = {
         "Generator" : "POWHEG MiNNLO",
         "Cards" : "",
     },
+    "wmmunu_minnlo_svn3741" : {
+        "cross_section" : 8669.508,
+        "DAS Name" : "",
+        "Generator" : "POWHEG MiNNLO",
+        "Cards" : "",
+    },
+    "wmmunu_minnlo_svn3756" : {
+        "cross_section" : 8562.66,
+        "DAS Name" : "",
+        "Generator" : "POWHEG MiNNLO",
+        "Cards" : "",
+    },
+    "wpmunu_minnlo_svn3756_hoppet" : {
+        "cross_section" : 11572.19,
+        "DAS Name" : "",
+        "Generator" : "POWHEG MiNNLO",
+        "Cards" : "",
+    },
+    "wmmunu_minnlo_svn3756_hoppet" : {
+        "cross_section" : 8562.66,
+        "DAS Name" : "",
+        "Generator" : "POWHEG MiNNLO",
+        "Cards" : "",
+    },
     "wpmunu_minnlo_update_storemintupb" : {
         "cross_section" : 11437.102361566940,
         "DAS Name" : "",
@@ -175,6 +199,13 @@ info = {
     },
     "wpmunu_matrix" : {
         #"cross_section" : 11830,
+        "cross_section" : 2,
+        "DAS Name" : "",
+        "Generator" : "Fixed or DYNNLO",
+        "Cards" : "",
+    },
+    "wmmunu_matrix" : {
+        #"cross_section" : 8770,
         "cross_section" : 2,
         "DAS Name" : "",
         "Generator" : "Fixed or DYNNLO",

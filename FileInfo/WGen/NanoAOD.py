@@ -25,7 +25,7 @@ info = {
         "DAS" : "",
     },
     "wpmunu_nnlops__photos" : {
-        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_TuneCUETP8M1_13TeV-powheg-NNLOPS-pythia8-photos*/RunIISummer15wmLHEGS/*/000*/*.root",
+        "file_path" : "/eos/cms/store/cmst3/group/wmass/kelong/WplusJToMuNu_TuneCUETP8M1_13TeV-powheg-NNLOPS-pythia8-photos*/*/*/*/*.root",
         "plot_group" : "wpmunu_nnlops_photos",
         "DAS" : "",
     },
@@ -44,9 +44,49 @@ info = {
         "plot_group" : "wpmunu_minnlo_update",
         "DAS" : "",
     },
+    "wmmunu_minnlo_svn3756" : {
+        "file_path" : "/eos/cms/store/cmst3/user/kelong/WminusJToMuNu_svn3756_Q01p39_PrimKt2p2_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200722_151301/000*/*.root",
+        "plot_group" : "wmmunu_minnlo_svn3756",
+        "DAS" : "",
+    },
+    "wpmunu_minnlo_svn3756_hoppet" : {
+        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_svn3756_MarkusFix_Q01p39_WimpyPrimKt2p2_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200918_002438/*/*.root",
+        "plot_group" : "wpmunu_minnlo_svn3756_hoppet",
+        "DAS" : "",
+    },
+    "wmmunu_minnlo_svn3756_hoppet" : {
+        "file_path" : "/eos/cms/store/user/kelong/WminusJToMuNu_svn3756_MarkusFix_Q01p39_WimpyPrimKt2p2_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200918_002731/*/*.root",
+        "plot_group" : "wmmunu_minnlo_svn3756_hoppet",
+        "DAS" : "",
+    },
     "wpmunu_minnlo_svn3741" : {
-        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_svn3741_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200523_221452/000*/*.root",
+        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_svn3741_widthVars_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/*/000*/*.root",
         "plot_group" : "wpmunu_minnlo_svn3741",
+        "DAS" : "",
+    },
+    "wpmunu_minnlo_svn3741__wSignOnly" : {
+        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_svn3741_widthVars_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/*/000*/*.root",
+        "plot_group" : "wpmunu_minnlo_svn3741_wSignOnly",
+        "DAS" : "",
+    },
+    "wmmunu_minnlo_svn3741" : {
+        "file_path" : "/eos/cms/store/user/kelong/WminusJToMuNu_svn3741_widthVars_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200602_222119/000*/*.root",
+        "plot_group" : "wmmunu_minnlo_svn3741",
+        "DAS" : "",
+    },
+    "wmmunu_minnlo_svn3741__primktOff" : {
+        "file_path" : "/eos/cms/store/user/kelong/WminusJToMuNu_svn3741_widthVars_PrimKtOff_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200603_225759/000*/*.root",
+        "plot_group" : "wmmunu_minnlo_svn3741_primktOff",
+        "DAS" : "",
+    },
+    "wmmunu_minnlo_svn3741__primktOffWimpy" : {
+        "file_path" : "/eos/cms/store/user/kelong/WminusJToMuNu_svn3741_widthVars_PrimKtOff_WimpyShower_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200605_200303/000*/*.root",
+        "plot_group" : "wmmunu_minnlo_svn3741_primktOffWimpy",
+        "DAS" : "",
+    },
+    "wmmunu_minnlo_svn3741__primktOffWimpyDipole" : {
+        "file_path" : "/eos/cms/store/user/kelong/WminusJToMuNu_svn3741_widthVars_PrimKtOff_WimpyShowerDipole_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200606_155249/000*/*.root",
+        "plot_group" : "wmmunu_minnlo_svn3741_primktOffWimpyDipole",
         "DAS" : "",
     },
     "wpmunu_minnlo_gridfix" : {
@@ -95,7 +135,7 @@ info = {
         "DAS" : "",
     },
     "wmmunu_minnlo_gridfix" : {
-        "file_path" : "/eos/cms/store/user/kelong/WminusJToMuNu_AuthorsUpdate_GridFixPDGCKM_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200508_230338/00*/*.root",
+        "file_path" : "",
         "plot_group" : "wmmunu_minnlo_gridfix",
         "DAS" : "",
     },
@@ -159,6 +199,11 @@ info = {
     "wpmunu_matrix" : {
         "file_path" : "",
         "plot_group" : "wpmunu_matrix",
+        "DAS" : "",
+    },
+    "wmmunu_matrix" : {
+        "file_path" : "",
+        "plot_group" : "wmmunu_matrix",
         "DAS" : "",
     },
     "wpmunu_dynnlo" : {

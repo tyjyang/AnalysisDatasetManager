@@ -44,7 +44,7 @@ info = {
             "xmax": 90
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{\\ell\\nu} [GeV]",  
+            "GetXaxis().SetTitle": "m_{W} [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
@@ -74,7 +74,7 @@ info = {
             "xmax": 100
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "m_{\\ell\\nu} [GeV]",  
+            "GetXaxis().SetTitle": "m_{W} [GeV]",  
             "GetYaxis().SetTitle": "Events / GeV", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
@@ -314,7 +314,7 @@ info = {
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
-            "SetMaximum" : 20000000
+            "SetMaximum" : 150000000
         }
     },
    "MET": {  
@@ -488,5 +488,6 @@ for i in info:
     altleps[i+"_barelep"] = copy.deepcopy(info[i])
     altleps[i+"_born"] = copy.deepcopy(info[i])
     altleps[i+"_lhe"] = copy.deepcopy(info[i])
+    altleps[i+"_prefsr"] = copy.deepcopy(info[i])
 
 info.update(altleps)

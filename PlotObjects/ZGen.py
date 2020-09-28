@@ -316,6 +316,7 @@ for i in info:
     altleps[i+"_barelep"] = copy.deepcopy(info[i])
     altleps[i+"_born"] = copy.deepcopy(info[i])
     altleps[i+"_lhe"] = copy.deepcopy(info[i])
+    altleps[i+"_prefsr"] = copy.deepcopy(info[i])
 
 info.update(altleps)
 info.update({

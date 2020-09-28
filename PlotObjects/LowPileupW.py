@@ -35,9 +35,9 @@ info = {
     "pfMetPhi": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 28,
-            "xmin": 0,
-            "xmax": 7
+            "nbins": 100,
+            "xmin": -3.5,
+            "xmax": 6.5
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "pfMET phi",
@@ -71,6 +71,21 @@ info = {
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#phi^{W}",
+            "GetYaxis().SetTitle": "Events", 
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 20000000
+        }
+    },
+    "phil": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 100,
+            "xmin": -3.5,
+            "xmax": 6.5
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "#phi^{l}",
             "GetYaxis().SetTitle": "Events", 
             "GetYaxis().SetTitleOffset": 1.3,
             "SetMinimum" : 0.1,
