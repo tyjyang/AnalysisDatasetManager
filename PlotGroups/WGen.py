@@ -17,28 +17,28 @@ info = {
         ]
     },
     "wpmunu_nnlops" : {
-        "Name" : "W^{+}(#mu#nu)+jets NNLOPS",
+        "Name" : "W^{+}(#mu#nu) NNLOPS",
         "Style" : "qual12_lightblue",
         "Members" : [
             "wpmunu_nnlops__photos"
         ]
     },
     "wpmunu_nnlops_photos" : {
-        "Name" : "W^{+}(#mu#nu)+jets NNLOPS",
+        "Name" : "W^{+}(#mu#nu) NNLOPS",
         "Style" : "qual12_lightblue",
         "Members" : [
             "wpmunu_nnlops__photos"
         ]
     },
     "wmmunu_nnlops" : {
-        "Name" : "W^{-}(#mu#nu)+jets NNLOPS",
+        "Name" : "W^{-}(#mu#nu) NNLOPS",
         "Style" : "qual12_lightblue",
         "Members" : [
             "wmmunu_nnlops"
         ]
     },
     "wmunu_nnlops" : {
-        "Name" : "W^{#pm}(#mu#nu)+jets NNLOPS",
+        "Name" : "W^{#pm}(#mu#nu) NNLOPS",
         "Style" : "qual12_lightblue",
         "Members" : [
             "wmmunu_nnlops",
@@ -67,9 +67,38 @@ info = {
             "wmmunu_minnlo_svn3756_hoppet"
         ]
     },
+    "wmunu_minnlo_prod" : {
+        "Name" : "W(#mu#nu) MiNNLO (arXiv:2006.04133)",
+        "Style" : "qual12_orange",
+        "Members" : [
+            "wpmunu_minnlo_svn3756_hoppet",
+            "wmmunu_minnlo_svn3756_hoppet"
+        ]
+    },
+    "wmmunu_minnlo_svn3756_hoppet" : {
+        "Name" : "W^{-}(#mu#nu) MiNNLO (arXiv:2006.04133)",
+        "Style" : "qual12_orange",
+        "Members" : [
+            "wmmunu_minnlo_svn3756_hoppet"
+        ]
+    },
     "wpmunu_minnlo_svn3756_hoppet" : {
-        "Name" : "W^{-}(#mu#nu) MiNNLO (svn 3756 Hoppet)",
-        "Style" : "qual12_blue",
+        "Name" : "W^{+}(#mu#nu) MiNNLO (arXiv:2006.04133)",
+        "Style" : "qual12_orange",
+        "Members" : [
+            "wpmunu_minnlo_svn3756_hoppet"
+        ]
+    },
+    "wmmunu_minnlo_prod" : {
+        "Name" : "W^{-}(#mu#nu) MiNNLO (arXiv:2006.04133)",
+        "Style" : "qual12_orange",
+        "Members" : [
+            "wmmunu_minnlo_svn3756_hoppet"
+        ]
+    },
+    "wpmunu_minnlo_prod" : {
+        "Name" : "W^{+}(#mu#nu) MiNNLO (arXiv:2006.04133)",
+        "Style" : "qual12_orange",
         "Members" : [
             "wpmunu_minnlo_svn3756_hoppet"
         ]
@@ -282,14 +311,14 @@ info = {
         ]
     },
     "wpmunu_nnlops_nlow" : {
-        "Name" : "W^{+}(#mu#nu)+jets MiNLO'",
+        "Name" : "W^{+}(#mu#nu) MiNLO'",
         "Style" : "qual12_green_dash",
         "Members" : [
             "wpmunu_nnlops__nloOnly_photos"
         ]
     },
     "wmunu_matrix" : {
-        "Name" : "W(#mu#nu)+jets MATRIX",
+        "Name" : "W(#mu#nu) MATRIX",
         "Style" : "qual12_green",
         "Members" : [
             "wpmunu_matrix",
@@ -297,14 +326,14 @@ info = {
         ]
     },
     "wpmunu_matrix_marius" : {
-        "Name" : "W^{+}(#mu#nu)+jets MATRIX (Marius)",
+        "Name" : "W^{+}(#mu#nu) MATRIX (Marius)",
         "Style" : "qual12_green",
         "Members" : [
             "wpmunu_matrix__marius"
         ]
     },
     "wpmunu_matrix" : {
-        "Name" : "W^{+}(#mu#nu)+jets MATRIX",
+        "Name" : "W^{+}(#mu#nu) MATRIX",
         "Style" : "qual12_green",
         "Members" : [
             "wpmunu_matrix"
@@ -317,6 +346,13 @@ info = {
             "wmmunu_matrix"
         ]
     },
+    "wpmunu_matrix_lhe" : {
+        "Name" : "W^{+}(#mu#nu) MATRIX",
+        "Style" : "qual12_green",
+        "Members" : [
+            "wpmunu_matrix"
+        ]
+    },
     "wmmunu_matrix_lhe" : {
         "Name" : "W^{-}(#mu#nu) MATRIX",
         "Style" : "qual12_green",
@@ -325,28 +361,28 @@ info = {
         ]
     },
     "wpmunu_matrix_default" : {
-        "Name" : "W^{+}(#mu#nu)+jets MATRIX (default)",
+        "Name" : "W^{+}(#mu#nu) MATRIX (default)",
         "Style" : "qual12_lightgreen_dash",
         "Members" : [
             "wpmunu_matrix__default"
         ]
     },
     "wpmunu_dynnlo" : {
-        "Name" : "W^{+}(e#nu)+jets DYNNLO (FO)",
+        "Name" : "W^{+}(e#nu) DYNNLO (FO)",
         "Style" : "qual12_brown_dash",
         "Members" : [
             "wpmunu_dynnlo"
         ]
     },
     "wpmunu_fewz" : {
-        "Name" : "W^{+}(e#nu)+jets FEWZ (FO)",
+        "Name" : "W^{+}(e#nu) FEWZ (FO)",
         "Style" : "qual12_orange_dotdash",
         "Members" : [
             "wpmunu_fewz"
         ]
     },
     "wpenu_nloew_photos" : {
-        "Name" : "W(e#nu)+jets NLO QCD+EW (photos)",
+        "Name" : "W(e#nu) NLO QCD+EW (photos)",
         "Style" : "qual12_green",
         "Members" : [
             "wpenu_nloew__photos"
@@ -354,7 +390,7 @@ info = {
         "Scale" : 0.5,
     },
     "wpenu_nloew" : {
-        "Name" : "W(e#nu)+jets NLO QCD+EW",
+        "Name" : "W(e#nu) NLO QCD+EW",
         "Style" : "qual12_brown",
         "Members" : [
             "wpenu_nloew"

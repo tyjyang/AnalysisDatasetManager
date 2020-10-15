@@ -24,6 +24,14 @@ info = {
         "Source of cross section" : "gridpack",
         "DAS Name" : ""
     },
+    "DYm50_nlo_inc_ewparams" : {
+        "cross_section" : 5749.359978,
+        "Source of cross section" : "gridpack",
+    },
+    "DYm50_nlo_ewparams" : {
+        "cross_section" : 10600.,
+        "Source of cross section" : "gridpack",
+    },
     "DYm50_minnlo_svn3756_hoppet" : {
         "cross_section" : 1976.17,
         "Source of cross section" : "gridpack",

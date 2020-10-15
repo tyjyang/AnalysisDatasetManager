@@ -126,6 +126,13 @@ info = {
             "DYm50_minnlo_svn3756_hoppet"
         ]
     },
+    "dy_minnlo_prod" : {
+        "Name" : "DY MiNNLO (arXiv:2006.04133)",
+        "Style" : "qual12_orange",
+        "Members" : [
+            "DYm50_minnlo_svn3756_hoppet"
+        ]
+    },
     "dy_minnlo_svn3756_largeptscales" : {
         "Name" : "DY MiNNLO (svn3756, largeptscales=1)",
         "Style" : "qual12_purple",
@@ -358,7 +365,7 @@ info = {
         ]
     },
     "dy_nnlops_photos" : {
-        "Name" : "DY NNLOPS Py8+Phos",
+        "Name" : "DY NNLOPS",
         "Style" : "qual12_lightblue",
         "Members" : [
             "DYm50_nnlops__photos"

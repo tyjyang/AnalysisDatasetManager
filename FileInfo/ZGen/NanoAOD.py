@@ -91,8 +91,22 @@ info = {
         "DAS" : "",
         "plot_group" : "dy_minlo_svn3756_hoppet"
     },
+    "DYm50_minnlo_prod" : {
+        "file_path" : "/eos/cms/store/cmst3/user/kelong/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/RunIISummer20UL16wmLHEGEN/201012_222536/000*/*.root",
+        "DAS" : "",
+        "plot_group" : "dy_minlo_prod"
+    },
+    "DYm50_nlo_inc_ewparams" : {
+        "file_path" : "/eos/home-c/choij/Samples/DYJetsToLL_MG271_amcatnlo-pythia8/RunIISummer15wmLHEGS/201012_091934/000*/*.root",
+        "DAS" : "",
+        "plot_group" : "DYm50_nlo_inc_ewparams",
+    },
+    "DYm50_nlo_ewparams" : {
+        "file_path" : "/eos/home-c/choij/Samples/DYJetsToLL_MG271_amcatnlo-pythia8/RunIISummer15wmLHEGS/201012_091837/000*/*.root",
+        "DAS" : "",
+        "plot_group" : "DYm50_nlo_inc_ewparams",
+    },
     "DYm50_minnlo_svn3756_largeptscales" : {
-        "file_path" : "/eos/cms/store/cmst3/user/kelong/ZJToMuMu_svn3756_DoubleFSR_LargePtScalesDipolePrimKt2p5_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200707_224907/000*/*NANOAODSIM*root",
         "DAS" : "",
         "plot_group" : "dy_minlo_svn3756_largeptscales"
     },
