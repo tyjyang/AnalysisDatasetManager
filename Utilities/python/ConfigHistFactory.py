@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import ROOT
 import math
 import ConfigHistTools
@@ -5,7 +8,6 @@ import config_object
 import logging
 import os
 import glob
-import ConfigHistTools
 
 class ConfigHistFactory(object):
     def __init__(self, dataset_manager_path, dataset_name, object_restrict=""):

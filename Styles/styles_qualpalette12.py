@@ -23,7 +23,7 @@ colors = {
 }
 
 import copy
-for name, color in colors.iteritems():
+for name, color in colors.items():
     info[name] = copy.deepcopy(info["qual12_red"])
     info[name]["SetLineColor"] = "ROOT.TColor.GetColor(%s)" % color
 

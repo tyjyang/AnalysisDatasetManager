@@ -14,6 +14,11 @@ info = {
         "plot_group" : "wpenu_nlo_ew",
         "DAS" : "",
     },
+    "wpmunu_nloew" : {
+        "file_path" : "",
+        "plot_group" : "wpmunu_nloew",
+        "DAS" : "",
+    },
     "wpenu_nloewConf_noew" : {
         "file_path" : "/eos/cms/store/user/kelong/WToLNu_NLOEWConfig_noNLOEW_ShowerUpdate_TuneCUETP8M1_13TeV-powheg-pythia8/RunIISummer15wmLHEGS/200220_012029/000*/*.root",
         "plot_group" : "wpenu_nlo_ew",
@@ -27,6 +32,16 @@ info = {
     "wpmunu_nnlops__photos" : {
         "file_path" : "/eos/cms/store/cmst3/group/wmass/kelong/WplusJToMuNu_TuneCUETP8M1_13TeV-powheg-NNLOPS-pythia8-photos*/*/*/*/*.root",
         "plot_group" : "wpmunu_nnlops_photos",
+        "DAS" : "",
+    },
+    "wpmunu_minnlo" : {
+        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200124_000033/000*/*.root",
+        "plot_group" : "wpmunu_minnlo",
+        "DAS" : "",
+    },
+    "wmmunu_minnlo" : {
+        "file_path" : "",
+        "plot_group" : "wmmunu_minnlo",
         "DAS" : "",
     },
     "wpmunu_minnlo__photos" : {
@@ -199,6 +214,16 @@ info = {
     "wpmunu_matrix" : {
         "file_path" : "",
         "plot_group" : "wpmunu_matrix",
+        "DAS" : "",
+    },
+    "wpmunu_scetlib" : {
+        "file_path" : "",
+        "plot_group" : "wpmunu_scetlib",
+        "DAS" : "",
+    },
+    "wmmunu_scetlib" : {
+        "file_path" : "",
+        "plot_group" : "wmmunu_scetlib",
         "DAS" : "",
     },
     "wmmunu_matrix" : {

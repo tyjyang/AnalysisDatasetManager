@@ -67,7 +67,7 @@ info = {
             "wmmunu_minnlo_svn3756_hoppet"
         ]
     },
-    "wmunu_minnlo_prod" : {
+    "wmunu_minnlo" : {
         "Name" : "W(#mu#nu) MiNNLO (arXiv:2006.04133)",
         "Style" : "qual12_orange",
         "Members" : [
@@ -89,18 +89,25 @@ info = {
             "wpmunu_minnlo_svn3756_hoppet"
         ]
     },
-    "wmmunu_minnlo_prod" : {
+    "wmmunu_minnlo_N3LLCorr" : {
+        "Name" : "W^{-}(#mu#nu) MiNNLO+N3LL corr.",
+        "Style" : "qual12_red",
+        "Members" : [
+            "wmmunu_minnlo__N3LLCorr"
+        ]
+    },
+    "wmmunu_minnlo" : {
         "Name" : "W^{-}(#mu#nu) MiNNLO (arXiv:2006.04133)",
         "Style" : "qual12_orange",
         "Members" : [
-            "wmmunu_minnlo_svn3756_hoppet"
+            "wmmunu_minnlo"
         ]
     },
-    "wpmunu_minnlo_prod" : {
+    "wpmunu_minnlo" : {
         "Name" : "W^{+}(#mu#nu) MiNNLO (arXiv:2006.04133)",
         "Style" : "qual12_orange",
         "Members" : [
-            "wpmunu_minnlo_svn3756_hoppet"
+            "wpmunu_minnlo"
         ]
     },
     "wmmunu_minnlo_svn3756_hoppet_lhe" : {
@@ -317,6 +324,20 @@ info = {
             "wpmunu_nnlops__nloOnly_photos"
         ]
     },
+    "wpmunu_scetlib" : {
+        "Name" : "W^{+}(#mu#nu) ScetLib",
+        "Style" : "qual12_purple",
+        "Members" : [
+            "wpmunu_scetlib",
+        ]
+    },
+    "wmmunu_scetlib" : {
+        "Name" : "W^{+}(#mu#nu) ScetLib",
+        "Style" : "qual12_purple",
+        "Members" : [
+            "wmmunu_scetlib",
+        ]
+    },
     "wmunu_matrix" : {
         "Name" : "W(#mu#nu) MATRIX",
         "Style" : "qual12_green",
@@ -344,6 +365,13 @@ info = {
         "Style" : "qual12_green",
         "Members" : [
             "wmmunu_matrix"
+        ]
+    },
+    "wmmunu_matrix_radish" : {
+        "Name" : "W^{-}(#mu#nu) MATRIX+RadISH N3LL",
+        "Style" : "qual12_lightgreen",
+        "Members" : [
+            "wmmunu_matrix__radish"
         ]
     },
     "wpmunu_matrix_lhe" : {
@@ -380,6 +408,13 @@ info = {
         "Members" : [
             "wpmunu_fewz"
         ]
+    },
+    "wpmunu_nloew" : {
+        "Name" : "W(#mu#nu) NLO QCD+EW",
+        "Style" : "qual12_green",
+        "Members" : [
+            "wpmunu_nloew"
+        ],
     },
     "wpenu_nloew_photos" : {
         "Name" : "W(e#nu) NLO QCD+EW (photos)",

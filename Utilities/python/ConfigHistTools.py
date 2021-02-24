@@ -3,9 +3,10 @@ import json
 import imp
 import glob
 import copy
+import logging
 
 def readPythonOrJson(file_path):
-    if ".pyc" in file_path[-4:] or ".jsonc" in file_path[-6:]:
+    if ".pyc" in file_path[-4:] or ".jsonc" in file_path[-6:] or "pycache" in file_path:
         return ""
     if ".py" not in file_path[-3:] and ".json" not in file_path[-5:]:
         if os.path.isfile(file_path+".py"):
@@ -49,8 +50,8 @@ def readJson(json_file_name):
         try:
             json_info = json.load(json_file)
         except ValueError as err:
-            print "Error reading JSON file %s. The error message was:" % json_file_name 
-            print(err)
+            logging.warning("Error reading JSON file %s. The error message was:" % json_file_name)
+            logging.warning(err)
     return json_info
 
 def getHistType(manager_path, selection, hist_name):

@@ -6,6 +6,24 @@ import subprocess
 converteps = subprocess.call(["command", "-v", "epstopdf"]) != 0
 
 info = {
+    "Ratio_Wmass": {
+        "Initialize": {
+            "type": "TH2D",
+            "nbinsx": 200,
+            "xmin": 70,
+            "xmax": 90,
+            "nbinsy": 100,
+            "ymin": 0.95,
+            "ymax": 1.05,
+        },
+        "Attributes": {
+            "GetXaxis().SetTitle": "Bare/Dressed m_{W} [GeV]",
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.3,
+            "SetMinimum" : 0.1,
+            "SetMaximum" : 250000000
+        }
+    },
     "yW": {  
         "Initialize": {  
             "type": "TH1D",
