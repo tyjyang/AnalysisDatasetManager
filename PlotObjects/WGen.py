@@ -453,6 +453,46 @@ info = {
             "SetMaximum" : 30000000
         }
     },
+   "mass_y_pT_3D": {  
+        "Initialize": {  
+            "type": "TH3D",
+            "nbinsx": 1,
+            "xmin": 50,
+            "xmax": 13000,
+            "nbinsy": 1,
+            "ymin": -10.,
+            "ymax": 10.,
+            "nbinsz": 50,
+            "zmin": 0.,
+            "zmax": 50.,
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen Lepton p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 30000000
+        }
+    },
+   "mass_y_pT_weighted_3D": {  
+        "Initialize": {  
+            "type": "TH3D",
+            "nbinsx": 4,
+            "xmin": 5,
+            "xmax": 1000,
+            "nbinsy": 5,
+            "ymin": -5.,
+            "ymax": 5.,
+            "nbinsz": 100,
+            "zmin": 0.,
+            "zmax": 50.,
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen Lepton p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 30000000
+        }
+    },
    "etal_ptl_unrolled": {  
         "Initialize": {  
             "type": "TH1D",

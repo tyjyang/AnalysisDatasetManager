@@ -77,6 +77,8 @@ def getHistBinInfo(manager_path, selection, hist_name):
         args = ['nbins', 'xmin', 'xmax']
     elif "TH2" in hist_info["type"]:
         args = ['nbinsx', 'xmin', 'xmax', 'nbinsy', 'ymin', 'ymax']
+    elif "TH3" in hist_info["type"]:
+        args = ['nbinsx', 'xmin', 'xmax', 'nbinsy', 'ymin', 'ymax', 'nbinsz', 'zmin', 'zmax']
     else:
         raise ValueError("Invalid histogram type %s" % hist_info['type'])
         

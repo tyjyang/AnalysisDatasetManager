@@ -15,8 +15,7 @@ info = {
         "DAS name" : ""
     },
     "wpmunu_nloew" : {
-        "cross_section" : 3511,
-        "kfactor" : 0.9,
+        "cross_section" : 11654.2,
         "DAS name" : ""
     },
     "wlnu_nlo" : {
@@ -83,17 +82,23 @@ info = {
         "Cards" : ""
     },
     "wpmunu_minnlo" : {
+        "cross_section" : 11572.19,
+        "DAS Name" : "",
+        "Generator" : "POWHEG NNLOPS",
+        "Cards" : "",
+    },
+    "wpmunu_minnlo_prod" : {
         "cross_section" : 11170.4,
         "DAS Name" : "",
         "Generator" : "POWHEG NNLOPS",
         "Cards" : "",
     },
     "wpmunu_scetlib" : {
-        "cross_section" : 1,
+        "cross_section" : 2,
         "DAS Name" : "",
     },
     "wmmunu_scetlib" : {
-        "cross_section" : 1,
+        "cross_section" : 2,
         "DAS Name" : "",
     },
     "wpmunu_minnlo_update" : {
@@ -123,6 +128,12 @@ info = {
         "Cards" : "",
     },
     "wmmunu_minnlo" : {
+        "cross_section" : 8562.66,
+        "DAS Name" : "",
+        "Generator" : "POWHEG MiNNLO",
+        "Cards" : "",
+    },
+    "wmmunu_minnlo_prod_ymax20grids" : {
         "cross_section" : 8562.66,
         "DAS Name" : "",
         "Generator" : "POWHEG MiNNLO",

@@ -201,9 +201,14 @@ info = {
         "plot_group" : "dy_minlo_lowcutoff_ref_nnpdf31"
     },
     "DYm50_minnlo" : {
-        "file_path" : "/eos/cms/store/user/kelong/ZJToMuMu_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8/*/*/*/*NanoGen*.root",
-        "DAS" : "/ZJToMuMu_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8/RunIISummer16NanoAODv6-PUMoriond17_Nano25Oct2019_102X_mcRun2_asymptotic_v7-v1/NANOAODSIM",
+        "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/NanoV8MC*/*/*/*.root",
+        "DAS" : "",
         "plot_group" : "dy_minlo"
+    },
+    "DYm50_scetlib" : {
+        "file_path" : "",
+        "DAS" : "",
+        "plot_group" : "dy_scetlib"
     },
     "DYm50" : {
         "file_path" : "",
@@ -455,3 +460,5 @@ info = {
         "plot_group" : "dy_nlo_ptbinned"
     },
 }
+from copy import deepcopy
+info["DYm50_minnlo__N3LLCorr"] = deepcopy(info["DYm50_minnlo"])

@@ -96,16 +96,24 @@ info = {
             "wmmunu_minnlo__N3LLCorr"
         ]
     },
+    "wpmunu_minnlo_N3LLCorr" : {
+        "Name" : "W^{+}(#mu#nu) MiNNLO+N3LL corr.",
+        "Style" : "qual12_red",
+        "Members" : [
+            "wpmunu_minnlo__N3LLCorr"
+        ]
+    },
     "wmmunu_minnlo" : {
         "Name" : "W^{-}(#mu#nu) MiNNLO (arXiv:2006.04133)",
         "Style" : "qual12_orange",
         "Members" : [
-            "wmmunu_minnlo"
+            "wmmunu_minnlo", 
         ]
     },
     "wpmunu_minnlo" : {
         "Name" : "W^{+}(#mu#nu) MiNNLO (arXiv:2006.04133)",
-        "Style" : "qual12_orange",
+        #"Style" : "qual12_orange",
+        "Style" : "qual12_blue",
         "Members" : [
             "wpmunu_minnlo"
         ]

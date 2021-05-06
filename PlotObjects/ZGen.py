@@ -65,9 +65,9 @@ info = {
     "ZMass": {  
         "Initialize": {  
             "type": "TH1F",
-            "nbins": 2000,
-            "xmin": 81, #50,
-            "xmax": 101, #150
+            "nbins": 200,
+            "xmin": 50,
+            "xmax": 250
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{\\ell^{+}\\ell^{-}} [GeV]" if uw else "m_{Z}",  
@@ -282,6 +282,26 @@ info = {
             "GetYaxis().SetTitle": "Events / GeV",
             "GetYaxis().SetTitleOffset": 1.2,
             "SetMinimum" : 0.1,
+        }
+    },
+   "mass_y_pT_3D": {  
+        "Initialize": {  
+            "type": "TH3D",
+            "nbinsx": 1,
+            "xmin": 50,
+            "xmax": 13000,
+            "nbinsy": 1,
+            "ymin": -10.,
+            "ymax": 10.,
+            "nbinsz": 50,
+            "zmin": 0.,
+            "zmax": 50.,
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen Lepton p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / GeV",
+            "GetYaxis().SetTitleOffset": 1.2,
+            "SetMaximum" : 30000000
         }
     },
     "CutFlow": {  

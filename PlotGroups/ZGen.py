@@ -1,9 +1,23 @@
 info = {
     "dy_minnlo" : {
-        "Name" : "DY MiNNLO Py8 (DAS)",
-        "Style" : "qual12_pink",
+        "Name" : "DY MiNNLO (arXiv:2006.04133)",
+        "Style" : "qual12_orange",
         "Members" : [
             "DYm50_minnlo"
+        ]
+    },
+    "dy_minnlo_N3LLCorr" : {
+        "Name" : "DY MiNNLO+N3LL Corr",
+        "Style" : "qual12_red",
+        "Members" : [
+            "DYm50_minnlo__N3LLCorr"
+        ]
+    },
+    "dy_scetlib" : {
+        "Name" : "DY ScetLib",
+        "Style" : "qual12_purple",
+        "Members" : [
+            "DYm50_scetlib",
         ]
     },
     "dy_minnlo_default" : {

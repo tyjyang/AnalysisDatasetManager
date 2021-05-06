@@ -1,10 +1,9 @@
 import sys
 import os
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import ROOT
 import math
-import ConfigHistTools
-import config_object
+from configTools import ConfigHistTools
+from . import config_object
 import logging
 import os
 import glob

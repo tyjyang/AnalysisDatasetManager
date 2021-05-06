@@ -719,6 +719,6 @@ info = {
 }
 
 append = {}
-for key, value in info.iteritems():
+for key, value in info.items():
     append[key.replace("-", "_")] = value
 info.update(append)

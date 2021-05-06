@@ -1,3 +1,4 @@
+from copy import deepcopy
 info = {
     "wlnu_lo" : {
         "file_path" : "/store/mc/RunIIAutumn18NanoAODv4/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/NANOAODSIM/Nano14Dec2018_102X_upgrade2018_realistic_v16-v1/70000/1780BB1F-461F-3F40-A1D9-9B5659754310.root",
@@ -15,7 +16,7 @@ info = {
         "DAS" : "",
     },
     "wpmunu_nloew" : {
-        "file_path" : "",
+        "file_path" : "/eos/user/m/mumuhamm/powheg/wplus/WplusToMuNu-13TeV-minnlolike-powheg-NLOEW/*/*/*/*.root",
         "plot_group" : "wpmunu_nloew",
         "DAS" : "",
     },
@@ -35,12 +36,12 @@ info = {
         "DAS" : "",
     },
     "wpmunu_minnlo" : {
-        "file_path" : "/eos/cms/store/user/kelong/WplusJToMuNu_TuneCUETP8M1_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/200124_000033/000*/*.root",
+        "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WplusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/NanoV8MCPreVFP/210325_221703/000*/*.root",
         "plot_group" : "wpmunu_minnlo",
         "DAS" : "",
     },
     "wmmunu_minnlo" : {
-        "file_path" : "",
+        "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WminusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/NanoV8MC*/*/*/*.root",
         "plot_group" : "wmmunu_minnlo",
         "DAS" : "",
     },
@@ -242,3 +243,5 @@ info = {
         "DAS" : "",
     },
 }
+info["wmmunu_minnlo__N3LLCorr"] = deepcopy(info["wmmunu_minnlo"])
+info["wpmunu_minnlo__N3LLCorr"] = deepcopy(info["wpmunu_minnlo"])

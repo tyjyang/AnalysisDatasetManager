@@ -4,6 +4,10 @@ info = {
         "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
         "DAS Name" : ""
     },
+    "DYm50_scetlib" : {
+        "cross_section" : 2,
+        "DAS Name" : "",
+    },
     "DYm50_minnlo_pilot" : {
         "cross_section" : 1989.25,
         "Source of cross section" : "https://cms-pdmv.cern.ch/mcm/requests?prepid=SMP-RunIISummer15wmLHEGS-00344",
