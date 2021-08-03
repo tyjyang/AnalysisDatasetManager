@@ -71,8 +71,8 @@ info = {
         "Name" : "W(#mu#nu) MiNNLO (arXiv:2006.04133)",
         "Style" : "qual12_orange",
         "Members" : [
-            "wpmunu_minnlo_svn3756_hoppet",
-            "wmmunu_minnlo_svn3756_hoppet"
+            "wpmunu_minnlo",
+            "wmmunu_minnlo",
         ]
     },
     "wmmunu_minnlo_svn3756_hoppet" : {
@@ -87,6 +87,22 @@ info = {
         "Style" : "qual12_orange",
         "Members" : [
             "wpmunu_minnlo_svn3756_hoppet"
+        ]
+    },
+    "wmunu_minnlo_N3LLCorr" : {
+        "Name" : "W(#mu#nu) MiNNLO+N3LL corr.",
+        "Style" : "qual12_red",
+        "Members" : [
+            "wmmunu_minnlo__N3LLCorr",
+            "wpmunu_minnlo__N3LLCorr",
+        ]
+    },
+    "wmunu_minnlo_N3LLCorr_allth" : {
+        "Name" : "W(#mu#nu) MiNNLO+N3LL corr.",
+        "Style" : "qual12_red",
+        "Members" : [
+            "wmmunu_minnlo__N3LLCorr_allth",
+            "wpmunu_minnlo__N3LLCorr_allth",
         ]
     },
     "wmmunu_minnlo_N3LLCorr" : {

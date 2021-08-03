@@ -36,12 +36,12 @@ info = {
         "DAS" : "",
     },
     "wpmunu_minnlo" : {
-        "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WplusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/NanoV8MCPreVFP/210325_221703/000*/*.root",
+        "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WplusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/MCP*WeightFix/*/*/*.root",
         "plot_group" : "wpmunu_minnlo",
         "DAS" : "",
     },
     "wmmunu_minnlo" : {
-        "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WminusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/NanoV8MC*/*/*/*.root",
+        "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WminusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/MCP*WeightFix/*/*/*.root",
         "plot_group" : "wmmunu_minnlo",
         "DAS" : "",
     },
