@@ -3,7 +3,7 @@ import array
 uwlogin = "uwlogin" in socket.gethostname() 
 uw = "hep.wisc.edu" in socket.gethostname() 
 import subprocess
-converteps = subprocess.call(["command", "-v", "epstopdf"]) != 0
+converteps = subprocess.call(["command", "-v", "epstopdf"], stdout=subprocess.PIPE) != 0
 
 info = {
     "Ratio_Wmass": {
