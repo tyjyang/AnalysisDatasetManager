@@ -41,7 +41,11 @@ info = {
         "DAS" : "",
     },
     "wmmunu_minnlo" : {
-        "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WminusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/MCP*WeightFix/*/*/*.root",
+        # "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WminusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/MCP*WeightFix/*/*/*.root",
+        "file_path" : [
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WminusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/MCPreVFPWeightFix/210701_234152/0000",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WminusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/MCPostVFPWeightFix/210701_234131/0000"
+        ],
         "plot_group" : "wmmunu_minnlo",
         "DAS" : "",
     },
