@@ -36,7 +36,13 @@ info = {
         "DAS" : "",
     },
     "wpmunu_minnlo" : {
-        "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WplusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/MCP*WeightFix/*/*/*.root",
+#        "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WplusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/MCP*WeightFix/*/*/*.root",
+        "file_path" : [
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WplusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/MCPostVFPWeightFix/210701_234251/0000",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WplusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/MCPostVFPWeightFix/210701_234251/0001",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WplusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/MCPreVFPWeightFix/210701_234310/0000",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/WplusJetsToMuNu_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/MCPreVFPWeightFix/210701_234310/0001",
+        ],
         "plot_group" : "wpmunu_minnlo",
         "DAS" : "",
     },
