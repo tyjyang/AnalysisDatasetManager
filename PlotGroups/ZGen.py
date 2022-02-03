@@ -1,9 +1,9 @@
 info = {
     "dy_minnlo" : {
         "Name" : "DY MiNNLO (arXiv:2006.04133)",
-        "Style" : "qual12_orange",
+        "Style" : "qual12_blue",
         "Members" : [
-            "DYm50_minnlo"
+            "DYm50_minnlo",
         ]
     },
     "dy_minnlo_N3LLCorr" : {
@@ -412,7 +412,8 @@ info = {
         "Name" : "DY MG LO (2016)",
         "Style" : "nofill-lightgrey-dash",
         "Members" : [
-            "DYm50__LO"
+            "DYm50__LO",
+            "DYJetsToMuMu"
         ]
     },
     "dy_0j_nlo" : {
@@ -542,6 +543,13 @@ info = {
             "DYm50_pt250to400_nlo",
             "DYm50_pt400to650_nlo",
             "DYm50_pt650toInf_nlo",
+        ]
+    },
+    "DYJetsToMuMu" : { # to check bug in RECO study
+        "Name" : "Z channel",
+        "Style" : "qual12_blue",
+        "Members" : [
+            "DYJetsToMuMu",
         ]
     },
 }

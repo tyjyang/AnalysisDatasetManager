@@ -346,4 +346,9 @@ info = {
         "DAS Name" : "DYToLL_2J_13TeV-amcatnloFXFX-pythia8",
         "Notes" : ""
     },
+    "DYJetsToMuMu" : {
+        "cross_section" : 2001.9043873227824,
+        "Source of cross section" : "McM",
+        "Notes" : ""
+    },
 }

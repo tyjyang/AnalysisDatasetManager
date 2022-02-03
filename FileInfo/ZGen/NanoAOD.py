@@ -201,9 +201,19 @@ info = {
         "plot_group" : "dy_minlo_lowcutoff_ref_nnpdf31"
     },
     "DYm50_minnlo" : {
-        "file_path" : "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/NanoV8MC*/*/*/*.root",
-        "DAS" : "",
-        "plot_group" : "dy_minlo"
+        "file_path" : [
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/DY_postVFP_NanoV8MC_TagAndProbe_trackInfo/211012_105833/0000",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/DY_postVFP_NanoV8MC_TagAndProbe_trackInfo/211012_105833/0001",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/DY_postVFP_NanoV8MC_TagAndProbe_trackInfo/211012_105833/0002",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/DY_postVFP_NanoV8MC_TagAndProbe_trackInfo/211012_105833/0003",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/DY_preVFP_NanoV8MC_TagAndProbe_trackInfo/211012_105800/0000",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/DY_preVFP_NanoV8MC_TagAndProbe_trackInfo/211012_105800/0001",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/DY_preVFP_NanoV8MC_TagAndProbe_trackInfo/211012_105800/0002",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/DY_preVFP_NanoV8MC_TagAndProbe_trackInfo/211012_105800/0003",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoAOD/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/DY_preVFP_NanoV8MC_TagAndProbe_trackInfo/211012_105800/0004"
+        ],
+        "DAS" : "/DYJetsToMuMu_M-50_TuneCP5_13TeV-powhegMiNNLO-pythia8-photos/RunIISummer20UL16NanoAOD-106X_mcRun2_asymptotic_v13-v1/NANOAODSIM",
+        "plot_group" : "dy_minnlo"
     },
     "DYm50_scetlib" : {
         "file_path" : "",
@@ -458,6 +468,17 @@ info = {
         "file_path" : "",
         "DAS" : "/DYJetsToLL_Pt-650ToInf_TuneCP5_13TeV-amcatnloFXFX-pythia8/*NanoAODv6*/NANOAODSIM",
         "plot_group" : "dy_nlo_ptbinned"
+    },
+    "DYJetsToMuMu" : { #to check bug in RECO study
+        "file_path" : [
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoGen/DYJetsToMuMu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/220125_235229/0000",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoGen/DYJetsToMuMu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/220125_235229/0001",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoGen/DYJetsToMuMu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/220125_235229/0002",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoGen/DYJetsToMuMu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/220125_235229/0003",
+            "/eos/cms/store/cmst3/group/wmass/w-mass-13TeV/NanoGen/DYJetsToMuMu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos/RunIISummer15wmLHEGS/220125_235229/0004"
+        ],
+        "plot_group" : "DYJetsToMuMu",
+        "DAS" : "",
     },
 }
 from copy import deepcopy
